@@ -1,0 +1,2796 @@
+{
+  "schema": 1,
+  "files": [
+    {
+      "file": "records/ablation_per_image.csv",
+      "source_relative": "实验以及中间产物/盲审补充实验_20261023/evaluation/jobs/formal_v1/statistics/all_case_seed_metrics.csv",
+      "source_sha256": "a712deebd9c2a2ad14340e1b2811a071d0bf23bd37406577c80690f60fb6e5fb",
+      "sha256": "2637316ac9092c7b4613ba1581e1803da3db5d789958804abbae0af1a48fae4b",
+      "bytes": 90821,
+      "rows": 288,
+      "removed_columns": [],
+      "transformation": "CSV UTF-8/LF normalization; listed path/diagnostic columns omitted; all retained cells unchanged"
+    },
+    {
+      "file": "records/ablation_primary_DU.csv",
+      "source_relative": "实验以及中间产物/盲审补充实验_20261023/evaluation/jobs/formal_v1/statistics/primary_DU_comparisons.csv",
+      "source_sha256": "f41466687463e98dc04e600f6572c5194387712e4c33b74d888a37a197fa4875",
+      "sha256": "6353b263c7ac5d1e877b50afb220c989b095bf68a65f807f1c5a78aae56088f6",
+      "bytes": 827,
+      "rows": 3,
+      "removed_columns": [],
+      "transformation": "CSV UTF-8/LF normalization; listed path/diagnostic columns omitted; all retained cells unchanged"
+    },
+    {
+      "file": "records/ablation_summary.csv",
+      "source_relative": "实验以及中间产物/盲审补充实验_20261023/evaluation/jobs/formal_v1/statistics/all_method_summary.csv",
+      "source_sha256": "6880109b9a92d992a476385860a9291967bc31ae7712066aff639908d6aafa62",
+      "sha256": "def0a5569395e690632a09ef681323f11628b3b5be4707bae0766a1c62eaed5c",
+      "bytes": 1365,
+      "rows": 4,
+      "removed_columns": [],
+      "transformation": "CSV UTF-8/LF normalization; listed path/diagnostic columns omitted; all retained cells unchanged"
+    },
+    {
+      "file": "records/internal_paired_statistics.json",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/completion_20260915/evaluation/all_methods_v1/statistics/paired_subject_results.json",
+      "sha256": "e19b3f78c9ba9364cf5012e5dfea68d47655bff288294e7778aab26bb0156772",
+      "bytes": 3662414,
+      "transformation": "none"
+    },
+    {
+      "file": "records/main_paired_statistics.json",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/formal128_v1/statistics/paired_subject_results.json",
+      "sha256": "8660f405b274e706cf02f1cb4723c5ac50d2ce3ae301375f164021fa0e003396",
+      "bytes": 2876065,
+      "transformation": "none"
+    },
+    {
+      "file": "records/main_per_image.csv",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/formal128_v1/statistics/all_per_image.csv",
+      "source_sha256": "8ae5da260acd37659700acf84f01a55a6e3d6824fed293550644e1fd2910fe3d",
+      "sha256": "b355e4432a40f8dba12b918a371f8589342abfc3e8a90a8d040af65b5238609c",
+      "bytes": 273401,
+      "rows": 896,
+      "removed_columns": [
+        "alias_of",
+        "execution_id",
+        "failure_reason",
+        "output"
+      ],
+      "transformation": "CSV UTF-8/LF normalization; listed path/diagnostic columns omitted; all retained cells unchanged"
+    },
+    {
+      "file": "records/main_summary.csv",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/formal128_v1/statistics/all_method_summary.csv",
+      "source_sha256": "811bf8a0dc44ff4cdaf4d27da6b236af42f97d549aceada52b84d5c8d700940c",
+      "sha256": "179815a727a2717be7f07b1486afd6f94b972f9634d11eb47456b6a6248c6108",
+      "bytes": 32072,
+      "rows": 420,
+      "removed_columns": [],
+      "transformation": "CSV UTF-8/LF normalization; listed path/diagnostic columns omitted; all retained cells unchanged"
+    },
+    {
+      "file": "records/real_reference_calibration.csv",
+      "source_relative": "实验以及中间产物/盲审补充实验_20261023/evaluation/jobs/formal_v1/statistics/real_reference_calibration.csv",
+      "source_sha256": "58afc13441ae889e6b6079363942d656e91ead232d14c070ed6a4c1d8c40b715",
+      "sha256": "a50cf3d5a2c80f60f84a85c8a46d33e9dfd17720efe2d063562de4d19a2c5cbf",
+      "bytes": 3732,
+      "rows": 84,
+      "removed_columns": [],
+      "transformation": "CSV UTF-8/LF normalization; listed path/diagnostic columns omitted; all retained cells unchanged"
+    },
+    {
+      "file": "records/real_reference_calibration.json",
+      "source_relative": "实验以及中间产物/盲审补充实验_20261023/evaluation/jobs/formal_v1/statistics/real_reference_calibration.json",
+      "sha256": "d6dba9fa51f287a2ad1525ea25b125ed289f89af7fb6507259d7542bc5bb25c2",
+      "bytes": 83918,
+      "transformation": "none"
+    },
+    {
+      "file": "records/subgroup_summary.csv",
+      "source_relative": "实验以及中间产物/盲审补充实验_20261023/evaluation/jobs/formal_v1/statistics/subgroup_summary.csv",
+      "source_sha256": "0bc94e65296430e287aad5011dd06d01656f0c3b54084b9d238be07365c2f5a7",
+      "sha256": "4a94c3c056c845043370d0097d02e7c760d484d317520439a6fe7722f6b30ea7",
+      "bytes": 5457,
+      "rows": 48,
+      "removed_columns": [],
+      "transformation": "CSV UTF-8/LF normalization; listed path/diagnostic columns omitted; all retained cells unchanged"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/au_supervisor/align_real_frames.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/au_supervisor/align_real_frames.py",
+      "bytes": 10631,
+      "sha256": "907f5670700673c447ec90bdfb44972f3fca650aae990e8aa09df2c666498be8",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/au_supervisor/cache_frozen_features.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/au_supervisor/cache_frozen_features.py",
+      "bytes": 6172,
+      "sha256": "7b4b6cb16e0311cfdfbd64d0b634c9296153bacac9d3afd27531cbe70a02915f",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/au_supervisor/review_adapter_contracts.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/au_supervisor/review_adapter_contracts.py",
+      "bytes": 8958,
+      "sha256": "a05bc9ce7e513be2059494960780e567c489db0ed414a7833c068635c352eb61",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/au_supervisor/review_expanded_cache.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/au_supervisor/review_expanded_cache.py",
+      "bytes": 7740,
+      "sha256": "b34b7e8a7646ec522f86758645bde97a14eef6e2e4a9ff694f9c6273bc8c6940",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/au_supervisor/review_frozen_loss_gradients.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/au_supervisor/review_frozen_loss_gradients.py",
+      "bytes": 2766,
+      "sha256": "a786fb1803722a3c59aaa70efa1b4a3e221326feaf38b5bcd92a8462564993e7",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/au_supervisor/review_runner_guards.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/au_supervisor/review_runner_guards.py",
+      "bytes": 2274,
+      "sha256": "069d9d034232c4c87f398555a292b1d85426155972f0fdd0ffb9eecf9851ef04",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/au_supervisor/supervisor_metrics.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/au_supervisor/supervisor_metrics.py",
+      "bytes": 4445,
+      "sha256": "a3e6a0ed71fee885c5d0699def94cf3b2b70324110b9bb1bb485ca01d39a1a72",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/au_supervisor/test_supervisor.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/au_supervisor/test_supervisor.py",
+      "bytes": 4802,
+      "sha256": "90221f24d317d23e0d16ea0640f2b6c971689e9f7574e499413a07ce8186683c",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/au_supervisor/train_head_only.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/au_supervisor/train_head_only.py",
+      "bytes": 14835,
+      "sha256": "4d11c08f043fc7626a5f1e661e919d0ae296712e6a8582deda32b1dda53dd815",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/au_supervisor/train_layer4.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/au_supervisor/train_layer4.py",
+      "bytes": 13979,
+      "sha256": "eb8d1e0913bfe80ae3ad1af814669e40260359e325298b4449ef1bc3c2fe71b6",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/au_supervisor/union_real_train_v2/prepare.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/au_supervisor/union_real_train_v2/prepare.py",
+      "bytes": 6708,
+      "sha256": "fcf5aed49e4471cac5eeaedc0440bbc28a032fe2dd81d35854e07fc2746a4a79",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/au_supervisor/union_real_train_v2/train.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/au_supervisor/union_real_train_v2/train.py",
+      "bytes": 13644,
+      "sha256": "b9ffab439ac176be2ad2f4781cb73840adc6ec5e9d69af6360081eac798165f2",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/au_supervisor/union_real_train_v2/train_config.json",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/au_supervisor/union_real_train_v2/train_config.json",
+      "bytes": 3348,
+      "sha256": "66f83a1428879c9b4745594c8fcf43bfecf6f4856cdd1005155de2654a443df2",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/au_supervisor/union_real_train_v2/verify_export.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/au_supervisor/union_real_train_v2/verify_export.py",
+      "bytes": 4644,
+      "sha256": "6fa2e3b05f233cc973982ecdb6895acc3a26821f6ccbfe415ccfc0195a794fec",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/au_supervisor/verify_supervisor_export.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/au_supervisor/verify_supervisor_export.py",
+      "bytes": 5187,
+      "sha256": "59c472b7306a8f659514b8b08bf95bc5edfe1b31e64fc5b557ff0f0a9e55b781",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/delivery/demo_driver.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/completion_20260915/delivery/demo_driver.py",
+      "bytes": 14024,
+      "sha256": "c79f63cce32a93d595849ff7c964af05e68b378b41b991a356818e538e5a93be",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/delivery/reproduce_driver.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/completion_20260915/delivery/reproduce_driver.py",
+      "bytes": 15786,
+      "sha256": "35cf04873b4b75bf21eb384c0ec35d553840c350338603240d70d6c713bb926d",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/delivery/review_driver.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/completion_20260915/delivery/review_driver.py",
+      "bytes": 12110,
+      "sha256": "fa797f68654cc8f36b71134a08b410fc60f8f5d58e9f624ea19d6bd0cc8248ea",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/delivery/run_demo.sh",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/completion_20260915/delivery/run_demo.sh",
+      "bytes": 638,
+      "sha256": "2257f9c9b121fdda703d9ea7273d4e16fc5d206523f5cc57fdfe8234ae4f1dda",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/delivery/run_reproduce.sh",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/completion_20260915/delivery/run_reproduce.sh",
+      "bytes": 703,
+      "sha256": "9b997dc34f024b8af56733edbecd3418270ffa692dc6864e776812c11f4f8f76",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/delivery/run_review.sh",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/completion_20260915/delivery/run_review.sh",
+      "bytes": 890,
+      "sha256": "ea1c642e8212d6ad7e60a80ad40475b5208e2230fa8ea8171cbb76f4866583c7",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/delivery/test_demo_driver.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/completion_20260915/delivery/test_demo_driver.py",
+      "bytes": 6490,
+      "sha256": "5b1629e208e968c09bd5db90573573c03bc20437bb4fefad12eca6693aa77375",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/delivery/test_reproduce_driver.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/completion_20260915/delivery/test_reproduce_driver.py",
+      "bytes": 5121,
+      "sha256": "ad9b28e5a4af0f2e4d74456bfc53c4d9f0d7162bb2d8428edb994b3b0c257971",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/delivery/test_review_driver.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/completion_20260915/delivery/test_review_driver.py",
+      "bytes": 2235,
+      "sha256": "a1f9d941268def9fe40a935b44ff6b055e7810d6c0f756a4ab1b59f69139c9c4",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/evaluation/contract.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/completion_20260915/evaluation/contract.py",
+      "bytes": 19846,
+      "sha256": "babf8b3075eb905e8d2f748ca39cb4b5075971abcfc5a7b9d093983fee633cd7",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/evaluation/dev19_evaluate.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/completion_20260915/evaluation/dev19_evaluate.py",
+      "bytes": 26858,
+      "sha256": "0766eb1fb8160739705dfc11ce60ebae3e87e4950961a81f9dace8073eba818a",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/evaluation/dev19_tools/test_dev19_evaluate.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/completion_20260915/evaluation/dev19_tools/test_dev19_evaluate.py",
+      "bytes": 7891,
+      "sha256": "40ada054ea6159c9285937b59b9bd31bce8442afb003d64d16d039275325acdc",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/evaluation/evaluate.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/completion_20260915/evaluation/evaluate.py",
+      "bytes": 22534,
+      "sha256": "c7691fa1cbd504d12cadb0b133ebc32578a694bae354c55ac89dcebae0fc28b7",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/evaluation/test_evaluation.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/completion_20260915/evaluation/test_evaluation.py",
+      "bytes": 18434,
+      "sha256": "8967b470847f301ff270f9d996654c3a8a3c12338aef89d3ceb1643ded91e8e8",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/external/bridge.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/completion_20260915/external/bridge.py",
+      "bytes": 12556,
+      "sha256": "778d6d9a864a725a951fd6d41d22807384f1fa0e12c3b8d351df3054d2892cb7",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/external/run_external.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/completion_20260915/external/run_external.py",
+      "bytes": 9173,
+      "sha256": "4d670fcc0a71b121b9b2575afbbce8c3a18ddec30b91fb20498c8504dc55d88b",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/external/test_external.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/completion_20260915/external/test_external.py",
+      "bytes": 12174,
+      "sha256": "85da4ecf5160ae16cdf1c8cb39a9e60e0215ddb14282e291f114b10ef3ad1932",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/freeze_completion.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/completion_20260915/freeze_completion.py",
+      "bytes": 4636,
+      "sha256": "309e1978cbb1882d956d1b612ec94be8751eea2698b6a317b3ba3593def25c62",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/frozen_protocol.json",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/completion_20260915/frozen_protocol.json",
+      "bytes": 92283,
+      "sha256": "498298977f3589248084e37d053ec7cd8f37f71b35e914849465081a3df9af33",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation/check_dev_parity.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation/check_dev_parity.py",
+      "bytes": 9272,
+      "sha256": "a95a80af6a9ed00d8fe79a780d0b96cf031e152e05a8549ae5e822f7d22496cf",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation/common.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation/common.py",
+      "bytes": 8131,
+      "sha256": "903ab5e47c7b66e6b1d7c04fda4d09ec5e25fd384fe3465218014b536b550fad",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation/generation_spec_candidate_v3.json",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation/generation_spec_candidate_v3.json",
+      "bytes": 5559,
+      "sha256": "af420eff81de8ef114a963026253f226b12b74443d78fd77b24d98481cf46e89",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation/geometry.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation/geometry.py",
+      "bytes": 4404,
+      "sha256": "7af39d078503b2633c9c7eae0f82067e0cc25262da5cdb76de5f59d94e1342c5",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation/prepare_cache.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation/prepare_cache.py",
+      "bytes": 7687,
+      "sha256": "71a193b2c34a8057681e7e8aa8322638b3201283436b01d02046dff52237dcd9",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation/run_dev_completion.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation/run_dev_completion.py",
+      "bytes": 20479,
+      "sha256": "e4fafd1ba50bedb6fbec0866039f86cd1150a275f901eef62a6b1f9cfce4fbe0",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation/run_grid.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation/run_grid.py",
+      "bytes": 24752,
+      "sha256": "1f7768c9b252f50cacfbf799f477578799272e85fee5ae5648a60765034f0159",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation/test_dev_completion.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation/test_dev_completion.py",
+      "bytes": 8178,
+      "sha256": "985c03c78d796dcf462e319a4a382dbfd6a77aa1e99115e901b5492df38effc5",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation/test_generation.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation/test_generation.py",
+      "bytes": 15640,
+      "sha256": "df9de8c05da2c0d0397208bf1c4a97c5307ed1be3f41ae02b4061f0f873c4d99",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/manuscript_audit.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/completion_20260915/manuscript_audit.py",
+      "bytes": 3921,
+      "sha256": "86fbcc07b3279546db82491fc9b8c5e56c0bdfaf47be96f76ec5a6b74ac75edb",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/release_audit.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/completion_20260915/release_audit.py",
+      "bytes": 7188,
+      "sha256": "df55c519049dd5b7cd5449bf1d35ced404e32c3f898c156812a4c0148b9dc2fd",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/review_tools/statistics_check.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/completion_20260915/review_tools/statistics_check.py",
+      "bytes": 10320,
+      "sha256": "8025b639e4bf2f79e7406257303795fac69b3eef6d9a9a6d8485254fce736a31",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/review_tools/synthetic_fixture.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/completion_20260915/review_tools/synthetic_fixture.py",
+      "bytes": 12517,
+      "sha256": "43857d507442248b356226873a268e8c0841d09ea25611277a244624acd6722e",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/review_tools/test_dev19_verification.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/completion_20260915/review_tools/test_dev19_verification.py",
+      "bytes": 3484,
+      "sha256": "bcb242c5c3847193ea5ac1f9ce76b06644ce0f7d3a8a089e9d409a0c788487f9",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/review_tools/test_verify_completed.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/completion_20260915/review_tools/test_verify_completed.py",
+      "bytes": 12278,
+      "sha256": "2c313acd18010be3ee5a34d24664837817c06d60fcae49dacec7d26961f18c30",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/review_tools/verify_completed.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/completion_20260915/review_tools/verify_completed.py",
+      "bytes": 33161,
+      "sha256": "8bc081b6c1c181b7d39fcd6e673344583d3094923624dcb7cdd55a6b9f178817",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/review_tools/verify_dev19.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/completion_20260915/review_tools/verify_dev19.py",
+      "bytes": 34518,
+      "sha256": "4bf28a8d57a02fe4d530766f5f2023f1f341b0eacb4aeba5e845b740c11d4973",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/run_completion_queue.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/completion_20260915/run_completion_queue.py",
+      "bytes": 7230,
+      "sha256": "37e4857bbafc54429d09b6b35238c828ee8a872b08f95b186ac4cb2c5f651d14",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/run_cpu_checks.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/completion_20260915/run_cpu_checks.py",
+      "bytes": 2214,
+      "sha256": "223792c8e0ff0915b92f470216efaaa25575478c4c67e236cac3c21c872690c1",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/run_release_with_receipt.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/completion_20260915/run_release_with_receipt.py",
+      "bytes": 3058,
+      "sha256": "e37bf0d7d8a44e614744e1c7e8186a1e4b110b816c6143fa6139572bb1104f64",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/configs/v4_slot_2k_batch1_smoke.json",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/configs/v4_slot_2k_batch1_smoke.json",
+      "bytes": 1046,
+      "sha256": "fe208f90bead3d3e23348894455aecc9c80e338ea19eea2cb334a9c3d291ed5f",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/configs/v4_slot_2k_bidir_step200.json",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/configs/v4_slot_2k_bidir_step200.json",
+      "bytes": 1048,
+      "sha256": "8c9060436ddbdd4beb8ebefdd3c64e12bef2380374b34cec3681a7f95ccafb7c",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/configs/v4_slot_2k_condition_reads_image_step200.json",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/configs/v4_slot_2k_condition_reads_image_step200.json",
+      "bytes": 1066,
+      "sha256": "8e2c9324ed827a3ae6456995cb5c0cefe9b04bcff8274a5cb09dc83cc74aebc8",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/configs/v4_slot_2k_image_reads_condition_step200.json",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/configs/v4_slot_2k_image_reads_condition_step200.json",
+      "bytes": 1066,
+      "sha256": "32108c41317b9522b72ab2e9edec18833ae1926b88a0184af594fceeb9b01401",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/configs/v4_slot_2k_mlp_step200.json",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/configs/v4_slot_2k_mlp_step200.json",
+      "bytes": 1048,
+      "sha256": "99f9c00b7f16e25c5e13b15ad413c7100868a553dee9288cb3fa046629233209",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/data_prepare/au_supervision_v2/subjects_frozen.json",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/data_prepare/au_supervision_v2/subjects_frozen.json",
+      "bytes": 1755,
+      "sha256": "b0837ba1ae1b30eec0dd33c48f2300809625a09437b2c161ac4576dad521fe6d",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/data_prepare/check_pilot_and_mmew.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/data_prepare/check_pilot_and_mmew.py",
+      "bytes": 5340,
+      "sha256": "d0d327aec8c13b1ebae608e0ad5345bbd1bbfbd3fc4ac246936fe59fbbf1e566",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/data_prepare/extract_au_supervision_v2.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/data_prepare/extract_au_supervision_v2.py",
+      "bytes": 10851,
+      "sha256": "a445376192313b93ac82e2040b8a5dd9e36811383d8af229b517af1975eac6e2",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/data_prepare/extract_final_test_frames.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/data_prepare/extract_final_test_frames.py",
+      "bytes": 16782,
+      "sha256": "d7523d4b9d5ac15e43ce55b6e3b0bf7dfb055025059ff1d8f10a6e1658e70f80",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/data_prepare/plan_au_supervision.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/data_prepare/plan_au_supervision.py",
+      "bytes": 13565,
+      "sha256": "bfa84ba17d1acf34383ab09696e9c570b0fc6383fcfc787e572b886f68f53627",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/data_prepare/plan_au_supervision_v2.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/data_prepare/plan_au_supervision_v2.py",
+      "bytes": 13892,
+      "sha256": "5f790810357e1a9e68cf4f8a13922fb8547f1e351f2e8dd0f01fc85a959b6473",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/data_prepare/plan_final_test_labels.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/data_prepare/plan_final_test_labels.py",
+      "bytes": 17718,
+      "sha256": "d23bc6ccde1484747ccac36fb6fb63e73f7b7f8fd9e9b86f71a59ab82d3e9d5c",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/data_prepare/prepare_disfa_pilot.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/data_prepare/prepare_disfa_pilot.py",
+      "bytes": 15815,
+      "sha256": "94cf2219866b4046e17b60ccb830dcf399b18a35654a68c403118d9294072364",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/data_prepare/test_extract_final_frames.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/data_prepare/test_extract_final_frames.py",
+      "bytes": 9772,
+      "sha256": "e7891303dcfbff8ebcca2d2bd2a025a5c68dcba4c91fc9ca992b2771b58fbee2",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/data_prepare/test_final_label_planner.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/data_prepare/test_final_label_planner.py",
+      "bytes": 2133,
+      "sha256": "d5512742ea3a580230f379c83a43675f79522031db2d3c7e5fd51e7074683600",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/data_prepare/verify_final_test_label_plan.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/data_prepare/verify_final_test_label_plan.py",
+      "bytes": 7596,
+      "sha256": "d833f6eb87ef714f66b29e340245306c02110227819c967d6a7214e42ca0a89d",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/append_buffalo.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/append_buffalo.py",
+      "bytes": 5180,
+      "sha256": "96daabea1e618a993de22ef684a4cbdcc6822911191a424fc457ea19012af88a",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/append_external_drivers.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/append_external_drivers.py",
+      "bytes": 7947,
+      "sha256": "0f5f6c58c028c48c9aae15e97b8d13748105f5fbeebf90510964f7b7fc6769c4",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/append_liveportrait_absolute.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/append_liveportrait_absolute.py",
+      "bytes": 8413,
+      "sha256": "491972359c3b749b02456c0bc159e53e6ea5f924a3446ec2be77ec3a9ab40930",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/append_magicface.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/append_magicface.py",
+      "bytes": 7709,
+      "sha256": "2ef9d3b621acd92dfd78a3d7a77312aaae079010316cb886068fcefd29bce113",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/append_single_directions.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/append_single_directions.py",
+      "bytes": 9826,
+      "sha256": "11c8c52eb348de8c2e500e601b25511444d41ebe6a98310dc1254b7aca226e51",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/audit_external_distribution.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/audit_external_distribution.py",
+      "bytes": 5514,
+      "sha256": "0e46cde241e081adb4550b9e51b3e8869b2dce2877660b744b46aae5541f35c4",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/audit_magicface_distribution.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/audit_magicface_distribution.py",
+      "bytes": 4315,
+      "sha256": "f7cf914df45ae0aeecebaa1c01472d77a0793f2f2cbf7e1b694124174160d884",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/buffalo_auxiliary.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/buffalo_auxiliary.py",
+      "bytes": 5651,
+      "sha256": "805706960695ff31add72ee57499e33cd643e069c4c21522fd749d0fc4d1d41c",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/buffalo_lp_absolute.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/buffalo_lp_absolute.py",
+      "bytes": 5397,
+      "sha256": "4924379b86b213d6e6cee408b1efb28aae815de1176cbbba1f29e59c52964329",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/describe_five_tradeoffs.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/describe_five_tradeoffs.py",
+      "bytes": 6642,
+      "sha256": "4c495eb864bbf2f042efaebaaffff112a0902d33bb086dab4a40affa2bd3b042",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/external_buffalo.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/external_buffalo.py",
+      "bytes": 5402,
+      "sha256": "d7f9811f6cf2718f2eaad2fb083c09cd2e2fb730cf8569d0b2efda0c031d32fe",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/freeze_policy.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/freeze_policy.py",
+      "bytes": 7780,
+      "sha256": "833b38c4d205b660badcd22762b8e8f024314149d36db6dac130348e188d8f81",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/ip10_cpu_eval.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/ip10_cpu_eval.py",
+      "bytes": 3896,
+      "sha256": "fa05d560968b78cdeb9c084fe7bbe32b4463896348d7fe9a99dbeaffd5ce683b",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/ip10_gate.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/ip10_gate.py",
+      "bytes": 5792,
+      "sha256": "e4eee92fb8dd919f003ebe63501b990ca60435eab288c270cb5b00d0b188c3fd",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/ip_budget_cpu_eval.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/ip_budget_cpu_eval.py",
+      "bytes": 5038,
+      "sha256": "02ee54b4941878193af7374128fbf03aeaae6d718da6d5ca9ed1a305cb4e906d",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/ip_budget_gate.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/ip_budget_gate.py",
+      "bytes": 7771,
+      "sha256": "f2506601f16e926354b4139011cd66cf4347fd36e3715898297419e3b669ed35",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/openface_v2.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/openface_v2.py",
+      "bytes": 8722,
+      "sha256": "5446237ff2fba672bd06ec62820bf671d9deb4c776d83a28d18060a581b9f908",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/policy.json",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/policy.json",
+      "bytes": 5794,
+      "sha256": "d29cd8e67df6f552fb343d9ee0db42d294c2027c0e2da822ee5514920f8f289c",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/policy_seal.json",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/policy_seal.json",
+      "bytes": 215,
+      "sha256": "d7a6f7dd7484066cc98ab3530407e054b6f29e1f1533b2e6c56cf42626aa0982",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/report_step2000.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/report_step2000.py",
+      "bytes": 9805,
+      "sha256": "a0b9d30d588ca72a5d57e0b598c8595e30583fdcc4380896934ef58a2ff7fde9",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/retry_step2000_buffalo_fontcache.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/retry_step2000_buffalo_fontcache.py",
+      "bytes": 2145,
+      "sha256": "648f0089c5baddb94664bbd280f9c7bb49e00feaaa4fa569376aba59a25fef58",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/run_facenet_extension.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/run_facenet_extension.py",
+      "bytes": 2425,
+      "sha256": "a6bd32bf338af4c0616c56f10396c00618906f37b9c916321da5e8ed923251d9",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/run_facenet_single_directions.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/run_facenet_single_directions.py",
+      "bytes": 7792,
+      "sha256": "5d8e1916bb5bcc9afc307980438b5f2f3fb0610f5dde12141f90e85efa7ebc2d",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/run_facenet_v2.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/run_facenet_v2.py",
+      "bytes": 11601,
+      "sha256": "d8bd902fb2a360eae00de39d4fe4ea2e01ce41a819b16f74fe1881efc3fd2754",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/seal_common_eight_manifest.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/seal_common_eight_manifest.py",
+      "bytes": 4170,
+      "sha256": "2279660dc27408eae34ac63817a12a78acb377c62009a88ff5e7d764335b108b",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/seal_common_nine_manifest.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/seal_common_nine_manifest.py",
+      "bytes": 4266,
+      "sha256": "2409b57ffc821f38f364782351c154bbaea500169a13739f6a9b38ef61cc23cf",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/step2000_cpu_eval.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/step2000_cpu_eval.py",
+      "bytes": 11807,
+      "sha256": "be53429a850d70a1ee09428ede5c0af7ff134b4695326cd608c64a5ccd275035",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/step2000_gate.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/step2000_gate.py",
+      "bytes": 15608,
+      "sha256": "1af22a95e6f2bec4a1403494523763b33e2ab61112fec37eb9aa915e9be1eef1",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/steps50_cpu_eval.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/steps50_cpu_eval.py",
+      "bytes": 3159,
+      "sha256": "809ae83da951a870e5d10ce7c552bab671165bdda67aaed68c855aba1b4aaabe",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/steps50_gate.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/steps50_gate.py",
+      "bytes": 5866,
+      "sha256": "d2cab56b56be0d44cc51ec8d41c8d3641dd631b5e1b839ba98c161f3463a3b7d",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/summarize_external.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/summarize_external.py",
+      "bytes": 5838,
+      "sha256": "f9b29e1cd1f61654f29f9bbfc915de6b0f42546cfdcff1d5d4cb6f359210f4d0",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/summarize_five.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/summarize_five.py",
+      "bytes": 5147,
+      "sha256": "69fd33edff5766ed15f15a118369d80a00cf0fc39be496ebedebd302be625f59",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/summarize_nine.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/summarize_nine.py",
+      "bytes": 5783,
+      "sha256": "ad6283087bfc6056ea8c492a9e82adc68362bdd07b7e772fd6ca7e9492a3dcf4",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/summarize_v2.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/summarize_v2.py",
+      "bytes": 8872,
+      "sha256": "e9aa7cc6263e1126a03a2aba103a5852fb999b9a4e227470852105018a0b0c12",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/test_ip10_cpu_eval.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/test_ip10_cpu_eval.py",
+      "bytes": 3505,
+      "sha256": "2be36feab04502b732b5ef2d1e1f0a3ed1f90af98329553a9e110bde3b0d6622",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/test_ip10_gate.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/test_ip10_gate.py",
+      "bytes": 3756,
+      "sha256": "e99834f7e03407a0ddb15c8329455ad98c19bd7a0b287e7f078a25d839e9472e",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/test_ip_budget_cpu_eval.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/test_ip_budget_cpu_eval.py",
+      "bytes": 2949,
+      "sha256": "ff457ae1b8c713aa442d9b9a62ef4d08e31be02d5fdc98c8283cf154006cd72f",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/test_ip_budget_gate.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/test_ip_budget_gate.py",
+      "bytes": 3461,
+      "sha256": "136b3a1aa0d640ce379084ba26889c6b780c231b73f24ef91dd413a3de03e8c6",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/test_openface_v2.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/test_openface_v2.py",
+      "bytes": 1622,
+      "sha256": "06243a377f30bf3fbb4e6cbaa9f14855ec7a14178a01458cf8fc75a805215fc7",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/test_step2000_gate.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/test_step2000_gate.py",
+      "bytes": 10262,
+      "sha256": "73d2a1d27a6e993f386be6542736188da7fa78b0a954f5caa10b28393b3bac55",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/test_steps50_cpu_eval.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/test_steps50_cpu_eval.py",
+      "bytes": 1423,
+      "sha256": "45a4af0ee267215382d739a2b7ecbcc9b7115bd0c76790b76a3d5613aeab3c8b",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/test_steps50_gate.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/test_steps50_gate.py",
+      "bytes": 2221,
+      "sha256": "b15134fdcf86ab01af064eb6ec5cdf89572cc7c44cae04651812767c6d90955c",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/verify_comparison.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/verify_comparison.py",
+      "bytes": 4852,
+      "sha256": "4ffed2e634454a124b34c331a209b79646b0d724f74fe1cc5ef19c52a39e665f",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/verify_external_comparison.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/verify_external_comparison.py",
+      "bytes": 4852,
+      "sha256": "7c458031819edd518f267e758107b04a5d31aacc4aeda67f5558ec9b0ca90aef",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/verify_external_request_binding.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/verify_external_request_binding.py",
+      "bytes": 2035,
+      "sha256": "c5d4242a3b8d27084042c1c4a0f98f8d0a717fd13406676b4ca1075ff6410718",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/verify_facenet_extensions.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/verify_facenet_extensions.py",
+      "bytes": 3151,
+      "sha256": "5389ce93f088eb8a5f24b178539da84537e7a746ce9077b7b9f450ed1d2ae2b0",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/verify_facenet_v2.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/verify_facenet_v2.py",
+      "bytes": 2715,
+      "sha256": "1a8d42e2e240f4ed8a3248b27b2daeb4eef65d6ca39a0d22ee5f4b1e2e7f4147",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/verify_nine_comparison.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/verify_nine_comparison.py",
+      "bytes": 4833,
+      "sha256": "9b0cc33e0c2f318690b46665e485930517a2a35a3c419515a52a85aaf3add2cb",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/write_eight_report.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/write_eight_report.py",
+      "bytes": 6774,
+      "sha256": "5226c138e638f1ebdcad36bc07b7a4bd67356ea46d9515dc197cdfb4957cde45",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/write_external_report.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/write_external_report.py",
+      "bytes": 6283,
+      "sha256": "71c4853247df0e92ea1a3b4fb4d873b2dfc31175bd4da5c4119ed6ca4ad72ad6",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/write_nine_report.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/write_nine_report.py",
+      "bytes": 7688,
+      "sha256": "765ce04d17329ae2899ad94440798ce0ba8ea0a16cfe7fe2102bc982e37e5abf",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/v3_global_raw_dev64/evaluate.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/development_evaluation/v3_global_raw_dev64/evaluate.py",
+      "bytes": 14541,
+      "sha256": "5a8b8944375f5b7ef1ebca3bbfe46cc2513beb2a110f27d5842d10f286d1e3dd",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/v3_global_raw_dev64/paired_summary.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/development_evaluation/v3_global_raw_dev64/paired_summary.py",
+      "bytes": 2113,
+      "sha256": "b6f2629b8fac94228dc43fda8f210f72dde6f474e2bad7b2eeed0d4b4b7b9832",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/v3_global_raw_dev64/test_metrics.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/development_evaluation/v3_global_raw_dev64/test_metrics.py",
+      "bytes": 1367,
+      "sha256": "9e018f98ff4fc6e20787865af422d7d51817ad701fabe0d95eb77620afa7d6e4",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/diagnose_condition_residuals.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/diagnose_condition_residuals.py",
+      "bytes": 5320,
+      "sha256": "25467cb143ad5e514905a5f32ab71d9efc7bf91335d2a8cdc0f7f3e3def84803",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/external_baselines/detection_preflight.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/external_baselines/detection_preflight.py",
+      "bytes": 4044,
+      "sha256": "4973a890b687e36f61ed5c8e6542cffcd60af02e64274c699f80aa4b7c35f872",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/external_baselines/detection_preflight_raw.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/external_baselines/detection_preflight_raw.py",
+      "bytes": 1154,
+      "sha256": "c3f7c231f2d7557ccdf92b32f23ef9828850d56b11cd1b867eb1fe994904d6f2",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/external_baselines/evaluate_external_smoke.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/external_baselines/evaluate_external_smoke.py",
+      "bytes": 8910,
+      "sha256": "1a0d158103317ac3e3ca7f3e40f39c53094cf62798cecfe00f7f0fcc96037b46",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/external_baselines/evaluate_smoke_primary_face.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/external_baselines/evaluate_smoke_primary_face.py",
+      "bytes": 11512,
+      "sha256": "47b9f706b4a2a8a69f2c231ce1d241c3d2e500f027fbdeebd054366b4df4a839",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/external_baselines/magicface_contract.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/external_baselines/magicface_contract.py",
+      "bytes": 3331,
+      "sha256": "14f8bcb3e3ae0b37991c0e09bb19118a6e1b5e323c97c4a6bbb407bef9c5c59f",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/external_baselines/preflight_magicface_payload.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/external_baselines/preflight_magicface_payload.py",
+      "bytes": 1567,
+      "sha256": "2afbf91d4dce155d91573c5c800b9a19bcef2a195017e80b9d2cfc97c810c99f",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/external_baselines/prepare_dev_contracts.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/external_baselines/prepare_dev_contracts.py",
+      "bytes": 13425,
+      "sha256": "8b15b73b7964784223bcdaacd6da816eecb1d61f8bfa9f10d6319446ea9d89e8",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/external_baselines/prepare_faceadapter_first_edited.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/external_baselines/prepare_faceadapter_first_edited.py",
+      "bytes": 7899,
+      "sha256": "ed720c2e11f9a666beffccff32b3669afe5c627176841274442375b84f8faf00",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/external_baselines/prepare_raw_dev19_contracts.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/external_baselines/prepare_raw_dev19_contracts.py",
+      "bytes": 5654,
+      "sha256": "f5801f55e7212cabe3127034795272500abc76fec19bf2487b4a4ff7409859db",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/external_baselines/prepare_raw_dev_contracts.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/external_baselines/prepare_raw_dev_contracts.py",
+      "bytes": 4878,
+      "sha256": "4ec4850205324749dc378aa04053bffa74d87d74bc0d3ba18cfe6c9d310b0dcd",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/external_baselines/refresh_magicface_inventory.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/external_baselines/refresh_magicface_inventory.py",
+      "bytes": 868,
+      "sha256": "94180aad00d1addca05526f81f02b1f4585344bafcb4cefbf4cdadf5e94e764b",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/external_baselines/restore_magicface_missing.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/external_baselines/restore_magicface_missing.py",
+      "bytes": 5401,
+      "sha256": "7a64102886fc2fffa7232c7c115cd6aa6e1384f3bb9be86b7c5495f84f481bd5",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/external_baselines/run_liveportrait_dev19.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/external_baselines/run_liveportrait_dev19.py",
+      "bytes": 5291,
+      "sha256": "9d76419edcc647509dbc731caa84d4ac4653d77fff67cd456ea05e059d6c0a28",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/external_baselines/run_liveportrait_dev19_absolute.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/external_baselines/run_liveportrait_dev19_absolute.py",
+      "bytes": 6684,
+      "sha256": "a5e7e65955139a26b090b283f7975e5cd619b74492a747b885e1342778cd4168",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/external_baselines/run_liveportrait_smoke_probe.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/external_baselines/run_liveportrait_smoke_probe.py",
+      "bytes": 4827,
+      "sha256": "8a9aaeb19250a47eb938ff4ed5726069dbe02acad2a18bc0c76151d57c86e5fa",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/external_baselines/run_magicface_dev19.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/external_baselines/run_magicface_dev19.py",
+      "bytes": 6649,
+      "sha256": "f37cf94dec7f15268fd4e6596f20b681c9cadc7050c3be7b51ee5f36fa58f0e1",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/external_baselines/run_magicface_smoke.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/external_baselines/run_magicface_smoke.py",
+      "bytes": 15627,
+      "sha256": "e3a1a0e05d5213d7e7f402a4fb593793c1569894738eb0d0c73b598bf1f5ea67",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/external_baselines/run_raw_preflights.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/external_baselines/run_raw_preflights.py",
+      "bytes": 2949,
+      "sha256": "7a8a30038af6d17b9632b05e0e84f07401045fb5699f01fad9b2556604efadb8",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/external_baselines/runtime/faceadapter_detection_policy.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/external_baselines/runtime/faceadapter_detection_policy.py",
+      "bytes": 2925,
+      "sha256": "a7d4507f76d4d355ce942c50cc75a939ba354593bc0f403f448cb4763041dec3",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/external_baselines/runtime/liveportrait_detection_policy.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/external_baselines/runtime/liveportrait_detection_policy.py",
+      "bytes": 2386,
+      "sha256": "82e2f76504f1df42eb55c88de439b14f0759103de16d0dd94560d6e1515aea03",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/external_baselines/runtime/run_faceadapter.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/external_baselines/runtime/run_faceadapter.py",
+      "bytes": 32825,
+      "sha256": "c43e1b73cd431688590e14df07810514ae21fbcd76fe77a5b39bc7a798461e11",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/external_baselines/runtime/run_liveportrait.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/external_baselines/runtime/run_liveportrait.py",
+      "bytes": 23668,
+      "sha256": "7d227e268f0e00c079d9b4e84609c72896a6867d8b57922a7660378fa0a6a558",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/external_baselines/runtime/second_baseline_review/liveportrait_required_assets.json",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/external_baselines/runtime/second_baseline_review/liveportrait_required_assets.json",
+      "bytes": 5183,
+      "sha256": "6d62a14a42220397f9c9fb0c3f5b0379a8213e0b32371ca4ca461b64e7aecf87",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/external_baselines/stage_magicface_runtime.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/external_baselines/stage_magicface_runtime.py",
+      "bytes": 3794,
+      "sha256": "01aca425b6157cd0946194cf7c6a09ce89d46d5e77688d1ac25d94e52e0ae9e2",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/external_baselines/test_magicface_contract.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/external_baselines/test_magicface_contract.py",
+      "bytes": 1321,
+      "sha256": "74dadc32d58f1b872f1e2197f0b7fbfb5314d3972c2a591d5a1295453fc063f8",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/external_baselines/verify_dev19_generations.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/external_baselines/verify_dev19_generations.py",
+      "bytes": 5061,
+      "sha256": "7a7f871d9a6c30a6449e57bae5eba46854121c4e4464b9138334afa3e4e355f3",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/external_baselines/verify_liveportrait_absolute.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/external_baselines/verify_liveportrait_absolute.py",
+      "bytes": 4049,
+      "sha256": "b2d12e6cf3079c90059813d014c4390c4d9b338f092020677d08c5f614d25d65",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/external_baselines/verify_primary_face_sensitivity.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/external_baselines/verify_primary_face_sensitivity.py",
+      "bytes": 2775,
+      "sha256": "28a83dce5b574b373178ed866af8ccfda5842ee14e5876e37f4ffc7d597c661d",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/external_baselines/verify_smoke_measurement.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/external_baselines/verify_smoke_measurement.py",
+      "bytes": 2832,
+      "sha256": "03c5f13b8cc9bec57dc4c687a1079d5dbdc88a62a200d8bbdca226f215110624",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/final_test/build_configuration_draft.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/final_test/build_configuration_draft.py",
+      "bytes": 11431,
+      "sha256": "ca7311f4355295aa2c38a6690af8915f9b1f9f2fc7fbe9f94d63053f386dea35",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/final_test/check_constructor_dev_parity.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/final_test/check_constructor_dev_parity.py",
+      "bytes": 14679,
+      "sha256": "d74fb50eaae9ccb06bad0c1b20cce72e4836bf3db3a17a7ac96d08a26afda7be",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/final_test/check_inference_dev_parity.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/final_test/check_inference_dev_parity.py",
+      "bytes": 7636,
+      "sha256": "bd77ead0b87d81f06084bdf4c64e664692fe754c5df77bb6797583214419ca98",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/final_test/check_source_runtime_dev_parity.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/final_test/check_source_runtime_dev_parity.py",
+      "bytes": 5439,
+      "sha256": "00e68006eee748b8960af6bce9a5744993b94c82a022e764cd85d5cef1dbeb58",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/final_test/delivery/run_reproduction.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/final_test/delivery/run_reproduction.py",
+      "bytes": 10302,
+      "sha256": "fd6c931cc22b8b694671c5a890e7294aad15485063898297e0ae0fb8772f3a85",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/final_test/delivery/run_reproduction.sh",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/final_test/delivery/run_reproduction.sh",
+      "bytes": 450,
+      "sha256": "88954c56dee7bc77cad98c2605e9083a5ce68f875fc562afcbe4e89125512a51",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/final_test/delivery/seal_completed_run.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/final_test/delivery/seal_completed_run.py",
+      "bytes": 3963,
+      "sha256": "0afb843d6623310e33f0b9c236383c0e064b8722b06cd1da887ee0ed18e8e8da",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/final_test/delivery/test_run_reproduction.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/final_test/delivery/test_run_reproduction.py",
+      "bytes": 6747,
+      "sha256": "975db151d18c7eef65dc994b73be6ded72fd057d2a4317fb9723da363b15fb13",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/final_test/delivery/verify_delivery.sh",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/final_test/delivery/verify_delivery.sh",
+      "bytes": 6605,
+      "sha256": "1f36a1999f0296927c720d5dae50eae20c2d9e8d6fda80cbd79b4eadeab3836a",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/final_test/evaluation_contract.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/final_test/evaluation_contract.py",
+      "bytes": 17078,
+      "sha256": "7513ace1edbf3b7fd3c6da065882f1c4f4886c829e9f27c373962cc83f6285dc",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/final_test/evaluation_export.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/final_test/evaluation_export.py",
+      "bytes": 5543,
+      "sha256": "7473028eed74c432953cbfc2323fa640c29e1671fa73f85029a444407da5baac",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/final_test/evaluation_measurements.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/final_test/evaluation_measurements.py",
+      "bytes": 12748,
+      "sha256": "8c31892cdc7b5f003b82837ecb7d65e69f0f76c5ecb82cd128dec7d943e2e273",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/final_test/evaluation_references.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/final_test/evaluation_references.py",
+      "bytes": 9256,
+      "sha256": "25bf4e41122d49476bf88416522b4645031e7a6cd142cdbb122dce22503fa5c5",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/final_test/external/contracts.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/final_test/external/contracts.py",
+      "bytes": 11581,
+      "sha256": "1d9c08f053a0e6d8725712f347c8cb9072702287402916f0dbacf5c6091f2599",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/final_test/external/native_runtime.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/final_test/external/native_runtime.py",
+      "bytes": 16340,
+      "sha256": "43b5fa288bb8cad1c0a9f10d3a6a02ea3e9684da833edc6cbbbe0cf3cf063745",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/final_test/external/run_external_final.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/final_test/external/run_external_final.py",
+      "bytes": 10554,
+      "sha256": "e050d53821addcc317e2b62ff24d6b7dc210ba6ae0601a3f3473182aed4d2977",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/final_test/external/run_synthetic_tests.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/final_test/external/run_synthetic_tests.py",
+      "bytes": 1706,
+      "sha256": "652db067053b098543236d44574020d74eb10e2909a1d928acd0365cd7f65410",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/final_test/external/test_external_final.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/final_test/external/test_external_final.py",
+      "bytes": 12937,
+      "sha256": "ead815a3e3d8c61844de22bf9eb9af7b59d2ef77bb7db90b2552e3d43bab24a4",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/final_test/freeze_protocol.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/final_test/freeze_protocol.py",
+      "bytes": 21321,
+      "sha256": "74406638f59e589d4dc24af433c45b7123b64b3c5e4e6508a18f9843ff87f307",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/final_test/frozen_evaluation.json",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/final_test/frozen_evaluation.json",
+      "bytes": 19318,
+      "sha256": "cfba3469de2ed8d1b28813ba72f839e78129b0aae4c8b1f5106c8fb7ac9114e7",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/final_test/frozen_protocol.json",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/final_test/frozen_protocol.json",
+      "bytes": 174373,
+      "sha256": "41d0f77e1307fd7da22e212a2485101fa6ab9662f11b02ad63fdb94d0bceda55",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/final_test/frozen_sampling.json",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/final_test/frozen_sampling.json",
+      "bytes": 10506,
+      "sha256": "20390b1ca97e17187fd508e589dec6385995e6f02ca2f67df6f5cd1482e3f3fc",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/final_test/generate_ours.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/final_test/generate_ours.py",
+      "bytes": 20694,
+      "sha256": "5e01be2b081061e412529b7f89dceb3f1a485d067aa61396f62737fd6c6ac340",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/final_test/prepare_source_cache.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/final_test/prepare_source_cache.py",
+      "bytes": 17956,
+      "sha256": "3f12b67deefdf890696739e469fa29647485d3f7e9e45a83a45995970d6dadae",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/final_test/protocol_gate.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/final_test/protocol_gate.py",
+      "bytes": 9485,
+      "sha256": "e66d565c7dc5ef35192e43c0d436fe8ac97c12b2057ab00387a7f58173dd2c72",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/final_test/run_frozen_queue.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/final_test/run_frozen_queue.py",
+      "bytes": 7207,
+      "sha256": "9f7c48d47af4af9f9913067534d46c0c9999933a92585cfb29beb2f24148b3f5",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/final_test/run_with_fontcache.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/final_test/run_with_fontcache.py",
+      "bytes": 1345,
+      "sha256": "6533d603eac9ba6bc69a69ca8bc42676ea0261ceb2c24db897e64763def8c4a0",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/final_test/test_constructor_parity_gate.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/final_test/test_constructor_parity_gate.py",
+      "bytes": 4940,
+      "sha256": "c0d055a427e26f4ed1ffc3827d03e9a778dc30b9b1afa5bfaad4b44146c1f0ca",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/final_test/test_evaluation_contract.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/final_test/test_evaluation_contract.py",
+      "bytes": 11867,
+      "sha256": "ce5bb2e52065c3e1a825f3a6a1f15cc52369815dd9ff6d843a285275b9b89a39",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/final_test/test_freeze_protocol.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/final_test/test_freeze_protocol.py",
+      "bytes": 16525,
+      "sha256": "e0c07f9ad1e7bf12d20aba150ab833d27270390d141e83e8cee0eb0b9ef9d0d0",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/final_test/test_source_inference.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/final_test/test_source_inference.py",
+      "bytes": 15169,
+      "sha256": "0e7674a51bedb7bc1fc06bafc11309bb2b3cbbbaa802aefb4ff95cc90443c241",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/generate_adapter_development.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/generate_adapter_development.py",
+      "bytes": 10204,
+      "sha256": "a9ae2aaed8c8ae5188779e06f1325a337b230457552b7ee788326bfdcf841dbb",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/generate_centered_development.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/generate_centered_development.py",
+      "bytes": 16209,
+      "sha256": "fbba652deaf7f1dbdb3972799b00a010e5782eaedddab40f85d4154941e9a83f",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/generate_centered_settings_development.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/generate_centered_settings_development.py",
+      "bytes": 17139,
+      "sha256": "fd23603a960e8294e0b4ce4976f0c69e1e7e05ece79064d95adedea62ffde252",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/generate_pilot_previews.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/generate_pilot_previews.py",
+      "bytes": 8591,
+      "sha256": "1904a6bdcfdcd310292ee8ec04f4f2039f407831541922322dc7b80196a80713",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/improvements/a_cleanup_delivery_20260915/seal.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/improvements/a_cleanup_delivery_20260915/seal.py",
+      "bytes": 2767,
+      "sha256": "842ef750a04013fdf6bdf2d7fb13d84f07bcdd0367672761f3373b7c35e1a072",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/improvements/a_local_cleanup_v11_20260915/cleanup_mask.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/improvements/a_local_cleanup_v11_20260915/cleanup_mask.py",
+      "bytes": 14214,
+      "sha256": "913623ca6c2dd76f0a3bca5a5316a6fb10339a3fe0d506944286fba32ee41be9",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/improvements/a_local_cleanup_v11_20260915/evaluate_v11.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/improvements/a_local_cleanup_v11_20260915/evaluate_v11.py",
+      "bytes": 23192,
+      "sha256": "bbf847dacc0b116e740b3c0d375756e0c1e5bb5c8db0a700220f55233772ddb3",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/improvements/a_local_cleanup_v11_20260915/render_v11.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/improvements/a_local_cleanup_v11_20260915/render_v11.py",
+      "bytes": 16674,
+      "sha256": "269b90021fb1c7c6d74f8cc6321d9b42185a4bd051d58a5b7d87bc2efd36f92a",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/improvements/a_local_cleanup_v11_20260915/run_local.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/improvements/a_local_cleanup_v11_20260915/run_local.py",
+      "bytes": 12833,
+      "sha256": "7f872acfb9d6114c4da4e25ee35c4157727be1c3a30822227c64c77e1c68f78a",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/improvements/a_local_cleanup_v11_20260915/test_evaluate_v11.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/improvements/a_local_cleanup_v11_20260915/test_evaluate_v11.py",
+      "bytes": 12388,
+      "sha256": "a934136e34e88cfb32f9a3778b3089dae0dddbdfdb8fd86e873c9d8339624a1c",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/improvements/a_local_cleanup_v11_20260915/test_local.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/improvements/a_local_cleanup_v11_20260915/test_local.py",
+      "bytes": 9306,
+      "sha256": "7c8210b8466e44bc0208c67bc7b3c407adc2562651d18eb320603c50af80c158",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/improvements/a_local_cleanup_v11_20260915/test_render_v11.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/improvements/a_local_cleanup_v11_20260915/test_render_v11.py",
+      "bytes": 7535,
+      "sha256": "8070237f2fdbdca78cb6c981d2dd9d850d04048723d70b530c3644e4e313333c",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/improvements/a_terminal_cleanup_v10_20260915/evaluate_v10.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/improvements/a_terminal_cleanup_v10_20260915/evaluate_v10.py",
+      "bytes": 12749,
+      "sha256": "71c18dd6027c8945d48b47f8889b54568df166666113342437eccac078f58133",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/improvements/a_terminal_cleanup_v10_20260915/render_v10.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/improvements/a_terminal_cleanup_v10_20260915/render_v10.py",
+      "bytes": 11246,
+      "sha256": "d8872b0244f6b8a2f9dd3e7c00bb9e256605984ea77c6d5937090e622dab8d3c",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/improvements/a_terminal_cleanup_v10_20260915/run_terminal.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/improvements/a_terminal_cleanup_v10_20260915/run_terminal.py",
+      "bytes": 18316,
+      "sha256": "3b11fb90c69276200906a156e7cd126c07727d393140829fce69858ce2f3d9a8",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/improvements/a_terminal_cleanup_v10_20260915/test_evaluate_v10.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/improvements/a_terminal_cleanup_v10_20260915/test_evaluate_v10.py",
+      "bytes": 12897,
+      "sha256": "cbd291fd13b3df4230dce1ff82fb3d7eec4b3582261cab69793600f6745bb17a",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/improvements/a_terminal_cleanup_v10_20260915/test_render_v10.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/improvements/a_terminal_cleanup_v10_20260915/test_render_v10.py",
+      "bytes": 5209,
+      "sha256": "f4fe6f1c8eaa9f3a1834732addf411a9685d6471f359770da3721224b964c266",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/improvements/a_terminal_cleanup_v10_20260915/test_terminal.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/improvements/a_terminal_cleanup_v10_20260915/test_terminal.py",
+      "bytes": 12229,
+      "sha256": "f431f51ef3cf5d119f0c928a46ef0d5c64437e2fb2404b712dd0867bb1053036",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/improvements/a_texture_schedule_v9_20260915/evaluate_v9.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/improvements/a_texture_schedule_v9_20260915/evaluate_v9.py",
+      "bytes": 15665,
+      "sha256": "74945dcbf11ef6fa998c8049c47e997b421e13c5d48270798416bd6a47fb2f12",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/improvements/a_texture_schedule_v9_20260915/render_v9.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/improvements/a_texture_schedule_v9_20260915/render_v9.py",
+      "bytes": 21678,
+      "sha256": "507b23e265e9988da214a987f6dabad3f39e576e42657cbeacbe61ac7e675335",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/improvements/a_texture_schedule_v9_20260915/run_late_au.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/improvements/a_texture_schedule_v9_20260915/run_late_au.py",
+      "bytes": 5121,
+      "sha256": "e64f1c67e0d9fc67b31d7b874168375a7451a9e399e9780c6d843796c3d3df81",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/improvements/a_texture_schedule_v9_20260915/test_evaluate_v9.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/improvements/a_texture_schedule_v9_20260915/test_evaluate_v9.py",
+      "bytes": 13544,
+      "sha256": "e873a1314ce6a529e79e80508d4edb6bf2b0d35cd3024a0ac95a5bf6df190900",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/improvements/a_texture_schedule_v9_20260915/test_render_v9.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/improvements/a_texture_schedule_v9_20260915/test_render_v9.py",
+      "bytes": 5035,
+      "sha256": "bfb48d8a4e23a95fd0ac4a7a9f5e0211ce2827e717a39b8e4f969e50f2473b70",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/improvements/a_texture_schedule_v9_20260915/test_schedule.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/improvements/a_texture_schedule_v9_20260915/test_schedule.py",
+      "bytes": 11160,
+      "sha256": "310d8086428f492d8ddc924fc2c1486d81985aa290cac1758d48d514a64b3287",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/improvements/paired_residual_v8_20260915/evaluate_v8.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/improvements/paired_residual_v8_20260915/evaluate_v8.py",
+      "bytes": 14247,
+      "sha256": "133fe1b0d469ef59c2736383dcc801d4ebaa995cae47842ca39f344e409c0154",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/improvements/paired_residual_v8_20260915/render_v8.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/improvements/paired_residual_v8_20260915/render_v8.py",
+      "bytes": 16000,
+      "sha256": "cd599119062460abb8c8d657b555a64dee89ae86191574b2cf4146888aeec48f",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/improvements/paired_residual_v8_20260915/run_paired.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/improvements/paired_residual_v8_20260915/run_paired.py",
+      "bytes": 28735,
+      "sha256": "3ba468840744eecd3fe7af5159b9b92fbfb60dbf7a12515fde7384430b67471b",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/improvements/paired_residual_v8_20260915/test_evaluate_v8.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/improvements/paired_residual_v8_20260915/test_evaluate_v8.py",
+      "bytes": 18470,
+      "sha256": "10ab79376a063caa3f38138be44691dd91eaacb36ec95070f648598d9e1fc10b",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/improvements/paired_residual_v8_20260915/test_paired.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/improvements/paired_residual_v8_20260915/test_paired.py",
+      "bytes": 9250,
+      "sha256": "6125d0a304f02a2ca2d87ae73694ccecfcc928e5b04313f825241c4cb25608f1",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/improvements/paired_residual_v8_20260915/test_render_v8.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/improvements/paired_residual_v8_20260915/test_render_v8.py",
+      "bytes": 3762,
+      "sha256": "8391af0a6605256fb6fc1214f98a224d82ac76c0ffe52ec60474e973be1bf3b3",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/improvements/quality_diagnosis_v5_20260915/evaluate_diagnostic.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/improvements/quality_diagnosis_v5_20260915/evaluate_diagnostic.py",
+      "bytes": 26929,
+      "sha256": "cb293b700e58e6a7321913c43577a82f8761bfb6c9e1d1181d534dcfd023f294",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/improvements/quality_diagnosis_v5_20260915/render_diagnostic.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/improvements/quality_diagnosis_v5_20260915/render_diagnostic.py",
+      "bytes": 14326,
+      "sha256": "000412933c22a6b6bbf4b36523c97bb4c2138a58903a237064637834fc833f09",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/improvements/quality_diagnosis_v5_20260915/render_focus.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/improvements/quality_diagnosis_v5_20260915/render_focus.py",
+      "bytes": 3730,
+      "sha256": "69311fa557f80be7c8ca0d5bea480dda3660d70a068ce2f2cd1360064a9003cd",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/improvements/quality_diagnosis_v5_20260915/run_diagnostic.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/improvements/quality_diagnosis_v5_20260915/run_diagnostic.py",
+      "bytes": 17490,
+      "sha256": "6296388a3ffeafd6cc413589f0f498966e113c8c0e183e36e30017fce96edd89",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/improvements/quality_diagnosis_v5_20260915/seal_diagnostic.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/improvements/quality_diagnosis_v5_20260915/seal_diagnostic.py",
+      "bytes": 1899,
+      "sha256": "51cae329788f9962d59500311757d222896a40c3acc8a60d3628db927b983a4d",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/improvements/quality_diagnosis_v5_20260915/test_evaluate_diagnostic.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/improvements/quality_diagnosis_v5_20260915/test_evaluate_diagnostic.py",
+      "bytes": 13022,
+      "sha256": "9c24883ffcef50664a907f504c5a7cc488d88855f5b0d9078b344049fa031eb3",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/improvements/quality_refinement_20260917/audit_paper.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/improvements/quality_refinement_20260917/audit_paper.py",
+      "bytes": 2240,
+      "sha256": "896504d0baae863bcd7b5258790f324ecd282b1ae45179a48ac7223d95c18c7c",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/improvements/quality_refinement_20260917/export_paper_figures.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/improvements/quality_refinement_20260917/export_paper_figures.py",
+      "bytes": 3654,
+      "sha256": "52a2da9b67cf1647da0de20c795636e20f82749c3bbaa656d459f6baf22bca82",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/improvements/quality_refinement_20260917/pdf_qa.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/improvements/quality_refinement_20260917/pdf_qa.py",
+      "bytes": 2006,
+      "sha256": "458cfa53ff1759da7a5680fd79c377e14008b329c5da93895ab92aa6012b8d41",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/improvements/quality_refinement_20260917/release.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/improvements/quality_refinement_20260917/release.py",
+      "bytes": 326,
+      "sha256": "940d815399c783dfe0ecd979ac78b47bb6533781ee403d720b389f3ecff649d3",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/improvements/quality_refinement_20260917/run_examples.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/improvements/quality_refinement_20260917/run_examples.py",
+      "bytes": 5424,
+      "sha256": "b7126ce10a182831575b6ae209b8141a812af68240d1c3bfc5270e47484812c0",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/improvements/quality_refinement_20260917/run_examples.sh",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/improvements/quality_refinement_20260917/run_examples.sh",
+      "bytes": 474,
+      "sha256": "e5071ea7aee46a976f3e4f451c390e9a758899049473feef9a7e5f03e1427230",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/improvements/quality_refinement_20260917/run_matrix.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/improvements/quality_refinement_20260917/run_matrix.py",
+      "bytes": 17775,
+      "sha256": "fd82b08b7ef0a90666cf8deff0ca2cbf4879595c52295af80878e16b3f2f4474",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/improvements/quality_refinement_20260917/run_probe.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/improvements/quality_refinement_20260917/run_probe.py",
+      "bytes": 7772,
+      "sha256": "09cf340878da682ab10ee7a645d0e77bdd4e4fa47c7a53bd961a597ca7a559d3",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/improvements/quality_refinement_20260917/run_probe.sh",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/improvements/quality_refinement_20260917/run_probe.sh",
+      "bytes": 471,
+      "sha256": "dd2e1a240e11c1addb2c9d4db0ac61c02fa224f305300a1814dd565d9d5ba242",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/improvements/quality_refinement_20260917/sampler.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/improvements/quality_refinement_20260917/sampler.py",
+      "bytes": 13539,
+      "sha256": "0eee3d542689c76c3ff578cf9b9c81feb36b65d989120db7ae4c2cb3072ebd51",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/improvements/quality_refinement_20260917/test_sampler.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/improvements/quality_refinement_20260917/test_sampler.py",
+      "bytes": 10904,
+      "sha256": "75b6c27f40489b59b2551f4754b095d8aae515547c7a621b37f9057588715e1e",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/improvements/region_preserving_v6_20260915/evaluate_v6.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/improvements/region_preserving_v6_20260915/evaluate_v6.py",
+      "bytes": 9894,
+      "sha256": "e72173eb31f4101eb7e5b586e59cea5c3aae68ece44455c77fa211814e65ad67",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/improvements/region_preserving_v6_20260915/region_mask.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/improvements/region_preserving_v6_20260915/region_mask.py",
+      "bytes": 20228,
+      "sha256": "75f7995e3addb7656e0935da62e920f9d43b540ffa9b5e127093835afb3e438e",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/improvements/region_preserving_v6_20260915/render_v6.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/improvements/region_preserving_v6_20260915/render_v6.py",
+      "bytes": 14915,
+      "sha256": "107143fe267144d9c8ac5b500faa5395f9179008038855ccdc0367133ab690d0",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/improvements/region_preserving_v6_20260915/run_region_diagnostic.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/improvements/region_preserving_v6_20260915/run_region_diagnostic.py",
+      "bytes": 13657,
+      "sha256": "85236dfc8803fb66d8f2440a240475a10c59f189ab3df059a44389f13db1fcec",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/improvements/region_preserving_v6_20260915/test_evaluate_v6.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/improvements/region_preserving_v6_20260915/test_evaluate_v6.py",
+      "bytes": 14499,
+      "sha256": "5cea6e69c63f39705839bff3314921f1070df513da3a7de81b635f0c57ef7f22",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/improvements/region_preserving_v6_20260915/test_projection.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/improvements/region_preserving_v6_20260915/test_projection.py",
+      "bytes": 9996,
+      "sha256": "76b70d62e513b9b88889de2dd1ff2493ff4ddd12005308365977b432627946c9",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/improvements/region_preserving_v6_20260915/test_region_mask.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/improvements/region_preserving_v6_20260915/test_region_mask.py",
+      "bytes": 7578,
+      "sha256": "8f865c928ece279a7a4dfa9138b9ea07b87d1467fab8ae4a76089b46e7cacab0",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/improvements/smooth_regions_v7_20260915/evaluate_v7.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/improvements/smooth_regions_v7_20260915/evaluate_v7.py",
+      "bytes": 1126,
+      "sha256": "11947f19b51bf4ec3f216397966a695f5e51f247884f2d57e0e2104743343392",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/improvements/smooth_regions_v7_20260915/region_mask.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/improvements/smooth_regions_v7_20260915/region_mask.py",
+      "bytes": 7752,
+      "sha256": "ca173d310425c6c97ba4350a21cdd5b3d4f08a961fdb87b9c134e1b3029ef824",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/improvements/smooth_regions_v7_20260915/render_v7.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/improvements/smooth_regions_v7_20260915/render_v7.py",
+      "bytes": 5716,
+      "sha256": "049ff8f3864131bb28ee336926ab07630ce878857848ebe89f13bcaa731af63e",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/improvements/smooth_regions_v7_20260915/run_smooth.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/improvements/smooth_regions_v7_20260915/run_smooth.py",
+      "bytes": 1226,
+      "sha256": "5e3d91d5355fba988b6b0fd706fba769ea77df0d12b228f8929756010f8e66ff",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/improvements/smooth_regions_v7_20260915/test_region_mask.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/improvements/smooth_regions_v7_20260915/test_region_mask.py",
+      "bytes": 9382,
+      "sha256": "7118997ec9dd55d67822c3b820e2d20c31238225a0b74e0af988d30b29ea145b",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/improvements/smooth_regions_v7_20260915/test_render_v7.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/improvements/smooth_regions_v7_20260915/test_render_v7.py",
+      "bytes": 2494,
+      "sha256": "7c96afe8502acdfe171121934936addc9d232a9fc63121a285d3fd64185e000b",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/make_development_manifest.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/make_development_manifest.py",
+      "bytes": 2819,
+      "sha256": "2af25e1895211830205ca727bd4f417e6bda5b4090bc048c9e53b491c591af00",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/modeling/__init__.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/modeling/__init__.py",
+      "bytes": 214,
+      "sha256": "6581db63eb7df4be0bd250882f4904674f3aec2480c2fd1607b5e45d493eb35b",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/modeling/au_regressor.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/modeling/au_regressor.py",
+      "bytes": 7528,
+      "sha256": "f5b83370237946cf01aa870eddcad98beee8b883661ae1cd063eba761ccd7e6d",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/modeling/cross_modal_adapter.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/modeling/cross_modal_adapter.py",
+      "bytes": 15199,
+      "sha256": "dab32f9c0969682281f7d51559c3ccefea05dbc93edd54fa8561ed5c802d40f4",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/modeling/frozen_backbone.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/modeling/frozen_backbone.py",
+      "bytes": 6929,
+      "sha256": "8cc66dd062583e9e2678c4688f3e8083cb29b00da0f3cd3c481e09573eb137a7",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/modeling/safe_token_residual_adapter.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/modeling/safe_token_residual_adapter.py",
+      "bytes": 8249,
+      "sha256": "546c3b2e856f096959b838976afd00ad613cd11629d7b418d2e2419de5642f24",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/modeling/source_centered_adapter.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/modeling/source_centered_adapter.py",
+      "bytes": 3472,
+      "sha256": "02a62b79509ef0a2bd688e49ea35119752963141220f0009bb62a63f1613edab",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/modeling/test_au_regressor.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/modeling/test_au_regressor.py",
+      "bytes": 8467,
+      "sha256": "d69610bebf5a27ebe744aded11fb6a782138ab8c54630ec790c0730bd22aa0b3",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/modeling/test_cross_modal_adapter.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/modeling/test_cross_modal_adapter.py",
+      "bytes": 14095,
+      "sha256": "002fc32da670db19c21860dcc4d62c13cb6d379aabcd8a92f572560099187d36",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/modeling/test_safe_token_residual_adapter.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/modeling/test_safe_token_residual_adapter.py",
+      "bytes": 13400,
+      "sha256": "42c7c26dd0a43b70661da039eb2538a86d03c072791d2a97cab0b401d5c17284",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/modeling/test_source_centered_adapter.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/modeling/test_source_centered_adapter.py",
+      "bytes": 11840,
+      "sha256": "db34c12dde242b9b156fbd0c4a2441b845bf7681e843307ad42ff815a42022d8",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/modeling/test_token_residual_adapter.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/modeling/test_token_residual_adapter.py",
+      "bytes": 15942,
+      "sha256": "c3f81b0e4017f71d2505aab33d91f6c12f308795fc7756a89daebc22ad67c74f",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/modeling/token_residual_adapter.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/modeling/token_residual_adapter.py",
+      "bytes": 9015,
+      "sha256": "42b0dd3e4bb1287e4484d9700cfcf3798fe4064cb9f8691468944e79409bf146",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/prepare_batched_training_cache.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/prepare_batched_training_cache.py",
+      "bytes": 24864,
+      "sha256": "feef65f1b7f4360101265db9c538e35f218967ca47fba9a422bad0dcd2e2b9a3",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/prepare_expanded_training_cache.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/prepare_expanded_training_cache.py",
+      "bytes": 15818,
+      "sha256": "a0bace0a72fb17986873cdeaf9e26e01b29fa947c9932074b72edd6456422367",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/prepare_train2k_generator_cache.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/prepare_train2k_generator_cache.py",
+      "bytes": 6360,
+      "sha256": "9ce0ac71872addffe0e5549294c672442b7f80c9b88b4bbfde1448f09fcbcb20",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/prepare_training_cache.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/prepare_training_cache.py",
+      "bytes": 8318,
+      "sha256": "ecb5dd23c40f6f74284eaf93e6134c1545cef337fbc60024a45bd5bcbdd02c12",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/probe_condition_gradients.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/probe_condition_gradients.py",
+      "bytes": 8969,
+      "sha256": "94cc2a378c5e2e5331859d1a3d819583abecdd4fc9a9835abb71f951f74bfcd5",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/audit_formal128_v1.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/audit_formal128_v1.py",
+      "bytes": 4470,
+      "sha256": "2a7f1179218ad00a1afb8c523ceb5c10909a7bd7daf52a0ca8b429c41df05058",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/bridge_inputs_preverify_v1.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/bridge_inputs_preverify_v1.py",
+      "bytes": 2264,
+      "sha256": "455d6b5d1e3ea3e9c6af9f1c96914488218e0b911ed217edefeede6c3bb9d874",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/bridge_preverify.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/bridge_preverify.py",
+      "bytes": 2178,
+      "sha256": "45fb58a3a5aac9ebc5fd50d198876a902fe660d15b5ee7657d9587b2ad779e14",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/bridge_preverify_diagnostic_v2.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/bridge_preverify_diagnostic_v2.py",
+      "bytes": 2904,
+      "sha256": "74d6b42b36f1956f3cd3ba96caefeddc04ce6fe42e5b7655dfae7c0cbe8c8e7c",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/bridge_preverify_resume_v3.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/bridge_preverify_resume_v3.py",
+      "bytes": 3760,
+      "sha256": "9dfeddf84240a9c827d9755303dd3bd9463111ac24a1ca0b4eba3665d2e83b2a",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/build_insightface.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/build_insightface.py",
+      "bytes": 3255,
+      "sha256": "61ef3f4d12122307e8fc2ab8f091cf5fa3cd8a7f89aa5edb9bee520b3665cb69",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/copy_insightface_recorded.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/copy_insightface_recorded.py",
+      "bytes": 2223,
+      "sha256": "d3597f8ec24db10dc807d00a9d64c4fc902df202f2965bf4c9b8989cb8142fd0",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/evaluate_new.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/evaluate_new.py",
+      "bytes": 19715,
+      "sha256": "cbb289b313f0c673ef01b82e2e5f0f083cf1d944340362df77c71a4b754a478a",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/extent_io.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/extent_io.py",
+      "bytes": 1732,
+      "sha256": "18ef561a9e0b2f22431b7b1afa353be5c6ada008ba25e23f8b1059273f31fa4b",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/extra_bridge.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/extra_bridge.py",
+      "bytes": 3719,
+      "sha256": "40d56242deb7528653d6c4e7ae269e94a03d9a95282850f4541a5508e0a7adc1",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/fixture_report_layout.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/fixture_report_layout.py",
+      "bytes": 1501,
+      "sha256": "0319120e3a92617d80ff2d5e312f327ef3e464afe8a54ec18a7045876c7a817b",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/guarded_launch.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/guarded_launch.py",
+      "bytes": 1970,
+      "sha256": "82eb228ab41ab42f0833c36a0a502ce5b03483363802dabfa5d9ace0bc75e807",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/import_overlay_probe.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/import_overlay_probe.py",
+      "bytes": 2148,
+      "sha256": "5ab32adcf00582269635a3cbe4e0209235b4a7fb99ec04d961b5c8ac08525518",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/io_compat_launch_v1.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/io_compat_launch_v1.py",
+      "bytes": 4601,
+      "sha256": "fd1135d4be95543f2b83e3d30754e79a0ccb1e69c4514da09fcaeaff0841cd65",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/io_compat_launch_v2.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/io_compat_launch_v2.py",
+      "bytes": 5838,
+      "sha256": "3bcef86da482d3814d66d3e13eeb47c596f355ce92f79015ee2fb19f92263f5b",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/io_compat_launch_v3.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/io_compat_launch_v3.py",
+      "bytes": 7501,
+      "sha256": "7edd6001d4d3a8c8605f20acc046ae3cd1465ca0343df4b88f5e226e212faa38",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/materialize_openface_runtime_v1.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/materialize_openface_runtime_v1.py",
+      "bytes": 2523,
+      "sha256": "e0baf1b839871af7abbc5617c8ce705106ca4aee8900ccd5d3aa653ec5a47dc5",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/materialize_openface_runtime_v2.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/materialize_openface_runtime_v2.py",
+      "bytes": 2800,
+      "sha256": "6d66e905997615439e62b181e61c6a718495e9059bea1419db85fa3cfb5e5bca",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/normalize_perform_index_v1.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/normalize_perform_index_v1.py",
+      "bytes": 3239,
+      "sha256": "46f1e473e7db5d4c9ba8648658885f6ce00ddfe9b38d05339809a533fa458df9",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/paired_descriptives_v1.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/paired_descriptives_v1.py",
+      "bytes": 2290,
+      "sha256": "57fbfdff4576e60813ec9298cae89cfd7c9bdd54776f48e9889bbfaf310cdc9b",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/prepare_overlay.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/prepare_overlay.py",
+      "bytes": 5386,
+      "sha256": "6af0ac6e9e1b71dad7b1f8e1abda3475d15f97d8997108e1896dd55a47e9642c",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/protocol.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/protocol.py",
+      "bytes": 16761,
+      "sha256": "8345ce3765fc9a436053f28626b6c0146e0f187b11d67b23243b8d2e1e7fe041",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/protocol_v1.json",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/protocol_v1.json",
+      "bytes": 34676,
+      "sha256": "281fb67d7bddeb3635d0bca2801307b4c546153efc56cab0cf20fc1ff201494f",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/render_report.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/render_report.py",
+      "bytes": 20392,
+      "sha256": "c242e830064b242b0124e6b3be0d88cc04bec3d32f162c401ca02ee9463572fc",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/render_report_v2.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/render_report_v2.py",
+      "bytes": 20587,
+      "sha256": "21a7684b058b14985ed5360bd8c628def6f6b42fe1be35c8e6ac9de49ce05478",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/render_report_v3.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/render_report_v3.py",
+      "bytes": 20574,
+      "sha256": "c1c78de64135743ac6d2b8680829c763508d4bfb7d9196e9a1d2aee2a3815369",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/report_io_launch_v1.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/report_io_launch_v1.py",
+      "bytes": 825,
+      "sha256": "2fe70c0b216df93b9d87a30cdc0054fa6a4d77e09f0f2e59fb54ea8c090d8724",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/report_io_launch_v2.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/report_io_launch_v2.py",
+      "bytes": 1352,
+      "sha256": "3ac57b0056822ff36ec78d7f16a9325defb4d607d0d58acc9a986a349cd9e908",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/report_io_launch_v3.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/report_io_launch_v3.py",
+      "bytes": 1355,
+      "sha256": "5d23262ab6214ca4ee27553603c23d7b37478717ba524758b3d845fd10b9915a",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/report_io_launch_v4.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/report_io_launch_v4.py",
+      "bytes": 1355,
+      "sha256": "c75856992755d42283d3235da67b41382c122de717c09a97818a325fd5ba19e2",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/run_bridge_identity_queue_v4.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/run_bridge_identity_queue_v4.py",
+      "bytes": 4353,
+      "sha256": "cf8ce445649f365707fb8389ba7e3081f35aa48b33344c35c47283c8167eb96e",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/run_bridge_openface_queue_v5.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/run_bridge_openface_queue_v5.py",
+      "bytes": 4682,
+      "sha256": "d019a6da6fc907d5854f538da05908fb6dde667e805070c7370951998cf37b9f",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/run_bridge_queue_v1.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/run_bridge_queue_v1.py",
+      "bytes": 4217,
+      "sha256": "81a19c2e483452a692538a0271bac0496800f62feefe43bb05d5f8677337dbf1",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/run_bridge_queue_v2.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/run_bridge_queue_v2.py",
+      "bytes": 4217,
+      "sha256": "7cb0f1a2e3a0765e9205ebd0bc06278c31cfc1fb704d5ace40307e3a3e649550",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/run_bridge_queue_v3.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/run_bridge_queue_v3.py",
+      "bytes": 4388,
+      "sha256": "02bf84d2883cb3e7271cf93e115e16007df82ff135ddb9123b702d716cb9f746",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/run_eval.sh",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/run_eval.sh",
+      "bytes": 509,
+      "sha256": "31fa687b74cd5f05f2bb4305cb7362c8e6fa41b25570ffc1f515d4b02d2e351f",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/run_formal128_v1.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/run_formal128_v1.py",
+      "bytes": 3849,
+      "sha256": "8c698ffbfa1dc9bce38876527525d68e08aeff85d66044870f3350e4955ffb81",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/seal_overlay.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/seal_overlay.py",
+      "bytes": 2146,
+      "sha256": "0fb4a9d20ffd48ecd7624e8a2390c152d81ef7ea4b5e59de8379c9f2bb3e0c57",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/test_evaluation.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/test_evaluation.py",
+      "bytes": 8571,
+      "sha256": "0781f5edc141e229d8eca46b0ce038faace0a88b916e670a1ce9d08e24fbf1e1",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/test_report.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/test_report.py",
+      "bytes": 3785,
+      "sha256": "b00a1548746418e799e9ea19e894ad5c05d9886323f9f0ce031f8f4f04798b85",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/final_verify.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/final_verify.py",
+      "bytes": 5068,
+      "sha256": "1efa88dbc33a4cec73f66d6fddbeae59fbfc3bc2c6184371fbd91fdf2211e97a",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/performrecast/audit_formal32.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/performrecast/audit_formal32.py",
+      "bytes": 4403,
+      "sha256": "0d8594e0b0633243f5624a3b15c1f1be730e26ec36b5750edbf2eca875bc5f8d",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/performrecast/formal_batch.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/performrecast/formal_batch.py",
+      "bytes": 24817,
+      "sha256": "1118794afb59e69daed0dc6c5bc03a2299974279234ce2d81abda2283ebf9821",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/performrecast/import_io_compat.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/performrecast/import_io_compat.py",
+      "bytes": 2130,
+      "sha256": "bccc27ca29081d3a49bacf5d4ae743bae962b6260507cd9daa538fc03243162c",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/performrecast/materialize_inputs.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/performrecast/materialize_inputs.py",
+      "bytes": 3894,
+      "sha256": "d17cf37af0635fc9c97597f79feca72258d81285da090072ce5c6efb4669bf44",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/performrecast/materialize_python.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/performrecast/materialize_python.py",
+      "bytes": 3835,
+      "sha256": "6b9bf172b7b71ee56a702183a78a87ea23fe5ec4639868e54907a0c0aea4f389",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/performrecast/operator_preflight.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/performrecast/operator_preflight.py",
+      "bytes": 1560,
+      "sha256": "4d9b18cdd4d8d40c5091c975b04c3defd9fe894db036a2a3fbc7817bb04bb60d",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/performrecast/prepare_inputs.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/performrecast/prepare_inputs.py",
+      "bytes": 2809,
+      "sha256": "c8938c52ffce7cf605c03a3398540756e9f9f3f54a7ce9a1a8b3b159200fd9ce",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/performrecast/probe_weights.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/performrecast/probe_weights.py",
+      "bytes": 4540,
+      "sha256": "83cb30a2352383c83f2aff4a2e5145ccecdefa87e8c837a76a1d1344fcac33d9",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/performrecast/requirements-overlay.txt",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/performrecast/requirements-overlay.txt",
+      "bytes": 203,
+      "sha256": "34c0067fd2313a6091c4e46a3b5bd4d1c218cc622173fedcaa94ab73d01cc696",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/performrecast/run_formal32.sh",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/performrecast/run_formal32.sh",
+      "bytes": 1446,
+      "sha256": "d5fa0107ad66e21969df9245deff745460a33e51a37d4cc45742450d3bd69c43",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/performrecast/run_local_smoke4.sh",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/performrecast/run_local_smoke4.sh",
+      "bytes": 1710,
+      "sha256": "6b05c021f338578f2bf4abaf580bd651600f2517b132be7f98675885565e1dd7",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/performrecast/run_remaining.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/performrecast/run_remaining.py",
+      "bytes": 9858,
+      "sha256": "0871fcf7b4d1a127cc83bb09d2d9e0542dbedbf04d07ea154fdb7a793a16128c",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/performrecast/run_smoke.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/performrecast/run_smoke.py",
+      "bytes": 7017,
+      "sha256": "687ba192c12e480da678b18060386750c80dd788cca1df37efe79368373c6c90",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/performrecast/seed_check.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/performrecast/seed_check.py",
+      "bytes": 8835,
+      "sha256": "a61b6fcdd6004616042610d7133bd269f9cea660034fcb99d881d27e5e5edc04",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/performrecast/test_formal_batch.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/performrecast/test_formal_batch.py",
+      "bytes": 6425,
+      "sha256": "58bb99889624f06b3a8cb9fe5ea4bd0ebbc1dda834fa1ddc5911bbee6e33e812",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/preservation/bundle_v2_20260916/cloud_public_assets.json",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/preservation/bundle_v2_20260916/cloud_public_assets.json",
+      "bytes": 18253,
+      "sha256": "67cbeda33b08c25c1b249ee96c1eaa64aa7f2cd83dea2d6b4cc2373cf61bbf54",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/runtime_io_v1.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/runtime_io_v1.py",
+      "bytes": 1805,
+      "sha256": "0562670cf396abf680f4eeebe0b33b8db27e5bf1d389583f8e75d47ce0ecf2e8",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/audit_full_ip_state.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/audit_full_ip_state.py",
+      "bytes": 9510,
+      "sha256": "d8f19a528776b2f717ef49bd1b5a5ad2316735c9474976122caf0bd42c478e41",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/check_api.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/check_api.py",
+      "bytes": 1769,
+      "sha256": "648bc8ba6717aea2213d6920205b6108b806ea9ea95519abbb1891e681209436",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/consume_extract.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/consume_extract.py",
+      "bytes": 8130,
+      "sha256": "90d61d1a183da828e0d10c327d6e0bf55c37d86b7f4e98ef4d8c1b683c6a51a5",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/diagnose_imports.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/diagnose_imports.py",
+      "bytes": 3068,
+      "sha256": "b273feed59a1cec68cb34c1de24eba674c79352f8d9764378fc7a8b6662c20f3",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/parameter_footprint.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/parameter_footprint.py",
+      "bytes": 1771,
+      "sha256": "da07197519923a61c46a6c420c9778bc5721877195107d858e3e4f552bd86003",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/recovery_v3_20260916/hot_vae_route.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/recovery_v3_20260916/hot_vae_route.py",
+      "bytes": 2174,
+      "sha256": "23753667b003a3e649258d3a19c25ad4e463ee3b389aecf45c935ccf3920ed34",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/recovery_v3_20260916/probe_runtime.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/recovery_v3_20260916/probe_runtime.py",
+      "bytes": 1806,
+      "sha256": "240de4f5fe3f67bbde81eeac2150ebdbdbc4d19d3a1596afbe4d22f86ed55e73",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/recovery_v3_20260916/requirements.in",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/recovery_v3_20260916/requirements.in",
+      "bytes": 189,
+      "sha256": "135545c15b0354326d71e742a0514b84d47df3729eb13d1fd7d3d713c7032b75",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/recovery_v3_20260916/requirements.lock",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/recovery_v3_20260916/requirements.lock",
+      "bytes": 73593,
+      "sha256": "e127de76a7366bb99f2df48d43abbd7568e152db206ff7f706255eeb2dc613c6",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/recovery_v3_20260916/run_formal.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/recovery_v3_20260916/run_formal.py",
+      "bytes": 6140,
+      "sha256": "86ff64631278bda85ee2d5e4ba27846052a0e6bb378e14e953e636b73d7fc5f5",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/recovery_v3_20260916/run_formal_all.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/recovery_v3_20260916/run_formal_all.py",
+      "bytes": 6284,
+      "sha256": "ce8f172aff2015095b8b7950c5126b0058ec1de18ab1587eb91dcac49b55e8c7",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/recovery_v3_20260916/run_recovery.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/recovery_v3_20260916/run_recovery.py",
+      "bytes": 2705,
+      "sha256": "b7ec14aeed2fbde426b5a1ecb7af77bcba1bf16ab8a455dc8a19dd61a194f156",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/recovery_v3_20260916/run_resume.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/recovery_v3_20260916/run_resume.py",
+      "bytes": 4284,
+      "sha256": "44f7ddfb4abf9eba0f1bb1f5983b8b3c40f2379f88dc7d16b1fca311074b85b3",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/recovery_v3_20260916/run_resume_all.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/recovery_v3_20260916/run_resume_all.py",
+      "bytes": 6954,
+      "sha256": "f7cc37dd7c814b6f027ce55841acfb8447fc6b251d9b5fa202b5558c9079fb04",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/recovery_v3_20260916/stage_dev_manifest.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/recovery_v3_20260916/stage_dev_manifest.py",
+      "bytes": 1270,
+      "sha256": "d8c0584f828eaa9de53ebcc80e5938de097891283fe106d9b9152441c152d075",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/recovery_v3_20260916/stage_hot_vae.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/recovery_v3_20260916/stage_hot_vae.py",
+      "bytes": 1485,
+      "sha256": "10ad89cb9e88fbab2ba104788fbd2f79201be49a71d8df59200080405a5139dd",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/recovery_v3_20260916/test_formal.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/recovery_v3_20260916/test_formal.py",
+      "bytes": 3138,
+      "sha256": "6df2d8cb261aa23ec9933cf730a8f697025f65d13a2b1ff7bcb23362d657ff76",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/recovery_v3_20260916/test_resume.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/recovery_v3_20260916/test_resume.py",
+      "bytes": 1974,
+      "sha256": "f23b623a2446367695487545dd585938364bd2ee7cbc39e3bdcda2756a1b7612",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/recovery_v3_20260916/verify_final.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/recovery_v3_20260916/verify_final.py",
+      "bytes": 4015,
+      "sha256": "4c527607744ace3a31f420d4b5b8ce25af70e583af7ac47616bbfe622a7da2a2",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/run_first.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/run_first.py",
+      "bytes": 17717,
+      "sha256": "33d4331eb1818405855115e860eebce3054d254b3755919037d26ee84d728711",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/source_lock.json",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/source_lock.json",
+      "bytes": 977,
+      "sha256": "f520c00903b059fa7d05ec9266fd5ab4bba34b297226afa967d5845718026c7f",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/stage_components.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/stage_components.py",
+      "bytes": 7601,
+      "sha256": "e6514f9da7b47ce85dc101b0fac245416c3735771f300a1a3082b8f33758fb2e",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/stage_weights.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/stage_weights.py",
+      "bytes": 11514,
+      "sha256": "c2d20aaa9acff96f92d12d380d8aab6f585f5cb841a5a5746eb73ac7c96eafe6",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/targeted_quality_20260918/prepare_paper_images.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/targeted_quality_20260918/prepare_paper_images.py",
+      "bytes": 1740,
+      "sha256": "b4ee1793baaea8c1455e7a9699b93d0234640387b4a3c91a8b77c433b84ccff1",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/targeted_quality_20260918/run.sh",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/targeted_quality_20260918/run.sh",
+      "bytes": 480,
+      "sha256": "3b1667750626c038a693cfde2444f87c1b3b241edf674058cd31cbc385c54762",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/targeted_quality_20260918/run_diagnostic.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/targeted_quality_20260918/run_diagnostic.py",
+      "bytes": 8532,
+      "sha256": "b3c0b54468f58cde15f6f5e6f530b7599d3664c072e54e346d316ada16a9abc0",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/targeted_quality_20260918/run_input_probe.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/targeted_quality_20260918/run_input_probe.py",
+      "bytes": 9511,
+      "sha256": "6ed11f5310e10551cda5130d6ccc1a11abb63f2237aa94c8ecb5848e98dafd9f",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/targeted_quality_20260918/run_paper_cases.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/targeted_quality_20260918/run_paper_cases.py",
+      "bytes": 10283,
+      "sha256": "0c6f998f6ac4aa950ee4a6c7ead838d7d5416234d4d0e9a14476f90fb2178a0c",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/test_consume.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/test_consume.py",
+      "bytes": 4617,
+      "sha256": "128c5f3d50b5d8bfafb48bb4f042a397ecca61835565ae3d6a0faeda4d65b612",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/test_preparation.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/test_preparation.py",
+      "bytes": 5545,
+      "sha256": "21a54f27e8c842fc111920bc444ba0c488570abe6943ac2a9cfcd29740e2505f",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/test_runner.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/swiftedit/test_runner.py",
+      "bytes": 5040,
+      "sha256": "71ab9d8f617e10605d18700f0a152fa4b31a8c87141760d0f63871369ce916a3",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/test_runtime_io_v1.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/test_runtime_io_v1.py",
+      "bytes": 969,
+      "sha256": "e051f751570aa021c54c7518a74e570edd1e800ec3f84ad0f03bbc3f374df5b0",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/visual_review.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/visual_review.py",
+      "bytes": 4090,
+      "sha256": "8656580eb8310d8e597a67337314a1cd1a10853e8f6c613ba0b4a4118bfe43a3",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/render_development_contact_sheets.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/render_development_contact_sheets.py",
+      "bytes": 4287,
+      "sha256": "f21d0368c6d120900ff09cf0842a936380316ec6b94af9be16ed050163148a55",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/run_epoch1_matrix.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/run_epoch1_matrix.py",
+      "bytes": 11914,
+      "sha256": "1c2850fac0a2da1bc01a24a69e0b035a1c2fea67a445ba2cf7cb2fd5606a6bf7",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/run_epoch1_matrix.sh",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/run_epoch1_matrix.sh",
+      "bytes": 633,
+      "sha256": "9071341b772af04d6a25d36916e4946b9d6e497fd8447609b81e3e455cd2d425",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/statistics/paired_subject_statistics.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/statistics/paired_subject_statistics.py",
+      "bytes": 12307,
+      "sha256": "f0f1baaf08464ac2e46bfe607ae7ea34ae1c49f200288b57b45e32df2a44d4ed",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/statistics/test_paired_subject_statistics.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/statistics/test_paired_subject_statistics.py",
+      "bytes": 7877,
+      "sha256": "ba9097e7cb024607af49a85864b5be9d721d7608683d1487cdd747ca1a98d416",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/test_batched_training_cache.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/test_batched_training_cache.py",
+      "bytes": 6463,
+      "sha256": "f72e89975e7d4e796f9f689c61d5087f401379ee34e270cdb9b9df7509e02a8b",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/test_epoch1_matrix.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/test_epoch1_matrix.py",
+      "bytes": 8006,
+      "sha256": "a1560b3cbfdf7584f6d0271439ea8a3bf704e53e6fc4de0ff179a602a56ee8e7",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/test_generation_manifest_gate.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/test_generation_manifest_gate.py",
+      "bytes": 6401,
+      "sha256": "b134d1dbb4961595124eca32aa0ee44575485110cf1ce872b49368b0a26e892a",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/test_generation_settings.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/test_generation_settings.py",
+      "bytes": 5048,
+      "sha256": "421ff6aa18118257419ce84163861a8aa86470402ea03e8de98c95cc3c1b2441",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/test_train_adapter_state.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/test_train_adapter_state.py",
+      "bytes": 9451,
+      "sha256": "d2c842047582aed87b3133151f8b60c7f839d9c943fe00fdec857ba615481d96",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/test_train_centered_state.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/test_train_centered_state.py",
+      "bytes": 17175,
+      "sha256": "6a5c47f6ee46c7e6f2e556d5483205cdb9282e6ad547e0f99204dfe6ff294846",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/train_adapter.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/train_adapter.py",
+      "bytes": 37882,
+      "sha256": "79bfa85282d94294bdf6a620b3a87e091929592e6bf17a8128e9cabeafc9a3b3",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/train_centered_adapter.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/train_centered_adapter.py",
+      "bytes": 44050,
+      "sha256": "2ed33f8d0cbe18993feb3f48bbb1606e587dfdb03da37d754ad3b746426ae7ce",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/train_pilot.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/train_pilot.py",
+      "bytes": 12787,
+      "sha256": "95edd19b7c14752dbc82facd1798536e9f32fa932d61c566fe20e6ab1b393e80",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/独立AU控制实验_20260914/verify_step200_randomness.py",
+      "source_relative": "实验以及中间产物/独立AU控制实验_20260914/verify_step200_randomness.py",
+      "bytes": 8597,
+      "sha256": "213fc6d32dcecaea33c01737a1059ae1238dfa4afebcc44b6a425299793a4de9",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/盲审补充实验_20261023/evaluation/ablation_evaluation_contract.py",
+      "source_relative": "实验以及中间产物/盲审补充实验_20261023/evaluation/ablation_evaluation_contract.py",
+      "bytes": 10453,
+      "sha256": "a772562d48e554cd116b17050db9f504e717ed28175814d1b2e8fb96c254b379",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/盲审补充实验_20261023/evaluation/analysis_plan_v1.json",
+      "source_relative": "实验以及中间产物/盲审补充实验_20261023/evaluation/analysis_plan_v1.json",
+      "bytes": 13017,
+      "sha256": "d7b19c4c1f2ef7c5a224c5216e3247420ac366ce841061fb8abab1c54e7a6e37",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/盲审补充实验_20261023/evaluation/evaluate.py",
+      "source_relative": "实验以及中间产物/盲审补充实验_20261023/evaluation/evaluate.py",
+      "bytes": 34566,
+      "sha256": "6300be8d8002bddfcb8d82ba9a2ee56d834331d621e6805fe3ac5a1eaa1fa992",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/盲审补充实验_20261023/evaluation/test_evaluation.py",
+      "source_relative": "实验以及中间产物/盲审补充实验_20261023/evaluation/test_evaluation.py",
+      "bytes": 17377,
+      "sha256": "d822f0f3897866432e754ccd2febe55ddc04374e332ee9a31a9d27549da7111b",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/盲审补充实验_20261023/generation/ablation_core.py",
+      "source_relative": "实验以及中间产物/盲审补充实验_20261023/generation/ablation_core.py",
+      "bytes": 4041,
+      "sha256": "5d082083682b31d86b3b3d622f0abe16f2edcdfa78821fce9ee6e7a05c293af6",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/盲审补充实验_20261023/generation/diagnostics/audit_generation.py",
+      "source_relative": "实验以及中间产物/盲审补充实验_20261023/generation/diagnostics/audit_generation.py",
+      "bytes": 14107,
+      "sha256": "938e0bc05794ccc5a731fd4511f75d1d9696b37e74034a18e1a72d045e39b777",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/盲审补充实验_20261023/generation/diagnostics/test_audit_generation.py",
+      "source_relative": "实验以及中间产物/盲审补充实验_20261023/generation/diagnostics/test_audit_generation.py",
+      "bytes": 10498,
+      "sha256": "f09024647c75970f190689c78a874556c75bcc91008670c71ba4eaebedc9dc6d",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/盲审补充实验_20261023/generation/freeze_v1.json",
+      "source_relative": "实验以及中间产物/盲审补充实验_20261023/generation/freeze_v1.json",
+      "bytes": 221233,
+      "sha256": "4197dc27b8865e81ca249abed3448f92028febab0f134140416a968cb72487ec",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/盲审补充实验_20261023/generation/run_ablations.py",
+      "source_relative": "实验以及中间产物/盲审补充实验_20261023/generation/run_ablations.py",
+      "bytes": 32645,
+      "sha256": "5f9db37f120a50469fcf1aefc8607e881b1dc7bdba88de2afda3bde1a39aee2e",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/盲审补充实验_20261023/generation/test_ablation_runner.py",
+      "source_relative": "实验以及中间产物/盲审补充实验_20261023/generation/test_ablation_runner.py",
+      "bytes": 10729,
+      "sha256": "0eaea93a09bda04ae28d2e650285a7e7d5bceabfdde93676831bca45d2a47b4b",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/盲审补充实验_20261023/render_audit_sheets.py",
+      "source_relative": "实验以及中间产物/盲审补充实验_20261023/render_audit_sheets.py",
+      "bytes": 6364,
+      "sha256": "ae2c4803bae865579210e9d9d1f59d4d097364396b7b144e0cc5cf2850e789d7",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/盲审补充实验_20261023/runtime-requirements.txt",
+      "source_relative": "实验以及中间产物/盲审补充实验_20261023/runtime-requirements.txt",
+      "bytes": 772,
+      "sha256": "b1b2b223c4e92ddb9c7bfab51ee4f12ee72e490d048b98ec7551c51885391663",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/盲审补充实验_20261023/test_render_audit_sheets.py",
+      "source_relative": "实验以及中间产物/盲审补充实验_20261023/test_render_audit_sheets.py",
+      "bytes": 1649,
+      "sha256": "60876e366b0fc689235e7fcfe71ef75e8ae15ae71965f228e78073f3c420e727",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/盲审补充实验_20261023/test_verify_manual_labels.py",
+      "source_relative": "实验以及中间产物/盲审补充实验_20261023/test_verify_manual_labels.py",
+      "bytes": 2410,
+      "sha256": "8527229a33875fb8bef2b3edbeaaab0ea06d561d7704c2e1238c0a6461e8e33e",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/盲审补充实验_20261023/validation/independent_numeric_audit.py",
+      "source_relative": "实验以及中间产物/盲审补充实验_20261023/validation/independent_numeric_audit.py",
+      "bytes": 16294,
+      "sha256": "0b68a1f1ebd92e0ab86b3f88db66bb9aa644709b116c67c20cdee3f8e7fec6e0",
+      "transformation": "none"
+    },
+    {
+      "file": "source/实验以及中间产物/盲审补充实验_20261023/verify_manual_labels.py",
+      "source_relative": "实验以及中间产物/盲审补充实验_20261023/verify_manual_labels.py",
+      "bytes": 5763,
+      "sha256": "0fdf04970f2e94984aaabb54f30c9ea9148e64a3edb0e4627c77c00a3061c140",
+      "transformation": "none"
+    }
+  ]
+}

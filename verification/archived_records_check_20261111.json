@@ -1,0 +1,135 @@
+{
+  "status": "PASS",
+  "verified_files": 395,
+  "main_measurement_rows": 896,
+  "main_summaries_recomputed": 420,
+  "ablation_measurement_rows": 288,
+  "ablation_summaries_recomputed": 52,
+  "paired_primary_tests_recomputed": 9,
+  "projection_DU_reduction_percent": 59.65657701674068,
+  "smoothing_DU_reduction_percent": 4.806763661314529,
+  "external_comparison": [
+    {
+      "method": "bidirectional_local_lp_s050",
+      "values": {
+        "target_mae_changed": [
+          1.0713078703703702,
+          8,
+          24
+        ],
+        "unchanged_source_relative_drift": [
+          0.13655002906044572,
+          8,
+          24
+        ],
+        "identity_cosine": [
+          0.8322452431440699,
+          8,
+          24
+        ]
+      }
+    },
+    {
+      "method": "magicface",
+      "values": {
+        "target_mae_changed": [
+          1.2563773148148147,
+          8,
+          24
+        ],
+        "unchanged_source_relative_drift": [
+          0.21396504228795896,
+          8,
+          24
+        ],
+        "identity_cosine": [
+          0.7717591748669017,
+          8,
+          24
+        ]
+      }
+    },
+    {
+      "method": "faceadapter",
+      "values": {
+        "target_mae_changed": [
+          1.1114976851851852,
+          8,
+          24
+        ],
+        "unchanged_source_relative_drift": [
+          0.19951158409491743,
+          8,
+          24
+        ],
+        "identity_cosine": [
+          0.8513743872908637,
+          8,
+          24
+        ]
+      }
+    },
+    {
+      "method": "liveportrait",
+      "values": {
+        "target_mae_changed": [
+          0.9742777777777778,
+          8,
+          24
+        ],
+        "unchanged_source_relative_drift": [
+          0.18056334175084177,
+          8,
+          24
+        ],
+        "identity_cosine": [
+          0.9507645024384938,
+          8,
+          24
+        ]
+      }
+    },
+    {
+      "method": "swiftedit",
+      "values": {
+        "target_mae_changed": [
+          1.5859722222222221,
+          8,
+          22
+        ],
+        "unchanged_source_relative_drift": [
+          0.32221591911175246,
+          8,
+          22
+        ],
+        "identity_cosine": [
+          0.3581485984664056,
+          8,
+          22
+        ]
+      }
+    },
+    {
+      "method": "performrecast",
+      "values": {
+        "target_mae_changed": [
+          1.0266597222222222,
+          8,
+          24
+        ],
+        "unchanged_source_relative_drift": [
+          0.167910579004329,
+          8,
+          24
+        ],
+        "identity_cosine": [
+          0.9497426286796621,
+          8,
+          24
+        ]
+      }
+    }
+  ],
+  "scope": "Recomputed seed/case/subject means from archived measurements. No training, inference, AU/FaceNet rerun or bootstrap rerun.",
+  "models_loaded": false
+}

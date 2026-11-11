@@ -1,0 +1,88 @@
+{
+  "protocol": "independent_au_supervision_subjects_v2",
+  "frozen_at_utc": "2026-09-14T08:25:03.854493+00:00",
+  "seed": 20260914,
+  "groups": {
+    "train": [
+      "SN001",
+      "SN002",
+      "SN006",
+      "SN007",
+      "SN010",
+      "SN011",
+      "SN013",
+      "SN016",
+      "SN023",
+      "SN025",
+      "SN026",
+      "SN027",
+      "SN028",
+      "SN029",
+      "SN030"
+    ],
+    "dev": [
+      "SN004",
+      "SN012",
+      "SN017",
+      "SN018"
+    ],
+    "test": [
+      "SN003",
+      "SN005",
+      "SN008",
+      "SN009",
+      "SN021",
+      "SN024",
+      "SN031",
+      "SN032"
+    ]
+  },
+  "counts": {
+    "train": 15,
+    "dev": 4,
+    "test": 8
+  },
+  "forced_train": [
+    "SN016",
+    "SN029"
+  ],
+  "forced_dev": [
+    "SN012",
+    "SN018"
+  ],
+  "test_excluded_legacy_subjects": [
+    "SN002",
+    "SN010",
+    "SN017",
+    "SN023",
+    "SN025",
+    "SN026",
+    "SN027",
+    "SN028",
+    "SN029"
+  ],
+  "test_locked": true,
+  "test_frames_prepared": false,
+  "selection_basis": "original human AU label event coverage only; no new or old model predictions/outputs inspected",
+  "search_iterations": 12000,
+  "score": 62.08103423586557,
+  "au_order": [
+    1,
+    2,
+    4,
+    5,
+    6,
+    9,
+    12,
+    15,
+    17,
+    20,
+    25,
+    26
+  ],
+  "label_source_manifest_sha256": "9c9b9f62415532e61d03a64dceefb00c36a8740c3d8d421ab75a3d2ae98e11c5",
+  "planner_sha256": "5f790810357e1a9e68cf4f8a13922fb8547f1e351f2e8dd0f01fc85a959b6473",
+  "supersedes_subject_manifest_sha256": "b8ed724b78aa6b2cfa5fd25edf766c76d14841029fa367743fb04f40d45a23ed",
+  "revision_reason": "before any test extraction/output: increase independent test subjects 5 to 8; no model scores used",
+  "exact_two_sided_sign_flip_minimum_p": 0.0078125
+}

@@ -1,0 +1,4 @@
+id,method,reference,metric,paired_method_mean,paired_reference_mean,mean_difference,difference_ci95,two_sided_sign_flip_p,holm_adjusted_p,holm_family_size,n_subjects,n_cases,n_seed_pairs,sign_patterns
+full_vs_no_projection,full,no_projection,unchanged_source_relative_drift,0.13655002906044572,0.3384691207712041,-0.2019190917107584,"[-0.30827501202501195, -0.102216019320186]",0.0078125,0.0234375,3,8,24,72,256
+full_vs_no_smoothing,full,no_smoothing,unchanged_source_relative_drift,0.13655002906044572,0.14344509579926246,-0.006895066738816737,"[-0.014081023528940188, -0.0017654320987654237]",0.03125,0.03125,3,8,24,72,256
+full_vs_both_off,full,both_off,unchanged_source_relative_drift,0.13655002906044572,0.3445593584656084,-0.2080093294051627,"[-0.31372253787878784, -0.1072852483164983]",0.0078125,0.0234375,3,8,24,72,256

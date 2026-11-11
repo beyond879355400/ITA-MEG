@@ -1,0 +1,6 @@
+# Only these packages were added to env_overlay_v1; torch/vision/ONNX are read-only inherited.
+timm==1.0.19
+pytorch-lightning==2.1.4
+torchmetrics==1.3.2
+lightning-utilities==0.10.1
+imageio-ffmpeg==0.6.0

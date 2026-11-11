@@ -1,0 +1,417 @@
+{
+  "kind": "frozen_supplementary_ablation_analysis_v1",
+  "created_utc": "2026-10-23T08:56:59.632018+00:00",
+  "data_role": "supplementary_projection_smoothing_ablation",
+  "analysis_spec": {
+    "metrics": {
+      "target_mae_changed": {
+        "direction": "lower"
+      },
+      "delta_mae_changed": {
+        "direction": "lower"
+      },
+      "unchanged_source_relative_drift": {
+        "direction": "lower"
+      },
+      "target_mae_all12": {
+        "direction": "lower"
+      },
+      "delta_mae_all12": {
+        "direction": "lower"
+      },
+      "direction_correct_fraction": {
+        "direction": "higher"
+      },
+      "identity_cosine": {
+        "direction": "higher"
+      },
+      "extra5_proxy_mae_to_real_target": {
+        "direction": "lower"
+      },
+      "extra_AU7_error_to_real_target": {
+        "direction": "lower"
+      },
+      "extra_AU10_error_to_real_target": {
+        "direction": "lower"
+      },
+      "extra_AU14_error_to_real_target": {
+        "direction": "lower"
+      },
+      "extra_AU23_error_to_real_target": {
+        "direction": "lower"
+      },
+      "extra_AU45_error_to_real_target": {
+        "direction": "lower"
+      }
+    },
+    "comparisons": [
+      {
+        "id": "full_vs_no_projection",
+        "method": "full",
+        "reference": "no_projection",
+        "metric": "unchanged_source_relative_drift",
+        "family": "projection_smoothing_primary_DU"
+      },
+      {
+        "id": "full_vs_no_smoothing",
+        "method": "full",
+        "reference": "no_smoothing",
+        "metric": "unchanged_source_relative_drift",
+        "family": "projection_smoothing_primary_DU"
+      },
+      {
+        "id": "full_vs_both_off",
+        "method": "full",
+        "reference": "both_off",
+        "metric": "unchanged_source_relative_drift",
+        "family": "projection_smoothing_primary_DU"
+      }
+    ],
+    "bootstrap_samples": 50000,
+    "bootstrap_seed": 20261023,
+    "confidence_level": 0.95
+  },
+  "subgroup_plan": {
+    "assignment_basis": "frozen manual target AU labels only; source labels are all zero",
+    "case_assignments": {
+      "postfreeze_SN003_s00869_t01203": {
+        "subject": "SN003",
+        "active_aus": [
+          6,
+          9
+        ],
+        "intensity_partition": "has_intensity_gt1",
+        "combination_partition": "multi_active_au"
+      },
+      "postfreeze_SN003_s00869_t03029": {
+        "subject": "SN003",
+        "active_aus": [
+          4
+        ],
+        "intensity_partition": "has_intensity_gt1",
+        "combination_partition": "single_active_au"
+      },
+      "postfreeze_SN003_s00869_t04558": {
+        "subject": "SN003",
+        "active_aus": [
+          4,
+          6,
+          9,
+          20,
+          25
+        ],
+        "intensity_partition": "has_intensity_gt1",
+        "combination_partition": "multi_active_au"
+      },
+      "postfreeze_SN005_s03289_t00539": {
+        "subject": "SN005",
+        "active_aus": [
+          12,
+          25
+        ],
+        "intensity_partition": "has_intensity_gt1",
+        "combination_partition": "multi_active_au"
+      },
+      "postfreeze_SN005_s03289_t00903": {
+        "subject": "SN005",
+        "active_aus": [
+          12
+        ],
+        "intensity_partition": "all_active_intensity1",
+        "combination_partition": "single_active_au"
+      },
+      "postfreeze_SN005_s03289_t02174": {
+        "subject": "SN005",
+        "active_aus": [
+          20
+        ],
+        "intensity_partition": "has_intensity_gt1",
+        "combination_partition": "single_active_au"
+      },
+      "postfreeze_SN008_s00398_t00218": {
+        "subject": "SN008",
+        "active_aus": [
+          6,
+          12
+        ],
+        "intensity_partition": "has_intensity_gt1",
+        "combination_partition": "multi_active_au"
+      },
+      "postfreeze_SN008_s00398_t00809": {
+        "subject": "SN008",
+        "active_aus": [
+          6
+        ],
+        "intensity_partition": "all_active_intensity1",
+        "combination_partition": "single_active_au"
+      },
+      "postfreeze_SN008_s00398_t04228": {
+        "subject": "SN008",
+        "active_aus": [
+          5
+        ],
+        "intensity_partition": "has_intensity_gt1",
+        "combination_partition": "single_active_au"
+      },
+      "postfreeze_SN009_s04443_t00063": {
+        "subject": "SN009",
+        "active_aus": [
+          12
+        ],
+        "intensity_partition": "all_active_intensity1",
+        "combination_partition": "single_active_au"
+      },
+      "postfreeze_SN009_s04443_t00399": {
+        "subject": "SN009",
+        "active_aus": [
+          1,
+          12,
+          17,
+          20
+        ],
+        "intensity_partition": "has_intensity_gt1",
+        "combination_partition": "multi_active_au"
+      },
+      "postfreeze_SN009_s04443_t00749": {
+        "subject": "SN009",
+        "active_aus": [
+          12,
+          17
+        ],
+        "intensity_partition": "all_active_intensity1",
+        "combination_partition": "multi_active_au"
+      },
+      "postfreeze_SN021_s02743_t00433": {
+        "subject": "SN021",
+        "active_aus": [
+          12
+        ],
+        "intensity_partition": "all_active_intensity1",
+        "combination_partition": "single_active_au"
+      },
+      "postfreeze_SN021_s02743_t01143": {
+        "subject": "SN021",
+        "active_aus": [
+          4,
+          12,
+          25
+        ],
+        "intensity_partition": "has_intensity_gt1",
+        "combination_partition": "multi_active_au"
+      },
+      "postfreeze_SN021_s02743_t01833": {
+        "subject": "SN021",
+        "active_aus": [
+          4
+        ],
+        "intensity_partition": "all_active_intensity1",
+        "combination_partition": "single_active_au"
+      },
+      "postfreeze_SN024_s02323_t00214": {
+        "subject": "SN024",
+        "active_aus": [
+          25
+        ],
+        "intensity_partition": "all_active_intensity1",
+        "combination_partition": "single_active_au"
+      },
+      "postfreeze_SN024_s02323_t01418": {
+        "subject": "SN024",
+        "active_aus": [
+          17,
+          20
+        ],
+        "intensity_partition": "has_intensity_gt1",
+        "combination_partition": "multi_active_au"
+      },
+      "postfreeze_SN024_s02323_t01673": {
+        "subject": "SN024",
+        "active_aus": [
+          4,
+          9,
+          25
+        ],
+        "intensity_partition": "has_intensity_gt1",
+        "combination_partition": "multi_active_au"
+      },
+      "postfreeze_SN031_s03334_t01453": {
+        "subject": "SN031",
+        "active_aus": [
+          12,
+          17,
+          25,
+          26
+        ],
+        "intensity_partition": "has_intensity_gt1",
+        "combination_partition": "multi_active_au"
+      },
+      "postfreeze_SN031_s03334_t01588": {
+        "subject": "SN031",
+        "active_aus": [
+          12,
+          25,
+          26
+        ],
+        "intensity_partition": "has_intensity_gt1",
+        "combination_partition": "multi_active_au"
+      },
+      "postfreeze_SN031_s03334_t02693": {
+        "subject": "SN031",
+        "active_aus": [
+          1,
+          2
+        ],
+        "intensity_partition": "has_intensity_gt1",
+        "combination_partition": "multi_active_au"
+      },
+      "postfreeze_SN032_s02758_t02359": {
+        "subject": "SN032",
+        "active_aus": [
+          25,
+          26
+        ],
+        "intensity_partition": "has_intensity_gt1",
+        "combination_partition": "multi_active_au"
+      },
+      "postfreeze_SN032_s02758_t04129": {
+        "subject": "SN032",
+        "active_aus": [
+          1,
+          4
+        ],
+        "intensity_partition": "has_intensity_gt1",
+        "combination_partition": "multi_active_au"
+      },
+      "postfreeze_SN032_s02758_t04754": {
+        "subject": "SN032",
+        "active_aus": [
+          4,
+          9,
+          25
+        ],
+        "intensity_partition": "has_intensity_gt1",
+        "combination_partition": "multi_active_au"
+      }
+    },
+    "active_AU_case_counts": {
+      "1": 3,
+      "2": 1,
+      "4": 7,
+      "5": 1,
+      "6": 4,
+      "9": 4,
+      "12": 10,
+      "15": 0,
+      "17": 4,
+      "20": 4,
+      "25": 9,
+      "26": 3
+    },
+    "missing_active_AUs": [
+      15
+    ],
+    "metrics": [
+      "target_mae_changed",
+      "unchanged_source_relative_drift",
+      "identity_cosine"
+    ],
+    "descriptive_only": true,
+    "new_subjects_or_expanded_AU_coverage": false,
+    "partitions": {
+      "intensity_partition": [
+        "all_active_intensity1",
+        "has_intensity_gt1"
+      ],
+      "combination_partition": [
+        "single_active_au",
+        "multi_active_au"
+      ]
+    }
+  },
+  "real_reference_calibration": {
+    "kind": "automatic_AU_estimator_bias_check_on_real_manually_labeled_frames",
+    "references": [
+      "source_real",
+      "target_real"
+    ],
+    "manual_label_source": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/evaluation/references_v1/references.json",
+      "sha256": "e93c575050f2fa0a3b1e312830fe4b622bc33d0a3fa76efeaf77c7484a168761"
+    },
+    "AU_order": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      9,
+      12,
+      15,
+      17,
+      20,
+      25,
+      26
+    ],
+    "intensity_strata": [
+      "all",
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "metrics": [
+      "absolute_error",
+      "signed_error",
+      "manual_intensity",
+      "estimated_intensity"
+    ],
+    "signed_error": "OpenFace estimate minus manual label",
+    "deduplication": "same image SHA once; conflicting subject/labels excluded and explicitly listed",
+    "aggregation": "unique real frames averaged within subject then subjects equally weighted",
+    "failure_policy": "retain planned image count; invalid measured 12AU vector yields NA",
+    "descriptive_only": true,
+    "generated_image_human_evaluation": false,
+    "independent_new_subject_validation": false
+  },
+  "reference_manifest": {
+    "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/evaluation/references_v1/references.json",
+    "sha256": "e93c575050f2fa0a3b1e312830fe4b622bc33d0a3fa76efeaf77c7484a168761"
+  },
+  "algorithm_bindings": {
+    "openface": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/openface_v2.py",
+      "sha256": "5446237ff2fba672bd06ec62820bf671d9deb4c776d83a28d18060a581b9f908"
+    },
+    "facenet": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/run_facenet_single_directions.py",
+      "sha256": "5d8e1916bb5bcc9afc307980438b5f2f3fb0610f5dde12141f90e85efa7ebc2d"
+    },
+    "au_metrics": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/v3_global_raw_dev64/evaluate.py",
+      "sha256": "5a8b8944375f5b7ef1ebca3bbfe46cc2513beb2a110f27d5842d10f286d1e3dd"
+    },
+    "extra_metrics": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/summarize_v2.py",
+      "sha256": "e9aa7cc6263e1126a03a2aba103a5852fb999b9a4e227470852105018a0b0c12"
+    },
+    "statistics": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/statistics/paired_subject_statistics.py",
+      "sha256": "f0f1baaf08464ac2e46bfe607ae7ea34ae1c49f200288b57b45e32df2a44d4ed"
+    }
+  },
+  "source_bindings": {
+    "evaluate.py": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/盲审补充实验_20261023/evaluation/evaluate.py",
+      "sha256": "6300be8d8002bddfcb8d82ba9a2ee56d834331d621e6805fe3ac5a1eaa1fa992"
+    },
+    "ablation_evaluation_contract.py": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/盲审补充实验_20261023/evaluation/ablation_evaluation_contract.py",
+      "sha256": "a772562d48e554cd116b17050db9f504e717ed28175814d1b2e8fb96c254b379"
+    }
+  },
+  "plan_count": 288,
+  "new_subject_test": false,
+  "no_new_output_images_or_scores_read": true
+}

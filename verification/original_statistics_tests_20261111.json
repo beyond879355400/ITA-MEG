@@ -1,0 +1,10 @@
+{
+  "tests_run": 10,
+  "failures": [],
+  "errors": [],
+  "passed": true,
+  "input_scope": "pure synthetic fixtures only",
+  "real_test_metrics_read": false,
+  "models_or_evaluators_called": false,
+  "statistics_source_sha256": "f0f1baaf08464ac2e46bfe607ae7ea34ae1c49f200288b57b45e32df2a44d4ed"
+}

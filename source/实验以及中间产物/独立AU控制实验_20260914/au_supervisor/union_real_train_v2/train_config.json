@@ -1,0 +1,62 @@
+{
+  "data_manifest": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/au_supervisor/union_real_train_v2/data_union.json",
+  "data_manifest_sha256": "1a4875c249098763cb4aaa42f1939521fc9d87990794c6b86737ca03b47ebe7c",
+  "output_dir": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/au_supervisor/union_real_train_v2/training",
+  "parent_qualification": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/au_supervisor/layer4_v1/qualification.json",
+  "parent_qualification_sha256": "1a500f9b8fddfb1ca01d5505965ce33aa8c3fadd4065d5a4efc7a6ffa83560de",
+  "parent_checkpoint": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/au_supervisor/layer4_v1/qualified_supervisor.pt",
+  "parent_checkpoint_sha256": "3dd3f4da559fc2a9a915713815847bebf481df09cc46ffccdbbf60bdfb88ed49",
+  "subject_split_sha256": "b0837ba1ae1b30eec0dd33c48f2300809625a09437b2c161ac4576dad521fe6d",
+  "model_config": {
+    "num_aus": 12,
+    "hidden_dim": 128,
+    "image_size": 224,
+    "intensity_scale": 5.0
+  },
+  "model_source_sha256": "f5b83370237946cf01aa870eddcad98beee8b883661ae1cd063eba761ccd7e6d",
+  "device": "mps",
+  "seed": 20260914,
+  "epochs": 30,
+  "batch_size": 16,
+  "layer4_lr": 0.0001,
+  "head_lr": 0.0005,
+  "weight_decay": 0.0001,
+  "optimizer_policy": "new AdamW with empty state because training data changed; not exact resume of previous training",
+  "batchnorm": "running statistics frozen eval; layer4 affine trainable",
+  "loss": "same full12AU normalized MSE=rawMSE/25",
+  "qualification_gate": {
+    "supported_au_numbers": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      9,
+      12,
+      15,
+      17,
+      20,
+      25,
+      26
+    ],
+    "support_rule": "dev >=2 distinct raw label levels and >=10 active frames; chosen using labels only before predictions",
+    "relative_improvement_over_best_constant_macro": 0.05,
+    "relative_improvement_over_best_constant_active": 0.05,
+    "minimum_positive_pearson_fraction": 0.6666666666666666,
+    "minimum_median_pearson": 0.2,
+    "constant_baselines": [
+      "train_mean",
+      "train_median",
+      "zero"
+    ],
+    "undefined_pearson_for_gate": 0,
+    "selection": "among qualified epochs, smallest dev macro_mae, then active_mae, then earliest epoch",
+    "unqualified_policy": "save diagnostic best but prohibit generator AU-loss use",
+    "interpretation": "engineering pilot qualification, not statistical significance or final test validation"
+  },
+  "constant_baselines": "recompute train mean/median/zero from union labels only; same fixed240dev and original gate rules",
+  "parent_entry_evaluation": true,
+  "selection": "qualified checkpoints first, then smallest dev macroMAE, activeMAE, earliest epoch; parent entry reported separately",
+  "scope": "AU supervisor extension and qualification; warmstart plus additional optimization means this is not a pure causal sample-count ablation",
+  "test_used": false
+}

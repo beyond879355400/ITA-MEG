@@ -1,0 +1,110 @@
+{
+  "policy": {
+    "version": "selected_v11_complete_grid_v1",
+    "variant_order": [
+      "base",
+      "bidirectional",
+      "condition_reads_image",
+      "image_reads_condition",
+      "mlp"
+    ],
+    "sampling_seeds": [
+      101,
+      202,
+      303
+    ],
+    "checkpoint_step": 200,
+    "width": 512,
+    "height": 512,
+    "source_init_strength": 0.75,
+    "nominal_steps": 20,
+    "actual_timesteps": [
+      749,
+      699,
+      649,
+      599,
+      549,
+      500,
+      450,
+      400,
+      350,
+      300,
+      250,
+      200,
+      150,
+      100,
+      50
+    ],
+    "scheduler": "DEISMultistepScheduler",
+    "guidance_scale": 7.5,
+    "au_scale": 1.5,
+    "ip_scale": 0.9,
+    "negative_prompt": "",
+    "cleanup_sigma": 0.5,
+    "terminal": "last_t50_cfg_epsilon",
+    "deis_unet_calls": 15,
+    "terminal_unet_calls": 0,
+    "source_latent": "VAE posterior mean times scaling_factor",
+    "projection": "first14 next_t source plus same noise; terminal V11 clean then source projection once",
+    "dtype": "torch.float32",
+    "source_device": "mps",
+    "generation_device": "mps",
+    "target_pixels_used": false,
+    "target_latents_computed": false,
+    "zero_edit": "source VAE reconstruction by construction, not learned identity evidence"
+  },
+  "checkpoints": {
+    "bidirectional": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/runs/v4_slot_2k_bidir_step200_202609141920/checkpoint_00000200.pt",
+      "sha256": "7fcc25b704fca8c0a4e46a171096df8fea940b40a246d4939193e64f533b4e30"
+    },
+    "condition_reads_image": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/runs/v4_slot_2k_condition_reads_image_step200_202609142024/checkpoint_00000200.pt",
+      "sha256": "969def9470fb6a8ba4ff5b37e11b601144101e563e25ff3c26e09e4fdb71396b"
+    },
+    "image_reads_condition": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/runs/v4_slot_2k_image_reads_condition_step200_202609142032/checkpoint_00000200.pt",
+      "sha256": "99b565be708493e23a5a5d11829353cbc88cba3c2d78a388be49534703bd695f"
+    },
+    "mlp": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/runs/v4_slot_2k_mlp_step200_202609142000/checkpoint_00000200.pt",
+      "sha256": "f58336567246ecd2f6818ea4ae30f947914af4e9c2296177b86169b95d6aa6f5"
+    }
+  },
+  "execution_sources": {
+    "common.py": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation/common.py",
+      "sha256": "903ab5e47c7b66e6b1d7c04fda4d09ec5e25fd384fe3465218014b536b550fad"
+    },
+    "geometry.py": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation/geometry.py",
+      "sha256": "7af39d078503b2633c9c7eae0f82067e0cc25262da5cdb76de5f59d94e1342c5"
+    },
+    "run_grid.py": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation/run_grid.py",
+      "sha256": "1f7768c9b252f50cacfbf799f477578799272e85fee5ae5648a60765034f0159"
+    },
+    "prepare_cache.py": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation/prepare_cache.py",
+      "sha256": "71a193b2c34a8057681e7e8aa8322638b3201283436b01d02046dff52237dcd9"
+    }
+  },
+  "reused_sources": {
+    "v11": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/improvements/a_local_cleanup_v11_20260915/run_local.py",
+      "sha256": "7f872acfb9d6114c4da4e25ee35c4157727be1c3a30822227c64c77e1c68f78a"
+    },
+    "v11_geometry": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/improvements/a_local_cleanup_v11_20260915/cleanup_mask.py",
+      "sha256": "913623ca6c2dd76f0a3bca5a5316a6fb10339a3fe0d506944286fba32ee41be9"
+    },
+    "v7_geometry": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/improvements/smooth_regions_v7_20260915/region_mask.py",
+      "sha256": "ca173d310425c6c97ba4350a21cdd5b3d4f08a961fdb87b9c134e1b3029ef824"
+    },
+    "source_runtime": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/final_test/prepare_source_cache.py",
+      "sha256": "3f12b67deefdf890696739e469fa29647485d3f7e9e45a83a45995970d6dadae"
+    }
+  }
+}

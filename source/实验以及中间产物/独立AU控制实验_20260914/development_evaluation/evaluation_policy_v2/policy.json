@@ -1,0 +1,163 @@
+{
+  "policy_id": "evaluation_policy_v2",
+  "schema_version": 2,
+  "frozen_at_utc": "2026-09-14T12:39:48.772431+00:00",
+  "phase": "revised_after_development_diagnostics_before_final_test",
+  "introduced_after_dev_results": true,
+  "final_test_accessed": false,
+  "revision_reason": "Singleton-only validity conflated tiny texture candidates with failure of a dominant face in a single-person task. Replace outcome-independent geometry selection consistently across real calibration and all methods. Use a separate identity encoder as primary.",
+  "legacy_reports_preserved": true,
+  "legacy_policy": "singleton-only OpenFace/identity validity; buffalo used as main available identity metric",
+  "source_controls": {
+    "primary_face_choice": "largest geometry area, never identity similarity/AU error/model rank",
+    "retain_all_candidates": true,
+    "retain_all_raw_OpenFace_rows": true,
+    "tie_break": "first returned row/candidate index",
+    "invalid_geometry": "retain but not rankable; if no finite positive-area geometry then NA",
+    "selected_invalid_values": "affected metric NA; never switch to smaller face to improve a score",
+    "duplicate_image_sha_reuse_allowed": true
+  },
+  "openface": {
+    "input": "original canonical512 RGB image; no padding/enhancement",
+    "backend": "FaceLandmarkImg official CLNF general static AU",
+    "flags": [
+      "-aus",
+      "-2Dfp",
+      "-mloc",
+      "build/bin/model/main_clnf_general.txt"
+    ],
+    "selection": "largest un-clipped bbox formed by all68 x/y landmarks; geometry-only",
+    "confidence": "retain continuous value; no confidence cutoff added",
+    "primary_au_order": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      9,
+      12,
+      15,
+      17,
+      20,
+      25,
+      26
+    ],
+    "all_au_order": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      9,
+      10,
+      12,
+      14,
+      15,
+      17,
+      20,
+      23,
+      25,
+      26,
+      45
+    ],
+    "primary_validity": "selected confidence and all12 AU finite, AU values in[0,5]",
+    "tool_seal_sha256": "96763a079b8c64ab255ccd6207f280a2bfd55b1914ac4455ce100cffeeefdaae",
+    "output_flag_evidence": {
+      "directory": "external_baselines/evaluation/primary_face_sensitivity_202609142028",
+      "results_sha256": "d15c6c3758631235c08a8f26f48bd7c11fbc872c82fda6bee594c5f23e92c36b",
+      "protocol_sha256": "cc959500e587fdca6b0065edc3d970750bd74b46c9e5c91b36ba1c7e5e49437b",
+      "scope": "six-image paired flag check; each corresponding raw row all17AU unchanged, plus source inspection of output-only flag"
+    }
+  },
+  "identity_primary": {
+    "name": "FaceNet InceptionResnetV1 VGGFace2, facenet-pytorch",
+    "role": "independent of generator condition and identity-loss encoders",
+    "input": "canonical512 PIL RGB, no padding",
+    "detector": "MTCNN",
+    "image_size": 160,
+    "margin": 0,
+    "min_face_size": 20,
+    "thresholds": [
+      0.6,
+      0.7,
+      0.7
+    ],
+    "factor": 0.709,
+    "keep_all_for_audit": true,
+    "selection": "largest un-clipped detector bbox area; retain all boxes/areas/probabilities/landmarks",
+    "post_process": true,
+    "standardization": "(pixel_0_to_255 -127.5)/128.0, exactly once in author extract()",
+    "model_mode": "eval,512D L2-normalized",
+    "device": "cpu",
+    "threads": 2,
+    "identity_acceptance_threshold": null,
+    "tool_seal_sha256": "731d6ce65989165883b6b65ac54393f99f139807f0f3c03c674b246be18c2c36"
+  },
+  "identity_auxiliary": {
+    "name": "buffalo_l/w600k_r50",
+    "role": "conditioning encoder space, auxiliary only",
+    "input": "canonical BGR, uniform128px gray128 padding",
+    "api": "FaceAnalysis detection+recognition CPUExecutionProvider",
+    "detector_size": [
+      640,
+      640
+    ],
+    "detector_threshold": 0.5,
+    "selection": "largest un-clipped detector bbox area; retain all candidates",
+    "threshold_search": false,
+    "fallback": false,
+    "model_sha256": {
+      "det_10g.onnx": "5838f7fe053675b1c7a08b633df49e7af5495cee0493c7dcf6697200b85b5b91",
+      "w600k_r50.onnx": "4c06341c33c2ca1f86781dab0e829f88ad5b64be9fba56e56bc9ebdefc619e43"
+    }
+  },
+  "primary_metrics": {
+    "AU_units": "raw0-5",
+    "C": "manual target12 != source12, not selected by predictions",
+    "no_edit": "C empty -> C metricsNA; output invariance tested separately",
+    "reported": [
+      "target_C_MAE",
+      "delta_C_MAE",
+      "unchanged_AU_source_relative_drift",
+      "all12_MAE",
+      "direction_correct_fraction",
+      "FaceNet_identity_cosine"
+    ],
+    "paired_policy": "per metric common valid cases; cases then subject-equal aggregation; everyn/subjectcount explicit; all failures retained"
+  },
+  "extra5_diagnostics": {
+    "aus": [
+      7,
+      10,
+      14,
+      23,
+      45
+    ],
+    "primary": false,
+    "reference": "same real target selected-face OpenFace measurements, not invented zero manual labels",
+    "report_all5": true,
+    "missing_reference_or_output": "NA",
+    "no_isolated_AU45_selection": true
+  },
+  "calibration_order": [
+    "all240 realdev OpenFace",
+    "original12 unique real images FaceNet (parallel allowed)",
+    "then all95 dev19 items for three methods and real references"
+  ],
+  "inputs": {
+    "dev19_items.json": {
+      "path": "dev19_items.json",
+      "sha256": "d36f22fd555b4bed7b5a21b71bb590bf2d251946b3f4576e5e879b1ad9286b8c"
+    },
+    "real_dev240_items.json": {
+      "path": "real_dev240_items.json",
+      "sha256": "9946a8dd3a00945c79c8a5537f3f13d92de096b7dc677fd18369affdc87f94d1"
+    },
+    "facenet_real12_items.json": {
+      "path": "facenet_real12_items.json",
+      "sha256": "5700cc83ab31eb0e651db685d66342e7655d7b71d91459d5b291313e1f68e337"
+    }
+  },
+  "freeze_script_sha256": "833b38c4d205b660badcd22762b8e8f024314149d36db6dac130348e188d8f81"
+}

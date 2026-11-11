@@ -1,0 +1,15 @@
+{
+  "repository": "https://github.com/Qualcomm-AI-research/SwiftEdit",
+  "revision": "230bff1aaff5d952210c717d55537c5b29d596ad",
+  "files": {
+    "LICENSE": "271a3300194cd80716e62c562f989c28a0de873d0d17a22b6e2cdda1378a3345",
+    "README.md": "ea8da0d130c8e41935c172197a799ca09336149a4340b3ff3ec6592c2f3ec709",
+    "infer.py": "dfa681a1aaff40082749bfe12c502953e88d55797d46bd48defb03d4a65af168",
+    "models.py": "8799481b8224ee63c97f075baffd1a7d287f43e637aa7f7eac755ba32915b3d1",
+    "requirements.txt": "5042a75fb6c3b42fcccfe88e2769f7417d788cc041e6fc6759b06b76c8abff8c",
+    "src/__init__.py": "7203cc79da122e604289f5a42cfaa41ab61aafe38cfc0cbb3a0a722eb8c0aa85",
+    "src/attention_processor.py": "d2869ec00329f397387bd9755b8f3401f84b3105ec58d9f39392c04a9e4bc213",
+    "src/mask_attention_processor.py": "77599b6293425b362cdd9e0fe7fe92af877f110d7a338a7be164305e7865adad",
+    "src/mask_ip_controller.py": "2956f2bd9314761af540ddaf2275463167045eec5c7d3eea1989b666663e02d4"
+  }
+}

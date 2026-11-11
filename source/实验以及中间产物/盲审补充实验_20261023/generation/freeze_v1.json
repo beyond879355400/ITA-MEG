@@ -1,0 +1,3924 @@
+{
+  "kind": "frozen_preservation_factorial_v1",
+  "created_utc": "20261023T085411555630Z",
+  "status": "frozen",
+  "cases": [
+    {
+      "subject": "SN003",
+      "split": "postfreeze_case_validation",
+      "camera": "right",
+      "video_path": "/Users/mayfair/Desktop/Cursor/geme-main/DISFA/Video_RightCamera/RightVideoSN003_comp.avi",
+      "source_frame_1based": 869,
+      "source_frame_zero_based": 868,
+      "source_au_vector_0_5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "au_order": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        9,
+        12,
+        15,
+        17,
+        20,
+        25,
+        26
+      ],
+      "images_prepared": false,
+      "source_nearest_old_frame_gap": 2,
+      "case_id": "postfreeze_SN003_s00869_t01203",
+      "kind": "nonzero_target",
+      "target_frame_1based": 1203,
+      "target_frame_zero_based": 1202,
+      "target_au_vector_0_5": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "target_nearest_old_frame_gap": 2,
+      "selection_tie_hash": "0075599984101f188554aec3ebc07f111892153b9430f2f088f7d4845ca89a9d",
+      "source_id": "SN003_source_f00869",
+      "prompt": "A tightly cropped photograph of a face with slightly raised cheeks, slightly a wrinkled nose.",
+      "condition_status": "complete"
+    },
+    {
+      "subject": "SN003",
+      "split": "postfreeze_case_validation",
+      "camera": "right",
+      "video_path": "/Users/mayfair/Desktop/Cursor/geme-main/DISFA/Video_RightCamera/RightVideoSN003_comp.avi",
+      "source_frame_1based": 869,
+      "source_frame_zero_based": 868,
+      "source_au_vector_0_5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "au_order": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        9,
+        12,
+        15,
+        17,
+        20,
+        25,
+        26
+      ],
+      "images_prepared": false,
+      "source_nearest_old_frame_gap": 2,
+      "case_id": "postfreeze_SN003_s00869_t03029",
+      "kind": "nonzero_target",
+      "target_frame_1based": 3029,
+      "target_frame_zero_based": 3028,
+      "target_au_vector_0_5": [
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "target_nearest_old_frame_gap": 2,
+      "selection_tie_hash": "005890fb8332b81af238b6f9782225c9eaa1be89f8e683d7124a2c6139d6ebfa",
+      "source_id": "SN003_source_f00869",
+      "prompt": "A tightly cropped photograph of a face with slightly lowered brows.",
+      "condition_status": "complete"
+    },
+    {
+      "subject": "SN003",
+      "split": "postfreeze_case_validation",
+      "camera": "right",
+      "video_path": "/Users/mayfair/Desktop/Cursor/geme-main/DISFA/Video_RightCamera/RightVideoSN003_comp.avi",
+      "source_frame_1based": 869,
+      "source_frame_zero_based": 868,
+      "source_au_vector_0_5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "au_order": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        9,
+        12,
+        15,
+        17,
+        20,
+        25,
+        26
+      ],
+      "images_prepared": false,
+      "source_nearest_old_frame_gap": 2,
+      "case_id": "postfreeze_SN003_s00869_t04558",
+      "kind": "nonzero_target",
+      "target_frame_1based": 4558,
+      "target_frame_zero_based": 4557,
+      "target_au_vector_0_5": [
+        0,
+        0,
+        2,
+        0,
+        3,
+        3,
+        0,
+        0,
+        0,
+        3,
+        3,
+        0
+      ],
+      "target_nearest_old_frame_gap": 2,
+      "selection_tie_hash": "0032236b1aa01ec476c689a3698ebd18a23e301464feb4ca698fe38376598b1c",
+      "source_id": "SN003_source_f00869",
+      "prompt": "A tightly cropped photograph of a face with slightly lowered brows, moderately raised cheeks, moderately a wrinkled nose, moderately stretched lips, moderately parted lips.",
+      "condition_status": "complete"
+    },
+    {
+      "subject": "SN005",
+      "split": "postfreeze_case_validation",
+      "camera": "left",
+      "video_path": "/Users/mayfair/Desktop/Cursor/geme-main/DISFA/Videos_LeftCamera/LeftVideoSN005_comp.avi",
+      "source_frame_1based": 3289,
+      "source_frame_zero_based": 3288,
+      "source_au_vector_0_5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "au_order": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        9,
+        12,
+        15,
+        17,
+        20,
+        25,
+        26
+      ],
+      "images_prepared": false,
+      "source_nearest_old_frame_gap": 2,
+      "case_id": "postfreeze_SN005_s03289_t00539",
+      "kind": "nonzero_target",
+      "target_frame_1based": 539,
+      "target_frame_zero_based": 538,
+      "target_au_vector_0_5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        3,
+        0
+      ],
+      "target_nearest_old_frame_gap": 2,
+      "selection_tie_hash": "000be8f51974927404baa4c7d7cbfe5a4131b861b35eeb10551b4554fedfd20c",
+      "source_id": "SN005_source_f03289",
+      "prompt": "A tightly cropped photograph of a face with slightly raised lip corners, moderately parted lips.",
+      "condition_status": "complete"
+    },
+    {
+      "subject": "SN005",
+      "split": "postfreeze_case_validation",
+      "camera": "left",
+      "video_path": "/Users/mayfair/Desktop/Cursor/geme-main/DISFA/Videos_LeftCamera/LeftVideoSN005_comp.avi",
+      "source_frame_1based": 3289,
+      "source_frame_zero_based": 3288,
+      "source_au_vector_0_5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "au_order": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        9,
+        12,
+        15,
+        17,
+        20,
+        25,
+        26
+      ],
+      "images_prepared": false,
+      "source_nearest_old_frame_gap": 2,
+      "case_id": "postfreeze_SN005_s03289_t00903",
+      "kind": "nonzero_target",
+      "target_frame_1based": 903,
+      "target_frame_zero_based": 902,
+      "target_au_vector_0_5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "target_nearest_old_frame_gap": 2,
+      "selection_tie_hash": "021b8b01076a7f67f1b109b85a9b9a9d964c4683576187444a7b04a505073d04",
+      "source_id": "SN005_source_f03289",
+      "prompt": "A tightly cropped photograph of a face with slightly raised lip corners.",
+      "condition_status": "complete"
+    },
+    {
+      "subject": "SN005",
+      "split": "postfreeze_case_validation",
+      "camera": "left",
+      "video_path": "/Users/mayfair/Desktop/Cursor/geme-main/DISFA/Videos_LeftCamera/LeftVideoSN005_comp.avi",
+      "source_frame_1based": 3289,
+      "source_frame_zero_based": 3288,
+      "source_au_vector_0_5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "au_order": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        9,
+        12,
+        15,
+        17,
+        20,
+        25,
+        26
+      ],
+      "images_prepared": false,
+      "source_nearest_old_frame_gap": 2,
+      "case_id": "postfreeze_SN005_s03289_t02174",
+      "kind": "nonzero_target",
+      "target_frame_1based": 2174,
+      "target_frame_zero_based": 2173,
+      "target_au_vector_0_5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0
+      ],
+      "target_nearest_old_frame_gap": 2,
+      "selection_tie_hash": "000d57d3444ee4526383ac6abf0e5bec1fc09312ef9573ca078adea0dd0b93ad",
+      "source_id": "SN005_source_f03289",
+      "prompt": "A tightly cropped photograph of a face with moderately stretched lips.",
+      "condition_status": "complete"
+    },
+    {
+      "subject": "SN008",
+      "split": "postfreeze_case_validation",
+      "camera": "right",
+      "video_path": "/Users/mayfair/Desktop/Cursor/geme-main/DISFA/Video_RightCamera/RightVideoSN008_comp.avi",
+      "source_frame_1based": 398,
+      "source_frame_zero_based": 397,
+      "source_au_vector_0_5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "au_order": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        9,
+        12,
+        15,
+        17,
+        20,
+        25,
+        26
+      ],
+      "images_prepared": false,
+      "source_nearest_old_frame_gap": 2,
+      "case_id": "postfreeze_SN008_s00398_t00218",
+      "kind": "nonzero_target",
+      "target_frame_1based": 218,
+      "target_frame_zero_based": 217,
+      "target_au_vector_0_5": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "target_nearest_old_frame_gap": 2,
+      "selection_tie_hash": "0018e6972169df78f53e26e85cb5d7c6ed5555f89c8e6a97276f90d6bfc56772",
+      "source_id": "SN008_source_f00398",
+      "prompt": "A tightly cropped photograph of a face with slightly raised cheeks, slightly raised lip corners.",
+      "condition_status": "complete"
+    },
+    {
+      "subject": "SN008",
+      "split": "postfreeze_case_validation",
+      "camera": "right",
+      "video_path": "/Users/mayfair/Desktop/Cursor/geme-main/DISFA/Video_RightCamera/RightVideoSN008_comp.avi",
+      "source_frame_1based": 398,
+      "source_frame_zero_based": 397,
+      "source_au_vector_0_5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "au_order": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        9,
+        12,
+        15,
+        17,
+        20,
+        25,
+        26
+      ],
+      "images_prepared": false,
+      "source_nearest_old_frame_gap": 2,
+      "case_id": "postfreeze_SN008_s00398_t00809",
+      "kind": "nonzero_target",
+      "target_frame_1based": 809,
+      "target_frame_zero_based": 808,
+      "target_au_vector_0_5": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "target_nearest_old_frame_gap": 2,
+      "selection_tie_hash": "015f63a37983504d78a79ce5c477594c62484ee8d9d1915e404a2aaed3679a5d",
+      "source_id": "SN008_source_f00398",
+      "prompt": "A tightly cropped photograph of a face with slightly raised cheeks.",
+      "condition_status": "complete"
+    },
+    {
+      "subject": "SN008",
+      "split": "postfreeze_case_validation",
+      "camera": "right",
+      "video_path": "/Users/mayfair/Desktop/Cursor/geme-main/DISFA/Video_RightCamera/RightVideoSN008_comp.avi",
+      "source_frame_1based": 398,
+      "source_frame_zero_based": 397,
+      "source_au_vector_0_5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "au_order": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        9,
+        12,
+        15,
+        17,
+        20,
+        25,
+        26
+      ],
+      "images_prepared": false,
+      "source_nearest_old_frame_gap": 2,
+      "case_id": "postfreeze_SN008_s00398_t04228",
+      "kind": "nonzero_target",
+      "target_frame_1based": 4228,
+      "target_frame_zero_based": 4227,
+      "target_au_vector_0_5": [
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "target_nearest_old_frame_gap": 2,
+      "selection_tie_hash": "0063a9a5fcd2dd2ca45cd9a62122fbdac9d83f4a9705b131614a623ffd0fe58a",
+      "source_id": "SN008_source_f00398",
+      "prompt": "A tightly cropped photograph of a face with slightly raised upper eyelids.",
+      "condition_status": "complete"
+    },
+    {
+      "subject": "SN009",
+      "split": "postfreeze_case_validation",
+      "camera": "right",
+      "video_path": "/Users/mayfair/Desktop/Cursor/geme-main/DISFA/Video_RightCamera/RightVideoSN009_comp.avi",
+      "source_frame_1based": 4443,
+      "source_frame_zero_based": 4442,
+      "source_au_vector_0_5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "au_order": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        9,
+        12,
+        15,
+        17,
+        20,
+        25,
+        26
+      ],
+      "images_prepared": false,
+      "source_nearest_old_frame_gap": 2,
+      "case_id": "postfreeze_SN009_s04443_t00063",
+      "kind": "nonzero_target",
+      "target_frame_1based": 63,
+      "target_frame_zero_based": 62,
+      "target_au_vector_0_5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "target_nearest_old_frame_gap": 2,
+      "selection_tie_hash": "00432aedcc7071be4571af57fc71d7ead87069446e12420db844997a853763c1",
+      "source_id": "SN009_source_f04443",
+      "prompt": "A tightly cropped photograph of a face with slightly raised lip corners.",
+      "condition_status": "complete"
+    },
+    {
+      "subject": "SN009",
+      "split": "postfreeze_case_validation",
+      "camera": "right",
+      "video_path": "/Users/mayfair/Desktop/Cursor/geme-main/DISFA/Video_RightCamera/RightVideoSN009_comp.avi",
+      "source_frame_1based": 4443,
+      "source_frame_zero_based": 4442,
+      "source_au_vector_0_5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "au_order": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        9,
+        12,
+        15,
+        17,
+        20,
+        25,
+        26
+      ],
+      "images_prepared": false,
+      "source_nearest_old_frame_gap": 2,
+      "case_id": "postfreeze_SN009_s04443_t00399",
+      "kind": "nonzero_target",
+      "target_frame_1based": 399,
+      "target_frame_zero_based": 398,
+      "target_au_vector_0_5": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        2,
+        0,
+        0
+      ],
+      "target_nearest_old_frame_gap": 2,
+      "selection_tie_hash": "01142eed608fc67f26ff0520a3add1ad9e572c3e2f621f091686f0be9adf63da",
+      "source_id": "SN009_source_f04443",
+      "prompt": "A tightly cropped photograph of a face with slightly raised inner eyebrows, slightly raised lip corners, slightly a raised chin, slightly stretched lips.",
+      "condition_status": "complete"
+    },
+    {
+      "subject": "SN009",
+      "split": "postfreeze_case_validation",
+      "camera": "right",
+      "video_path": "/Users/mayfair/Desktop/Cursor/geme-main/DISFA/Video_RightCamera/RightVideoSN009_comp.avi",
+      "source_frame_1based": 4443,
+      "source_frame_zero_based": 4442,
+      "source_au_vector_0_5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "au_order": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        9,
+        12,
+        15,
+        17,
+        20,
+        25,
+        26
+      ],
+      "images_prepared": false,
+      "source_nearest_old_frame_gap": 2,
+      "case_id": "postfreeze_SN009_s04443_t00749",
+      "kind": "nonzero_target",
+      "target_frame_1based": 749,
+      "target_frame_zero_based": 748,
+      "target_au_vector_0_5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "target_nearest_old_frame_gap": 2,
+      "selection_tie_hash": "016c2f3de1d30463069a4cb4cacdfea90fcdd5ba394c44650da72c862ba084ec",
+      "source_id": "SN009_source_f04443",
+      "prompt": "A tightly cropped photograph of a face with slightly raised lip corners, slightly a raised chin.",
+      "condition_status": "complete"
+    },
+    {
+      "subject": "SN021",
+      "split": "postfreeze_case_validation",
+      "camera": "right",
+      "video_path": "/Users/mayfair/Desktop/Cursor/geme-main/DISFA/Video_RightCamera/RightVideoSN021_comp.avi",
+      "source_frame_1based": 2743,
+      "source_frame_zero_based": 2742,
+      "source_au_vector_0_5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "au_order": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        9,
+        12,
+        15,
+        17,
+        20,
+        25,
+        26
+      ],
+      "images_prepared": false,
+      "source_nearest_old_frame_gap": 2,
+      "case_id": "postfreeze_SN021_s02743_t00433",
+      "kind": "nonzero_target",
+      "target_frame_1based": 433,
+      "target_frame_zero_based": 432,
+      "target_au_vector_0_5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "target_nearest_old_frame_gap": 2,
+      "selection_tie_hash": "00aeddcbc7d09de4ed0d94cbbf730173a65d50e0ec212e0ecb1a2801a0dceb86",
+      "source_id": "SN021_source_f02743",
+      "prompt": "A tightly cropped photograph of a face with slightly raised lip corners.",
+      "condition_status": "complete"
+    },
+    {
+      "subject": "SN021",
+      "split": "postfreeze_case_validation",
+      "camera": "right",
+      "video_path": "/Users/mayfair/Desktop/Cursor/geme-main/DISFA/Video_RightCamera/RightVideoSN021_comp.avi",
+      "source_frame_1based": 2743,
+      "source_frame_zero_based": 2742,
+      "source_au_vector_0_5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "au_order": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        9,
+        12,
+        15,
+        17,
+        20,
+        25,
+        26
+      ],
+      "images_prepared": false,
+      "source_nearest_old_frame_gap": 2,
+      "case_id": "postfreeze_SN021_s02743_t01143",
+      "kind": "nonzero_target",
+      "target_frame_1based": 1143,
+      "target_frame_zero_based": 1142,
+      "target_au_vector_0_5": [
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        3,
+        0
+      ],
+      "target_nearest_old_frame_gap": 2,
+      "selection_tie_hash": "00847123f8d9bfc5b64a6d4fb235b7d272c7eb651f823b6a4ccdb190460b1425",
+      "source_id": "SN021_source_f02743",
+      "prompt": "A tightly cropped photograph of a face with moderately lowered brows, slightly raised lip corners, moderately parted lips.",
+      "condition_status": "complete"
+    },
+    {
+      "subject": "SN021",
+      "split": "postfreeze_case_validation",
+      "camera": "right",
+      "video_path": "/Users/mayfair/Desktop/Cursor/geme-main/DISFA/Video_RightCamera/RightVideoSN021_comp.avi",
+      "source_frame_1based": 2743,
+      "source_frame_zero_based": 2742,
+      "source_au_vector_0_5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "au_order": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        9,
+        12,
+        15,
+        17,
+        20,
+        25,
+        26
+      ],
+      "images_prepared": false,
+      "source_nearest_old_frame_gap": 2,
+      "case_id": "postfreeze_SN021_s02743_t01833",
+      "kind": "nonzero_target",
+      "target_frame_1based": 1833,
+      "target_frame_zero_based": 1832,
+      "target_au_vector_0_5": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "target_nearest_old_frame_gap": 2,
+      "selection_tie_hash": "0051d91aa6de4a433036a6cee03ebd50c24225c8b1d5935cd12f8e9fdf748cb5",
+      "source_id": "SN021_source_f02743",
+      "prompt": "A tightly cropped photograph of a face with slightly lowered brows.",
+      "condition_status": "complete"
+    },
+    {
+      "subject": "SN024",
+      "split": "postfreeze_case_validation",
+      "camera": "right",
+      "video_path": "/Users/mayfair/Desktop/Cursor/geme-main/DISFA/Video_RightCamera/RightVideoSN024_comp.avi",
+      "source_frame_1based": 2323,
+      "source_frame_zero_based": 2322,
+      "source_au_vector_0_5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "au_order": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        9,
+        12,
+        15,
+        17,
+        20,
+        25,
+        26
+      ],
+      "images_prepared": false,
+      "source_nearest_old_frame_gap": 2,
+      "case_id": "postfreeze_SN024_s02323_t00214",
+      "kind": "nonzero_target",
+      "target_frame_1based": 214,
+      "target_frame_zero_based": 213,
+      "target_au_vector_0_5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "target_nearest_old_frame_gap": 2,
+      "selection_tie_hash": "00a8f1b06e2c30d26727c4eccaee83681749f2e5852d4840d3465a1b75a6ff8a",
+      "source_id": "SN024_source_f02323",
+      "prompt": "A tightly cropped photograph of a face with slightly parted lips.",
+      "condition_status": "complete"
+    },
+    {
+      "subject": "SN024",
+      "split": "postfreeze_case_validation",
+      "camera": "right",
+      "video_path": "/Users/mayfair/Desktop/Cursor/geme-main/DISFA/Video_RightCamera/RightVideoSN024_comp.avi",
+      "source_frame_1based": 2323,
+      "source_frame_zero_based": 2322,
+      "source_au_vector_0_5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "au_order": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        9,
+        12,
+        15,
+        17,
+        20,
+        25,
+        26
+      ],
+      "images_prepared": false,
+      "source_nearest_old_frame_gap": 2,
+      "case_id": "postfreeze_SN024_s02323_t01418",
+      "kind": "nonzero_target",
+      "target_frame_1based": 1418,
+      "target_frame_zero_based": 1417,
+      "target_au_vector_0_5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
+        0,
+        0
+      ],
+      "target_nearest_old_frame_gap": 2,
+      "selection_tie_hash": "0193dc21e96892e361971c45a78b447100e69851b508e8bd467772068650b31f",
+      "source_id": "SN024_source_f02323",
+      "prompt": "A tightly cropped photograph of a face with slightly a raised chin, slightly stretched lips.",
+      "condition_status": "complete"
+    },
+    {
+      "subject": "SN024",
+      "split": "postfreeze_case_validation",
+      "camera": "right",
+      "video_path": "/Users/mayfair/Desktop/Cursor/geme-main/DISFA/Video_RightCamera/RightVideoSN024_comp.avi",
+      "source_frame_1based": 2323,
+      "source_frame_zero_based": 2322,
+      "source_au_vector_0_5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "au_order": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        9,
+        12,
+        15,
+        17,
+        20,
+        25,
+        26
+      ],
+      "images_prepared": false,
+      "source_nearest_old_frame_gap": 2,
+      "case_id": "postfreeze_SN024_s02323_t01673",
+      "kind": "nonzero_target",
+      "target_frame_1based": 1673,
+      "target_frame_zero_based": 1672,
+      "target_au_vector_0_5": [
+        0,
+        0,
+        2,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "target_nearest_old_frame_gap": 2,
+      "selection_tie_hash": "00bdb6a5888eb6a5be59a28a12cd2639c9a5333d73ac881fdac98c66da283d09",
+      "source_id": "SN024_source_f02323",
+      "prompt": "A tightly cropped photograph of a face with slightly lowered brows, moderately a wrinkled nose, slightly parted lips.",
+      "condition_status": "complete"
+    },
+    {
+      "subject": "SN031",
+      "split": "postfreeze_case_validation",
+      "camera": "right",
+      "video_path": "/Users/mayfair/Desktop/Cursor/geme-main/DISFA/Video_RightCamera/RightVideoSN031_comp.avi",
+      "source_frame_1based": 3334,
+      "source_frame_zero_based": 3333,
+      "source_au_vector_0_5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "au_order": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        9,
+        12,
+        15,
+        17,
+        20,
+        25,
+        26
+      ],
+      "images_prepared": false,
+      "source_nearest_old_frame_gap": 2,
+      "case_id": "postfreeze_SN031_s03334_t01453",
+      "kind": "nonzero_target",
+      "target_frame_1based": 1453,
+      "target_frame_zero_based": 1452,
+      "target_au_vector_0_5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        1,
+        0,
+        3,
+        3
+      ],
+      "target_nearest_old_frame_gap": 2,
+      "selection_tie_hash": "00a78cf23d6653085bccc3a4ebef0bd810dae576503b207069632ae15162fb6d",
+      "source_id": "SN031_source_f03334",
+      "prompt": "A tightly cropped photograph of a face with slightly raised lip corners, slightly a raised chin, moderately parted lips, moderately a lowered jaw.",
+      "condition_status": "complete"
+    },
+    {
+      "subject": "SN031",
+      "split": "postfreeze_case_validation",
+      "camera": "right",
+      "video_path": "/Users/mayfair/Desktop/Cursor/geme-main/DISFA/Video_RightCamera/RightVideoSN031_comp.avi",
+      "source_frame_1based": 3334,
+      "source_frame_zero_based": 3333,
+      "source_au_vector_0_5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "au_order": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        9,
+        12,
+        15,
+        17,
+        20,
+        25,
+        26
+      ],
+      "images_prepared": false,
+      "source_nearest_old_frame_gap": 2,
+      "case_id": "postfreeze_SN031_s03334_t01588",
+      "kind": "nonzero_target",
+      "target_frame_1based": 1588,
+      "target_frame_zero_based": 1587,
+      "target_au_vector_0_5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        3,
+        1
+      ],
+      "target_nearest_old_frame_gap": 2,
+      "selection_tie_hash": "0055270b00f08bdd0cc3abedc873d3fde7d760f004b50b50b478e4643df143af",
+      "source_id": "SN031_source_f03334",
+      "prompt": "A tightly cropped photograph of a face with slightly raised lip corners, moderately parted lips, slightly a lowered jaw.",
+      "condition_status": "complete"
+    },
+    {
+      "subject": "SN031",
+      "split": "postfreeze_case_validation",
+      "camera": "right",
+      "video_path": "/Users/mayfair/Desktop/Cursor/geme-main/DISFA/Video_RightCamera/RightVideoSN031_comp.avi",
+      "source_frame_1based": 3334,
+      "source_frame_zero_based": 3333,
+      "source_au_vector_0_5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "au_order": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        9,
+        12,
+        15,
+        17,
+        20,
+        25,
+        26
+      ],
+      "images_prepared": false,
+      "source_nearest_old_frame_gap": 2,
+      "case_id": "postfreeze_SN031_s03334_t02693",
+      "kind": "nonzero_target",
+      "target_frame_1based": 2693,
+      "target_frame_zero_based": 2692,
+      "target_au_vector_0_5": [
+        2,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "target_nearest_old_frame_gap": 2,
+      "selection_tie_hash": "0085186eb00351a539ab796d6b9d4d584090c61bfcd8bb8a7195881e47f73397",
+      "source_id": "SN031_source_f03334",
+      "prompt": "A tightly cropped photograph of a face with slightly raised inner eyebrows, slightly raised outer eyebrows.",
+      "condition_status": "complete"
+    },
+    {
+      "subject": "SN032",
+      "split": "postfreeze_case_validation",
+      "camera": "right",
+      "video_path": "/Users/mayfair/Desktop/Cursor/geme-main/DISFA/Video_RightCamera/RightVideoSN032_comp.avi",
+      "source_frame_1based": 2758,
+      "source_frame_zero_based": 2757,
+      "source_au_vector_0_5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "au_order": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        9,
+        12,
+        15,
+        17,
+        20,
+        25,
+        26
+      ],
+      "images_prepared": false,
+      "source_nearest_old_frame_gap": 2,
+      "case_id": "postfreeze_SN032_s02758_t02359",
+      "kind": "nonzero_target",
+      "target_frame_1based": 2359,
+      "target_frame_zero_based": 2358,
+      "target_au_vector_0_5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        3
+      ],
+      "target_nearest_old_frame_gap": 2,
+      "selection_tie_hash": "001f9865f66ff9f42a262c5666cf5daa75eacf27d051d4118e58a45f4c425eaf",
+      "source_id": "SN032_source_f02758",
+      "prompt": "A tightly cropped photograph of a face with slightly parted lips, moderately a lowered jaw.",
+      "condition_status": "complete"
+    },
+    {
+      "subject": "SN032",
+      "split": "postfreeze_case_validation",
+      "camera": "right",
+      "video_path": "/Users/mayfair/Desktop/Cursor/geme-main/DISFA/Video_RightCamera/RightVideoSN032_comp.avi",
+      "source_frame_1based": 2758,
+      "source_frame_zero_based": 2757,
+      "source_au_vector_0_5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "au_order": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        9,
+        12,
+        15,
+        17,
+        20,
+        25,
+        26
+      ],
+      "images_prepared": false,
+      "source_nearest_old_frame_gap": 2,
+      "case_id": "postfreeze_SN032_s02758_t04129",
+      "kind": "nonzero_target",
+      "target_frame_1based": 4129,
+      "target_frame_zero_based": 4128,
+      "target_au_vector_0_5": [
+        2,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "target_nearest_old_frame_gap": 2,
+      "selection_tie_hash": "00c2f90967fa2547227ea2025d95354b98af4dad65de83f5688bbb66ccee6d41",
+      "source_id": "SN032_source_f02758",
+      "prompt": "A tightly cropped photograph of a face with slightly raised inner eyebrows, slightly lowered brows.",
+      "condition_status": "complete"
+    },
+    {
+      "subject": "SN032",
+      "split": "postfreeze_case_validation",
+      "camera": "right",
+      "video_path": "/Users/mayfair/Desktop/Cursor/geme-main/DISFA/Video_RightCamera/RightVideoSN032_comp.avi",
+      "source_frame_1based": 2758,
+      "source_frame_zero_based": 2757,
+      "source_au_vector_0_5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "au_order": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        9,
+        12,
+        15,
+        17,
+        20,
+        25,
+        26
+      ],
+      "images_prepared": false,
+      "source_nearest_old_frame_gap": 2,
+      "case_id": "postfreeze_SN032_s02758_t04754",
+      "kind": "nonzero_target",
+      "target_frame_1based": 4754,
+      "target_frame_zero_based": 4753,
+      "target_au_vector_0_5": [
+        0,
+        0,
+        3,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0
+      ],
+      "target_nearest_old_frame_gap": 2,
+      "selection_tie_hash": "0059a168fd6cb0eb9f7a2903143c10c20977d6dec28080a0112c36c65a53c14a",
+      "source_id": "SN032_source_f02758",
+      "prompt": "A tightly cropped photograph of a face with moderately lowered brows, moderately a wrinkled nose, moderately parted lips.",
+      "condition_status": "complete"
+    }
+  ],
+  "arms": [
+    {
+      "name": "P1S1",
+      "projection": true,
+      "smoothing": true
+    },
+    {
+      "name": "P0S1",
+      "projection": false,
+      "smoothing": true
+    },
+    {
+      "name": "P1S0",
+      "projection": true,
+      "smoothing": false
+    },
+    {
+      "name": "P0S0",
+      "projection": false,
+      "smoothing": false
+    }
+  ],
+  "arm_names": {
+    "P1S1": "full",
+    "P0S1": "no_projection",
+    "P1S0": "no_smoothing",
+    "P0S0": "both_off"
+  },
+  "seeds": [
+    101,
+    202,
+    303
+  ],
+  "planned": 288,
+  "selection": "all original 24 nonzero requests in original cache order; no score/image selection",
+  "policy": {
+    "version": "review_20261023_preservation_factorial_v1",
+    "variant_order": [
+      "bidirectional"
+    ],
+    "sampling_seeds": [
+      101,
+      202,
+      303
+    ],
+    "checkpoint_step": 200,
+    "width": 512,
+    "height": 512,
+    "source_init_strength": 0.75,
+    "nominal_steps": 20,
+    "actual_timesteps": [
+      749,
+      699,
+      649,
+      599,
+      549,
+      500,
+      450,
+      400,
+      350,
+      300,
+      250,
+      200,
+      150,
+      100,
+      50
+    ],
+    "scheduler": "DEISMultistepScheduler",
+    "guidance_scale": 7.5,
+    "au_scale": 1.5,
+    "ip_scale": 0.9,
+    "negative_prompt": "",
+    "cleanup_sigma": 0.5,
+    "terminal": "last_t50_cfg_epsilon",
+    "deis_unet_calls": 15,
+    "terminal_unet_calls": 0,
+    "source_latent": "reuse original tensor after SHA check",
+    "projection": "first14 next_t source plus same noise; terminal V11 clean then source projection once",
+    "dtype": "torch.float32",
+    "source_device": "mps",
+    "generation_device": "mps",
+    "target_pixels_used": false,
+    "target_latents_computed": false,
+    "zero_edit": "not included; only original 24 nonzero requests",
+    "intervention": "P: 14 intermediate plus final projection; S: terminal local_filtered_clean only"
+  },
+  "inputs": [
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/configuration.json",
+      "sha256": "af9243692fe842fb1f4126e077a3af00b5964fcf8acafb5c48a1ad01c430c61a",
+      "bytes": 8216,
+      "role": "old_configuration"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/runtime.json",
+      "sha256": "cfc06d91cb5b83436e7aac26618541218f67ea37eefba964764c1aa0cd1ca16c",
+      "bytes": 29163,
+      "role": "old_runtime"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/runs/v4_slot_2k_bidir_step200_202609141920/bindings.json",
+      "sha256": "b46d576d1da6561c2745c5231b258b99e835fc5e374af050f14f5fa5c1c0846a",
+      "bytes": 105173,
+      "role": "training_bindings"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/runs/v4_slot_2k_bidir_step200_202609141920/checkpoint_00000200.json",
+      "sha256": "0faf24417ded0d1b119d91c7217733c5077196a3cc85cb4ce895afbe3b505601",
+      "bytes": 365,
+      "role": "checkpoint_seal"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/result.json",
+      "sha256": "c291ba4d814228c07607aef8902d0e19e1a9212e030630f29e2ed4dae840eda5",
+      "bytes": 5766537,
+      "role": "old_result"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/frozen_protocol.json",
+      "sha256": "498298977f3589248084e37d053ec7cd8f37f71b35e914849465081a3df9af33",
+      "bytes": 92283,
+      "role": "frozen_protocol"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/source_caches/selected_v11_v1/manifest.json",
+      "sha256": "ae4ba1c8ec9cb7604999857d9b73f2754d4bddd997821ad89fd9d71d11583dca",
+      "bytes": 87177,
+      "role": "source_cache"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/source_caches/selected_v11_v1/features.pt",
+      "sha256": "2d252762246de596c3c966f089dfce56377cc0c5cbc442e3d7e2c31c8257bfb5",
+      "bytes": 6150824,
+      "role": "source_features"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/source_latents.pt",
+      "sha256": "178de6daaa5a42bda02e6215fcbcf67d0907ab4c31adefeb54f570322950d4a5",
+      "bytes": 527040,
+      "role": "source_latents"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/runs/v4_slot_2k_bidir_step200_202609141920/checkpoint_00000200.pt",
+      "sha256": "7fcc25b704fca8c0a4e46a171096df8fea940b40a246d4939193e64f533b4e30",
+      "bytes": 10310462,
+      "role": "checkpoint"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/evaluation/source_v1/results.json",
+      "sha256": "9071f9226a0d18b6a7e2eba2c48fb2425e31297e26bbefb63e42844fa96c40be",
+      "bytes": 353074,
+      "role": "source_measurements"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation/common.py",
+      "sha256": "903ab5e47c7b66e6b1d7c04fda4d09ec5e25fd384fe3465218014b536b550fad",
+      "bytes": 8131,
+      "role": "execution_sources/common.py"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation/geometry.py",
+      "sha256": "7af39d078503b2633c9c7eae0f82067e0cc25262da5cdb76de5f59d94e1342c5",
+      "bytes": 4404,
+      "role": "execution_sources/geometry.py"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation/run_grid.py",
+      "sha256": "1f7768c9b252f50cacfbf799f477578799272e85fee5ae5648a60765034f0159",
+      "bytes": 24752,
+      "role": "execution_sources/run_grid.py"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation/prepare_cache.py",
+      "sha256": "71a193b2c34a8057681e7e8aa8322638b3201283436b01d02046dff52237dcd9",
+      "bytes": 7687,
+      "role": "execution_sources/prepare_cache.py"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/improvements/a_local_cleanup_v11_20260915/run_local.py",
+      "sha256": "7f872acfb9d6114c4da4e25ee35c4157727be1c3a30822227c64c77e1c68f78a",
+      "bytes": 12833,
+      "role": "reused_sources/v11"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/improvements/a_local_cleanup_v11_20260915/cleanup_mask.py",
+      "sha256": "913623ca6c2dd76f0a3bca5a5316a6fb10339a3fe0d506944286fba32ee41be9",
+      "bytes": 14214,
+      "role": "reused_sources/v11_geometry"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/improvements/smooth_regions_v7_20260915/region_mask.py",
+      "sha256": "ca173d310425c6c97ba4350a21cdd5b3d4f08a961fdb87b9c134e1b3029ef824",
+      "bytes": 7752,
+      "role": "reused_sources/v7_geometry"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/final_test/prepare_source_cache.py",
+      "sha256": "3f12b67deefdf890696739e469fa29647485d3f7e9e45a83a45995970d6dadae",
+      "bytes": 17956,
+      "role": "reused_sources/source_runtime"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/train_centered_adapter.py",
+      "sha256": "2ed33f8d0cbe18993feb3f48bbb1606e587dfdb03da37d754ad3b746426ae7ce",
+      "bytes": 44050,
+      "role": "trained_source/train_centered_adapter.py"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/modeling/frozen_backbone.py",
+      "sha256": "8cc66dd062583e9e2678c4688f3e8083cb29b00da0f3cd3c481e09573eb137a7",
+      "bytes": 6929,
+      "role": "trained_source/modeling/frozen_backbone.py"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/modeling/cross_modal_adapter.py",
+      "sha256": "dab32f9c0969682281f7d51559c3ccefea05dbc93edd54fa8561ed5c802d40f4",
+      "bytes": 15199,
+      "role": "trained_source/modeling/cross_modal_adapter.py"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/modeling/token_residual_adapter.py",
+      "sha256": "42b0dd3e4bb1287e4484d9700cfcf3798fe4064cb9f8691468944e79409bf146",
+      "bytes": 9015,
+      "role": "trained_source/modeling/token_residual_adapter.py"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/modeling/safe_token_residual_adapter.py",
+      "sha256": "546c3b2e856f096959b838976afd00ad613cd11629d7b418d2e2419de5642f24",
+      "bytes": 8249,
+      "role": "trained_source/modeling/safe_token_residual_adapter.py"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/modeling/source_centered_adapter.py",
+      "sha256": "02a62b79509ef0a2bd688e49ea35119752963141220f0009bb62a63f1613edab",
+      "bytes": 3472,
+      "role": "trained_source/modeling/source_centered_adapter.py"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/modeling/au_regressor.py",
+      "sha256": "f5b83370237946cf01aa870eddcad98beee8b883661ae1cd063eba761ccd7e6d",
+      "bytes": 7528,
+      "role": "trained_source/modeling/au_regressor.py"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/prepare_training_cache.py",
+      "sha256": "ecb5dd23c40f6f74284eaf93e6134c1545cef337fbc60024a45bd5bcbdd02c12",
+      "bytes": 8318,
+      "role": "trained_source/prepare_training_cache.py"
+    },
+    {
+      "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/blobs/7b922c8ef09d51a58eea8c865feb668ca1fd5451",
+      "sha256": "f0567294c259d420cb4505c4c0ee37ee304342e4581ac2c87362b2e87965bbeb",
+      "bytes": 1547,
+      "role": "runtime_asset/rv/unet/config.json"
+    },
+    {
+      "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/blobs/f75956623c8f95b40e62b3ee45f5dcba8e353b53c33c6765e517c5a8bb3dfbfe",
+      "sha256": "f75956623c8f95b40e62b3ee45f5dcba8e353b53c33c6765e517c5a8bb3dfbfe",
+      "bytes": 3438167536,
+      "role": "runtime_asset/rv/unet/diffusion_pytorch_model.safetensors"
+    },
+    {
+      "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/blobs/dfd089d10af46742c906a19ba8950367d2acd6f1",
+      "sha256": "cd56fdbf7a5c01c4bf331a3640395c48d5456dcc58374e7b3d24a7e3fe42d42a",
+      "bytes": 577,
+      "role": "runtime_asset/rv/vae/config.json"
+    },
+    {
+      "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/blobs/68a430f8a51413e80ecec6c13fff4b6b63e57600a2ec661a016a14fd1037fa4b",
+      "sha256": "68a430f8a51413e80ecec6c13fff4b6b63e57600a2ec661a016a14fd1037fa4b",
+      "bytes": 334643276,
+      "role": "runtime_asset/rv/vae/diffusion_pytorch_model.safetensors"
+    },
+    {
+      "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/blobs/56152a729b512eead674d3babd4f49ce4714b2e4",
+      "sha256": "f4b1867cbf991587483d691aed58c41b25c28df75ae5b7f391ceae51269dfe68",
+      "bytes": 612,
+      "role": "runtime_asset/rv/text_encoder/config.json"
+    },
+    {
+      "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/blobs/8ee67788c3c9a6f5d73de077b644f1d4317258b55fbcc372dc385e8e5587c1cc",
+      "sha256": "8ee67788c3c9a6f5d73de077b644f1d4317258b55fbcc372dc385e8e5587c1cc",
+      "bytes": 492265880,
+      "role": "runtime_asset/rv/text_encoder/model.safetensors"
+    },
+    {
+      "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/blobs/f9c6494d1e602bf1a8d3ba6c9307291069469e10",
+      "sha256": "81c61cd6937a8b6c4ddf9eef06b64dafbaa66409d083786dc9426bec7f37a105",
+      "bytes": 548,
+      "role": "runtime_asset/rv/scheduler/scheduler_config.json"
+    },
+    {
+      "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/blobs/469be27c5c010538f845f518c4f5e8574c78f7c8",
+      "sha256": "e089ad92ba36837a0d31433e555c8f45fe601ab5c221d4f607ded32d9f7a4349",
+      "bytes": 1059962,
+      "role": "runtime_asset/rv/tokenizer/vocab.json"
+    },
+    {
+      "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/blobs/76e821f1b6f0a9709293c3b6b51ed90980b3166b",
+      "sha256": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a",
+      "bytes": 524619,
+      "role": "runtime_asset/rv/tokenizer/merges.txt"
+    },
+    {
+      "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/blobs/2e8612a429492973fe60635b3f44a28b065cfac0",
+      "sha256": "19d7b034cb0cc3ce9766c2231373ab8aa8991fc72e2c8f76558bfaae3de0d563",
+      "bytes": 737,
+      "role": "runtime_asset/rv/tokenizer/tokenizer_config.json"
+    },
+    {
+      "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/blobs/2c2130b544c0c5a72d5d00da071ba130a9800fb2",
+      "sha256": "c4864a9376a8401918425bed71fc14fc0e81f9b59ec45c1cf96cccb2df508eac",
+      "bytes": 472,
+      "role": "runtime_asset/rv/tokenizer/special_tokens_map.json"
+    },
+    {
+      "path": "/Users/mayfair/.cache/huggingface/hub/models--Tvaranka--fineface/blobs/e32d84e2e53fe102cf0011b05a178d79da14ef06247d66b7ad6041ef9f0eee1a",
+      "sha256": "e32d84e2e53fe102cf0011b05a178d79da14ef06247d66b7ad6041ef9f0eee1a",
+      "bytes": 76689430,
+      "role": "runtime_asset/fineface/au_attention"
+    },
+    {
+      "path": "/Users/mayfair/.cache/huggingface/hub/models--Tvaranka--fineface/blobs/014f8cc0348e2c91324e6dc198b3d83cf5d6b0a21e353dd70ef5f18c365a4723",
+      "sha256": "014f8cc0348e2c91324e6dc198b3d83cf5d6b0a21e353dd70ef5f18c365a4723",
+      "bytes": 40874,
+      "role": "runtime_asset/fineface/au_encoder"
+    },
+    {
+      "path": "/Users/mayfair/.cache/huggingface/hub/models--h94--IP-Adapter-FaceID/blobs/a48cb4f89ed18e02c6000f65aa9efec452e87eaed4a1bc9fcf4a460c8d0e3bc6",
+      "sha256": "a48cb4f89ed18e02c6000f65aa9efec452e87eaed4a1bc9fcf4a460c8d0e3bc6",
+      "bytes": 64586623,
+      "role": "runtime_asset/faceid"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/source_caches/selected_v11_v1/canonical_sources/SN003_source_f00869.png",
+      "sha256": "7e49852ff684ca9ebe7bfb3479630d131c442c9f67091676ca8332e07857cf03",
+      "bytes": 233132,
+      "role": "source_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/source_caches/selected_v11_v1/canonical_sources/SN005_source_f03289.png",
+      "sha256": "a9872da09c763b9296b489e23f25af1472592870407ddf6fb9f428e088aafaf8",
+      "bytes": 208143,
+      "role": "source_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/source_caches/selected_v11_v1/canonical_sources/SN008_source_f00398.png",
+      "sha256": "ef3e6dcb7bd0a5ff7804e07d2e7072d4f54b13912bf0f34a9336a6acd8ec7699",
+      "bytes": 204722,
+      "role": "source_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/source_caches/selected_v11_v1/canonical_sources/SN009_source_f04443.png",
+      "sha256": "09623f17703e760fbeb950171455aeeb3fdfe272c09b7bd0684c275ba53f34f1",
+      "bytes": 206900,
+      "role": "source_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/source_caches/selected_v11_v1/canonical_sources/SN021_source_f02743.png",
+      "sha256": "3c24b48ab7815bca21a1386e8791bce85849649dd4afb6b64ee0993aaa7a13f9",
+      "bytes": 187098,
+      "role": "source_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/source_caches/selected_v11_v1/canonical_sources/SN024_source_f02323.png",
+      "sha256": "569fa08e0987665414e741edb4a5ef3fb67405c55a635d88096cb621b5bf57e4",
+      "bytes": 197447,
+      "role": "source_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/source_caches/selected_v11_v1/canonical_sources/SN031_source_f03334.png",
+      "sha256": "f55358de9f27a92a18bb24ea5930deaccc5dd0b32ee1b4f1840b311bb13bed15",
+      "bytes": 208213,
+      "role": "source_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/source_caches/selected_v11_v1/canonical_sources/SN032_source_f02758.png",
+      "sha256": "1051a8ebc2f7fdb5562e89a066fae7d2e978caaea4b0e6e7ab15413abc8ba3fe",
+      "bytes": 185687,
+      "role": "source_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN003_s00869_t01203/edit64.npy",
+      "sha256": "f481a30921e18aa03047404c359d28ecb5de70db3fd8ed4e76b3e72f4654b5e5",
+      "bytes": 16512,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN003_s00869_t01203/cleanup64.npy",
+      "sha256": "1972a63acccc3f17aabd99890058561be7595408dc3426f0c9f027b674ecf96f",
+      "bytes": 16512,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN003_s00869_t01203/receipt.json",
+      "sha256": "a40c8d9a4d003c46fc59e5e473c82b326a5b446986fab2484ea8d8fe2bb91f07",
+      "bytes": 5782,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN003_s00869_t01203/bidirectional_local_lp_s050_seed101.png",
+      "sha256": "008959b067385fd1b9db8f66ac0d09a3906e527471fe65c649c0d0b7a8c87fce",
+      "bytes": 304796,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN003_s00869_t01203/bidirectional_local_lp_s050_seed202.png",
+      "sha256": "d9810d6ad54cf2294adbb4f877845d58018cfc309664037e9b575489b76ac3a8",
+      "bytes": 304425,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN003_s00869_t01203/bidirectional_local_lp_s050_seed303.png",
+      "sha256": "c68534c19e8b9658289ba65dd1db73c66a526238b5d59825dcb2ad285cc98720",
+      "bytes": 306253,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN003_s00869_t03029/edit64.npy",
+      "sha256": "c4afb452ea9fc80b88db52f01320652b6d1c5bd3b65d27b6f535658cbf902002",
+      "bytes": 16512,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN003_s00869_t03029/cleanup64.npy",
+      "sha256": "fd95868648576d7a368cf5d94653ae272bdc81de2dc115637a4644b46d90da73",
+      "bytes": 16512,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN003_s00869_t03029/receipt.json",
+      "sha256": "b7ac00b60d0be68b66f714fae9622dc2d8cdfd943278aa8b5de9e510e650ed48",
+      "bytes": 6495,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN003_s00869_t03029/bidirectional_local_lp_s050_seed101.png",
+      "sha256": "78209a34b0b73abd50dfe0a5170955ecfecefffde66473b41926aa80dbe11cbe",
+      "bytes": 308346,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN003_s00869_t03029/bidirectional_local_lp_s050_seed202.png",
+      "sha256": "8639bd7b2a3a6196f8baf5027c309b75b3bad7f0a8e07c6f6de77f0f283300f2",
+      "bytes": 304384,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN003_s00869_t03029/bidirectional_local_lp_s050_seed303.png",
+      "sha256": "dc58fafb2f700909544e5ae28c5f52c5edaee61ff86c8407bcf539aa4ac09ab6",
+      "bytes": 306009,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN003_s00869_t04558/edit64.npy",
+      "sha256": "2d08f383e51aab8a0049e5d1a5854716fde93f32554e389ef481bf9b46e61734",
+      "bytes": 16512,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN003_s00869_t04558/cleanup64.npy",
+      "sha256": "fd95868648576d7a368cf5d94653ae272bdc81de2dc115637a4644b46d90da73",
+      "bytes": 16512,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN003_s00869_t04558/receipt.json",
+      "sha256": "5e825f2716e8b863a9ab1c2609ed718eb5287d604585b35c852bd4b3955ea04f",
+      "bytes": 6587,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN003_s00869_t04558/bidirectional_local_lp_s050_seed101.png",
+      "sha256": "6524539b558828e4ff2008eed9c78bcb17c898beb548acb2baa2a5618cd6581a",
+      "bytes": 323473,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN003_s00869_t04558/bidirectional_local_lp_s050_seed202.png",
+      "sha256": "1bb125f72feed5016ffa818e09204b6b8f761f652c3e496b6a8fec8630410316",
+      "bytes": 317512,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN003_s00869_t04558/bidirectional_local_lp_s050_seed303.png",
+      "sha256": "0500d7200fecdccd6a6140afcc614fe8e5c167d9562cd6e5932343415e089aae",
+      "bytes": 322054,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN005_s03289_t00539/edit64.npy",
+      "sha256": "7d0045362ca7c2283f07394b13474a0a45677fd24a080beab6543221bcb140bb",
+      "bytes": 16512,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN005_s03289_t00539/cleanup64.npy",
+      "sha256": "1972a63acccc3f17aabd99890058561be7595408dc3426f0c9f027b674ecf96f",
+      "bytes": 16512,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN005_s03289_t00539/receipt.json",
+      "sha256": "75af9a68137f51967489086eb1adb95d0ad64a6eaa4c473beb5892f0b4cdf073",
+      "bytes": 5743,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN005_s03289_t00539/bidirectional_local_lp_s050_seed101.png",
+      "sha256": "657675d1a8d4e374f9aae886e740df422e2d55f306f24d29b9a8bd8a5049a040",
+      "bytes": 294240,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN005_s03289_t00539/bidirectional_local_lp_s050_seed202.png",
+      "sha256": "497ff2b72cebc8b5e101a34b54efe89b34aa514fae2968a891216e5b87aa5a3c",
+      "bytes": 294850,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN005_s03289_t00539/bidirectional_local_lp_s050_seed303.png",
+      "sha256": "b8f13a9c556b0713d944827d41d1913ccb01c9cd0946b0b52f0bc5ccff5b2f32",
+      "bytes": 293350,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN005_s03289_t00903/edit64.npy",
+      "sha256": "7d0045362ca7c2283f07394b13474a0a45677fd24a080beab6543221bcb140bb",
+      "bytes": 16512,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN005_s03289_t00903/cleanup64.npy",
+      "sha256": "1972a63acccc3f17aabd99890058561be7595408dc3426f0c9f027b674ecf96f",
+      "bytes": 16512,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN005_s03289_t00903/receipt.json",
+      "sha256": "92a8cb99faf7da575e72b4149da8d088308ba25d1a6bd96a770b38d02c24ced9",
+      "bytes": 5735,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN005_s03289_t00903/bidirectional_local_lp_s050_seed101.png",
+      "sha256": "0d4b56717031df06ecab08988cebe61acac572887783cb4dd0db4c5f75ccf756",
+      "bytes": 293383,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN005_s03289_t00903/bidirectional_local_lp_s050_seed202.png",
+      "sha256": "17870987e1f3f132172445c981c983897b937c87d354581b7a23c5b01c83293c",
+      "bytes": 294600,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN005_s03289_t00903/bidirectional_local_lp_s050_seed303.png",
+      "sha256": "6ee7d0f2dd8e57e735e7d1670eb722574927a1b3c26670a485070cb0453120a4",
+      "bytes": 293149,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN005_s03289_t02174/edit64.npy",
+      "sha256": "7d0045362ca7c2283f07394b13474a0a45677fd24a080beab6543221bcb140bb",
+      "bytes": 16512,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN005_s03289_t02174/cleanup64.npy",
+      "sha256": "1972a63acccc3f17aabd99890058561be7595408dc3426f0c9f027b674ecf96f",
+      "bytes": 16512,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN005_s03289_t02174/receipt.json",
+      "sha256": "bd46b281f88369fe6b116c24914835bc30bbe6193bdc8e1484dc343749579d7f",
+      "bytes": 5735,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN005_s03289_t02174/bidirectional_local_lp_s050_seed101.png",
+      "sha256": "9207fb608783766a65561c1db303f7562e2dafdea838c2a1aeb7974effd5e240",
+      "bytes": 294172,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN005_s03289_t02174/bidirectional_local_lp_s050_seed202.png",
+      "sha256": "d5291c3e17b8df6dd30410691630dd4fee4f44defffbc918a6f186f8ccc7458a",
+      "bytes": 294607,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN005_s03289_t02174/bidirectional_local_lp_s050_seed303.png",
+      "sha256": "fa66b5864516cd285ebc7c006fdf31c92ac2dc3243c8aa4a0049eda6695eedbf",
+      "bytes": 293680,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN008_s00398_t00218/edit64.npy",
+      "sha256": "dc7a4e3275133f0ebc2d21bbd65a3226378437f9f5f7569a78d0c988cdb3c98c",
+      "bytes": 16512,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN008_s00398_t00218/cleanup64.npy",
+      "sha256": "1972a63acccc3f17aabd99890058561be7595408dc3426f0c9f027b674ecf96f",
+      "bytes": 16512,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN008_s00398_t00218/receipt.json",
+      "sha256": "09bb351806387080c2cec48bb2a53ca295aa8216e4dee777f598b79d7d9cd67b",
+      "bytes": 5789,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN008_s00398_t00218/bidirectional_local_lp_s050_seed101.png",
+      "sha256": "eae3a407829528bfb6206cbdaf5f6eb8cf21ed2a3fc8a042c3cac9379b33b68b",
+      "bytes": 282520,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN008_s00398_t00218/bidirectional_local_lp_s050_seed202.png",
+      "sha256": "c040dd2306afd76e712c6fc11f65fa1fc6c5969689d555cb728e923e6f6bc9c7",
+      "bytes": 284431,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN008_s00398_t00218/bidirectional_local_lp_s050_seed303.png",
+      "sha256": "c2e2531ee78cd00a1f490743e4b83f9ee2921ced5c8236269ea7aee72fc58e5e",
+      "bytes": 284971,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN008_s00398_t00809/edit64.npy",
+      "sha256": "fc15deaca62bb2cde220b1e05bb28364d50d9df5197ef54bc3775e49265eb55f",
+      "bytes": 16512,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN008_s00398_t00809/cleanup64.npy",
+      "sha256": "1972a63acccc3f17aabd99890058561be7595408dc3426f0c9f027b674ecf96f",
+      "bytes": 16512,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN008_s00398_t00809/receipt.json",
+      "sha256": "94596489cdb9ae66d6363537161657e92b606aa8f3941eb0a4037705a17b87ab",
+      "bytes": 5768,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN008_s00398_t00809/bidirectional_local_lp_s050_seed101.png",
+      "sha256": "95c76f6bfd53fa103df07ca9abc6ce89cf21578069c436ed2fc8aafdd7d9929c",
+      "bytes": 281479,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN008_s00398_t00809/bidirectional_local_lp_s050_seed202.png",
+      "sha256": "de4e6a662ba8768ec1443064f6dda2ee710b1f2a83dac8c4623485426cf719d9",
+      "bytes": 282039,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN008_s00398_t00809/bidirectional_local_lp_s050_seed303.png",
+      "sha256": "c2c6c78c22b74fdb1371f9f92dde217c4fc620aaaea28a680c267f6902169c07",
+      "bytes": 282368,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN008_s00398_t04228/edit64.npy",
+      "sha256": "1dbeab5bac6f7c1a61dc1df7c3bb313a9f265f9d40763ceb2bc4a68041c668bd",
+      "bytes": 16512,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN008_s00398_t04228/cleanup64.npy",
+      "sha256": "1972a63acccc3f17aabd99890058561be7595408dc3426f0c9f027b674ecf96f",
+      "bytes": 16512,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN008_s00398_t04228/receipt.json",
+      "sha256": "3235d95bfd1db9ff38887cb950f5008b0ddeb238bf20ad14103d054b3d952679",
+      "bytes": 5764,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN008_s00398_t04228/bidirectional_local_lp_s050_seed101.png",
+      "sha256": "6e7d12138402d81bb71dff82f4e8efcd362f79deb741b00b2a911654eaeb84e4",
+      "bytes": 282055,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN008_s00398_t04228/bidirectional_local_lp_s050_seed202.png",
+      "sha256": "c7767e4adfea00827600014194f0c9a3c600b1f1a0bea9c9853fe97aa797e267",
+      "bytes": 282347,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN008_s00398_t04228/bidirectional_local_lp_s050_seed303.png",
+      "sha256": "bc59d7be9ec2346578a1b735cc8eba87d631801c48a36d6e0c6f9f240c44400a",
+      "bytes": 283083,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN009_s04443_t00063/edit64.npy",
+      "sha256": "30bace2f0374a62be8a64216b9f994edbf95dce41bd38f8a5601b46cd2add6b0",
+      "bytes": 16512,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN009_s04443_t00063/cleanup64.npy",
+      "sha256": "1972a63acccc3f17aabd99890058561be7595408dc3426f0c9f027b674ecf96f",
+      "bytes": 16512,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN009_s04443_t00063/receipt.json",
+      "sha256": "3fd2f4fd1258a9191e8b17c43d452adeda63241e7542975d9f07f463b6534053",
+      "bytes": 5738,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN009_s04443_t00063/bidirectional_local_lp_s050_seed101.png",
+      "sha256": "507179ea81c50d3fc4361d29275f1be82fc8372836e031bfb2a8db22969bb605",
+      "bytes": 295369,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN009_s04443_t00063/bidirectional_local_lp_s050_seed202.png",
+      "sha256": "1d12708ba92b781567fc0b610bc9433a3146e31247ce7a830bde6f763eb933c1",
+      "bytes": 296559,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN009_s04443_t00063/bidirectional_local_lp_s050_seed303.png",
+      "sha256": "128fcae6f263e5a604398c2507ec403575e8a80c1436f5cbf589b09a4977a692",
+      "bytes": 295401,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN009_s04443_t00399/edit64.npy",
+      "sha256": "cee52a15917860bad13de7a990eb2b1c35bdf7b88c8c812f9e55e1ca0ec27a7a",
+      "bytes": 16512,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN009_s04443_t00399/cleanup64.npy",
+      "sha256": "98862d26c293a63d7412256dc7f44243c14ba8d5f30e4bbc03b5defb18a58001",
+      "bytes": 16512,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN009_s04443_t00399/receipt.json",
+      "sha256": "dec9883c0d50734fd5d689ab4cbf945f2e8d11cc0e8a4ee23af3dff60b825404",
+      "bytes": 7217,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN009_s04443_t00399/bidirectional_local_lp_s050_seed101.png",
+      "sha256": "d90993b2a1682afa12e0013bda5f608d41e75abdaa6617e0b949e805fe58acbd",
+      "bytes": 295770,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN009_s04443_t00399/bidirectional_local_lp_s050_seed202.png",
+      "sha256": "905929da2fff45b4f89f4e5c1461fb7a1650d6cf5a68e2162a12b54f6ec6d3e9",
+      "bytes": 295015,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN009_s04443_t00399/bidirectional_local_lp_s050_seed303.png",
+      "sha256": "5bc139a5c8c9ddb389aab67b28da9f7b63be6457c21bd4b43ab7ba7bf77a486c",
+      "bytes": 293483,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN009_s04443_t00749/edit64.npy",
+      "sha256": "3f21ce295abd3a8508b419e6e15a9e040d7c9fbe0b706da5b8079c79b252c78e",
+      "bytes": 16512,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN009_s04443_t00749/cleanup64.npy",
+      "sha256": "a64f17a222287db88a65a26fb1dd31a7306e0aa22daf84f2efea9de0bb0deab7",
+      "bytes": 16512,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN009_s04443_t00749/receipt.json",
+      "sha256": "9bbce4cc964b83cd0635fb8dfb2da7dc2a6d207b15c90896781f06f01db99186",
+      "bytes": 6488,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN009_s04443_t00749/bidirectional_local_lp_s050_seed101.png",
+      "sha256": "d483f696ff9a84f3ca51f2ac823d48e90296c50ff7db4be3737dcfbf0fe2eba2",
+      "bytes": 295684,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN009_s04443_t00749/bidirectional_local_lp_s050_seed202.png",
+      "sha256": "2b8d5c6958dc4c7c2946d5a7233d28df957ccabd109836e95cda1d68731a28f2",
+      "bytes": 296510,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN009_s04443_t00749/bidirectional_local_lp_s050_seed303.png",
+      "sha256": "09b726eed2dd7ab8523aa5ae50d2f0b15f471fb8901ad3cb2cd2e02d52d272bb",
+      "bytes": 294059,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN021_s02743_t00433/edit64.npy",
+      "sha256": "3aba546d96e41253c8bdb97ec95deded3792a2e393b792a3adb9e4c2e0465d9a",
+      "bytes": 16512,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN021_s02743_t00433/cleanup64.npy",
+      "sha256": "1972a63acccc3f17aabd99890058561be7595408dc3426f0c9f027b674ecf96f",
+      "bytes": 16512,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN021_s02743_t00433/receipt.json",
+      "sha256": "ba7564eabb1f8f90ab13973d2dea4b53e3f468676f895a927157aec6ad695bb3",
+      "bytes": 5714,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN021_s02743_t00433/bidirectional_local_lp_s050_seed101.png",
+      "sha256": "f80ed85283782609c61622dc607d8ae5a13967d571c7444922a98a2f6a3a32c3",
+      "bytes": 265818,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN021_s02743_t00433/bidirectional_local_lp_s050_seed202.png",
+      "sha256": "867eabd80d40383efdcd5abc0caae67323df182dfcbf872083812de1b670158f",
+      "bytes": 266289,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN021_s02743_t00433/bidirectional_local_lp_s050_seed303.png",
+      "sha256": "d4dc81f6180041f7bf3aafb1d6feb3e0c964096a72c6e7f2a22db66232f56469",
+      "bytes": 265518,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN021_s02743_t01143/edit64.npy",
+      "sha256": "489b53ebd4a040df2640ebe66fa4aef24cc2a9f9b9690d5eb8f81116519c356d",
+      "bytes": 16512,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN021_s02743_t01143/cleanup64.npy",
+      "sha256": "ad354e99ba137fa12041d1ab755a54aa2f46421cdf9ae3810a510868d258eec0",
+      "bytes": 16512,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN021_s02743_t01143/receipt.json",
+      "sha256": "8e5eaa10ffadc115e36c3d23e80cd6608f80852bb2004f038d4c6941efdeed61",
+      "bytes": 6498,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN021_s02743_t01143/bidirectional_local_lp_s050_seed101.png",
+      "sha256": "5b85f247e1a5f75ab4e3a58138c160098b5edc72c8764448f8bbfb1c8497d0c7",
+      "bytes": 268086,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN021_s02743_t01143/bidirectional_local_lp_s050_seed202.png",
+      "sha256": "5e4429a0a41d973908b49d13fcf571c9e26d2dcc9d811cf0da6a5151066e6820",
+      "bytes": 266750,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN021_s02743_t01143/bidirectional_local_lp_s050_seed303.png",
+      "sha256": "6e2cb9049fc955955157f058e30803d8861c027911ca61ad2fa0760c76756a02",
+      "bytes": 268545,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN021_s02743_t01833/edit64.npy",
+      "sha256": "be485734944deb6aa3836abcfe28184120ec5f5cfe0d42791f9ae10b8bc55932",
+      "bytes": 16512,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN021_s02743_t01833/cleanup64.npy",
+      "sha256": "ad354e99ba137fa12041d1ab755a54aa2f46421cdf9ae3810a510868d258eec0",
+      "bytes": 16512,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN021_s02743_t01833/receipt.json",
+      "sha256": "583791117c4c290fd3233c0e88952f430bf8fa672c626615c105046f098ca2bc",
+      "bytes": 6469,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN021_s02743_t01833/bidirectional_local_lp_s050_seed101.png",
+      "sha256": "9fa9c91a3772b003a86fb102e7b27cefa7250fe6f6f0c522e49fd1d15583be11",
+      "bytes": 265214,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN021_s02743_t01833/bidirectional_local_lp_s050_seed202.png",
+      "sha256": "1c2dd065015047f612bc3e39d1e10be0b73dafb5fbfa9be9462c14b47df57fdf",
+      "bytes": 265205,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN021_s02743_t01833/bidirectional_local_lp_s050_seed303.png",
+      "sha256": "419ae0b08d42cede1232f0a229e4040c7abad73dbc1007a276b04c17eb265ecb",
+      "bytes": 266555,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN024_s02323_t00214/edit64.npy",
+      "sha256": "a657acea19e5b5f5102eaf41b762a505c6a8517d5fa3c47baca25ea4805bc851",
+      "bytes": 16512,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN024_s02323_t00214/cleanup64.npy",
+      "sha256": "1972a63acccc3f17aabd99890058561be7595408dc3426f0c9f027b674ecf96f",
+      "bytes": 16512,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN024_s02323_t00214/receipt.json",
+      "sha256": "09c0455a1598a5885e6f283392fb2224429ba56e9cc6e116758afa0411b3664e",
+      "bytes": 5741,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN024_s02323_t00214/bidirectional_local_lp_s050_seed101.png",
+      "sha256": "d5b9f727a259d60eb5908c8e4725e2d77c808e2969151d1504e48cfbb672e4ef",
+      "bytes": 296180,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN024_s02323_t00214/bidirectional_local_lp_s050_seed202.png",
+      "sha256": "4cfb6fe8d6b9d31d1e49fd19914a4c4b4ad858f7abc143c7a9afc96bc9cce083",
+      "bytes": 296594,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN024_s02323_t00214/bidirectional_local_lp_s050_seed303.png",
+      "sha256": "f0814460c4886e6516816c81dc993969dbb80fc4dd544725db77e4b481998ab2",
+      "bytes": 296497,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN024_s02323_t01418/edit64.npy",
+      "sha256": "6a92c9bcbe139169513a232701ce2d6e886fffc901ab79739f9dc5da36d6fb9d",
+      "bytes": 16512,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN024_s02323_t01418/cleanup64.npy",
+      "sha256": "ae07485abecfa663d1aa6e846b9af8fbe3828114b774c9f9c0c9945a61258158",
+      "bytes": 16512,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN024_s02323_t01418/receipt.json",
+      "sha256": "c681ad1b082003274f62a3db1c3a4b036be496e0c6d8a440e9a073bac1886f7c",
+      "bytes": 6488,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN024_s02323_t01418/bidirectional_local_lp_s050_seed101.png",
+      "sha256": "48b818fce57c550de4a826cf2bf15dda7b27ea6e9ac5c26039a9de5dc3f27e79",
+      "bytes": 296466,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN024_s02323_t01418/bidirectional_local_lp_s050_seed202.png",
+      "sha256": "d8fd10a22bdcfadc0d88fbdeea8f3e92afae7edcf696db3501da662a4321175b",
+      "bytes": 296048,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN024_s02323_t01418/bidirectional_local_lp_s050_seed303.png",
+      "sha256": "9ad856398dadf20b98a170010da3b32f5704eaccb7f8bec0a09354630e5d2e1d",
+      "bytes": 296001,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN024_s02323_t01673/edit64.npy",
+      "sha256": "78793d8d878b7ad40ed8fad168accbcf51c9cd5bffb62f2bde6ffa36ab5039ab",
+      "bytes": 16512,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN024_s02323_t01673/cleanup64.npy",
+      "sha256": "c7206bef80a3f9b049608de215bb1576f6201d6851d6b4dd12fc8ec5ae534f00",
+      "bytes": 16512,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN024_s02323_t01673/receipt.json",
+      "sha256": "5edaec0034b746d7bd0db888b636e307c80e51579a3485b56e2e270e62721302",
+      "bytes": 6536,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN024_s02323_t01673/bidirectional_local_lp_s050_seed101.png",
+      "sha256": "32b3ec48d6c6b4c5cd2ec634d1b270d11247fcc13a15097e3134e3b55141aa3e",
+      "bytes": 298772,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN024_s02323_t01673/bidirectional_local_lp_s050_seed202.png",
+      "sha256": "124a2f4faadf1236036f4dff7b41f30cbd75ed03c5416a8f58c088b6f88fdde4",
+      "bytes": 296465,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN024_s02323_t01673/bidirectional_local_lp_s050_seed303.png",
+      "sha256": "27f4492f648e4e9580147c0fd607f89bfcf096cb5ab1d6547d21ec8681e11b91",
+      "bytes": 298864,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN031_s03334_t01453/edit64.npy",
+      "sha256": "9f648cbf5c775cdd1374f201fb18a887772b137771da9b56757878eb71b912ba",
+      "bytes": 16512,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN031_s03334_t01453/cleanup64.npy",
+      "sha256": "2a77168bdd88e2de919d385714a06a7f53ebbe5c10d9c20607a6dd9dda3f6823",
+      "bytes": 16512,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN031_s03334_t01453/receipt.json",
+      "sha256": "c3030359dbce079284d077db224c1c5c9b1bab313af719dccf6fdefdbb7da630",
+      "bytes": 6518,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN031_s03334_t01453/bidirectional_local_lp_s050_seed101.png",
+      "sha256": "f9585edcbde4c3e2cd15755b7f60fa5357a8fc12325ecc25bec6202bab1886f1",
+      "bytes": 303471,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN031_s03334_t01453/bidirectional_local_lp_s050_seed202.png",
+      "sha256": "ae9fc83ff4c02e3356dabf26683ba6662995168388bcf1164a9cec31eefdc61e",
+      "bytes": 302986,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN031_s03334_t01453/bidirectional_local_lp_s050_seed303.png",
+      "sha256": "1773c602c78382d0621c4f003773b3f0f00011bbebd3fc675ba52001f85093a1",
+      "bytes": 304508,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN031_s03334_t01588/edit64.npy",
+      "sha256": "9f648cbf5c775cdd1374f201fb18a887772b137771da9b56757878eb71b912ba",
+      "bytes": 16512,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN031_s03334_t01588/cleanup64.npy",
+      "sha256": "1972a63acccc3f17aabd99890058561be7595408dc3426f0c9f027b674ecf96f",
+      "bytes": 16512,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN031_s03334_t01588/receipt.json",
+      "sha256": "757e108117b277e70cbb2acab24ee66ac389eed654cd67b10764a2bd314890d9",
+      "bytes": 5786,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN031_s03334_t01588/bidirectional_local_lp_s050_seed101.png",
+      "sha256": "49bbcddb0c8d26f72607fb3bd5c88dbdc84c3438942d4e325d00784d60964a89",
+      "bytes": 302760,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN031_s03334_t01588/bidirectional_local_lp_s050_seed202.png",
+      "sha256": "0f44b60f4c2ce7f91bb644cc90de7171a8ba980408f15474945622e5ce053912",
+      "bytes": 303126,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN031_s03334_t01588/bidirectional_local_lp_s050_seed303.png",
+      "sha256": "606212c4bfa7da46842e90a6bb5ccac78be5c81781cfa9a18ad9da7d8137764e",
+      "bytes": 303861,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN031_s03334_t02693/edit64.npy",
+      "sha256": "738da2b9cf554f2e9c58b17187aae2f8282390bb2fc87533e77fd243c856706c",
+      "bytes": 16512,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN031_s03334_t02693/cleanup64.npy",
+      "sha256": "20dadf17722ff52725db0b655eac4540ecf9fa324389ed118e54e30ef880a73f",
+      "bytes": 16512,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN031_s03334_t02693/receipt.json",
+      "sha256": "3eda696f0422fb817c1e482e66ab29844256e4f26c05ac02b9ca95e666c4850e",
+      "bytes": 6511,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN031_s03334_t02693/bidirectional_local_lp_s050_seed101.png",
+      "sha256": "b1935406a5eb4719ed0f88964c8dc69be927df47efec7b88297086a3e4415a86",
+      "bytes": 301506,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN031_s03334_t02693/bidirectional_local_lp_s050_seed202.png",
+      "sha256": "cdac47817b43954d47df1ff5aa0c894f0214fe4afc48cec333b08e158e5a0e68",
+      "bytes": 297421,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN031_s03334_t02693/bidirectional_local_lp_s050_seed303.png",
+      "sha256": "3453e1cb617ffbb9f631809de3c669767e71d52fb4cf4bf90a23d66da09c72db",
+      "bytes": 301370,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN032_s02758_t02359/edit64.npy",
+      "sha256": "4e099647c0f4e7b06e453c80cd388c81d1870be0e03d9c9eab82dc20b0706e79",
+      "bytes": 16512,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN032_s02758_t02359/cleanup64.npy",
+      "sha256": "1972a63acccc3f17aabd99890058561be7595408dc3426f0c9f027b674ecf96f",
+      "bytes": 16512,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN032_s02758_t02359/receipt.json",
+      "sha256": "56b1e4b92ab924f56d024616f7399cf7507105748a86b80959957003e416ac2c",
+      "bytes": 5777,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN032_s02758_t02359/bidirectional_local_lp_s050_seed101.png",
+      "sha256": "4ba511f3223192017688858b19331376985435f307364f214a7db20e3406984c",
+      "bytes": 287619,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN032_s02758_t02359/bidirectional_local_lp_s050_seed202.png",
+      "sha256": "cace4eee1d9f365786de84860de193c79883a1573c81d0fa599318fda53f3854",
+      "bytes": 287013,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN032_s02758_t02359/bidirectional_local_lp_s050_seed303.png",
+      "sha256": "6ddc216ee4a09dfb325d1f48e7a5eb1ad2c2f6f91c554919b8a23f1c351222ce",
+      "bytes": 287810,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN032_s02758_t04129/edit64.npy",
+      "sha256": "bf9da9724f4ca7982c0e4a53d372825e58573881b6947faf4e861c11e8f9fe68",
+      "bytes": 16512,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN032_s02758_t04129/cleanup64.npy",
+      "sha256": "7e9f6520862b178b983c4fb8d41010cc830ebd5e59a4a8a6bca9c23e07c5bed9",
+      "bytes": 16512,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN032_s02758_t04129/receipt.json",
+      "sha256": "9855d110ba81ff836541fd7afdf52f84af95745dcd43b790cd7c19ca47c9fe4e",
+      "bytes": 6515,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN032_s02758_t04129/bidirectional_local_lp_s050_seed101.png",
+      "sha256": "d6141086b6466bf40047b35c5025ff7a263bd3bf59c445e7d0d4cf1ede784809",
+      "bytes": 283865,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN032_s02758_t04129/bidirectional_local_lp_s050_seed202.png",
+      "sha256": "f2b5d8db620000c9416cdfafe38c02edcaed4c453d25659ed072743c3038a4ba",
+      "bytes": 282973,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN032_s02758_t04129/bidirectional_local_lp_s050_seed303.png",
+      "sha256": "e356f9d266b997c62d1fa768cfee3582f977374acce4d5b0064113b5188a5f55",
+      "bytes": 283769,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN032_s02758_t04754/edit64.npy",
+      "sha256": "40e79da4eb725b6344c8c9485ffb21ec15e178cd1276ae1bf844454a68873c17",
+      "bytes": 16512,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN032_s02758_t04754/cleanup64.npy",
+      "sha256": "7e9f6520862b178b983c4fb8d41010cc830ebd5e59a4a8a6bca9c23e07c5bed9",
+      "bytes": 16512,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN032_s02758_t04754/receipt.json",
+      "sha256": "5abd80d7c1e921d615a0c86a874d7d4efef1d7f2890590824b1d5e2d48eef4b3",
+      "bytes": 6548,
+      "role": "source_mask"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN032_s02758_t04754/bidirectional_local_lp_s050_seed101.png",
+      "sha256": "8312c9acd4558039b90731402d46bca5e1c2c2f4f44e59f7d332070d67859d03",
+      "bytes": 290235,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN032_s02758_t04754/bidirectional_local_lp_s050_seed202.png",
+      "sha256": "63ad2405df72112fea76a8035c75878bb5e517f137c3c4afd1e1d95bf1af8cf7",
+      "bytes": 286626,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN032_s02758_t04754/bidirectional_local_lp_s050_seed303.png",
+      "sha256": "01a6b6bf4356b201cc6ad390011f53dcb25c33594c1535bbc7bca54ad543de51",
+      "bytes": 291309,
+      "role": "old_full_parity_image"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/盲审补充实验_20261023/generation/ablation_core.py",
+      "sha256": "5d082083682b31d86b3b3d622f0abe16f2edcdfa78821fce9ee6e7a05c293af6",
+      "bytes": 4041,
+      "role": "new_implementation"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/盲审补充实验_20261023/generation/run_ablations.py",
+      "sha256": "5f9db37f120a50469fcf1aefc8607e881b1dc7bdba88de2afda3bde1a39aee2e",
+      "bytes": 32645,
+      "role": "new_implementation"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/improvements/a_terminal_cleanup_v10_20260915/run_terminal.py",
+      "sha256": "3b11fb90c69276200906a156e7cd126c07727d393140829fce69858ce2f3d9a8",
+      "bytes": 18316,
+      "role": "terminal_dependency"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/improvements/region_preserving_v6_20260915/run_region_diagnostic.py",
+      "sha256": "85236dfc8803fb66d8f2440a240475a10c59f189ab3df059a44389f13db1fcec",
+      "bytes": 13657,
+      "role": "terminal_dependency"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/improvements/quality_diagnosis_v5_20260915/run_diagnostic.py",
+      "sha256": "6296388a3ffeafd6cc413589f0f498966e113c8c0e183e36e30017fce96edd89",
+      "bytes": 17490,
+      "role": "terminal_dependency"
+    },
+    {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/improvements/region_preserving_v6_20260915/region_mask.py",
+      "sha256": "75f7995e3addb7656e0935da62e920f9d43b540ffa9b5e127093835afb3e438e",
+      "bytes": 20228,
+      "role": "terminal_dependency"
+    }
+  ],
+  "old_configuration": {
+    "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/configuration.json",
+    "sha256": "af9243692fe842fb1f4126e077a3af00b5964fcf8acafb5c48a1ad01c430c61a",
+    "bytes": 8216
+  },
+  "source_cache": {
+    "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/source_caches/selected_v11_v1/manifest.json",
+    "sha256": "ae4ba1c8ec9cb7604999857d9b73f2754d4bddd997821ad89fd9d71d11583dca",
+    "bytes": 87177
+  },
+  "source_features": {
+    "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/source_caches/selected_v11_v1/features.pt",
+    "sha256": "2d252762246de596c3c966f089dfce56377cc0c5cbc442e3d7e2c31c8257bfb5",
+    "bytes": 6150824
+  },
+  "source_latents": {
+    "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/source_latents.pt",
+    "sha256": "178de6daaa5a42bda02e6215fcbcf67d0907ab4c31adefeb54f570322950d4a5",
+    "bytes": 527040
+  },
+  "old_runtime": {
+    "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/runtime.json",
+    "sha256": "cfc06d91cb5b83436e7aac26618541218f67ea37eefba964764c1aa0cd1ca16c",
+    "bytes": 29163
+  },
+  "training_bindings": {
+    "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/runs/v4_slot_2k_bidir_step200_202609141920/bindings.json",
+    "sha256": "b46d576d1da6561c2745c5231b258b99e835fc5e374af050f14f5fa5c1c0846a",
+    "bytes": 105173
+  },
+  "checkpoint": {
+    "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/runs/v4_slot_2k_bidir_step200_202609141920/checkpoint_00000200.pt",
+    "sha256": "7fcc25b704fca8c0a4e46a171096df8fea940b40a246d4939193e64f533b4e30",
+    "bytes": 10310462
+  },
+  "masks": {
+    "postfreeze_SN003_s00869_t01203": {
+      "receipt": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN003_s00869_t01203/receipt.json",
+        "sha256": "a40c8d9a4d003c46fc59e5e473c82b326a5b446986fab2484ea8d8fe2bb91f07",
+        "bytes": 5782
+      },
+      "edit": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN003_s00869_t01203/edit64.npy",
+        "sha256": "f481a30921e18aa03047404c359d28ecb5de70db3fd8ed4e76b3e72f4654b5e5"
+      },
+      "cleanup": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN003_s00869_t01203/cleanup64.npy",
+        "sha256": "1972a63acccc3f17aabd99890058561be7595408dc3426f0c9f027b674ecf96f"
+      },
+      "edit_tensor_sha256": "4ddc76cc90468bcab92fc2ec3490e7c951c2785311682540999ab72bc0fb8606",
+      "cleanup_tensor_sha256": "4fe7b59af6de3b665b67788cc2f99892ab827efae3a467342b3bb4e3bc8e5bfe"
+    },
+    "postfreeze_SN003_s00869_t03029": {
+      "receipt": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN003_s00869_t03029/receipt.json",
+        "sha256": "b7ac00b60d0be68b66f714fae9622dc2d8cdfd943278aa8b5de9e510e650ed48",
+        "bytes": 6495
+      },
+      "edit": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN003_s00869_t03029/edit64.npy",
+        "sha256": "c4afb452ea9fc80b88db52f01320652b6d1c5bd3b65d27b6f535658cbf902002"
+      },
+      "cleanup": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN003_s00869_t03029/cleanup64.npy",
+        "sha256": "fd95868648576d7a368cf5d94653ae272bdc81de2dc115637a4644b46d90da73"
+      },
+      "edit_tensor_sha256": "cb0d9223668fe498e3b5ae168a75b008b61be25e26ca70c080fc0d111373c9f0",
+      "cleanup_tensor_sha256": "ee4ed07cc349e1bc400e52b92519bdb5ff7e305586a2a5ef881fdff4eebd1ba7"
+    },
+    "postfreeze_SN003_s00869_t04558": {
+      "receipt": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN003_s00869_t04558/receipt.json",
+        "sha256": "5e825f2716e8b863a9ab1c2609ed718eb5287d604585b35c852bd4b3955ea04f",
+        "bytes": 6587
+      },
+      "edit": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN003_s00869_t04558/edit64.npy",
+        "sha256": "2d08f383e51aab8a0049e5d1a5854716fde93f32554e389ef481bf9b46e61734"
+      },
+      "cleanup": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN003_s00869_t04558/cleanup64.npy",
+        "sha256": "fd95868648576d7a368cf5d94653ae272bdc81de2dc115637a4644b46d90da73"
+      },
+      "edit_tensor_sha256": "004f42ea90f4d03cb2f32e1c8f85d2ce79d76e4d95f62601511dab50b9f2ccc3",
+      "cleanup_tensor_sha256": "ee4ed07cc349e1bc400e52b92519bdb5ff7e305586a2a5ef881fdff4eebd1ba7"
+    },
+    "postfreeze_SN005_s03289_t00539": {
+      "receipt": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN005_s03289_t00539/receipt.json",
+        "sha256": "75af9a68137f51967489086eb1adb95d0ad64a6eaa4c473beb5892f0b4cdf073",
+        "bytes": 5743
+      },
+      "edit": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN005_s03289_t00539/edit64.npy",
+        "sha256": "7d0045362ca7c2283f07394b13474a0a45677fd24a080beab6543221bcb140bb"
+      },
+      "cleanup": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN005_s03289_t00539/cleanup64.npy",
+        "sha256": "1972a63acccc3f17aabd99890058561be7595408dc3426f0c9f027b674ecf96f"
+      },
+      "edit_tensor_sha256": "87b3821a2f8273c3f65088beb1a36ec8686eb470ead96fd3712732912ea06ee0",
+      "cleanup_tensor_sha256": "4fe7b59af6de3b665b67788cc2f99892ab827efae3a467342b3bb4e3bc8e5bfe"
+    },
+    "postfreeze_SN005_s03289_t00903": {
+      "receipt": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN005_s03289_t00903/receipt.json",
+        "sha256": "92a8cb99faf7da575e72b4149da8d088308ba25d1a6bd96a770b38d02c24ced9",
+        "bytes": 5735
+      },
+      "edit": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN005_s03289_t00903/edit64.npy",
+        "sha256": "7d0045362ca7c2283f07394b13474a0a45677fd24a080beab6543221bcb140bb"
+      },
+      "cleanup": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN005_s03289_t00903/cleanup64.npy",
+        "sha256": "1972a63acccc3f17aabd99890058561be7595408dc3426f0c9f027b674ecf96f"
+      },
+      "edit_tensor_sha256": "87b3821a2f8273c3f65088beb1a36ec8686eb470ead96fd3712732912ea06ee0",
+      "cleanup_tensor_sha256": "4fe7b59af6de3b665b67788cc2f99892ab827efae3a467342b3bb4e3bc8e5bfe"
+    },
+    "postfreeze_SN005_s03289_t02174": {
+      "receipt": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN005_s03289_t02174/receipt.json",
+        "sha256": "bd46b281f88369fe6b116c24914835bc30bbe6193bdc8e1484dc343749579d7f",
+        "bytes": 5735
+      },
+      "edit": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN005_s03289_t02174/edit64.npy",
+        "sha256": "7d0045362ca7c2283f07394b13474a0a45677fd24a080beab6543221bcb140bb"
+      },
+      "cleanup": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN005_s03289_t02174/cleanup64.npy",
+        "sha256": "1972a63acccc3f17aabd99890058561be7595408dc3426f0c9f027b674ecf96f"
+      },
+      "edit_tensor_sha256": "87b3821a2f8273c3f65088beb1a36ec8686eb470ead96fd3712732912ea06ee0",
+      "cleanup_tensor_sha256": "4fe7b59af6de3b665b67788cc2f99892ab827efae3a467342b3bb4e3bc8e5bfe"
+    },
+    "postfreeze_SN008_s00398_t00218": {
+      "receipt": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN008_s00398_t00218/receipt.json",
+        "sha256": "09bb351806387080c2cec48bb2a53ca295aa8216e4dee777f598b79d7d9cd67b",
+        "bytes": 5789
+      },
+      "edit": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN008_s00398_t00218/edit64.npy",
+        "sha256": "dc7a4e3275133f0ebc2d21bbd65a3226378437f9f5f7569a78d0c988cdb3c98c"
+      },
+      "cleanup": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN008_s00398_t00218/cleanup64.npy",
+        "sha256": "1972a63acccc3f17aabd99890058561be7595408dc3426f0c9f027b674ecf96f"
+      },
+      "edit_tensor_sha256": "201067c2874136c9831dfa98e5b8e4a78f1c95ffd44f4ed3fc5b9db9ba0dcfda",
+      "cleanup_tensor_sha256": "4fe7b59af6de3b665b67788cc2f99892ab827efae3a467342b3bb4e3bc8e5bfe"
+    },
+    "postfreeze_SN008_s00398_t00809": {
+      "receipt": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN008_s00398_t00809/receipt.json",
+        "sha256": "94596489cdb9ae66d6363537161657e92b606aa8f3941eb0a4037705a17b87ab",
+        "bytes": 5768
+      },
+      "edit": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN008_s00398_t00809/edit64.npy",
+        "sha256": "fc15deaca62bb2cde220b1e05bb28364d50d9df5197ef54bc3775e49265eb55f"
+      },
+      "cleanup": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN008_s00398_t00809/cleanup64.npy",
+        "sha256": "1972a63acccc3f17aabd99890058561be7595408dc3426f0c9f027b674ecf96f"
+      },
+      "edit_tensor_sha256": "3e01a0393b33f9b6fe3428c88fb0fc0989b5f7e64b62d30c02a49f883f746d57",
+      "cleanup_tensor_sha256": "4fe7b59af6de3b665b67788cc2f99892ab827efae3a467342b3bb4e3bc8e5bfe"
+    },
+    "postfreeze_SN008_s00398_t04228": {
+      "receipt": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN008_s00398_t04228/receipt.json",
+        "sha256": "3235d95bfd1db9ff38887cb950f5008b0ddeb238bf20ad14103d054b3d952679",
+        "bytes": 5764
+      },
+      "edit": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN008_s00398_t04228/edit64.npy",
+        "sha256": "1dbeab5bac6f7c1a61dc1df7c3bb313a9f265f9d40763ceb2bc4a68041c668bd"
+      },
+      "cleanup": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN008_s00398_t04228/cleanup64.npy",
+        "sha256": "1972a63acccc3f17aabd99890058561be7595408dc3426f0c9f027b674ecf96f"
+      },
+      "edit_tensor_sha256": "9eeb4351bb61657d4485b43c8e656f781181645b0af2b678b37cb11652343a82",
+      "cleanup_tensor_sha256": "4fe7b59af6de3b665b67788cc2f99892ab827efae3a467342b3bb4e3bc8e5bfe"
+    },
+    "postfreeze_SN009_s04443_t00063": {
+      "receipt": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN009_s04443_t00063/receipt.json",
+        "sha256": "3fd2f4fd1258a9191e8b17c43d452adeda63241e7542975d9f07f463b6534053",
+        "bytes": 5738
+      },
+      "edit": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN009_s04443_t00063/edit64.npy",
+        "sha256": "30bace2f0374a62be8a64216b9f994edbf95dce41bd38f8a5601b46cd2add6b0"
+      },
+      "cleanup": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN009_s04443_t00063/cleanup64.npy",
+        "sha256": "1972a63acccc3f17aabd99890058561be7595408dc3426f0c9f027b674ecf96f"
+      },
+      "edit_tensor_sha256": "6adf8b66f44239993f99ff4631d392af35310ac5129098b970ab0c384867f3bc",
+      "cleanup_tensor_sha256": "4fe7b59af6de3b665b67788cc2f99892ab827efae3a467342b3bb4e3bc8e5bfe"
+    },
+    "postfreeze_SN009_s04443_t00399": {
+      "receipt": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN009_s04443_t00399/receipt.json",
+        "sha256": "dec9883c0d50734fd5d689ab4cbf945f2e8d11cc0e8a4ee23af3dff60b825404",
+        "bytes": 7217
+      },
+      "edit": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN009_s04443_t00399/edit64.npy",
+        "sha256": "cee52a15917860bad13de7a990eb2b1c35bdf7b88c8c812f9e55e1ca0ec27a7a"
+      },
+      "cleanup": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN009_s04443_t00399/cleanup64.npy",
+        "sha256": "98862d26c293a63d7412256dc7f44243c14ba8d5f30e4bbc03b5defb18a58001"
+      },
+      "edit_tensor_sha256": "69a23f62399920e6582c25690228c6d1fd6bf8594d05a33b3a87187c9de1d19e",
+      "cleanup_tensor_sha256": "8cc9e0a4d4a1f0cb101838ae3cf9e0bd4c74fa86f8db13d1a9c58ff0ecff1880"
+    },
+    "postfreeze_SN009_s04443_t00749": {
+      "receipt": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN009_s04443_t00749/receipt.json",
+        "sha256": "9bbce4cc964b83cd0635fb8dfb2da7dc2a6d207b15c90896781f06f01db99186",
+        "bytes": 6488
+      },
+      "edit": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN009_s04443_t00749/edit64.npy",
+        "sha256": "3f21ce295abd3a8508b419e6e15a9e040d7c9fbe0b706da5b8079c79b252c78e"
+      },
+      "cleanup": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN009_s04443_t00749/cleanup64.npy",
+        "sha256": "a64f17a222287db88a65a26fb1dd31a7306e0aa22daf84f2efea9de0bb0deab7"
+      },
+      "edit_tensor_sha256": "10f728333e8b032fcb05cca5a96046d36fe68f551617d39f895330bcaeb07761",
+      "cleanup_tensor_sha256": "e783cf282b24de350cdc4a8b820fb4fd1e873a35cbe9ca706d54694517cfeaee"
+    },
+    "postfreeze_SN021_s02743_t00433": {
+      "receipt": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN021_s02743_t00433/receipt.json",
+        "sha256": "ba7564eabb1f8f90ab13973d2dea4b53e3f468676f895a927157aec6ad695bb3",
+        "bytes": 5714
+      },
+      "edit": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN021_s02743_t00433/edit64.npy",
+        "sha256": "3aba546d96e41253c8bdb97ec95deded3792a2e393b792a3adb9e4c2e0465d9a"
+      },
+      "cleanup": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN021_s02743_t00433/cleanup64.npy",
+        "sha256": "1972a63acccc3f17aabd99890058561be7595408dc3426f0c9f027b674ecf96f"
+      },
+      "edit_tensor_sha256": "863e030fe6ad8a3c8e3fa91f1c6f9d8af14116b602948535aff9d0a851ee3990",
+      "cleanup_tensor_sha256": "4fe7b59af6de3b665b67788cc2f99892ab827efae3a467342b3bb4e3bc8e5bfe"
+    },
+    "postfreeze_SN021_s02743_t01143": {
+      "receipt": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN021_s02743_t01143/receipt.json",
+        "sha256": "8e5eaa10ffadc115e36c3d23e80cd6608f80852bb2004f038d4c6941efdeed61",
+        "bytes": 6498
+      },
+      "edit": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN021_s02743_t01143/edit64.npy",
+        "sha256": "489b53ebd4a040df2640ebe66fa4aef24cc2a9f9b9690d5eb8f81116519c356d"
+      },
+      "cleanup": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN021_s02743_t01143/cleanup64.npy",
+        "sha256": "ad354e99ba137fa12041d1ab755a54aa2f46421cdf9ae3810a510868d258eec0"
+      },
+      "edit_tensor_sha256": "3ad60865b4db73e60a2e3000e2efde658c0d612366fe96d84dcff55539420a96",
+      "cleanup_tensor_sha256": "49efbc97741cb0d5c06cabf62ed9323cf297ee1fbcfc72f4f92b3c201d8bf102"
+    },
+    "postfreeze_SN021_s02743_t01833": {
+      "receipt": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN021_s02743_t01833/receipt.json",
+        "sha256": "583791117c4c290fd3233c0e88952f430bf8fa672c626615c105046f098ca2bc",
+        "bytes": 6469
+      },
+      "edit": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN021_s02743_t01833/edit64.npy",
+        "sha256": "be485734944deb6aa3836abcfe28184120ec5f5cfe0d42791f9ae10b8bc55932"
+      },
+      "cleanup": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN021_s02743_t01833/cleanup64.npy",
+        "sha256": "ad354e99ba137fa12041d1ab755a54aa2f46421cdf9ae3810a510868d258eec0"
+      },
+      "edit_tensor_sha256": "1fa33fc95640e5dc4c3f78877c864b56d5fcace6d313a1abdac43b1727b7711a",
+      "cleanup_tensor_sha256": "49efbc97741cb0d5c06cabf62ed9323cf297ee1fbcfc72f4f92b3c201d8bf102"
+    },
+    "postfreeze_SN024_s02323_t00214": {
+      "receipt": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN024_s02323_t00214/receipt.json",
+        "sha256": "09c0455a1598a5885e6f283392fb2224429ba56e9cc6e116758afa0411b3664e",
+        "bytes": 5741
+      },
+      "edit": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN024_s02323_t00214/edit64.npy",
+        "sha256": "a657acea19e5b5f5102eaf41b762a505c6a8517d5fa3c47baca25ea4805bc851"
+      },
+      "cleanup": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN024_s02323_t00214/cleanup64.npy",
+        "sha256": "1972a63acccc3f17aabd99890058561be7595408dc3426f0c9f027b674ecf96f"
+      },
+      "edit_tensor_sha256": "997af378ec55618a48431df6580db8aa727003d2b3c0d5503603fa063587c274",
+      "cleanup_tensor_sha256": "4fe7b59af6de3b665b67788cc2f99892ab827efae3a467342b3bb4e3bc8e5bfe"
+    },
+    "postfreeze_SN024_s02323_t01418": {
+      "receipt": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN024_s02323_t01418/receipt.json",
+        "sha256": "c681ad1b082003274f62a3db1c3a4b036be496e0c6d8a440e9a073bac1886f7c",
+        "bytes": 6488
+      },
+      "edit": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN024_s02323_t01418/edit64.npy",
+        "sha256": "6a92c9bcbe139169513a232701ce2d6e886fffc901ab79739f9dc5da36d6fb9d"
+      },
+      "cleanup": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN024_s02323_t01418/cleanup64.npy",
+        "sha256": "ae07485abecfa663d1aa6e846b9af8fbe3828114b774c9f9c0c9945a61258158"
+      },
+      "edit_tensor_sha256": "78a341923794878eff06f9db0b2094748db1167f69ee5443adb54a0ec6e34ed9",
+      "cleanup_tensor_sha256": "e554701aeaed138655ce22f82a9f86ac4f9e76edb40a7621a6cd1828d2ff884d"
+    },
+    "postfreeze_SN024_s02323_t01673": {
+      "receipt": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN024_s02323_t01673/receipt.json",
+        "sha256": "5edaec0034b746d7bd0db888b636e307c80e51579a3485b56e2e270e62721302",
+        "bytes": 6536
+      },
+      "edit": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN024_s02323_t01673/edit64.npy",
+        "sha256": "78793d8d878b7ad40ed8fad168accbcf51c9cd5bffb62f2bde6ffa36ab5039ab"
+      },
+      "cleanup": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN024_s02323_t01673/cleanup64.npy",
+        "sha256": "c7206bef80a3f9b049608de215bb1576f6201d6851d6b4dd12fc8ec5ae534f00"
+      },
+      "edit_tensor_sha256": "4c85fab690731edd6f456c36395f07d9fc80f07d20a148bd1e579eef8c31e808",
+      "cleanup_tensor_sha256": "b88033961b9f197f586d25b5b5b27310725d9bc1921140c5af1cde16de977a7d"
+    },
+    "postfreeze_SN031_s03334_t01453": {
+      "receipt": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN031_s03334_t01453/receipt.json",
+        "sha256": "c3030359dbce079284d077db224c1c5c9b1bab313af719dccf6fdefdbb7da630",
+        "bytes": 6518
+      },
+      "edit": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN031_s03334_t01453/edit64.npy",
+        "sha256": "9f648cbf5c775cdd1374f201fb18a887772b137771da9b56757878eb71b912ba"
+      },
+      "cleanup": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN031_s03334_t01453/cleanup64.npy",
+        "sha256": "2a77168bdd88e2de919d385714a06a7f53ebbe5c10d9c20607a6dd9dda3f6823"
+      },
+      "edit_tensor_sha256": "9a042824883200a0fbf1b1c1d92f78ec9ad968d7bb92e94cca6bb3fcbe6c804e",
+      "cleanup_tensor_sha256": "7ebe683c4160928769ba1c2f01d1399ec73c79df3301c6aa9c20a4b0bc4c3843"
+    },
+    "postfreeze_SN031_s03334_t01588": {
+      "receipt": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN031_s03334_t01588/receipt.json",
+        "sha256": "757e108117b277e70cbb2acab24ee66ac389eed654cd67b10764a2bd314890d9",
+        "bytes": 5786
+      },
+      "edit": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN031_s03334_t01588/edit64.npy",
+        "sha256": "9f648cbf5c775cdd1374f201fb18a887772b137771da9b56757878eb71b912ba"
+      },
+      "cleanup": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN031_s03334_t01588/cleanup64.npy",
+        "sha256": "1972a63acccc3f17aabd99890058561be7595408dc3426f0c9f027b674ecf96f"
+      },
+      "edit_tensor_sha256": "9a042824883200a0fbf1b1c1d92f78ec9ad968d7bb92e94cca6bb3fcbe6c804e",
+      "cleanup_tensor_sha256": "4fe7b59af6de3b665b67788cc2f99892ab827efae3a467342b3bb4e3bc8e5bfe"
+    },
+    "postfreeze_SN031_s03334_t02693": {
+      "receipt": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN031_s03334_t02693/receipt.json",
+        "sha256": "3eda696f0422fb817c1e482e66ab29844256e4f26c05ac02b9ca95e666c4850e",
+        "bytes": 6511
+      },
+      "edit": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN031_s03334_t02693/edit64.npy",
+        "sha256": "738da2b9cf554f2e9c58b17187aae2f8282390bb2fc87533e77fd243c856706c"
+      },
+      "cleanup": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN031_s03334_t02693/cleanup64.npy",
+        "sha256": "20dadf17722ff52725db0b655eac4540ecf9fa324389ed118e54e30ef880a73f"
+      },
+      "edit_tensor_sha256": "b4dcf57e6adf82b9e6aedd80d34fbe759b8252139be234f347da37fea784e614",
+      "cleanup_tensor_sha256": "567c171aff401d40b176a8cc33c5fa7400520a2ceb3df761fc5ffb41611aecb7"
+    },
+    "postfreeze_SN032_s02758_t02359": {
+      "receipt": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN032_s02758_t02359/receipt.json",
+        "sha256": "56b1e4b92ab924f56d024616f7399cf7507105748a86b80959957003e416ac2c",
+        "bytes": 5777
+      },
+      "edit": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN032_s02758_t02359/edit64.npy",
+        "sha256": "4e099647c0f4e7b06e453c80cd388c81d1870be0e03d9c9eab82dc20b0706e79"
+      },
+      "cleanup": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN032_s02758_t02359/cleanup64.npy",
+        "sha256": "1972a63acccc3f17aabd99890058561be7595408dc3426f0c9f027b674ecf96f"
+      },
+      "edit_tensor_sha256": "d5e783506ba216242780df7617c50dda943826a76cb388d7054ccd742924658c",
+      "cleanup_tensor_sha256": "4fe7b59af6de3b665b67788cc2f99892ab827efae3a467342b3bb4e3bc8e5bfe"
+    },
+    "postfreeze_SN032_s02758_t04129": {
+      "receipt": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN032_s02758_t04129/receipt.json",
+        "sha256": "9855d110ba81ff836541fd7afdf52f84af95745dcd43b790cd7c19ca47c9fe4e",
+        "bytes": 6515
+      },
+      "edit": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN032_s02758_t04129/edit64.npy",
+        "sha256": "bf9da9724f4ca7982c0e4a53d372825e58573881b6947faf4e861c11e8f9fe68"
+      },
+      "cleanup": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN032_s02758_t04129/cleanup64.npy",
+        "sha256": "7e9f6520862b178b983c4fb8d41010cc830ebd5e59a4a8a6bca9c23e07c5bed9"
+      },
+      "edit_tensor_sha256": "73510fef31e7ab7fe9e71b8aa4cd3df951f71a155179eb5361ae240175322336",
+      "cleanup_tensor_sha256": "7dbfe0ad8e49e2a311d0f568c6c8847572a7e3fbcfe33882080a0d1702bc1603"
+    },
+    "postfreeze_SN032_s02758_t04754": {
+      "receipt": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN032_s02758_t04754/receipt.json",
+        "sha256": "5abd80d7c1e921d615a0c86a874d7d4efef1d7f2890590824b1d5e2d48eef4b3",
+        "bytes": 6548
+      },
+      "edit": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN032_s02758_t04754/edit64.npy",
+        "sha256": "40e79da4eb725b6344c8c9485ffb21ec15e178cd1276ae1bf844454a68873c17"
+      },
+      "cleanup": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/masks/postfreeze_SN032_s02758_t04754/cleanup64.npy",
+        "sha256": "7e9f6520862b178b983c4fb8d41010cc830ebd5e59a4a8a6bca9c23e07c5bed9"
+      },
+      "edit_tensor_sha256": "c2b3c38f9d7aa6df3b26c57fd9f89fe50797f877e7c54f71414f067a0c96c411",
+      "cleanup_tensor_sha256": "7dbfe0ad8e49e2a311d0f568c6c8847572a7e3fbcfe33882080a0d1702bc1603"
+    }
+  },
+  "parity_references": {
+    "postfreeze_SN003_s00869_t01203::101": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN003_s00869_t01203/bidirectional_local_lp_s050_seed101.png",
+      "sha256": "008959b067385fd1b9db8f66ac0d09a3906e527471fe65c649c0d0b7a8c87fce",
+      "condition_hashes": {
+        "au_embedding": "50dda3bea0f8440493fa50f961156c4603d50fc6e90ae6983ad365f6b6fdcf5a",
+        "image_embedding": "2b2344e2ee66f250ee80bd291affb69e9c13eac2ce0f93210d5609e857f556ba"
+      },
+      "noise_sha256": "7fe2746903215c94f571dade7cfb08f11101df8b4ca787018fa4a6f5d13690e0",
+      "source_latent_sha256": "a063f7f2443ce3c66964d0f791e07c236c63101997c4d1b78f4aa9a499ebfa39"
+    },
+    "postfreeze_SN003_s00869_t01203::202": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN003_s00869_t01203/bidirectional_local_lp_s050_seed202.png",
+      "sha256": "d9810d6ad54cf2294adbb4f877845d58018cfc309664037e9b575489b76ac3a8",
+      "condition_hashes": {
+        "au_embedding": "50dda3bea0f8440493fa50f961156c4603d50fc6e90ae6983ad365f6b6fdcf5a",
+        "image_embedding": "2b2344e2ee66f250ee80bd291affb69e9c13eac2ce0f93210d5609e857f556ba"
+      },
+      "noise_sha256": "05ec63af64d4517f8e90aa6fca4d1250fc460cb66de75707ee772c0895767c3c",
+      "source_latent_sha256": "a063f7f2443ce3c66964d0f791e07c236c63101997c4d1b78f4aa9a499ebfa39"
+    },
+    "postfreeze_SN003_s00869_t01203::303": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN003_s00869_t01203/bidirectional_local_lp_s050_seed303.png",
+      "sha256": "c68534c19e8b9658289ba65dd1db73c66a526238b5d59825dcb2ad285cc98720",
+      "condition_hashes": {
+        "au_embedding": "50dda3bea0f8440493fa50f961156c4603d50fc6e90ae6983ad365f6b6fdcf5a",
+        "image_embedding": "2b2344e2ee66f250ee80bd291affb69e9c13eac2ce0f93210d5609e857f556ba"
+      },
+      "noise_sha256": "c9f1642287ccb51249c67c4125af471fdd22bf00b0d431fafee074406fc4949f",
+      "source_latent_sha256": "a063f7f2443ce3c66964d0f791e07c236c63101997c4d1b78f4aa9a499ebfa39"
+    },
+    "postfreeze_SN003_s00869_t03029::101": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN003_s00869_t03029/bidirectional_local_lp_s050_seed101.png",
+      "sha256": "78209a34b0b73abd50dfe0a5170955ecfecefffde66473b41926aa80dbe11cbe",
+      "condition_hashes": {
+        "au_embedding": "3f0cc55945fee95630d3185610de637e68cda522f96edf2c6a8e8d63cff3e5c0",
+        "image_embedding": "627257094a9e1dc4323439691d76f457acf657f792cb65924df8ced6dedb6f62"
+      },
+      "noise_sha256": "7fe2746903215c94f571dade7cfb08f11101df8b4ca787018fa4a6f5d13690e0",
+      "source_latent_sha256": "a063f7f2443ce3c66964d0f791e07c236c63101997c4d1b78f4aa9a499ebfa39"
+    },
+    "postfreeze_SN003_s00869_t03029::202": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN003_s00869_t03029/bidirectional_local_lp_s050_seed202.png",
+      "sha256": "8639bd7b2a3a6196f8baf5027c309b75b3bad7f0a8e07c6f6de77f0f283300f2",
+      "condition_hashes": {
+        "au_embedding": "3f0cc55945fee95630d3185610de637e68cda522f96edf2c6a8e8d63cff3e5c0",
+        "image_embedding": "627257094a9e1dc4323439691d76f457acf657f792cb65924df8ced6dedb6f62"
+      },
+      "noise_sha256": "05ec63af64d4517f8e90aa6fca4d1250fc460cb66de75707ee772c0895767c3c",
+      "source_latent_sha256": "a063f7f2443ce3c66964d0f791e07c236c63101997c4d1b78f4aa9a499ebfa39"
+    },
+    "postfreeze_SN003_s00869_t03029::303": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN003_s00869_t03029/bidirectional_local_lp_s050_seed303.png",
+      "sha256": "dc58fafb2f700909544e5ae28c5f52c5edaee61ff86c8407bcf539aa4ac09ab6",
+      "condition_hashes": {
+        "au_embedding": "3f0cc55945fee95630d3185610de637e68cda522f96edf2c6a8e8d63cff3e5c0",
+        "image_embedding": "627257094a9e1dc4323439691d76f457acf657f792cb65924df8ced6dedb6f62"
+      },
+      "noise_sha256": "c9f1642287ccb51249c67c4125af471fdd22bf00b0d431fafee074406fc4949f",
+      "source_latent_sha256": "a063f7f2443ce3c66964d0f791e07c236c63101997c4d1b78f4aa9a499ebfa39"
+    },
+    "postfreeze_SN003_s00869_t04558::101": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN003_s00869_t04558/bidirectional_local_lp_s050_seed101.png",
+      "sha256": "6524539b558828e4ff2008eed9c78bcb17c898beb548acb2baa2a5618cd6581a",
+      "condition_hashes": {
+        "au_embedding": "79c9be9a50d7404456dc12c20166422c93120685a35ebdb8337c35f80918c04e",
+        "image_embedding": "3ef858e6e7dc168fa643dad7e040383c49c627a3d0e1d6850a87278105368a16"
+      },
+      "noise_sha256": "7fe2746903215c94f571dade7cfb08f11101df8b4ca787018fa4a6f5d13690e0",
+      "source_latent_sha256": "a063f7f2443ce3c66964d0f791e07c236c63101997c4d1b78f4aa9a499ebfa39"
+    },
+    "postfreeze_SN003_s00869_t04558::202": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN003_s00869_t04558/bidirectional_local_lp_s050_seed202.png",
+      "sha256": "1bb125f72feed5016ffa818e09204b6b8f761f652c3e496b6a8fec8630410316",
+      "condition_hashes": {
+        "au_embedding": "79c9be9a50d7404456dc12c20166422c93120685a35ebdb8337c35f80918c04e",
+        "image_embedding": "3ef858e6e7dc168fa643dad7e040383c49c627a3d0e1d6850a87278105368a16"
+      },
+      "noise_sha256": "05ec63af64d4517f8e90aa6fca4d1250fc460cb66de75707ee772c0895767c3c",
+      "source_latent_sha256": "a063f7f2443ce3c66964d0f791e07c236c63101997c4d1b78f4aa9a499ebfa39"
+    },
+    "postfreeze_SN003_s00869_t04558::303": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN003_s00869_t04558/bidirectional_local_lp_s050_seed303.png",
+      "sha256": "0500d7200fecdccd6a6140afcc614fe8e5c167d9562cd6e5932343415e089aae",
+      "condition_hashes": {
+        "au_embedding": "79c9be9a50d7404456dc12c20166422c93120685a35ebdb8337c35f80918c04e",
+        "image_embedding": "3ef858e6e7dc168fa643dad7e040383c49c627a3d0e1d6850a87278105368a16"
+      },
+      "noise_sha256": "c9f1642287ccb51249c67c4125af471fdd22bf00b0d431fafee074406fc4949f",
+      "source_latent_sha256": "a063f7f2443ce3c66964d0f791e07c236c63101997c4d1b78f4aa9a499ebfa39"
+    },
+    "postfreeze_SN005_s03289_t00539::101": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN005_s03289_t00539/bidirectional_local_lp_s050_seed101.png",
+      "sha256": "657675d1a8d4e374f9aae886e740df422e2d55f306f24d29b9a8bd8a5049a040",
+      "condition_hashes": {
+        "au_embedding": "9f7e60b3f93f58249d5fe41f5475e42b3ccc3c7162ea67ae8548dc30f2cd1291",
+        "image_embedding": "dc7cb09cdfb0f30338c5584d98fd30040ed7573b1af613b05247ade58ebbbc31"
+      },
+      "noise_sha256": "7fe2746903215c94f571dade7cfb08f11101df8b4ca787018fa4a6f5d13690e0",
+      "source_latent_sha256": "50fdb2fbccf7861fcd3ac566e489d2fa50cb7dead02b22b85888afe9d7a71d0f"
+    },
+    "postfreeze_SN005_s03289_t00539::202": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN005_s03289_t00539/bidirectional_local_lp_s050_seed202.png",
+      "sha256": "497ff2b72cebc8b5e101a34b54efe89b34aa514fae2968a891216e5b87aa5a3c",
+      "condition_hashes": {
+        "au_embedding": "9f7e60b3f93f58249d5fe41f5475e42b3ccc3c7162ea67ae8548dc30f2cd1291",
+        "image_embedding": "dc7cb09cdfb0f30338c5584d98fd30040ed7573b1af613b05247ade58ebbbc31"
+      },
+      "noise_sha256": "05ec63af64d4517f8e90aa6fca4d1250fc460cb66de75707ee772c0895767c3c",
+      "source_latent_sha256": "50fdb2fbccf7861fcd3ac566e489d2fa50cb7dead02b22b85888afe9d7a71d0f"
+    },
+    "postfreeze_SN005_s03289_t00539::303": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN005_s03289_t00539/bidirectional_local_lp_s050_seed303.png",
+      "sha256": "b8f13a9c556b0713d944827d41d1913ccb01c9cd0946b0b52f0bc5ccff5b2f32",
+      "condition_hashes": {
+        "au_embedding": "9f7e60b3f93f58249d5fe41f5475e42b3ccc3c7162ea67ae8548dc30f2cd1291",
+        "image_embedding": "dc7cb09cdfb0f30338c5584d98fd30040ed7573b1af613b05247ade58ebbbc31"
+      },
+      "noise_sha256": "c9f1642287ccb51249c67c4125af471fdd22bf00b0d431fafee074406fc4949f",
+      "source_latent_sha256": "50fdb2fbccf7861fcd3ac566e489d2fa50cb7dead02b22b85888afe9d7a71d0f"
+    },
+    "postfreeze_SN005_s03289_t00903::101": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN005_s03289_t00903/bidirectional_local_lp_s050_seed101.png",
+      "sha256": "0d4b56717031df06ecab08988cebe61acac572887783cb4dd0db4c5f75ccf756",
+      "condition_hashes": {
+        "au_embedding": "4d9bd6b13496882539aabf896dc98c7c8fe524f7e78a4556789bbf9ce5f95258",
+        "image_embedding": "1477148589260bfd6a653eefbf96280614fbebbdbffb9d9545243645ccf8b0fe"
+      },
+      "noise_sha256": "7fe2746903215c94f571dade7cfb08f11101df8b4ca787018fa4a6f5d13690e0",
+      "source_latent_sha256": "50fdb2fbccf7861fcd3ac566e489d2fa50cb7dead02b22b85888afe9d7a71d0f"
+    },
+    "postfreeze_SN005_s03289_t00903::202": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN005_s03289_t00903/bidirectional_local_lp_s050_seed202.png",
+      "sha256": "17870987e1f3f132172445c981c983897b937c87d354581b7a23c5b01c83293c",
+      "condition_hashes": {
+        "au_embedding": "4d9bd6b13496882539aabf896dc98c7c8fe524f7e78a4556789bbf9ce5f95258",
+        "image_embedding": "1477148589260bfd6a653eefbf96280614fbebbdbffb9d9545243645ccf8b0fe"
+      },
+      "noise_sha256": "05ec63af64d4517f8e90aa6fca4d1250fc460cb66de75707ee772c0895767c3c",
+      "source_latent_sha256": "50fdb2fbccf7861fcd3ac566e489d2fa50cb7dead02b22b85888afe9d7a71d0f"
+    },
+    "postfreeze_SN005_s03289_t00903::303": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN005_s03289_t00903/bidirectional_local_lp_s050_seed303.png",
+      "sha256": "6ee7d0f2dd8e57e735e7d1670eb722574927a1b3c26670a485070cb0453120a4",
+      "condition_hashes": {
+        "au_embedding": "4d9bd6b13496882539aabf896dc98c7c8fe524f7e78a4556789bbf9ce5f95258",
+        "image_embedding": "1477148589260bfd6a653eefbf96280614fbebbdbffb9d9545243645ccf8b0fe"
+      },
+      "noise_sha256": "c9f1642287ccb51249c67c4125af471fdd22bf00b0d431fafee074406fc4949f",
+      "source_latent_sha256": "50fdb2fbccf7861fcd3ac566e489d2fa50cb7dead02b22b85888afe9d7a71d0f"
+    },
+    "postfreeze_SN005_s03289_t02174::101": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN005_s03289_t02174/bidirectional_local_lp_s050_seed101.png",
+      "sha256": "9207fb608783766a65561c1db303f7562e2dafdea838c2a1aeb7974effd5e240",
+      "condition_hashes": {
+        "au_embedding": "170b1d105bdd8e96feca706ce0b25792572d7811ca604694020c73bf103b351e",
+        "image_embedding": "0cb4b361339196606091a678b284c79513adaf0936a196b4b7056c9c947308f2"
+      },
+      "noise_sha256": "7fe2746903215c94f571dade7cfb08f11101df8b4ca787018fa4a6f5d13690e0",
+      "source_latent_sha256": "50fdb2fbccf7861fcd3ac566e489d2fa50cb7dead02b22b85888afe9d7a71d0f"
+    },
+    "postfreeze_SN005_s03289_t02174::202": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN005_s03289_t02174/bidirectional_local_lp_s050_seed202.png",
+      "sha256": "d5291c3e17b8df6dd30410691630dd4fee4f44defffbc918a6f186f8ccc7458a",
+      "condition_hashes": {
+        "au_embedding": "170b1d105bdd8e96feca706ce0b25792572d7811ca604694020c73bf103b351e",
+        "image_embedding": "0cb4b361339196606091a678b284c79513adaf0936a196b4b7056c9c947308f2"
+      },
+      "noise_sha256": "05ec63af64d4517f8e90aa6fca4d1250fc460cb66de75707ee772c0895767c3c",
+      "source_latent_sha256": "50fdb2fbccf7861fcd3ac566e489d2fa50cb7dead02b22b85888afe9d7a71d0f"
+    },
+    "postfreeze_SN005_s03289_t02174::303": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN005_s03289_t02174/bidirectional_local_lp_s050_seed303.png",
+      "sha256": "fa66b5864516cd285ebc7c006fdf31c92ac2dc3243c8aa4a0049eda6695eedbf",
+      "condition_hashes": {
+        "au_embedding": "170b1d105bdd8e96feca706ce0b25792572d7811ca604694020c73bf103b351e",
+        "image_embedding": "0cb4b361339196606091a678b284c79513adaf0936a196b4b7056c9c947308f2"
+      },
+      "noise_sha256": "c9f1642287ccb51249c67c4125af471fdd22bf00b0d431fafee074406fc4949f",
+      "source_latent_sha256": "50fdb2fbccf7861fcd3ac566e489d2fa50cb7dead02b22b85888afe9d7a71d0f"
+    },
+    "postfreeze_SN008_s00398_t00218::101": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN008_s00398_t00218/bidirectional_local_lp_s050_seed101.png",
+      "sha256": "eae3a407829528bfb6206cbdaf5f6eb8cf21ed2a3fc8a042c3cac9379b33b68b",
+      "condition_hashes": {
+        "au_embedding": "4075a606d9ff8fa53517f3be77d5315a4a824257b71b8bdce85bb70f67863881",
+        "image_embedding": "d79afbabe72e7181665d89e63ed5592fbbc88e7557d896ce3d5bbaeae6f344f7"
+      },
+      "noise_sha256": "7fe2746903215c94f571dade7cfb08f11101df8b4ca787018fa4a6f5d13690e0",
+      "source_latent_sha256": "318cd373d05544706fb56d7993b22078e3915d854002b2db9e550a87549a8917"
+    },
+    "postfreeze_SN008_s00398_t00218::202": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN008_s00398_t00218/bidirectional_local_lp_s050_seed202.png",
+      "sha256": "c040dd2306afd76e712c6fc11f65fa1fc6c5969689d555cb728e923e6f6bc9c7",
+      "condition_hashes": {
+        "au_embedding": "4075a606d9ff8fa53517f3be77d5315a4a824257b71b8bdce85bb70f67863881",
+        "image_embedding": "d79afbabe72e7181665d89e63ed5592fbbc88e7557d896ce3d5bbaeae6f344f7"
+      },
+      "noise_sha256": "05ec63af64d4517f8e90aa6fca4d1250fc460cb66de75707ee772c0895767c3c",
+      "source_latent_sha256": "318cd373d05544706fb56d7993b22078e3915d854002b2db9e550a87549a8917"
+    },
+    "postfreeze_SN008_s00398_t00218::303": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN008_s00398_t00218/bidirectional_local_lp_s050_seed303.png",
+      "sha256": "c2e2531ee78cd00a1f490743e4b83f9ee2921ced5c8236269ea7aee72fc58e5e",
+      "condition_hashes": {
+        "au_embedding": "4075a606d9ff8fa53517f3be77d5315a4a824257b71b8bdce85bb70f67863881",
+        "image_embedding": "d79afbabe72e7181665d89e63ed5592fbbc88e7557d896ce3d5bbaeae6f344f7"
+      },
+      "noise_sha256": "c9f1642287ccb51249c67c4125af471fdd22bf00b0d431fafee074406fc4949f",
+      "source_latent_sha256": "318cd373d05544706fb56d7993b22078e3915d854002b2db9e550a87549a8917"
+    },
+    "postfreeze_SN008_s00398_t00809::101": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN008_s00398_t00809/bidirectional_local_lp_s050_seed101.png",
+      "sha256": "95c76f6bfd53fa103df07ca9abc6ce89cf21578069c436ed2fc8aafdd7d9929c",
+      "condition_hashes": {
+        "au_embedding": "96be995acf98ceee45b98a1dd742a49ff05e440f9f19c2909f2881a7d8b93950",
+        "image_embedding": "4ce5bc60cfa8e4182b81428f2211e60afeff43b008ca9be3e65714afcc330a97"
+      },
+      "noise_sha256": "7fe2746903215c94f571dade7cfb08f11101df8b4ca787018fa4a6f5d13690e0",
+      "source_latent_sha256": "318cd373d05544706fb56d7993b22078e3915d854002b2db9e550a87549a8917"
+    },
+    "postfreeze_SN008_s00398_t00809::202": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN008_s00398_t00809/bidirectional_local_lp_s050_seed202.png",
+      "sha256": "de4e6a662ba8768ec1443064f6dda2ee710b1f2a83dac8c4623485426cf719d9",
+      "condition_hashes": {
+        "au_embedding": "96be995acf98ceee45b98a1dd742a49ff05e440f9f19c2909f2881a7d8b93950",
+        "image_embedding": "4ce5bc60cfa8e4182b81428f2211e60afeff43b008ca9be3e65714afcc330a97"
+      },
+      "noise_sha256": "05ec63af64d4517f8e90aa6fca4d1250fc460cb66de75707ee772c0895767c3c",
+      "source_latent_sha256": "318cd373d05544706fb56d7993b22078e3915d854002b2db9e550a87549a8917"
+    },
+    "postfreeze_SN008_s00398_t00809::303": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN008_s00398_t00809/bidirectional_local_lp_s050_seed303.png",
+      "sha256": "c2c6c78c22b74fdb1371f9f92dde217c4fc620aaaea28a680c267f6902169c07",
+      "condition_hashes": {
+        "au_embedding": "96be995acf98ceee45b98a1dd742a49ff05e440f9f19c2909f2881a7d8b93950",
+        "image_embedding": "4ce5bc60cfa8e4182b81428f2211e60afeff43b008ca9be3e65714afcc330a97"
+      },
+      "noise_sha256": "c9f1642287ccb51249c67c4125af471fdd22bf00b0d431fafee074406fc4949f",
+      "source_latent_sha256": "318cd373d05544706fb56d7993b22078e3915d854002b2db9e550a87549a8917"
+    },
+    "postfreeze_SN008_s00398_t04228::101": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN008_s00398_t04228/bidirectional_local_lp_s050_seed101.png",
+      "sha256": "6e7d12138402d81bb71dff82f4e8efcd362f79deb741b00b2a911654eaeb84e4",
+      "condition_hashes": {
+        "au_embedding": "8febc1b244084209ea963e2f98a6857b45568280505383121958121e544f729a",
+        "image_embedding": "ef43816492d259cf282e3fa8dd174ff428e3156734d75e196f12797f6a475f6b"
+      },
+      "noise_sha256": "7fe2746903215c94f571dade7cfb08f11101df8b4ca787018fa4a6f5d13690e0",
+      "source_latent_sha256": "318cd373d05544706fb56d7993b22078e3915d854002b2db9e550a87549a8917"
+    },
+    "postfreeze_SN008_s00398_t04228::202": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN008_s00398_t04228/bidirectional_local_lp_s050_seed202.png",
+      "sha256": "c7767e4adfea00827600014194f0c9a3c600b1f1a0bea9c9853fe97aa797e267",
+      "condition_hashes": {
+        "au_embedding": "8febc1b244084209ea963e2f98a6857b45568280505383121958121e544f729a",
+        "image_embedding": "ef43816492d259cf282e3fa8dd174ff428e3156734d75e196f12797f6a475f6b"
+      },
+      "noise_sha256": "05ec63af64d4517f8e90aa6fca4d1250fc460cb66de75707ee772c0895767c3c",
+      "source_latent_sha256": "318cd373d05544706fb56d7993b22078e3915d854002b2db9e550a87549a8917"
+    },
+    "postfreeze_SN008_s00398_t04228::303": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN008_s00398_t04228/bidirectional_local_lp_s050_seed303.png",
+      "sha256": "bc59d7be9ec2346578a1b735cc8eba87d631801c48a36d6e0c6f9f240c44400a",
+      "condition_hashes": {
+        "au_embedding": "8febc1b244084209ea963e2f98a6857b45568280505383121958121e544f729a",
+        "image_embedding": "ef43816492d259cf282e3fa8dd174ff428e3156734d75e196f12797f6a475f6b"
+      },
+      "noise_sha256": "c9f1642287ccb51249c67c4125af471fdd22bf00b0d431fafee074406fc4949f",
+      "source_latent_sha256": "318cd373d05544706fb56d7993b22078e3915d854002b2db9e550a87549a8917"
+    },
+    "postfreeze_SN009_s04443_t00063::101": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN009_s04443_t00063/bidirectional_local_lp_s050_seed101.png",
+      "sha256": "507179ea81c50d3fc4361d29275f1be82fc8372836e031bfb2a8db22969bb605",
+      "condition_hashes": {
+        "au_embedding": "18ef7f195f0048c90854d64d47b02473cc659eeae814d171fd4be8f1091c606a",
+        "image_embedding": "e458395dbfb09a7c856e68aa604a3df3804b2bc8914159c41a6b9f131b2b01f9"
+      },
+      "noise_sha256": "7fe2746903215c94f571dade7cfb08f11101df8b4ca787018fa4a6f5d13690e0",
+      "source_latent_sha256": "6d385ea616618b9ca3060385245d54d768c35c3020dd09084a968893ce6cbd1e"
+    },
+    "postfreeze_SN009_s04443_t00063::202": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN009_s04443_t00063/bidirectional_local_lp_s050_seed202.png",
+      "sha256": "1d12708ba92b781567fc0b610bc9433a3146e31247ce7a830bde6f763eb933c1",
+      "condition_hashes": {
+        "au_embedding": "18ef7f195f0048c90854d64d47b02473cc659eeae814d171fd4be8f1091c606a",
+        "image_embedding": "e458395dbfb09a7c856e68aa604a3df3804b2bc8914159c41a6b9f131b2b01f9"
+      },
+      "noise_sha256": "05ec63af64d4517f8e90aa6fca4d1250fc460cb66de75707ee772c0895767c3c",
+      "source_latent_sha256": "6d385ea616618b9ca3060385245d54d768c35c3020dd09084a968893ce6cbd1e"
+    },
+    "postfreeze_SN009_s04443_t00063::303": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN009_s04443_t00063/bidirectional_local_lp_s050_seed303.png",
+      "sha256": "128fcae6f263e5a604398c2507ec403575e8a80c1436f5cbf589b09a4977a692",
+      "condition_hashes": {
+        "au_embedding": "18ef7f195f0048c90854d64d47b02473cc659eeae814d171fd4be8f1091c606a",
+        "image_embedding": "e458395dbfb09a7c856e68aa604a3df3804b2bc8914159c41a6b9f131b2b01f9"
+      },
+      "noise_sha256": "c9f1642287ccb51249c67c4125af471fdd22bf00b0d431fafee074406fc4949f",
+      "source_latent_sha256": "6d385ea616618b9ca3060385245d54d768c35c3020dd09084a968893ce6cbd1e"
+    },
+    "postfreeze_SN009_s04443_t00399::101": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN009_s04443_t00399/bidirectional_local_lp_s050_seed101.png",
+      "sha256": "d90993b2a1682afa12e0013bda5f608d41e75abdaa6617e0b949e805fe58acbd",
+      "condition_hashes": {
+        "au_embedding": "2b723db0d25618dff909394619d38d7fb78dd95e2cf2ff0d03d9a6e790d7f886",
+        "image_embedding": "39b040e6e5632467540a94aeae3260c26f29439416f4889eb54ce9591c101d06"
+      },
+      "noise_sha256": "7fe2746903215c94f571dade7cfb08f11101df8b4ca787018fa4a6f5d13690e0",
+      "source_latent_sha256": "6d385ea616618b9ca3060385245d54d768c35c3020dd09084a968893ce6cbd1e"
+    },
+    "postfreeze_SN009_s04443_t00399::202": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN009_s04443_t00399/bidirectional_local_lp_s050_seed202.png",
+      "sha256": "905929da2fff45b4f89f4e5c1461fb7a1650d6cf5a68e2162a12b54f6ec6d3e9",
+      "condition_hashes": {
+        "au_embedding": "2b723db0d25618dff909394619d38d7fb78dd95e2cf2ff0d03d9a6e790d7f886",
+        "image_embedding": "39b040e6e5632467540a94aeae3260c26f29439416f4889eb54ce9591c101d06"
+      },
+      "noise_sha256": "05ec63af64d4517f8e90aa6fca4d1250fc460cb66de75707ee772c0895767c3c",
+      "source_latent_sha256": "6d385ea616618b9ca3060385245d54d768c35c3020dd09084a968893ce6cbd1e"
+    },
+    "postfreeze_SN009_s04443_t00399::303": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN009_s04443_t00399/bidirectional_local_lp_s050_seed303.png",
+      "sha256": "5bc139a5c8c9ddb389aab67b28da9f7b63be6457c21bd4b43ab7ba7bf77a486c",
+      "condition_hashes": {
+        "au_embedding": "2b723db0d25618dff909394619d38d7fb78dd95e2cf2ff0d03d9a6e790d7f886",
+        "image_embedding": "39b040e6e5632467540a94aeae3260c26f29439416f4889eb54ce9591c101d06"
+      },
+      "noise_sha256": "c9f1642287ccb51249c67c4125af471fdd22bf00b0d431fafee074406fc4949f",
+      "source_latent_sha256": "6d385ea616618b9ca3060385245d54d768c35c3020dd09084a968893ce6cbd1e"
+    },
+    "postfreeze_SN009_s04443_t00749::101": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN009_s04443_t00749/bidirectional_local_lp_s050_seed101.png",
+      "sha256": "d483f696ff9a84f3ca51f2ac823d48e90296c50ff7db4be3737dcfbf0fe2eba2",
+      "condition_hashes": {
+        "au_embedding": "671e6ad1974abe7d834de8b35fc4b3d0db33b0f99dc8085f227be03bfee3fbf1",
+        "image_embedding": "6fcb2e9fd608dc53827bd08c8b66369fdb77810625a9e9c3856f6f04a3c54853"
+      },
+      "noise_sha256": "7fe2746903215c94f571dade7cfb08f11101df8b4ca787018fa4a6f5d13690e0",
+      "source_latent_sha256": "6d385ea616618b9ca3060385245d54d768c35c3020dd09084a968893ce6cbd1e"
+    },
+    "postfreeze_SN009_s04443_t00749::202": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN009_s04443_t00749/bidirectional_local_lp_s050_seed202.png",
+      "sha256": "2b8d5c6958dc4c7c2946d5a7233d28df957ccabd109836e95cda1d68731a28f2",
+      "condition_hashes": {
+        "au_embedding": "671e6ad1974abe7d834de8b35fc4b3d0db33b0f99dc8085f227be03bfee3fbf1",
+        "image_embedding": "6fcb2e9fd608dc53827bd08c8b66369fdb77810625a9e9c3856f6f04a3c54853"
+      },
+      "noise_sha256": "05ec63af64d4517f8e90aa6fca4d1250fc460cb66de75707ee772c0895767c3c",
+      "source_latent_sha256": "6d385ea616618b9ca3060385245d54d768c35c3020dd09084a968893ce6cbd1e"
+    },
+    "postfreeze_SN009_s04443_t00749::303": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN009_s04443_t00749/bidirectional_local_lp_s050_seed303.png",
+      "sha256": "09b726eed2dd7ab8523aa5ae50d2f0b15f471fb8901ad3cb2cd2e02d52d272bb",
+      "condition_hashes": {
+        "au_embedding": "671e6ad1974abe7d834de8b35fc4b3d0db33b0f99dc8085f227be03bfee3fbf1",
+        "image_embedding": "6fcb2e9fd608dc53827bd08c8b66369fdb77810625a9e9c3856f6f04a3c54853"
+      },
+      "noise_sha256": "c9f1642287ccb51249c67c4125af471fdd22bf00b0d431fafee074406fc4949f",
+      "source_latent_sha256": "6d385ea616618b9ca3060385245d54d768c35c3020dd09084a968893ce6cbd1e"
+    },
+    "postfreeze_SN021_s02743_t00433::101": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN021_s02743_t00433/bidirectional_local_lp_s050_seed101.png",
+      "sha256": "f80ed85283782609c61622dc607d8ae5a13967d571c7444922a98a2f6a3a32c3",
+      "condition_hashes": {
+        "au_embedding": "c8c4b75940776b0ee1c8d6a06b43d84aea333a94081cded9726f4ebc50784bec",
+        "image_embedding": "acc2e7c0df52a607f37b97b809ee026661cfcffa6c5cbe4f807200dbdf8858a3"
+      },
+      "noise_sha256": "7fe2746903215c94f571dade7cfb08f11101df8b4ca787018fa4a6f5d13690e0",
+      "source_latent_sha256": "b3f26e0b26a0044285b6f45f4f1d6f8d4d8866c3968c97c61daf4ad3c6e918d6"
+    },
+    "postfreeze_SN021_s02743_t00433::202": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN021_s02743_t00433/bidirectional_local_lp_s050_seed202.png",
+      "sha256": "867eabd80d40383efdcd5abc0caae67323df182dfcbf872083812de1b670158f",
+      "condition_hashes": {
+        "au_embedding": "c8c4b75940776b0ee1c8d6a06b43d84aea333a94081cded9726f4ebc50784bec",
+        "image_embedding": "acc2e7c0df52a607f37b97b809ee026661cfcffa6c5cbe4f807200dbdf8858a3"
+      },
+      "noise_sha256": "05ec63af64d4517f8e90aa6fca4d1250fc460cb66de75707ee772c0895767c3c",
+      "source_latent_sha256": "b3f26e0b26a0044285b6f45f4f1d6f8d4d8866c3968c97c61daf4ad3c6e918d6"
+    },
+    "postfreeze_SN021_s02743_t00433::303": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN021_s02743_t00433/bidirectional_local_lp_s050_seed303.png",
+      "sha256": "d4dc81f6180041f7bf3aafb1d6feb3e0c964096a72c6e7f2a22db66232f56469",
+      "condition_hashes": {
+        "au_embedding": "c8c4b75940776b0ee1c8d6a06b43d84aea333a94081cded9726f4ebc50784bec",
+        "image_embedding": "acc2e7c0df52a607f37b97b809ee026661cfcffa6c5cbe4f807200dbdf8858a3"
+      },
+      "noise_sha256": "c9f1642287ccb51249c67c4125af471fdd22bf00b0d431fafee074406fc4949f",
+      "source_latent_sha256": "b3f26e0b26a0044285b6f45f4f1d6f8d4d8866c3968c97c61daf4ad3c6e918d6"
+    },
+    "postfreeze_SN021_s02743_t01143::101": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN021_s02743_t01143/bidirectional_local_lp_s050_seed101.png",
+      "sha256": "5b85f247e1a5f75ab4e3a58138c160098b5edc72c8764448f8bbfb1c8497d0c7",
+      "condition_hashes": {
+        "au_embedding": "021d471bd603c5d66c9b48684dcb2b317a33929c965bae591c63fee2a8553466",
+        "image_embedding": "a0e1b7e5c71d590aab0f73a8805194f2b884fae20c003c19ecdc07b0cca24ffb"
+      },
+      "noise_sha256": "7fe2746903215c94f571dade7cfb08f11101df8b4ca787018fa4a6f5d13690e0",
+      "source_latent_sha256": "b3f26e0b26a0044285b6f45f4f1d6f8d4d8866c3968c97c61daf4ad3c6e918d6"
+    },
+    "postfreeze_SN021_s02743_t01143::202": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN021_s02743_t01143/bidirectional_local_lp_s050_seed202.png",
+      "sha256": "5e4429a0a41d973908b49d13fcf571c9e26d2dcc9d811cf0da6a5151066e6820",
+      "condition_hashes": {
+        "au_embedding": "021d471bd603c5d66c9b48684dcb2b317a33929c965bae591c63fee2a8553466",
+        "image_embedding": "a0e1b7e5c71d590aab0f73a8805194f2b884fae20c003c19ecdc07b0cca24ffb"
+      },
+      "noise_sha256": "05ec63af64d4517f8e90aa6fca4d1250fc460cb66de75707ee772c0895767c3c",
+      "source_latent_sha256": "b3f26e0b26a0044285b6f45f4f1d6f8d4d8866c3968c97c61daf4ad3c6e918d6"
+    },
+    "postfreeze_SN021_s02743_t01143::303": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN021_s02743_t01143/bidirectional_local_lp_s050_seed303.png",
+      "sha256": "6e2cb9049fc955955157f058e30803d8861c027911ca61ad2fa0760c76756a02",
+      "condition_hashes": {
+        "au_embedding": "021d471bd603c5d66c9b48684dcb2b317a33929c965bae591c63fee2a8553466",
+        "image_embedding": "a0e1b7e5c71d590aab0f73a8805194f2b884fae20c003c19ecdc07b0cca24ffb"
+      },
+      "noise_sha256": "c9f1642287ccb51249c67c4125af471fdd22bf00b0d431fafee074406fc4949f",
+      "source_latent_sha256": "b3f26e0b26a0044285b6f45f4f1d6f8d4d8866c3968c97c61daf4ad3c6e918d6"
+    },
+    "postfreeze_SN021_s02743_t01833::101": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN021_s02743_t01833/bidirectional_local_lp_s050_seed101.png",
+      "sha256": "9fa9c91a3772b003a86fb102e7b27cefa7250fe6f6f0c522e49fd1d15583be11",
+      "condition_hashes": {
+        "au_embedding": "62759054e0270533b187230e0da7bb370e26147b440b25d158b414a2eebdebe8",
+        "image_embedding": "401ebcfa1b84805eea64ed87840f7b9a405a72468cc1d6ed4d5a30df9ab50192"
+      },
+      "noise_sha256": "7fe2746903215c94f571dade7cfb08f11101df8b4ca787018fa4a6f5d13690e0",
+      "source_latent_sha256": "b3f26e0b26a0044285b6f45f4f1d6f8d4d8866c3968c97c61daf4ad3c6e918d6"
+    },
+    "postfreeze_SN021_s02743_t01833::202": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN021_s02743_t01833/bidirectional_local_lp_s050_seed202.png",
+      "sha256": "1c2dd065015047f612bc3e39d1e10be0b73dafb5fbfa9be9462c14b47df57fdf",
+      "condition_hashes": {
+        "au_embedding": "62759054e0270533b187230e0da7bb370e26147b440b25d158b414a2eebdebe8",
+        "image_embedding": "401ebcfa1b84805eea64ed87840f7b9a405a72468cc1d6ed4d5a30df9ab50192"
+      },
+      "noise_sha256": "05ec63af64d4517f8e90aa6fca4d1250fc460cb66de75707ee772c0895767c3c",
+      "source_latent_sha256": "b3f26e0b26a0044285b6f45f4f1d6f8d4d8866c3968c97c61daf4ad3c6e918d6"
+    },
+    "postfreeze_SN021_s02743_t01833::303": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN021_s02743_t01833/bidirectional_local_lp_s050_seed303.png",
+      "sha256": "419ae0b08d42cede1232f0a229e4040c7abad73dbc1007a276b04c17eb265ecb",
+      "condition_hashes": {
+        "au_embedding": "62759054e0270533b187230e0da7bb370e26147b440b25d158b414a2eebdebe8",
+        "image_embedding": "401ebcfa1b84805eea64ed87840f7b9a405a72468cc1d6ed4d5a30df9ab50192"
+      },
+      "noise_sha256": "c9f1642287ccb51249c67c4125af471fdd22bf00b0d431fafee074406fc4949f",
+      "source_latent_sha256": "b3f26e0b26a0044285b6f45f4f1d6f8d4d8866c3968c97c61daf4ad3c6e918d6"
+    },
+    "postfreeze_SN024_s02323_t00214::101": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN024_s02323_t00214/bidirectional_local_lp_s050_seed101.png",
+      "sha256": "d5b9f727a259d60eb5908c8e4725e2d77c808e2969151d1504e48cfbb672e4ef",
+      "condition_hashes": {
+        "au_embedding": "e2047afcf4345a3fb70e6e230c81cfe46502d1705213372142979cce7fe52cc0",
+        "image_embedding": "8cb021ea6a7cfd721e056628bbb2c3e4bd6cbe784abb5ff4b3cee11415637c19"
+      },
+      "noise_sha256": "7fe2746903215c94f571dade7cfb08f11101df8b4ca787018fa4a6f5d13690e0",
+      "source_latent_sha256": "39b88154cb1d838887be41308bab45539d4cd3df1000734d2129ac0c780d12dc"
+    },
+    "postfreeze_SN024_s02323_t00214::202": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN024_s02323_t00214/bidirectional_local_lp_s050_seed202.png",
+      "sha256": "4cfb6fe8d6b9d31d1e49fd19914a4c4b4ad858f7abc143c7a9afc96bc9cce083",
+      "condition_hashes": {
+        "au_embedding": "e2047afcf4345a3fb70e6e230c81cfe46502d1705213372142979cce7fe52cc0",
+        "image_embedding": "8cb021ea6a7cfd721e056628bbb2c3e4bd6cbe784abb5ff4b3cee11415637c19"
+      },
+      "noise_sha256": "05ec63af64d4517f8e90aa6fca4d1250fc460cb66de75707ee772c0895767c3c",
+      "source_latent_sha256": "39b88154cb1d838887be41308bab45539d4cd3df1000734d2129ac0c780d12dc"
+    },
+    "postfreeze_SN024_s02323_t00214::303": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN024_s02323_t00214/bidirectional_local_lp_s050_seed303.png",
+      "sha256": "f0814460c4886e6516816c81dc993969dbb80fc4dd544725db77e4b481998ab2",
+      "condition_hashes": {
+        "au_embedding": "e2047afcf4345a3fb70e6e230c81cfe46502d1705213372142979cce7fe52cc0",
+        "image_embedding": "8cb021ea6a7cfd721e056628bbb2c3e4bd6cbe784abb5ff4b3cee11415637c19"
+      },
+      "noise_sha256": "c9f1642287ccb51249c67c4125af471fdd22bf00b0d431fafee074406fc4949f",
+      "source_latent_sha256": "39b88154cb1d838887be41308bab45539d4cd3df1000734d2129ac0c780d12dc"
+    },
+    "postfreeze_SN024_s02323_t01418::101": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN024_s02323_t01418/bidirectional_local_lp_s050_seed101.png",
+      "sha256": "48b818fce57c550de4a826cf2bf15dda7b27ea6e9ac5c26039a9de5dc3f27e79",
+      "condition_hashes": {
+        "au_embedding": "c0009e4fe1455db4065807150a702e47f9fd7edfb65c936c6611c024998f1df0",
+        "image_embedding": "e50cd57a9e0e7a9a7d3a9dbf3b044d9c96205ed90734d5d31b4450af2f84399f"
+      },
+      "noise_sha256": "7fe2746903215c94f571dade7cfb08f11101df8b4ca787018fa4a6f5d13690e0",
+      "source_latent_sha256": "39b88154cb1d838887be41308bab45539d4cd3df1000734d2129ac0c780d12dc"
+    },
+    "postfreeze_SN024_s02323_t01418::202": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN024_s02323_t01418/bidirectional_local_lp_s050_seed202.png",
+      "sha256": "d8fd10a22bdcfadc0d88fbdeea8f3e92afae7edcf696db3501da662a4321175b",
+      "condition_hashes": {
+        "au_embedding": "c0009e4fe1455db4065807150a702e47f9fd7edfb65c936c6611c024998f1df0",
+        "image_embedding": "e50cd57a9e0e7a9a7d3a9dbf3b044d9c96205ed90734d5d31b4450af2f84399f"
+      },
+      "noise_sha256": "05ec63af64d4517f8e90aa6fca4d1250fc460cb66de75707ee772c0895767c3c",
+      "source_latent_sha256": "39b88154cb1d838887be41308bab45539d4cd3df1000734d2129ac0c780d12dc"
+    },
+    "postfreeze_SN024_s02323_t01418::303": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN024_s02323_t01418/bidirectional_local_lp_s050_seed303.png",
+      "sha256": "9ad856398dadf20b98a170010da3b32f5704eaccb7f8bec0a09354630e5d2e1d",
+      "condition_hashes": {
+        "au_embedding": "c0009e4fe1455db4065807150a702e47f9fd7edfb65c936c6611c024998f1df0",
+        "image_embedding": "e50cd57a9e0e7a9a7d3a9dbf3b044d9c96205ed90734d5d31b4450af2f84399f"
+      },
+      "noise_sha256": "c9f1642287ccb51249c67c4125af471fdd22bf00b0d431fafee074406fc4949f",
+      "source_latent_sha256": "39b88154cb1d838887be41308bab45539d4cd3df1000734d2129ac0c780d12dc"
+    },
+    "postfreeze_SN024_s02323_t01673::101": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN024_s02323_t01673/bidirectional_local_lp_s050_seed101.png",
+      "sha256": "32b3ec48d6c6b4c5cd2ec634d1b270d11247fcc13a15097e3134e3b55141aa3e",
+      "condition_hashes": {
+        "au_embedding": "499e0e000fbc80aad7708e7ff96b2ffc97f7b6c25ba41d80b9de075672cdcda6",
+        "image_embedding": "02e2b380623d56ba3e44cd3e4534bbaa4836c0e6edcb030edf1c108af4ce3d00"
+      },
+      "noise_sha256": "7fe2746903215c94f571dade7cfb08f11101df8b4ca787018fa4a6f5d13690e0",
+      "source_latent_sha256": "39b88154cb1d838887be41308bab45539d4cd3df1000734d2129ac0c780d12dc"
+    },
+    "postfreeze_SN024_s02323_t01673::202": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN024_s02323_t01673/bidirectional_local_lp_s050_seed202.png",
+      "sha256": "124a2f4faadf1236036f4dff7b41f30cbd75ed03c5416a8f58c088b6f88fdde4",
+      "condition_hashes": {
+        "au_embedding": "499e0e000fbc80aad7708e7ff96b2ffc97f7b6c25ba41d80b9de075672cdcda6",
+        "image_embedding": "02e2b380623d56ba3e44cd3e4534bbaa4836c0e6edcb030edf1c108af4ce3d00"
+      },
+      "noise_sha256": "05ec63af64d4517f8e90aa6fca4d1250fc460cb66de75707ee772c0895767c3c",
+      "source_latent_sha256": "39b88154cb1d838887be41308bab45539d4cd3df1000734d2129ac0c780d12dc"
+    },
+    "postfreeze_SN024_s02323_t01673::303": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN024_s02323_t01673/bidirectional_local_lp_s050_seed303.png",
+      "sha256": "27f4492f648e4e9580147c0fd607f89bfcf096cb5ab1d6547d21ec8681e11b91",
+      "condition_hashes": {
+        "au_embedding": "499e0e000fbc80aad7708e7ff96b2ffc97f7b6c25ba41d80b9de075672cdcda6",
+        "image_embedding": "02e2b380623d56ba3e44cd3e4534bbaa4836c0e6edcb030edf1c108af4ce3d00"
+      },
+      "noise_sha256": "c9f1642287ccb51249c67c4125af471fdd22bf00b0d431fafee074406fc4949f",
+      "source_latent_sha256": "39b88154cb1d838887be41308bab45539d4cd3df1000734d2129ac0c780d12dc"
+    },
+    "postfreeze_SN031_s03334_t01453::101": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN031_s03334_t01453/bidirectional_local_lp_s050_seed101.png",
+      "sha256": "f9585edcbde4c3e2cd15755b7f60fa5357a8fc12325ecc25bec6202bab1886f1",
+      "condition_hashes": {
+        "au_embedding": "74e0b52a9f4540f7fe0934a17b2d571abb8a31bf078a6c81b952adff45776226",
+        "image_embedding": "c78c5ff35417ce9c789a7c31f60d7ab85191994a21416978c6e0bb062755fe16"
+      },
+      "noise_sha256": "7fe2746903215c94f571dade7cfb08f11101df8b4ca787018fa4a6f5d13690e0",
+      "source_latent_sha256": "5d8af4645c905d6ba12f558b7bcb0e04d3badab52d0ee609f89663677055acc1"
+    },
+    "postfreeze_SN031_s03334_t01453::202": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN031_s03334_t01453/bidirectional_local_lp_s050_seed202.png",
+      "sha256": "ae9fc83ff4c02e3356dabf26683ba6662995168388bcf1164a9cec31eefdc61e",
+      "condition_hashes": {
+        "au_embedding": "74e0b52a9f4540f7fe0934a17b2d571abb8a31bf078a6c81b952adff45776226",
+        "image_embedding": "c78c5ff35417ce9c789a7c31f60d7ab85191994a21416978c6e0bb062755fe16"
+      },
+      "noise_sha256": "05ec63af64d4517f8e90aa6fca4d1250fc460cb66de75707ee772c0895767c3c",
+      "source_latent_sha256": "5d8af4645c905d6ba12f558b7bcb0e04d3badab52d0ee609f89663677055acc1"
+    },
+    "postfreeze_SN031_s03334_t01453::303": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN031_s03334_t01453/bidirectional_local_lp_s050_seed303.png",
+      "sha256": "1773c602c78382d0621c4f003773b3f0f00011bbebd3fc675ba52001f85093a1",
+      "condition_hashes": {
+        "au_embedding": "74e0b52a9f4540f7fe0934a17b2d571abb8a31bf078a6c81b952adff45776226",
+        "image_embedding": "c78c5ff35417ce9c789a7c31f60d7ab85191994a21416978c6e0bb062755fe16"
+      },
+      "noise_sha256": "c9f1642287ccb51249c67c4125af471fdd22bf00b0d431fafee074406fc4949f",
+      "source_latent_sha256": "5d8af4645c905d6ba12f558b7bcb0e04d3badab52d0ee609f89663677055acc1"
+    },
+    "postfreeze_SN031_s03334_t01588::101": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN031_s03334_t01588/bidirectional_local_lp_s050_seed101.png",
+      "sha256": "49bbcddb0c8d26f72607fb3bd5c88dbdc84c3438942d4e325d00784d60964a89",
+      "condition_hashes": {
+        "au_embedding": "59932bce3161e33cc8f72d3889a0cb045df1236d3636a193569339e581c16e01",
+        "image_embedding": "bb8f52dd0a81cd3b9d18a8d14d367ce04e36957de04666008128a95ee115bb59"
+      },
+      "noise_sha256": "7fe2746903215c94f571dade7cfb08f11101df8b4ca787018fa4a6f5d13690e0",
+      "source_latent_sha256": "5d8af4645c905d6ba12f558b7bcb0e04d3badab52d0ee609f89663677055acc1"
+    },
+    "postfreeze_SN031_s03334_t01588::202": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN031_s03334_t01588/bidirectional_local_lp_s050_seed202.png",
+      "sha256": "0f44b60f4c2ce7f91bb644cc90de7171a8ba980408f15474945622e5ce053912",
+      "condition_hashes": {
+        "au_embedding": "59932bce3161e33cc8f72d3889a0cb045df1236d3636a193569339e581c16e01",
+        "image_embedding": "bb8f52dd0a81cd3b9d18a8d14d367ce04e36957de04666008128a95ee115bb59"
+      },
+      "noise_sha256": "05ec63af64d4517f8e90aa6fca4d1250fc460cb66de75707ee772c0895767c3c",
+      "source_latent_sha256": "5d8af4645c905d6ba12f558b7bcb0e04d3badab52d0ee609f89663677055acc1"
+    },
+    "postfreeze_SN031_s03334_t01588::303": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN031_s03334_t01588/bidirectional_local_lp_s050_seed303.png",
+      "sha256": "606212c4bfa7da46842e90a6bb5ccac78be5c81781cfa9a18ad9da7d8137764e",
+      "condition_hashes": {
+        "au_embedding": "59932bce3161e33cc8f72d3889a0cb045df1236d3636a193569339e581c16e01",
+        "image_embedding": "bb8f52dd0a81cd3b9d18a8d14d367ce04e36957de04666008128a95ee115bb59"
+      },
+      "noise_sha256": "c9f1642287ccb51249c67c4125af471fdd22bf00b0d431fafee074406fc4949f",
+      "source_latent_sha256": "5d8af4645c905d6ba12f558b7bcb0e04d3badab52d0ee609f89663677055acc1"
+    },
+    "postfreeze_SN031_s03334_t02693::101": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN031_s03334_t02693/bidirectional_local_lp_s050_seed101.png",
+      "sha256": "b1935406a5eb4719ed0f88964c8dc69be927df47efec7b88297086a3e4415a86",
+      "condition_hashes": {
+        "au_embedding": "4da55a57762b043ab4e5e3985c53801be5ba5871c93e592648d049a12cb4de80",
+        "image_embedding": "56d90eafea03f77fc8ae18e40e4283d47f00bc33b56964413c45d81d3186588c"
+      },
+      "noise_sha256": "7fe2746903215c94f571dade7cfb08f11101df8b4ca787018fa4a6f5d13690e0",
+      "source_latent_sha256": "5d8af4645c905d6ba12f558b7bcb0e04d3badab52d0ee609f89663677055acc1"
+    },
+    "postfreeze_SN031_s03334_t02693::202": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN031_s03334_t02693/bidirectional_local_lp_s050_seed202.png",
+      "sha256": "cdac47817b43954d47df1ff5aa0c894f0214fe4afc48cec333b08e158e5a0e68",
+      "condition_hashes": {
+        "au_embedding": "4da55a57762b043ab4e5e3985c53801be5ba5871c93e592648d049a12cb4de80",
+        "image_embedding": "56d90eafea03f77fc8ae18e40e4283d47f00bc33b56964413c45d81d3186588c"
+      },
+      "noise_sha256": "05ec63af64d4517f8e90aa6fca4d1250fc460cb66de75707ee772c0895767c3c",
+      "source_latent_sha256": "5d8af4645c905d6ba12f558b7bcb0e04d3badab52d0ee609f89663677055acc1"
+    },
+    "postfreeze_SN031_s03334_t02693::303": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN031_s03334_t02693/bidirectional_local_lp_s050_seed303.png",
+      "sha256": "3453e1cb617ffbb9f631809de3c669767e71d52fb4cf4bf90a23d66da09c72db",
+      "condition_hashes": {
+        "au_embedding": "4da55a57762b043ab4e5e3985c53801be5ba5871c93e592648d049a12cb4de80",
+        "image_embedding": "56d90eafea03f77fc8ae18e40e4283d47f00bc33b56964413c45d81d3186588c"
+      },
+      "noise_sha256": "c9f1642287ccb51249c67c4125af471fdd22bf00b0d431fafee074406fc4949f",
+      "source_latent_sha256": "5d8af4645c905d6ba12f558b7bcb0e04d3badab52d0ee609f89663677055acc1"
+    },
+    "postfreeze_SN032_s02758_t02359::101": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN032_s02758_t02359/bidirectional_local_lp_s050_seed101.png",
+      "sha256": "4ba511f3223192017688858b19331376985435f307364f214a7db20e3406984c",
+      "condition_hashes": {
+        "au_embedding": "a115f4be7310a58180c668fca110e8f6dd35ae7223d799b907832882e5fd85f5",
+        "image_embedding": "5ed93f1abcdea518541823b72bcbc1c27166a8be35eb96a73589359d1bc1a24c"
+      },
+      "noise_sha256": "7fe2746903215c94f571dade7cfb08f11101df8b4ca787018fa4a6f5d13690e0",
+      "source_latent_sha256": "9f7efec4fb98ee63963bd7fc94bd98d1a74ec1b6dc9555f5a2fac229d8cc76e2"
+    },
+    "postfreeze_SN032_s02758_t02359::202": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN032_s02758_t02359/bidirectional_local_lp_s050_seed202.png",
+      "sha256": "cace4eee1d9f365786de84860de193c79883a1573c81d0fa599318fda53f3854",
+      "condition_hashes": {
+        "au_embedding": "a115f4be7310a58180c668fca110e8f6dd35ae7223d799b907832882e5fd85f5",
+        "image_embedding": "5ed93f1abcdea518541823b72bcbc1c27166a8be35eb96a73589359d1bc1a24c"
+      },
+      "noise_sha256": "05ec63af64d4517f8e90aa6fca4d1250fc460cb66de75707ee772c0895767c3c",
+      "source_latent_sha256": "9f7efec4fb98ee63963bd7fc94bd98d1a74ec1b6dc9555f5a2fac229d8cc76e2"
+    },
+    "postfreeze_SN032_s02758_t02359::303": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN032_s02758_t02359/bidirectional_local_lp_s050_seed303.png",
+      "sha256": "6ddc216ee4a09dfb325d1f48e7a5eb1ad2c2f6f91c554919b8a23f1c351222ce",
+      "condition_hashes": {
+        "au_embedding": "a115f4be7310a58180c668fca110e8f6dd35ae7223d799b907832882e5fd85f5",
+        "image_embedding": "5ed93f1abcdea518541823b72bcbc1c27166a8be35eb96a73589359d1bc1a24c"
+      },
+      "noise_sha256": "c9f1642287ccb51249c67c4125af471fdd22bf00b0d431fafee074406fc4949f",
+      "source_latent_sha256": "9f7efec4fb98ee63963bd7fc94bd98d1a74ec1b6dc9555f5a2fac229d8cc76e2"
+    },
+    "postfreeze_SN032_s02758_t04129::101": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN032_s02758_t04129/bidirectional_local_lp_s050_seed101.png",
+      "sha256": "d6141086b6466bf40047b35c5025ff7a263bd3bf59c445e7d0d4cf1ede784809",
+      "condition_hashes": {
+        "au_embedding": "b3058cabd461c395162bc76f603638ed1a665b1a18f7b5047f02ecbc547cb8a0",
+        "image_embedding": "ddbda5987eed75d64b9685c0d2844e542bb1c90511e98198ffe8a87652d98495"
+      },
+      "noise_sha256": "7fe2746903215c94f571dade7cfb08f11101df8b4ca787018fa4a6f5d13690e0",
+      "source_latent_sha256": "9f7efec4fb98ee63963bd7fc94bd98d1a74ec1b6dc9555f5a2fac229d8cc76e2"
+    },
+    "postfreeze_SN032_s02758_t04129::202": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN032_s02758_t04129/bidirectional_local_lp_s050_seed202.png",
+      "sha256": "f2b5d8db620000c9416cdfafe38c02edcaed4c453d25659ed072743c3038a4ba",
+      "condition_hashes": {
+        "au_embedding": "b3058cabd461c395162bc76f603638ed1a665b1a18f7b5047f02ecbc547cb8a0",
+        "image_embedding": "ddbda5987eed75d64b9685c0d2844e542bb1c90511e98198ffe8a87652d98495"
+      },
+      "noise_sha256": "05ec63af64d4517f8e90aa6fca4d1250fc460cb66de75707ee772c0895767c3c",
+      "source_latent_sha256": "9f7efec4fb98ee63963bd7fc94bd98d1a74ec1b6dc9555f5a2fac229d8cc76e2"
+    },
+    "postfreeze_SN032_s02758_t04129::303": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN032_s02758_t04129/bidirectional_local_lp_s050_seed303.png",
+      "sha256": "e356f9d266b997c62d1fa768cfee3582f977374acce4d5b0064113b5188a5f55",
+      "condition_hashes": {
+        "au_embedding": "b3058cabd461c395162bc76f603638ed1a665b1a18f7b5047f02ecbc547cb8a0",
+        "image_embedding": "ddbda5987eed75d64b9685c0d2844e542bb1c90511e98198ffe8a87652d98495"
+      },
+      "noise_sha256": "c9f1642287ccb51249c67c4125af471fdd22bf00b0d431fafee074406fc4949f",
+      "source_latent_sha256": "9f7efec4fb98ee63963bd7fc94bd98d1a74ec1b6dc9555f5a2fac229d8cc76e2"
+    },
+    "postfreeze_SN032_s02758_t04754::101": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN032_s02758_t04754/bidirectional_local_lp_s050_seed101.png",
+      "sha256": "8312c9acd4558039b90731402d46bca5e1c2c2f4f44e59f7d332070d67859d03",
+      "condition_hashes": {
+        "au_embedding": "d97d6d1d5a2188594d4186760b3128435627704f7b67681dae2f64c83ca20d22",
+        "image_embedding": "cb776741f930b005cc1179297b612b471e5c9354d90f48944441ee533c3b3cca"
+      },
+      "noise_sha256": "7fe2746903215c94f571dade7cfb08f11101df8b4ca787018fa4a6f5d13690e0",
+      "source_latent_sha256": "9f7efec4fb98ee63963bd7fc94bd98d1a74ec1b6dc9555f5a2fac229d8cc76e2"
+    },
+    "postfreeze_SN032_s02758_t04754::202": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN032_s02758_t04754/bidirectional_local_lp_s050_seed202.png",
+      "sha256": "63ad2405df72112fea76a8035c75878bb5e517f137c3c4afd1e1d95bf1af8cf7",
+      "condition_hashes": {
+        "au_embedding": "d97d6d1d5a2188594d4186760b3128435627704f7b67681dae2f64c83ca20d22",
+        "image_embedding": "cb776741f930b005cc1179297b612b471e5c9354d90f48944441ee533c3b3cca"
+      },
+      "noise_sha256": "05ec63af64d4517f8e90aa6fca4d1250fc460cb66de75707ee772c0895767c3c",
+      "source_latent_sha256": "9f7efec4fb98ee63963bd7fc94bd98d1a74ec1b6dc9555f5a2fac229d8cc76e2"
+    },
+    "postfreeze_SN032_s02758_t04754::303": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/generation_runs/selected_v11_32_v1/images/postfreeze_SN032_s02758_t04754/bidirectional_local_lp_s050_seed303.png",
+      "sha256": "01a6b6bf4356b201cc6ad390011f53dcb25c33594c1535bbc7bca54ad543de51",
+      "condition_hashes": {
+        "au_embedding": "d97d6d1d5a2188594d4186760b3128435627704f7b67681dae2f64c83ca20d22",
+        "image_embedding": "cb776741f930b005cc1179297b612b471e5c9354d90f48944441ee533c3b3cca"
+      },
+      "noise_sha256": "c9f1642287ccb51249c67c4125af471fdd22bf00b0d431fafee074406fc4949f",
+      "source_latent_sha256": "9f7efec4fb98ee63963bd7fc94bd98d1a74ec1b6dc9555f5a2fac229d8cc76e2"
+    }
+  },
+  "new_training": false,
+  "independent_new_subject_test": false,
+  "target_pixels_used_for_generation": false,
+  "success_criteria": "288 accountable slots; full arm exact image SHA AND pixel parity for all 72 historical references; no omitted failures"
+}

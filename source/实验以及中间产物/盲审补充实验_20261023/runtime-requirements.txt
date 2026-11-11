@@ -1,0 +1,36 @@
+# Recreate inference dependencies with versions observed in the original local venv.
+# Isolated environment only; the old venv, model weights and experiment are unchanged.
+torch==2.1.1
+torchvision==0.16.1
+numpy==1.26.4
+diffusers==0.26.0
+transformers==4.37.1
+accelerate==0.27.2
+huggingface-hub==0.25.2
+tokenizers==0.15.2
+safetensors==0.7.0
+pillow==11.3.0
+scipy==1.13.1
+einops==0.8.0
+opencv-python-headless==4.11.0.86
+psutil==7.2.2
+filelock==3.24.3
+fsspec==2026.2.0
+typing-extensions==4.15.0
+sympy==1.14.0
+mpmath==1.3.0
+networkx==3.4.2
+jinja2==3.1.6
+markupsafe==3.0.3
+packaging==26.0
+pyyaml==6.0.3
+regex==2026.2.19
+requests==2.32.5
+urllib3==2.6.3
+idna==3.11
+charset-normalizer==3.4.4
+certifi==2026.1.4
+tqdm==4.67.3
+importlib-metadata==8.7.1
+zipp==3.23.0
+setuptools==80.10.2

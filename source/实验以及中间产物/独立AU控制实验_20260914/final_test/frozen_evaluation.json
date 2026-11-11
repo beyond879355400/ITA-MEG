@@ -1,0 +1,561 @@
+{
+  "kind": "final_test_evaluation_policy",
+  "status": "frozen_for_final_test",
+  "methods": [
+    "bidirectional",
+    "condition_reads_image",
+    "image_reads_condition",
+    "mlp",
+    "public_baseline",
+    "magicface",
+    "faceadapter",
+    "liveportrait"
+  ],
+  "measurement_policy": {
+    "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/policy.json",
+    "sha256": "d29cd8e67df6f552fb343d9ee0db42d294c2027c0e2da822ee5514920f8f289c"
+  },
+  "reference_image_space": "source_cache_canonical512_and_independent_target_canonical512",
+  "metrics": {
+    "target_mae_changed__all": {
+      "source_metric": "target_mae_changed",
+      "scope": "all",
+      "direction": "lower"
+    },
+    "target_mae_changed__edited": {
+      "source_metric": "target_mae_changed",
+      "scope": "edited",
+      "direction": "lower"
+    },
+    "target_mae_changed__no_edit": {
+      "source_metric": "target_mae_changed",
+      "scope": "no_edit",
+      "direction": "lower"
+    },
+    "delta_mae_changed__all": {
+      "source_metric": "delta_mae_changed",
+      "scope": "all",
+      "direction": "lower"
+    },
+    "delta_mae_changed__edited": {
+      "source_metric": "delta_mae_changed",
+      "scope": "edited",
+      "direction": "lower"
+    },
+    "delta_mae_changed__no_edit": {
+      "source_metric": "delta_mae_changed",
+      "scope": "no_edit",
+      "direction": "lower"
+    },
+    "unchanged_source_relative_drift__all": {
+      "source_metric": "unchanged_source_relative_drift",
+      "scope": "all",
+      "direction": "lower"
+    },
+    "unchanged_source_relative_drift__edited": {
+      "source_metric": "unchanged_source_relative_drift",
+      "scope": "edited",
+      "direction": "lower"
+    },
+    "unchanged_source_relative_drift__no_edit": {
+      "source_metric": "unchanged_source_relative_drift",
+      "scope": "no_edit",
+      "direction": "lower"
+    },
+    "target_mae_all12__all": {
+      "source_metric": "target_mae_all12",
+      "scope": "all",
+      "direction": "lower"
+    },
+    "target_mae_all12__edited": {
+      "source_metric": "target_mae_all12",
+      "scope": "edited",
+      "direction": "lower"
+    },
+    "target_mae_all12__no_edit": {
+      "source_metric": "target_mae_all12",
+      "scope": "no_edit",
+      "direction": "lower"
+    },
+    "delta_mae_all12__all": {
+      "source_metric": "delta_mae_all12",
+      "scope": "all",
+      "direction": "lower"
+    },
+    "delta_mae_all12__edited": {
+      "source_metric": "delta_mae_all12",
+      "scope": "edited",
+      "direction": "lower"
+    },
+    "delta_mae_all12__no_edit": {
+      "source_metric": "delta_mae_all12",
+      "scope": "no_edit",
+      "direction": "lower"
+    },
+    "direction_correct_fraction__all": {
+      "source_metric": "direction_correct_fraction",
+      "scope": "all",
+      "direction": "higher"
+    },
+    "direction_correct_fraction__edited": {
+      "source_metric": "direction_correct_fraction",
+      "scope": "edited",
+      "direction": "higher"
+    },
+    "direction_correct_fraction__no_edit": {
+      "source_metric": "direction_correct_fraction",
+      "scope": "no_edit",
+      "direction": "higher"
+    },
+    "identity_cosine__all": {
+      "source_metric": "identity_cosine",
+      "scope": "all",
+      "direction": "higher"
+    },
+    "identity_cosine__edited": {
+      "source_metric": "identity_cosine",
+      "scope": "edited",
+      "direction": "higher"
+    },
+    "identity_cosine__no_edit": {
+      "source_metric": "identity_cosine",
+      "scope": "no_edit",
+      "direction": "higher"
+    },
+    "buffalo_identity_cosine__all": {
+      "source_metric": "buffalo_identity_cosine",
+      "scope": "all",
+      "direction": "higher"
+    },
+    "buffalo_identity_cosine__edited": {
+      "source_metric": "buffalo_identity_cosine",
+      "scope": "edited",
+      "direction": "higher"
+    },
+    "buffalo_identity_cosine__no_edit": {
+      "source_metric": "buffalo_identity_cosine",
+      "scope": "no_edit",
+      "direction": "higher"
+    },
+    "extra5_proxy_mae_to_real_target__all": {
+      "source_metric": "extra5_proxy_mae_to_real_target",
+      "scope": "all",
+      "direction": "lower"
+    },
+    "extra5_proxy_mae_to_real_target__edited": {
+      "source_metric": "extra5_proxy_mae_to_real_target",
+      "scope": "edited",
+      "direction": "lower"
+    },
+    "extra5_proxy_mae_to_real_target__no_edit": {
+      "source_metric": "extra5_proxy_mae_to_real_target",
+      "scope": "no_edit",
+      "direction": "lower"
+    },
+    "extra_AU7_error_to_real_target__all": {
+      "source_metric": "extra_AU7_error_to_real_target",
+      "scope": "all",
+      "direction": "lower"
+    },
+    "extra_AU7_error_to_real_target__edited": {
+      "source_metric": "extra_AU7_error_to_real_target",
+      "scope": "edited",
+      "direction": "lower"
+    },
+    "extra_AU7_error_to_real_target__no_edit": {
+      "source_metric": "extra_AU7_error_to_real_target",
+      "scope": "no_edit",
+      "direction": "lower"
+    },
+    "extra_AU10_error_to_real_target__all": {
+      "source_metric": "extra_AU10_error_to_real_target",
+      "scope": "all",
+      "direction": "lower"
+    },
+    "extra_AU10_error_to_real_target__edited": {
+      "source_metric": "extra_AU10_error_to_real_target",
+      "scope": "edited",
+      "direction": "lower"
+    },
+    "extra_AU10_error_to_real_target__no_edit": {
+      "source_metric": "extra_AU10_error_to_real_target",
+      "scope": "no_edit",
+      "direction": "lower"
+    },
+    "extra_AU14_error_to_real_target__all": {
+      "source_metric": "extra_AU14_error_to_real_target",
+      "scope": "all",
+      "direction": "lower"
+    },
+    "extra_AU14_error_to_real_target__edited": {
+      "source_metric": "extra_AU14_error_to_real_target",
+      "scope": "edited",
+      "direction": "lower"
+    },
+    "extra_AU14_error_to_real_target__no_edit": {
+      "source_metric": "extra_AU14_error_to_real_target",
+      "scope": "no_edit",
+      "direction": "lower"
+    },
+    "extra_AU23_error_to_real_target__all": {
+      "source_metric": "extra_AU23_error_to_real_target",
+      "scope": "all",
+      "direction": "lower"
+    },
+    "extra_AU23_error_to_real_target__edited": {
+      "source_metric": "extra_AU23_error_to_real_target",
+      "scope": "edited",
+      "direction": "lower"
+    },
+    "extra_AU23_error_to_real_target__no_edit": {
+      "source_metric": "extra_AU23_error_to_real_target",
+      "scope": "no_edit",
+      "direction": "lower"
+    },
+    "extra_AU45_error_to_real_target__all": {
+      "source_metric": "extra_AU45_error_to_real_target",
+      "scope": "all",
+      "direction": "lower"
+    },
+    "extra_AU45_error_to_real_target__edited": {
+      "source_metric": "extra_AU45_error_to_real_target",
+      "scope": "edited",
+      "direction": "lower"
+    },
+    "extra_AU45_error_to_real_target__no_edit": {
+      "source_metric": "extra_AU45_error_to_real_target",
+      "scope": "no_edit",
+      "direction": "lower"
+    }
+  },
+  "comparisons": [
+    {
+      "id": "bidirectional_vs_magicface__target_mae_changed__edited",
+      "method": "bidirectional",
+      "reference": "magicface",
+      "metric": "target_mae_changed__edited",
+      "family": "external_target_au",
+      "analysis_role": "primary"
+    },
+    {
+      "id": "bidirectional_vs_faceadapter__target_mae_changed__edited",
+      "method": "bidirectional",
+      "reference": "faceadapter",
+      "metric": "target_mae_changed__edited",
+      "family": "external_target_au",
+      "analysis_role": "primary"
+    },
+    {
+      "id": "bidirectional_vs_liveportrait__target_mae_changed__edited",
+      "method": "bidirectional",
+      "reference": "liveportrait",
+      "metric": "target_mae_changed__edited",
+      "family": "external_target_au",
+      "analysis_role": "primary"
+    },
+    {
+      "id": "bidirectional_vs_public_baseline__target_mae_changed__edited",
+      "method": "bidirectional",
+      "reference": "public_baseline",
+      "metric": "target_mae_changed__edited",
+      "family": "internal_target_au",
+      "analysis_role": "secondary_structure"
+    },
+    {
+      "id": "bidirectional_vs_condition_reads_image__target_mae_changed__edited",
+      "method": "bidirectional",
+      "reference": "condition_reads_image",
+      "metric": "target_mae_changed__edited",
+      "family": "internal_target_au",
+      "analysis_role": "secondary_structure"
+    },
+    {
+      "id": "bidirectional_vs_image_reads_condition__target_mae_changed__edited",
+      "method": "bidirectional",
+      "reference": "image_reads_condition",
+      "metric": "target_mae_changed__edited",
+      "family": "internal_target_au",
+      "analysis_role": "secondary_structure"
+    },
+    {
+      "id": "bidirectional_vs_mlp__target_mae_changed__edited",
+      "method": "bidirectional",
+      "reference": "mlp",
+      "metric": "target_mae_changed__edited",
+      "family": "internal_target_au",
+      "analysis_role": "secondary_structure"
+    },
+    {
+      "id": "bidirectional_vs_magicface__delta_mae_changed__edited",
+      "method": "bidirectional",
+      "reference": "magicface",
+      "metric": "delta_mae_changed__edited",
+      "family": "diagnostic_delta_mae_changed",
+      "analysis_role": "descriptive"
+    },
+    {
+      "id": "bidirectional_vs_faceadapter__delta_mae_changed__edited",
+      "method": "bidirectional",
+      "reference": "faceadapter",
+      "metric": "delta_mae_changed__edited",
+      "family": "diagnostic_delta_mae_changed",
+      "analysis_role": "descriptive"
+    },
+    {
+      "id": "bidirectional_vs_liveportrait__delta_mae_changed__edited",
+      "method": "bidirectional",
+      "reference": "liveportrait",
+      "metric": "delta_mae_changed__edited",
+      "family": "diagnostic_delta_mae_changed",
+      "analysis_role": "descriptive"
+    },
+    {
+      "id": "bidirectional_vs_public_baseline__delta_mae_changed__edited",
+      "method": "bidirectional",
+      "reference": "public_baseline",
+      "metric": "delta_mae_changed__edited",
+      "family": "diagnostic_delta_mae_changed",
+      "analysis_role": "descriptive"
+    },
+    {
+      "id": "bidirectional_vs_condition_reads_image__delta_mae_changed__edited",
+      "method": "bidirectional",
+      "reference": "condition_reads_image",
+      "metric": "delta_mae_changed__edited",
+      "family": "diagnostic_delta_mae_changed",
+      "analysis_role": "descriptive"
+    },
+    {
+      "id": "bidirectional_vs_image_reads_condition__delta_mae_changed__edited",
+      "method": "bidirectional",
+      "reference": "image_reads_condition",
+      "metric": "delta_mae_changed__edited",
+      "family": "diagnostic_delta_mae_changed",
+      "analysis_role": "descriptive"
+    },
+    {
+      "id": "bidirectional_vs_mlp__delta_mae_changed__edited",
+      "method": "bidirectional",
+      "reference": "mlp",
+      "metric": "delta_mae_changed__edited",
+      "family": "diagnostic_delta_mae_changed",
+      "analysis_role": "descriptive"
+    },
+    {
+      "id": "bidirectional_vs_magicface__identity_cosine__edited",
+      "method": "bidirectional",
+      "reference": "magicface",
+      "metric": "identity_cosine__edited",
+      "family": "diagnostic_identity_cosine",
+      "analysis_role": "descriptive"
+    },
+    {
+      "id": "bidirectional_vs_faceadapter__identity_cosine__edited",
+      "method": "bidirectional",
+      "reference": "faceadapter",
+      "metric": "identity_cosine__edited",
+      "family": "diagnostic_identity_cosine",
+      "analysis_role": "descriptive"
+    },
+    {
+      "id": "bidirectional_vs_liveportrait__identity_cosine__edited",
+      "method": "bidirectional",
+      "reference": "liveportrait",
+      "metric": "identity_cosine__edited",
+      "family": "diagnostic_identity_cosine",
+      "analysis_role": "descriptive"
+    },
+    {
+      "id": "bidirectional_vs_public_baseline__identity_cosine__edited",
+      "method": "bidirectional",
+      "reference": "public_baseline",
+      "metric": "identity_cosine__edited",
+      "family": "diagnostic_identity_cosine",
+      "analysis_role": "descriptive"
+    },
+    {
+      "id": "bidirectional_vs_condition_reads_image__identity_cosine__edited",
+      "method": "bidirectional",
+      "reference": "condition_reads_image",
+      "metric": "identity_cosine__edited",
+      "family": "diagnostic_identity_cosine",
+      "analysis_role": "descriptive"
+    },
+    {
+      "id": "bidirectional_vs_image_reads_condition__identity_cosine__edited",
+      "method": "bidirectional",
+      "reference": "image_reads_condition",
+      "metric": "identity_cosine__edited",
+      "family": "diagnostic_identity_cosine",
+      "analysis_role": "descriptive"
+    },
+    {
+      "id": "bidirectional_vs_mlp__identity_cosine__edited",
+      "method": "bidirectional",
+      "reference": "mlp",
+      "metric": "identity_cosine__edited",
+      "family": "diagnostic_identity_cosine",
+      "analysis_role": "descriptive"
+    },
+    {
+      "id": "bidirectional_vs_magicface__unchanged_source_relative_drift__edited",
+      "method": "bidirectional",
+      "reference": "magicface",
+      "metric": "unchanged_source_relative_drift__edited",
+      "family": "diagnostic_unchanged_source_relative_drift",
+      "analysis_role": "descriptive"
+    },
+    {
+      "id": "bidirectional_vs_faceadapter__unchanged_source_relative_drift__edited",
+      "method": "bidirectional",
+      "reference": "faceadapter",
+      "metric": "unchanged_source_relative_drift__edited",
+      "family": "diagnostic_unchanged_source_relative_drift",
+      "analysis_role": "descriptive"
+    },
+    {
+      "id": "bidirectional_vs_liveportrait__unchanged_source_relative_drift__edited",
+      "method": "bidirectional",
+      "reference": "liveportrait",
+      "metric": "unchanged_source_relative_drift__edited",
+      "family": "diagnostic_unchanged_source_relative_drift",
+      "analysis_role": "descriptive"
+    },
+    {
+      "id": "bidirectional_vs_public_baseline__unchanged_source_relative_drift__edited",
+      "method": "bidirectional",
+      "reference": "public_baseline",
+      "metric": "unchanged_source_relative_drift__edited",
+      "family": "diagnostic_unchanged_source_relative_drift",
+      "analysis_role": "descriptive"
+    },
+    {
+      "id": "bidirectional_vs_condition_reads_image__unchanged_source_relative_drift__edited",
+      "method": "bidirectional",
+      "reference": "condition_reads_image",
+      "metric": "unchanged_source_relative_drift__edited",
+      "family": "diagnostic_unchanged_source_relative_drift",
+      "analysis_role": "descriptive"
+    },
+    {
+      "id": "bidirectional_vs_image_reads_condition__unchanged_source_relative_drift__edited",
+      "method": "bidirectional",
+      "reference": "image_reads_condition",
+      "metric": "unchanged_source_relative_drift__edited",
+      "family": "diagnostic_unchanged_source_relative_drift",
+      "analysis_role": "descriptive"
+    },
+    {
+      "id": "bidirectional_vs_mlp__unchanged_source_relative_drift__edited",
+      "method": "bidirectional",
+      "reference": "mlp",
+      "metric": "unchanged_source_relative_drift__edited",
+      "family": "diagnostic_unchanged_source_relative_drift",
+      "analysis_role": "descriptive"
+    },
+    {
+      "id": "bidirectional_vs_magicface__extra5_proxy_mae_to_real_target__edited",
+      "method": "bidirectional",
+      "reference": "magicface",
+      "metric": "extra5_proxy_mae_to_real_target__edited",
+      "family": "diagnostic_extra5_proxy_mae_to_real_target",
+      "analysis_role": "descriptive"
+    },
+    {
+      "id": "bidirectional_vs_faceadapter__extra5_proxy_mae_to_real_target__edited",
+      "method": "bidirectional",
+      "reference": "faceadapter",
+      "metric": "extra5_proxy_mae_to_real_target__edited",
+      "family": "diagnostic_extra5_proxy_mae_to_real_target",
+      "analysis_role": "descriptive"
+    },
+    {
+      "id": "bidirectional_vs_liveportrait__extra5_proxy_mae_to_real_target__edited",
+      "method": "bidirectional",
+      "reference": "liveportrait",
+      "metric": "extra5_proxy_mae_to_real_target__edited",
+      "family": "diagnostic_extra5_proxy_mae_to_real_target",
+      "analysis_role": "descriptive"
+    },
+    {
+      "id": "bidirectional_vs_public_baseline__extra5_proxy_mae_to_real_target__edited",
+      "method": "bidirectional",
+      "reference": "public_baseline",
+      "metric": "extra5_proxy_mae_to_real_target__edited",
+      "family": "diagnostic_extra5_proxy_mae_to_real_target",
+      "analysis_role": "descriptive"
+    },
+    {
+      "id": "bidirectional_vs_condition_reads_image__extra5_proxy_mae_to_real_target__edited",
+      "method": "bidirectional",
+      "reference": "condition_reads_image",
+      "metric": "extra5_proxy_mae_to_real_target__edited",
+      "family": "diagnostic_extra5_proxy_mae_to_real_target",
+      "analysis_role": "descriptive"
+    },
+    {
+      "id": "bidirectional_vs_image_reads_condition__extra5_proxy_mae_to_real_target__edited",
+      "method": "bidirectional",
+      "reference": "image_reads_condition",
+      "metric": "extra5_proxy_mae_to_real_target__edited",
+      "family": "diagnostic_extra5_proxy_mae_to_real_target",
+      "analysis_role": "descriptive"
+    },
+    {
+      "id": "bidirectional_vs_mlp__extra5_proxy_mae_to_real_target__edited",
+      "method": "bidirectional",
+      "reference": "mlp",
+      "metric": "extra5_proxy_mae_to_real_target__edited",
+      "family": "diagnostic_extra5_proxy_mae_to_real_target",
+      "analysis_role": "descriptive"
+    }
+  ],
+  "primary_family": "external_target_au",
+  "primary_families": [
+    "external_target_au"
+  ],
+  "secondary_families": [
+    "internal_target_au"
+  ],
+  "descriptive_families": [
+    "diagnostic_delta_mae_changed",
+    "diagnostic_identity_cosine",
+    "diagnostic_unchanged_source_relative_drift",
+    "diagnostic_extra5_proxy_mae_to_real_target"
+  ],
+  "statistics": {
+    "bootstrap_samples": 50000,
+    "bootstrap_seed": 20260914,
+    "confidence_level": 0.95
+  },
+  "reporting": {
+    "primary_comparison_count": 3,
+    "secondary_structure_comparison_count": 4,
+    "descriptive_comparison_count": 28,
+    "raw_reports": "all14 existingmetrics acrossall/edited/no_edit",
+    "descriptive_p_values": "computed transparently by existingtool but cannot support an additional primary claim, whether unadjusted orHolm-adjusted",
+    "family_separation": "Diagnostic families do not alter external3/internal4 denominators",
+    "no_composite_score": true,
+    "no_identity_threshold_selected": true,
+    "input_groups": {
+      "source_text_au": [
+        "bidirectional",
+        "condition_reads_image",
+        "image_reads_condition",
+        "mlp",
+        "public_baseline"
+      ],
+      "source_manual_au": [
+        "magicface"
+      ],
+      "source_real_driver": [
+        "faceadapter",
+        "liveportrait"
+      ]
+    }
+  },
+  "analysis_plan_source": {
+    "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/final_test/ANALYSIS_PLAN_CANDIDATE.md",
+    "sha256": "99d610355309b5f117e2026bbcffe5db7e086c2aad0626bcd4dc525202eae06f"
+  }
+}

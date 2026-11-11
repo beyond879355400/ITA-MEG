@@ -1,0 +1,1379 @@
+{
+  "kind": "final_test_extraction_protocol",
+  "status": "frozen_final_test",
+  "extraction_authorized": true,
+  "note": "Frozen after development-only selection; case/model/evaluation data retained from pinned DRAFTs",
+  "extractor_sha256": "d7523d4b9d5ac15e43ce55b6e3b0bf7dfb055025059ff1d8f10a6e1658e70f80",
+  "legacy_helper_sha256": "94cf2219866b4046e17b60ccb830dcf399b18a35654a68c403118d9294072364",
+  "inputs": {
+    "label_plan": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/data_prepare/final_test_label_plan/proposal_v1/plan_3_targets_per_subject.json",
+      "sha256": "b2052f261a5caf81b444e5a9aaa2620c917b399904f7f404c7cf6fe2a04dc684"
+    },
+    "label_inventory": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/data_prepare/final_test_label_plan/proposal_v1/label_inventory.json",
+      "sha256": "2475a2e971922c3983321f74d7de18edffef8157cb4b0ea15b16685f53a3c8ab"
+    },
+    "label_acceptance": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/data_prepare/final_test_label_plan/proposal_v1/acceptance.json",
+      "sha256": "56fabc74e193ad0d42a451162a6c3e9de7b9677705545ac1f9e883695ca1fbe4"
+    },
+    "subject_split": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/data_prepare/au_supervision_v2/subjects_frozen.json",
+      "sha256": "b0837ba1ae1b30eec0dd33c48f2300809625a09437b2c161ac4576dad521fe6d"
+    },
+    "sampling_settings": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/final_test/frozen_sampling.json",
+      "sha256": "20390b1ca97e17187fd508e589dec6385995e6f02ca2f67df6f5cd1482e3f3fc"
+    },
+    "evaluation_policy": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/final_test/frozen_evaluation.json",
+      "sha256": "cfba3469de2ed8d1b28813ba72f839e78129b0aae4c8b1f5106c8fb7ac9114e7"
+    }
+  },
+  "case_ids": [
+    "planned_test_SN003_noedit_f03875",
+    "planned_test_SN003_target_f01463",
+    "planned_test_SN003_target_f01700",
+    "planned_test_SN003_target_f04034",
+    "planned_test_SN005_noedit_f04093",
+    "planned_test_SN005_target_f00138",
+    "planned_test_SN005_target_f00426",
+    "planned_test_SN005_target_f01825",
+    "planned_test_SN008_noedit_f03149",
+    "planned_test_SN008_target_f01037",
+    "planned_test_SN008_target_f01306",
+    "planned_test_SN008_target_f01688",
+    "planned_test_SN009_noedit_f03491",
+    "planned_test_SN009_target_f00148",
+    "planned_test_SN009_target_f00385",
+    "planned_test_SN009_target_f01415",
+    "planned_test_SN021_noedit_f03108",
+    "planned_test_SN021_target_f01523",
+    "planned_test_SN021_target_f01594",
+    "planned_test_SN021_target_f01858",
+    "planned_test_SN024_noedit_f03925",
+    "planned_test_SN024_target_f02230",
+    "planned_test_SN024_target_f04250",
+    "planned_test_SN024_target_f04466",
+    "planned_test_SN031_noedit_f03266",
+    "planned_test_SN031_target_f00059",
+    "planned_test_SN031_target_f00538",
+    "planned_test_SN031_target_f01138",
+    "planned_test_SN032_noedit_f03391",
+    "planned_test_SN032_target_f00199",
+    "planned_test_SN032_target_f03104",
+    "planned_test_SN032_target_f03672"
+  ],
+  "sampling_seeds": [
+    101,
+    202,
+    303
+  ],
+  "case_seed_policy": "full_cartesian",
+  "models": [
+    {
+      "method": "bidirectional",
+      "artifacts": [
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/runs/v4_slot_2k_bidir_step200_202609141920/checkpoint_00000200.pt",
+          "sha256": "7fcc25b704fca8c0a4e46a171096df8fea940b40a246d4939193e64f533b4e30",
+          "role": "trained_source_centered_adapter_step200"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/runs/v4_slot_2k_bidir_step200_202609141920/checkpoint_00000200.json",
+          "sha256": "0faf24417ded0d1b119d91c7217733c5077196a3cc85cb4ce895afbe3b505601",
+          "role": "checkpoint_integrity_sidecar"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/snapshots/1685907c0283c7278ba26c5fe561506f564b48d3/unet/config.json",
+          "sha256": "f0567294c259d420cb4505c4c0ee37ee304342e4581ac2c87362b2e87965bbeb",
+          "role": "rv/unet/config.json"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/snapshots/1685907c0283c7278ba26c5fe561506f564b48d3/unet/diffusion_pytorch_model.safetensors",
+          "sha256": "f75956623c8f95b40e62b3ee45f5dcba8e353b53c33c6765e517c5a8bb3dfbfe",
+          "role": "rv/unet/diffusion_pytorch_model.safetensors"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/snapshots/1685907c0283c7278ba26c5fe561506f564b48d3/vae/config.json",
+          "sha256": "cd56fdbf7a5c01c4bf331a3640395c48d5456dcc58374e7b3d24a7e3fe42d42a",
+          "role": "rv/vae/config.json"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/snapshots/1685907c0283c7278ba26c5fe561506f564b48d3/vae/diffusion_pytorch_model.safetensors",
+          "sha256": "68a430f8a51413e80ecec6c13fff4b6b63e57600a2ec661a016a14fd1037fa4b",
+          "role": "rv/vae/diffusion_pytorch_model.safetensors"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/snapshots/1685907c0283c7278ba26c5fe561506f564b48d3/text_encoder/config.json",
+          "sha256": "f4b1867cbf991587483d691aed58c41b25c28df75ae5b7f391ceae51269dfe68",
+          "role": "rv/text_encoder/config.json"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/snapshots/1685907c0283c7278ba26c5fe561506f564b48d3/text_encoder/model.safetensors",
+          "sha256": "8ee67788c3c9a6f5d73de077b644f1d4317258b55fbcc372dc385e8e5587c1cc",
+          "role": "rv/text_encoder/model.safetensors"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/snapshots/1685907c0283c7278ba26c5fe561506f564b48d3/scheduler/scheduler_config.json",
+          "sha256": "81c61cd6937a8b6c4ddf9eef06b64dafbaa66409d083786dc9426bec7f37a105",
+          "role": "rv/scheduler/scheduler_config.json"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/snapshots/1685907c0283c7278ba26c5fe561506f564b48d3/tokenizer/vocab.json",
+          "sha256": "e089ad92ba36837a0d31433e555c8f45fe601ab5c221d4f607ded32d9f7a4349",
+          "role": "rv/tokenizer/vocab.json"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/snapshots/1685907c0283c7278ba26c5fe561506f564b48d3/tokenizer/merges.txt",
+          "sha256": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a",
+          "role": "rv/tokenizer/merges.txt"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/snapshots/1685907c0283c7278ba26c5fe561506f564b48d3/tokenizer/tokenizer_config.json",
+          "sha256": "19d7b034cb0cc3ce9766c2231373ab8aa8991fc72e2c8f76558bfaae3de0d563",
+          "role": "rv/tokenizer/tokenizer_config.json"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/snapshots/1685907c0283c7278ba26c5fe561506f564b48d3/tokenizer/special_tokens_map.json",
+          "sha256": "c4864a9376a8401918425bed71fc14fc0e81f9b59ec45c1cf96cccb2df508eac",
+          "role": "rv/tokenizer/special_tokens_map.json"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--Tvaranka--fineface/snapshots/3bd764b8f6f9b113b5e1d878cbfb499d71c04446/sd15_attn_processors.ckpt",
+          "sha256": "e32d84e2e53fe102cf0011b05a178d79da14ef06247d66b7ad6041ef9f0eee1a",
+          "role": "fineface/au_attention"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--Tvaranka--fineface/snapshots/3bd764b8f6f9b113b5e1d878cbfb499d71c04446/sd15_au_encoder.ckpt",
+          "sha256": "014f8cc0348e2c91324e6dc198b3d83cf5d6b0a21e353dd70ef5f18c365a4723",
+          "role": "fineface/au_encoder"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--h94--IP-Adapter-FaceID/snapshots/43907e6f44d079bf1a9102d9a6e56aef7a219bae/ip-adapter-faceid-portrait-v11_sd15.bin",
+          "sha256": "a48cb4f89ed18e02c6000f65aa9efec452e87eaed4a1bc9fcf4a460c8d0e3bc6",
+          "role": "faceid"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/face_adapter/third_party/insightface_glint360k.pth",
+          "sha256": "5f631718e783448b41631e15073bdc622eaeef56509bbad4e5085f23bd32db83",
+          "role": "iresnet100"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/baselines/ganimation_emotionnet_20260718/evaluation_models/insightface/models/buffalo_l/det_10g.onnx",
+          "sha256": "5838f7fe053675b1c7a08b633df49e7af5495cee0493c7dcf6697200b85b5b91",
+          "role": "cached_faceid/det_10g.onnx"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/baselines/ganimation_emotionnet_20260718/evaluation_models/insightface/models/buffalo_l/w600k_r50.onnx",
+          "sha256": "4c06341c33c2ca1f86781dab0e829f88ad5b64be9fba56e56bc9ebdefc619e43",
+          "role": "cached_faceid/w600k_r50.onnx"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/snapshots/1685907c0283c7278ba26c5fe561506f564b48d3/model_index.json",
+          "sha256": "eaaa586611ebaf7e860145373536bcd7ea7c6f23d40ac63e03884596f19f8df0",
+          "role": "rv/model_index.json"
+        }
+      ]
+    },
+    {
+      "method": "condition_reads_image",
+      "artifacts": [
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/runs/v4_slot_2k_condition_reads_image_step200_202609142024/checkpoint_00000200.pt",
+          "sha256": "969def9470fb6a8ba4ff5b37e11b601144101e563e25ff3c26e09e4fdb71396b",
+          "role": "trained_source_centered_adapter_step200"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/runs/v4_slot_2k_condition_reads_image_step200_202609142024/checkpoint_00000200.json",
+          "sha256": "1fefab121c57d6df4e35161fe7a96fda4cdf3ebf1dbcee1d21f15ed233f3796d",
+          "role": "checkpoint_integrity_sidecar"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/snapshots/1685907c0283c7278ba26c5fe561506f564b48d3/unet/config.json",
+          "sha256": "f0567294c259d420cb4505c4c0ee37ee304342e4581ac2c87362b2e87965bbeb",
+          "role": "rv/unet/config.json"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/snapshots/1685907c0283c7278ba26c5fe561506f564b48d3/unet/diffusion_pytorch_model.safetensors",
+          "sha256": "f75956623c8f95b40e62b3ee45f5dcba8e353b53c33c6765e517c5a8bb3dfbfe",
+          "role": "rv/unet/diffusion_pytorch_model.safetensors"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/snapshots/1685907c0283c7278ba26c5fe561506f564b48d3/vae/config.json",
+          "sha256": "cd56fdbf7a5c01c4bf331a3640395c48d5456dcc58374e7b3d24a7e3fe42d42a",
+          "role": "rv/vae/config.json"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/snapshots/1685907c0283c7278ba26c5fe561506f564b48d3/vae/diffusion_pytorch_model.safetensors",
+          "sha256": "68a430f8a51413e80ecec6c13fff4b6b63e57600a2ec661a016a14fd1037fa4b",
+          "role": "rv/vae/diffusion_pytorch_model.safetensors"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/snapshots/1685907c0283c7278ba26c5fe561506f564b48d3/text_encoder/config.json",
+          "sha256": "f4b1867cbf991587483d691aed58c41b25c28df75ae5b7f391ceae51269dfe68",
+          "role": "rv/text_encoder/config.json"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/snapshots/1685907c0283c7278ba26c5fe561506f564b48d3/text_encoder/model.safetensors",
+          "sha256": "8ee67788c3c9a6f5d73de077b644f1d4317258b55fbcc372dc385e8e5587c1cc",
+          "role": "rv/text_encoder/model.safetensors"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/snapshots/1685907c0283c7278ba26c5fe561506f564b48d3/scheduler/scheduler_config.json",
+          "sha256": "81c61cd6937a8b6c4ddf9eef06b64dafbaa66409d083786dc9426bec7f37a105",
+          "role": "rv/scheduler/scheduler_config.json"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/snapshots/1685907c0283c7278ba26c5fe561506f564b48d3/tokenizer/vocab.json",
+          "sha256": "e089ad92ba36837a0d31433e555c8f45fe601ab5c221d4f607ded32d9f7a4349",
+          "role": "rv/tokenizer/vocab.json"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/snapshots/1685907c0283c7278ba26c5fe561506f564b48d3/tokenizer/merges.txt",
+          "sha256": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a",
+          "role": "rv/tokenizer/merges.txt"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/snapshots/1685907c0283c7278ba26c5fe561506f564b48d3/tokenizer/tokenizer_config.json",
+          "sha256": "19d7b034cb0cc3ce9766c2231373ab8aa8991fc72e2c8f76558bfaae3de0d563",
+          "role": "rv/tokenizer/tokenizer_config.json"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/snapshots/1685907c0283c7278ba26c5fe561506f564b48d3/tokenizer/special_tokens_map.json",
+          "sha256": "c4864a9376a8401918425bed71fc14fc0e81f9b59ec45c1cf96cccb2df508eac",
+          "role": "rv/tokenizer/special_tokens_map.json"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--Tvaranka--fineface/snapshots/3bd764b8f6f9b113b5e1d878cbfb499d71c04446/sd15_attn_processors.ckpt",
+          "sha256": "e32d84e2e53fe102cf0011b05a178d79da14ef06247d66b7ad6041ef9f0eee1a",
+          "role": "fineface/au_attention"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--Tvaranka--fineface/snapshots/3bd764b8f6f9b113b5e1d878cbfb499d71c04446/sd15_au_encoder.ckpt",
+          "sha256": "014f8cc0348e2c91324e6dc198b3d83cf5d6b0a21e353dd70ef5f18c365a4723",
+          "role": "fineface/au_encoder"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--h94--IP-Adapter-FaceID/snapshots/43907e6f44d079bf1a9102d9a6e56aef7a219bae/ip-adapter-faceid-portrait-v11_sd15.bin",
+          "sha256": "a48cb4f89ed18e02c6000f65aa9efec452e87eaed4a1bc9fcf4a460c8d0e3bc6",
+          "role": "faceid"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/face_adapter/third_party/insightface_glint360k.pth",
+          "sha256": "5f631718e783448b41631e15073bdc622eaeef56509bbad4e5085f23bd32db83",
+          "role": "iresnet100"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/baselines/ganimation_emotionnet_20260718/evaluation_models/insightface/models/buffalo_l/det_10g.onnx",
+          "sha256": "5838f7fe053675b1c7a08b633df49e7af5495cee0493c7dcf6697200b85b5b91",
+          "role": "cached_faceid/det_10g.onnx"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/baselines/ganimation_emotionnet_20260718/evaluation_models/insightface/models/buffalo_l/w600k_r50.onnx",
+          "sha256": "4c06341c33c2ca1f86781dab0e829f88ad5b64be9fba56e56bc9ebdefc619e43",
+          "role": "cached_faceid/w600k_r50.onnx"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/snapshots/1685907c0283c7278ba26c5fe561506f564b48d3/model_index.json",
+          "sha256": "eaaa586611ebaf7e860145373536bcd7ea7c6f23d40ac63e03884596f19f8df0",
+          "role": "rv/model_index.json"
+        }
+      ]
+    },
+    {
+      "method": "image_reads_condition",
+      "artifacts": [
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/runs/v4_slot_2k_image_reads_condition_step200_202609142032/checkpoint_00000200.pt",
+          "sha256": "99b565be708493e23a5a5d11829353cbc88cba3c2d78a388be49534703bd695f",
+          "role": "trained_source_centered_adapter_step200"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/runs/v4_slot_2k_image_reads_condition_step200_202609142032/checkpoint_00000200.json",
+          "sha256": "f7e6a785290aa2558b60c151b4a842c73d99bf8f310a421419736f4bc8e88543",
+          "role": "checkpoint_integrity_sidecar"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/snapshots/1685907c0283c7278ba26c5fe561506f564b48d3/unet/config.json",
+          "sha256": "f0567294c259d420cb4505c4c0ee37ee304342e4581ac2c87362b2e87965bbeb",
+          "role": "rv/unet/config.json"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/snapshots/1685907c0283c7278ba26c5fe561506f564b48d3/unet/diffusion_pytorch_model.safetensors",
+          "sha256": "f75956623c8f95b40e62b3ee45f5dcba8e353b53c33c6765e517c5a8bb3dfbfe",
+          "role": "rv/unet/diffusion_pytorch_model.safetensors"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/snapshots/1685907c0283c7278ba26c5fe561506f564b48d3/vae/config.json",
+          "sha256": "cd56fdbf7a5c01c4bf331a3640395c48d5456dcc58374e7b3d24a7e3fe42d42a",
+          "role": "rv/vae/config.json"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/snapshots/1685907c0283c7278ba26c5fe561506f564b48d3/vae/diffusion_pytorch_model.safetensors",
+          "sha256": "68a430f8a51413e80ecec6c13fff4b6b63e57600a2ec661a016a14fd1037fa4b",
+          "role": "rv/vae/diffusion_pytorch_model.safetensors"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/snapshots/1685907c0283c7278ba26c5fe561506f564b48d3/text_encoder/config.json",
+          "sha256": "f4b1867cbf991587483d691aed58c41b25c28df75ae5b7f391ceae51269dfe68",
+          "role": "rv/text_encoder/config.json"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/snapshots/1685907c0283c7278ba26c5fe561506f564b48d3/text_encoder/model.safetensors",
+          "sha256": "8ee67788c3c9a6f5d73de077b644f1d4317258b55fbcc372dc385e8e5587c1cc",
+          "role": "rv/text_encoder/model.safetensors"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/snapshots/1685907c0283c7278ba26c5fe561506f564b48d3/scheduler/scheduler_config.json",
+          "sha256": "81c61cd6937a8b6c4ddf9eef06b64dafbaa66409d083786dc9426bec7f37a105",
+          "role": "rv/scheduler/scheduler_config.json"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/snapshots/1685907c0283c7278ba26c5fe561506f564b48d3/tokenizer/vocab.json",
+          "sha256": "e089ad92ba36837a0d31433e555c8f45fe601ab5c221d4f607ded32d9f7a4349",
+          "role": "rv/tokenizer/vocab.json"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/snapshots/1685907c0283c7278ba26c5fe561506f564b48d3/tokenizer/merges.txt",
+          "sha256": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a",
+          "role": "rv/tokenizer/merges.txt"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/snapshots/1685907c0283c7278ba26c5fe561506f564b48d3/tokenizer/tokenizer_config.json",
+          "sha256": "19d7b034cb0cc3ce9766c2231373ab8aa8991fc72e2c8f76558bfaae3de0d563",
+          "role": "rv/tokenizer/tokenizer_config.json"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/snapshots/1685907c0283c7278ba26c5fe561506f564b48d3/tokenizer/special_tokens_map.json",
+          "sha256": "c4864a9376a8401918425bed71fc14fc0e81f9b59ec45c1cf96cccb2df508eac",
+          "role": "rv/tokenizer/special_tokens_map.json"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--Tvaranka--fineface/snapshots/3bd764b8f6f9b113b5e1d878cbfb499d71c04446/sd15_attn_processors.ckpt",
+          "sha256": "e32d84e2e53fe102cf0011b05a178d79da14ef06247d66b7ad6041ef9f0eee1a",
+          "role": "fineface/au_attention"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--Tvaranka--fineface/snapshots/3bd764b8f6f9b113b5e1d878cbfb499d71c04446/sd15_au_encoder.ckpt",
+          "sha256": "014f8cc0348e2c91324e6dc198b3d83cf5d6b0a21e353dd70ef5f18c365a4723",
+          "role": "fineface/au_encoder"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--h94--IP-Adapter-FaceID/snapshots/43907e6f44d079bf1a9102d9a6e56aef7a219bae/ip-adapter-faceid-portrait-v11_sd15.bin",
+          "sha256": "a48cb4f89ed18e02c6000f65aa9efec452e87eaed4a1bc9fcf4a460c8d0e3bc6",
+          "role": "faceid"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/face_adapter/third_party/insightface_glint360k.pth",
+          "sha256": "5f631718e783448b41631e15073bdc622eaeef56509bbad4e5085f23bd32db83",
+          "role": "iresnet100"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/baselines/ganimation_emotionnet_20260718/evaluation_models/insightface/models/buffalo_l/det_10g.onnx",
+          "sha256": "5838f7fe053675b1c7a08b633df49e7af5495cee0493c7dcf6697200b85b5b91",
+          "role": "cached_faceid/det_10g.onnx"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/baselines/ganimation_emotionnet_20260718/evaluation_models/insightface/models/buffalo_l/w600k_r50.onnx",
+          "sha256": "4c06341c33c2ca1f86781dab0e829f88ad5b64be9fba56e56bc9ebdefc619e43",
+          "role": "cached_faceid/w600k_r50.onnx"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/snapshots/1685907c0283c7278ba26c5fe561506f564b48d3/model_index.json",
+          "sha256": "eaaa586611ebaf7e860145373536bcd7ea7c6f23d40ac63e03884596f19f8df0",
+          "role": "rv/model_index.json"
+        }
+      ]
+    },
+    {
+      "method": "mlp",
+      "artifacts": [
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/runs/v4_slot_2k_mlp_step200_202609142000/checkpoint_00000200.pt",
+          "sha256": "f58336567246ecd2f6818ea4ae30f947914af4e9c2296177b86169b95d6aa6f5",
+          "role": "trained_source_centered_adapter_step200"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/runs/v4_slot_2k_mlp_step200_202609142000/checkpoint_00000200.json",
+          "sha256": "5d681c44d5fb60b17d757c605cb2f86483830bdffd41c860453b4a53599ca70c",
+          "role": "checkpoint_integrity_sidecar"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/snapshots/1685907c0283c7278ba26c5fe561506f564b48d3/unet/config.json",
+          "sha256": "f0567294c259d420cb4505c4c0ee37ee304342e4581ac2c87362b2e87965bbeb",
+          "role": "rv/unet/config.json"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/snapshots/1685907c0283c7278ba26c5fe561506f564b48d3/unet/diffusion_pytorch_model.safetensors",
+          "sha256": "f75956623c8f95b40e62b3ee45f5dcba8e353b53c33c6765e517c5a8bb3dfbfe",
+          "role": "rv/unet/diffusion_pytorch_model.safetensors"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/snapshots/1685907c0283c7278ba26c5fe561506f564b48d3/vae/config.json",
+          "sha256": "cd56fdbf7a5c01c4bf331a3640395c48d5456dcc58374e7b3d24a7e3fe42d42a",
+          "role": "rv/vae/config.json"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/snapshots/1685907c0283c7278ba26c5fe561506f564b48d3/vae/diffusion_pytorch_model.safetensors",
+          "sha256": "68a430f8a51413e80ecec6c13fff4b6b63e57600a2ec661a016a14fd1037fa4b",
+          "role": "rv/vae/diffusion_pytorch_model.safetensors"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/snapshots/1685907c0283c7278ba26c5fe561506f564b48d3/text_encoder/config.json",
+          "sha256": "f4b1867cbf991587483d691aed58c41b25c28df75ae5b7f391ceae51269dfe68",
+          "role": "rv/text_encoder/config.json"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/snapshots/1685907c0283c7278ba26c5fe561506f564b48d3/text_encoder/model.safetensors",
+          "sha256": "8ee67788c3c9a6f5d73de077b644f1d4317258b55fbcc372dc385e8e5587c1cc",
+          "role": "rv/text_encoder/model.safetensors"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/snapshots/1685907c0283c7278ba26c5fe561506f564b48d3/scheduler/scheduler_config.json",
+          "sha256": "81c61cd6937a8b6c4ddf9eef06b64dafbaa66409d083786dc9426bec7f37a105",
+          "role": "rv/scheduler/scheduler_config.json"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/snapshots/1685907c0283c7278ba26c5fe561506f564b48d3/tokenizer/vocab.json",
+          "sha256": "e089ad92ba36837a0d31433e555c8f45fe601ab5c221d4f607ded32d9f7a4349",
+          "role": "rv/tokenizer/vocab.json"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/snapshots/1685907c0283c7278ba26c5fe561506f564b48d3/tokenizer/merges.txt",
+          "sha256": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a",
+          "role": "rv/tokenizer/merges.txt"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/snapshots/1685907c0283c7278ba26c5fe561506f564b48d3/tokenizer/tokenizer_config.json",
+          "sha256": "19d7b034cb0cc3ce9766c2231373ab8aa8991fc72e2c8f76558bfaae3de0d563",
+          "role": "rv/tokenizer/tokenizer_config.json"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/snapshots/1685907c0283c7278ba26c5fe561506f564b48d3/tokenizer/special_tokens_map.json",
+          "sha256": "c4864a9376a8401918425bed71fc14fc0e81f9b59ec45c1cf96cccb2df508eac",
+          "role": "rv/tokenizer/special_tokens_map.json"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--Tvaranka--fineface/snapshots/3bd764b8f6f9b113b5e1d878cbfb499d71c04446/sd15_attn_processors.ckpt",
+          "sha256": "e32d84e2e53fe102cf0011b05a178d79da14ef06247d66b7ad6041ef9f0eee1a",
+          "role": "fineface/au_attention"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--Tvaranka--fineface/snapshots/3bd764b8f6f9b113b5e1d878cbfb499d71c04446/sd15_au_encoder.ckpt",
+          "sha256": "014f8cc0348e2c91324e6dc198b3d83cf5d6b0a21e353dd70ef5f18c365a4723",
+          "role": "fineface/au_encoder"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--h94--IP-Adapter-FaceID/snapshots/43907e6f44d079bf1a9102d9a6e56aef7a219bae/ip-adapter-faceid-portrait-v11_sd15.bin",
+          "sha256": "a48cb4f89ed18e02c6000f65aa9efec452e87eaed4a1bc9fcf4a460c8d0e3bc6",
+          "role": "faceid"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/face_adapter/third_party/insightface_glint360k.pth",
+          "sha256": "5f631718e783448b41631e15073bdc622eaeef56509bbad4e5085f23bd32db83",
+          "role": "iresnet100"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/baselines/ganimation_emotionnet_20260718/evaluation_models/insightface/models/buffalo_l/det_10g.onnx",
+          "sha256": "5838f7fe053675b1c7a08b633df49e7af5495cee0493c7dcf6697200b85b5b91",
+          "role": "cached_faceid/det_10g.onnx"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/baselines/ganimation_emotionnet_20260718/evaluation_models/insightface/models/buffalo_l/w600k_r50.onnx",
+          "sha256": "4c06341c33c2ca1f86781dab0e829f88ad5b64be9fba56e56bc9ebdefc619e43",
+          "role": "cached_faceid/w600k_r50.onnx"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/snapshots/1685907c0283c7278ba26c5fe561506f564b48d3/model_index.json",
+          "sha256": "eaaa586611ebaf7e860145373536bcd7ea7c6f23d40ac63e03884596f19f8df0",
+          "role": "rv/model_index.json"
+        }
+      ]
+    },
+    {
+      "method": "public_baseline",
+      "artifacts": [
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/snapshots/1685907c0283c7278ba26c5fe561506f564b48d3/unet/config.json",
+          "sha256": "f0567294c259d420cb4505c4c0ee37ee304342e4581ac2c87362b2e87965bbeb",
+          "role": "rv/unet/config.json"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/snapshots/1685907c0283c7278ba26c5fe561506f564b48d3/unet/diffusion_pytorch_model.safetensors",
+          "sha256": "f75956623c8f95b40e62b3ee45f5dcba8e353b53c33c6765e517c5a8bb3dfbfe",
+          "role": "rv/unet/diffusion_pytorch_model.safetensors"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/snapshots/1685907c0283c7278ba26c5fe561506f564b48d3/vae/config.json",
+          "sha256": "cd56fdbf7a5c01c4bf331a3640395c48d5456dcc58374e7b3d24a7e3fe42d42a",
+          "role": "rv/vae/config.json"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/snapshots/1685907c0283c7278ba26c5fe561506f564b48d3/vae/diffusion_pytorch_model.safetensors",
+          "sha256": "68a430f8a51413e80ecec6c13fff4b6b63e57600a2ec661a016a14fd1037fa4b",
+          "role": "rv/vae/diffusion_pytorch_model.safetensors"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/snapshots/1685907c0283c7278ba26c5fe561506f564b48d3/text_encoder/config.json",
+          "sha256": "f4b1867cbf991587483d691aed58c41b25c28df75ae5b7f391ceae51269dfe68",
+          "role": "rv/text_encoder/config.json"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/snapshots/1685907c0283c7278ba26c5fe561506f564b48d3/text_encoder/model.safetensors",
+          "sha256": "8ee67788c3c9a6f5d73de077b644f1d4317258b55fbcc372dc385e8e5587c1cc",
+          "role": "rv/text_encoder/model.safetensors"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/snapshots/1685907c0283c7278ba26c5fe561506f564b48d3/scheduler/scheduler_config.json",
+          "sha256": "81c61cd6937a8b6c4ddf9eef06b64dafbaa66409d083786dc9426bec7f37a105",
+          "role": "rv/scheduler/scheduler_config.json"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/snapshots/1685907c0283c7278ba26c5fe561506f564b48d3/tokenizer/vocab.json",
+          "sha256": "e089ad92ba36837a0d31433e555c8f45fe601ab5c221d4f607ded32d9f7a4349",
+          "role": "rv/tokenizer/vocab.json"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/snapshots/1685907c0283c7278ba26c5fe561506f564b48d3/tokenizer/merges.txt",
+          "sha256": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a",
+          "role": "rv/tokenizer/merges.txt"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/snapshots/1685907c0283c7278ba26c5fe561506f564b48d3/tokenizer/tokenizer_config.json",
+          "sha256": "19d7b034cb0cc3ce9766c2231373ab8aa8991fc72e2c8f76558bfaae3de0d563",
+          "role": "rv/tokenizer/tokenizer_config.json"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/snapshots/1685907c0283c7278ba26c5fe561506f564b48d3/tokenizer/special_tokens_map.json",
+          "sha256": "c4864a9376a8401918425bed71fc14fc0e81f9b59ec45c1cf96cccb2df508eac",
+          "role": "rv/tokenizer/special_tokens_map.json"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--Tvaranka--fineface/snapshots/3bd764b8f6f9b113b5e1d878cbfb499d71c04446/sd15_attn_processors.ckpt",
+          "sha256": "e32d84e2e53fe102cf0011b05a178d79da14ef06247d66b7ad6041ef9f0eee1a",
+          "role": "fineface/au_attention"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--Tvaranka--fineface/snapshots/3bd764b8f6f9b113b5e1d878cbfb499d71c04446/sd15_au_encoder.ckpt",
+          "sha256": "014f8cc0348e2c91324e6dc198b3d83cf5d6b0a21e353dd70ef5f18c365a4723",
+          "role": "fineface/au_encoder"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--h94--IP-Adapter-FaceID/snapshots/43907e6f44d079bf1a9102d9a6e56aef7a219bae/ip-adapter-faceid-portrait-v11_sd15.bin",
+          "sha256": "a48cb4f89ed18e02c6000f65aa9efec452e87eaed4a1bc9fcf4a460c8d0e3bc6",
+          "role": "faceid"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/face_adapter/third_party/insightface_glint360k.pth",
+          "sha256": "5f631718e783448b41631e15073bdc622eaeef56509bbad4e5085f23bd32db83",
+          "role": "iresnet100"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/baselines/ganimation_emotionnet_20260718/evaluation_models/insightface/models/buffalo_l/det_10g.onnx",
+          "sha256": "5838f7fe053675b1c7a08b633df49e7af5495cee0493c7dcf6697200b85b5b91",
+          "role": "cached_faceid/det_10g.onnx"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/baselines/ganimation_emotionnet_20260718/evaluation_models/insightface/models/buffalo_l/w600k_r50.onnx",
+          "sha256": "4c06341c33c2ca1f86781dab0e829f88ad5b64be9fba56e56bc9ebdefc619e43",
+          "role": "cached_faceid/w600k_r50.onnx"
+        },
+        {
+          "path": "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/snapshots/1685907c0283c7278ba26c5fe561506f564b48d3/model_index.json",
+          "sha256": "eaaa586611ebaf7e860145373536bcd7ea7c6f23d40ac63e03884596f19f8df0",
+          "role": "rv/model_index.json"
+        }
+      ]
+    },
+    {
+      "method": "magicface",
+      "artifacts": [
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/external_baselines/magicface_runtime/models/generator/ID_enc/config.json",
+          "sha256": "c7d4495b9dbdc4a4b25befbf831640d28e8854b57f9b0db797cacf988e4a6337",
+          "role": "ID_enc/config.json"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/external_baselines/magicface_runtime/models/generator/ID_enc/diffusion_pytorch_model.safetensors",
+          "sha256": "c5e676f3774849e861c13098e94972e830be47a5b1881dfd25291e0e71821f51",
+          "role": "ID_enc/diffusion_pytorch_model.safetensors"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/external_baselines/magicface_runtime/models/generator/denoising_unet/config.json",
+          "sha256": "a494bdec1d8b4284e0f9669d0ca88bc51e62fa967b4990c51c8028025010a8cb",
+          "role": "denoising_unet/config.json"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/external_baselines/magicface_runtime/models/generator/denoising_unet/diffusion_pytorch_model.safetensors",
+          "sha256": "12bc76d425e2ca5d921b3f720211616b1476ed24b53a88fd5b2b86a12ae4f911",
+          "role": "denoising_unet/diffusion_pytorch_model.safetensors"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/external_baselines/magicface_runtime/models/generator/text_encoder/config.json",
+          "sha256": "845df614cb9327ae7bbea027316246fae917827407da6df13572e41b5f93b4cc",
+          "role": "text_encoder/config.json"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/external_baselines/magicface_runtime/models/generator/text_encoder/model.safetensors",
+          "sha256": "d008943c017f0092921106440254dbbe00b6a285f7883ec8ba160c3faad88334",
+          "role": "text_encoder/model.safetensors"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/external_baselines/magicface_runtime/models/preprocess/79999_iter.pth",
+          "sha256": "468e13ca13a9b43cc0881a9f99083a430e9c0a38abd935431d1c28ee94b26567",
+          "role": "79999_iter.pth"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/external_baselines/magicface_runtime/models/preprocess/d3dfr_res50_nofc.pth",
+          "sha256": "52c54b90304a06c16b6813910c26faff1a907d4f8bd69a71ad4ecff43b41a090",
+          "role": "d3dfr_res50_nofc.pth"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/external_baselines/magicface_runtime/models/preprocess/BFM_model_front.mat",
+          "sha256": "a9f127eb18c3d022acbdbfcf1b6b353d01a6e01785d675a67cc31a3826a5be0f",
+          "role": "BFM_model_front.mat"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/external_baselines/magicface_runtime/models/preprocess/scrfd_10g_bnkps.onnx",
+          "sha256": "5838f7fe053675b1c7a08b633df49e7af5495cee0493c7dcf6697200b85b5b91",
+          "role": "scrfd_10g_bnkps.onnx"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/external_baselines/magicface_runtime/models/base/vae/config.json",
+          "sha256": "786a7d21647ddea6a04b9675c03d3cb45e90a2f3c6da5fbda2c54ade040036de",
+          "role": "vae/config.json"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/external_baselines/magicface_runtime/models/base/vae/diffusion_pytorch_model.safetensors",
+          "sha256": "a2b5134f4dbc140d9c11f11cba3233099e00af40f262f136c691fb7d38d2194c",
+          "role": "vae/diffusion_pytorch_model.safetensors"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/external_baselines/magicface_runtime/models/base/scheduler/scheduler_config.json",
+          "sha256": "699cce92eb7c122e2eb7dfdea78e6187fda76a5ed4a8e42319b85610e620e091",
+          "role": "scheduler/scheduler_config.json"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/external_baselines/magicface_runtime/models/base/tokenizer/merges.txt",
+          "sha256": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a",
+          "role": "tokenizer/merges.txt"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/external_baselines/magicface_runtime/models/base/tokenizer/special_tokens_map.json",
+          "sha256": "c4864a9376a8401918425bed71fc14fc0e81f9b59ec45c1cf96cccb2df508eac",
+          "role": "tokenizer/special_tokens_map.json"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/external_baselines/magicface_runtime/models/base/tokenizer/tokenizer_config.json",
+          "sha256": "00439066fcba73de57644cf41e4e3b9f2dbb09d7f3fc2005898ba52399045882",
+          "role": "tokenizer/tokenizer_config.json"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/external_baselines/magicface_runtime/models/base/tokenizer/vocab.json",
+          "sha256": "e089ad92ba36837a0d31433e555c8f45fe601ab5c221d4f607ded32d9f7a4349",
+          "role": "tokenizer/vocab.json"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/external_baselines/magicface_runtime/auxiliary/third_party/model_resnet_d3dfr.py",
+          "sha256": "0eaef799d0544591578c0e4e9d997961e03550e608e41dcd0582f9c54df676ca",
+          "role": "official_auxiliary_source"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/external_baselines/magicface_runtime/auxiliary/third_party/d3dfr/bfm.py",
+          "sha256": "e74f1f89aec26b7ad0fb3b12fbdd858e909cb5183db5e7d7edab2a8754946edf",
+          "role": "official_auxiliary_source"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/external_baselines/magicface_runtime/layout_seal.json",
+          "sha256": "98df4bb90ec2a52b4b7008ec851206e356b5144fe50c8f2a90329e5b42ef0ba1",
+          "role": "model_layout_seal"
+        }
+      ]
+    },
+    {
+      "method": "faceadapter",
+      "artifacts": [
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/face_adapter/controlnet/config.json",
+          "sha256": "6d3850b287bcff6bdb753c6e4f12320653fe59817d53b2166dd6e696a52fa1a6"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/face_adapter/controlnet/diffusion_pytorch_model.safetensors",
+          "sha256": "804a9ada677cac97f12eb2651fe226ab4c92ab6d025c893482e4a29a19d0f609"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/face_adapter/net_id2token.pth",
+          "sha256": "5167d894e592b94f518e4465da233397737047ee5cb8424a22bddec54029f9a7"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/face_adapter/net_image2token.pth",
+          "sha256": "07ffcd587de77a34924da6e3532d83ec5e96fc8af8735355fd25e3debb750e96"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/face_adapter/net_seg_res18.pth",
+          "sha256": "041ab78a4f8f756cd7e93df0d2840d03162e46b9c463c144f7fdf3ee3e6c4233"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/face_adapter/pretrained_unet/config.json",
+          "sha256": "a9c5d7ac54b802b126d42209e89b87caf1b3d0e2ef73f8bdf1857613de19d5fc"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/face_adapter/pretrained_unet/diffusion_pytorch_model.safetensors",
+          "sha256": "e9d196563bfa563d70eca3357e8df5ab6242178f8990510699e5b81f87700ed7"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/face_adapter/third_party/BFM_model_front.mat",
+          "sha256": "a9f127eb18c3d022acbdbfcf1b6b353d01a6e01785d675a67cc31a3826a5be0f"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/face_adapter/third_party/d3dfr_res50_nofc.pth",
+          "sha256": "52c54b90304a06c16b6813910c26faff1a907d4f8bd69a71ad4ecff43b41a090"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/face_adapter/third_party/insightface_glint360k.pth",
+          "sha256": "5f631718e783448b41631e15073bdc622eaeef56509bbad4e5085f23bd32db83"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/face_adapter/third_party/models/antelopev2/1k3d68.onnx",
+          "sha256": "df5c06b8a0c12e422b2ed8947b8869faa4105387f199c477af038aa01f9a45cc"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/face_adapter/third_party/models/antelopev2/2d106det.onnx",
+          "sha256": "f001b856447c413801ef5c42091ed0cd516fcd21f2d6b79635b1e733a7109dbf"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/face_adapter/third_party/models/antelopev2/genderage.onnx",
+          "sha256": "4fde69b1c810857b88c64a335084f1c3fe8f01246c9a191b48c7bb756d6652fb"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/face_adapter/third_party/models/antelopev2/glintr100.onnx",
+          "sha256": "4ab1d6435d639628a6f3e5008dd4f929edf4c4124b1a7169e1048f9fef534cdf"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/face_adapter/third_party/models/antelopev2/scrfd_10g_bnkps.onnx",
+          "sha256": "5838f7fe053675b1c7a08b633df49e7af5495cee0493c7dcf6697200b85b5b91"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/face_adapter/vision_encoder/config.json",
+          "sha256": "073a0ea6e7192475a6ab15af0e7a0c2ec935dd72544fdcf68582a5014afe0b4d"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/face_adapter/vision_encoder/pytorch_model.bin",
+          "sha256": "6b7445201beeb55edb415ed542c3ddfebd020e5ad0cce31930239a92313b7771"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/sd-vae-ft-mse/config.json",
+          "sha256": "92d3dfb746fca211a2c9e019e285f8597412211728dce3c5bcf4eda0f2d62e7e"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/sd-vae-ft-mse/diffusion_pytorch_model.safetensors",
+          "sha256": "a1d993488569e928462932c8c38a0760b874d166399b14414135bd9c42df5815"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/stable-diffusion-v1-5/model_index.json",
+          "sha256": "e2f6f22e274374010aec30c79eb2d6e53fff4a36ac0225523a92cb2d41a83347"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/stable-diffusion-v1-5/scheduler/scheduler_config.json",
+          "sha256": "699cce92eb7c122e2eb7dfdea78e6187fda76a5ed4a8e42319b85610e620e091"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/stable-diffusion-v1-5/text_encoder/config.json",
+          "sha256": "845df614cb9327ae7bbea027316246fae917827407da6df13572e41b5f93b4cc"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/stable-diffusion-v1-5/text_encoder/model.safetensors",
+          "sha256": "d008943c017f0092921106440254dbbe00b6a285f7883ec8ba160c3faad88334"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/stable-diffusion-v1-5/tokenizer/merges.txt",
+          "sha256": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/stable-diffusion-v1-5/tokenizer/special_tokens_map.json",
+          "sha256": "c4864a9376a8401918425bed71fc14fc0e81f9b59ec45c1cf96cccb2df508eac"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/stable-diffusion-v1-5/tokenizer/tokenizer_config.json",
+          "sha256": "00439066fcba73de57644cf41e4e3b9f2dbb09d7f3fc2005898ba52399045882"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/stable-diffusion-v1-5/tokenizer/vocab.json",
+          "sha256": "e089ad92ba36837a0d31433e555c8f45fe601ab5c221d4f607ded32d9f7a4349"
+        },
+        {
+          "path": "/Users/mayfair/Projects/github/FaceAdapter/Face-Adapter/empty_prompt_embedding.pth",
+          "sha256": "82471ac59f40cc793a46b916a4e23ee0c1c69209a95cf281deafac693d7edec0"
+        }
+      ]
+    },
+    {
+      "method": "liveportrait",
+      "artifacts": [
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/liveportrait_author/insightface/models/buffalo_l/2d106det.onnx",
+          "sha256": "f001b856447c413801ef5c42091ed0cd516fcd21f2d6b79635b1e733a7109dbf",
+          "role": "insightface/models/buffalo_l/2d106det.onnx"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/liveportrait_author/insightface/models/buffalo_l/det_10g.onnx",
+          "sha256": "5838f7fe053675b1c7a08b633df49e7af5495cee0493c7dcf6697200b85b5b91",
+          "role": "insightface/models/buffalo_l/det_10g.onnx"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/liveportrait_author/liveportrait/base_models/appearance_feature_extractor.pth",
+          "sha256": "5279bb8654293dbdf327030b397f107237dd9212fb11dd75b83dfb635211ceb5",
+          "role": "liveportrait/base_models/appearance_feature_extractor.pth"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/liveportrait_author/liveportrait/base_models/motion_extractor.pth",
+          "sha256": "251e6a94ad667a1d0c69526d292677165110ef7f0cf0f6d199f0e414e8aa0ca5",
+          "role": "liveportrait/base_models/motion_extractor.pth"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/liveportrait_author/liveportrait/base_models/spade_generator.pth",
+          "sha256": "4780afc7909a9f84e24c01d73b31a555ef651521a1fe3b2429bd04534d992aee",
+          "role": "liveportrait/base_models/spade_generator.pth"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/liveportrait_author/liveportrait/base_models/warping_module.pth",
+          "sha256": "2f61a6f265fe344f14132364859a78bdbbc2068577170693da57fb96d636e282",
+          "role": "liveportrait/base_models/warping_module.pth"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/liveportrait_author/liveportrait/landmark.onnx",
+          "sha256": "31d22a5041326c31f19b78886939a634a5aedcaa5ab8b9b951a1167595d147db",
+          "role": "liveportrait/landmark.onnx"
+        },
+        {
+          "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/liveportrait_author/liveportrait/retargeting_models/stitching_retargeting_module.pth",
+          "sha256": "3652d5a3f95099141a56986aaddec92fadf0a73c87a20fac9a2c07c32b28b611",
+          "role": "liveportrait/retargeting_models/stitching_retargeting_module.pth"
+        },
+        {
+          "path": "/Users/mayfair/Projects/github/KlingAIResearch/LivePortrait/src/live_portrait_pipeline.py",
+          "sha256": "e8dc71e0803802f802bce947dac53217b54d49319679e0e2bb3302079e92ee07",
+          "role": "src/live_portrait_pipeline.py"
+        },
+        {
+          "path": "/Users/mayfair/Projects/github/KlingAIResearch/LivePortrait/src/live_portrait_wrapper.py",
+          "sha256": "d6eb64875ad76a7067758a995d6ba9d664dc374f63bccf3aedfe47c134607542",
+          "role": "src/live_portrait_wrapper.py"
+        },
+        {
+          "path": "/Users/mayfair/Projects/github/KlingAIResearch/LivePortrait/src/config/models.yaml",
+          "sha256": "da135e5d5104441675411caba2ededdf26606bfa8a511a2504018d2d149512c4",
+          "role": "src/config/models.yaml"
+        },
+        {
+          "path": "/Users/mayfair/Projects/github/KlingAIResearch/LivePortrait/src/config/argument_config.py",
+          "sha256": "d3b536c8c9d365a9351afa28f04945eff368ace197b0f1b22b2f37b9ec07b80a",
+          "role": "src/config/argument_config.py"
+        },
+        {
+          "path": "/Users/mayfair/Projects/github/KlingAIResearch/LivePortrait/src/config/inference_config.py",
+          "sha256": "ac4e6eaa6cc00569cf23dbb7d831e4a991ed77225f96f9ae9041f78afc711315",
+          "role": "src/config/inference_config.py"
+        },
+        {
+          "path": "/Users/mayfair/Projects/github/KlingAIResearch/LivePortrait/src/config/crop_config.py",
+          "sha256": "b3feb965eaa0dceb13981709b0baa3474b31f2ffbb4b573e841b668ca6c6fb50",
+          "role": "src/config/crop_config.py"
+        },
+        {
+          "path": "/Users/mayfair/Projects/github/KlingAIResearch/LivePortrait/src/utils/resources/mask_template.png",
+          "sha256": "4c53e64a07ae3056af2b38548ae5b6cceb04d5c3e6514c7a8d2c3aff9da1ee76",
+          "role": "src/utils/resources/mask_template.png"
+        },
+        {
+          "path": "/Users/mayfair/Projects/github/KlingAIResearch/LivePortrait/src/utils/resources/lip_array.pkl",
+          "sha256": "2d61aab1cc37a2741f4774fe9963b2db2566e063f798b1d28d791dd119352738",
+          "role": "src/utils/resources/lip_array.pkl"
+        },
+        {
+          "path": "/Users/mayfair/Projects/github/KlingAIResearch/LivePortrait/src/utils/human_landmark_runner.py",
+          "sha256": "63003520c9b4529ffb1b0869b6acc161800f67a759dc8172449b3e9ae6d3bce8",
+          "role": "src/utils/human_landmark_runner.py"
+        },
+        {
+          "path": "/Users/mayfair/Projects/github/KlingAIResearch/LivePortrait/src/utils/face_analysis_diy.py",
+          "sha256": "6f581bd36078c04f08d40a24787143a238a13b6002a52cea6772ba85c254b126",
+          "role": "src/utils/face_analysis_diy.py"
+        }
+      ]
+    }
+  ],
+  "videos": [
+    {
+      "subject": "SN003",
+      "camera": "right",
+      "path": "/Users/mayfair/Desktop/Cursor/geme-main/DISFA/Video_RightCamera/RightVideoSN003_comp.avi",
+      "video_metadata_sha256": "67bb2e53d7d33c61ac6093afc8e3e9b9a5e458d133ead4fff5cceaabdce4d412",
+      "sha256": "e93c91ef89e8c89d4b226e781528837b5f0ebc2a84b825790ca2181cf954b82c"
+    },
+    {
+      "subject": "SN005",
+      "camera": "left",
+      "path": "/Users/mayfair/Desktop/Cursor/geme-main/DISFA/Videos_LeftCamera/LeftVideoSN005_comp.avi",
+      "video_metadata_sha256": "f17d0f921ad6f3ca25921fc5fcc8ec7b875d06768f7596481fee875de0836813",
+      "sha256": "12a44a2e33bb020b6c3f4691046206cff5e4bb76fe170e9c5c3d276d67e83070"
+    },
+    {
+      "subject": "SN008",
+      "camera": "right",
+      "path": "/Users/mayfair/Desktop/Cursor/geme-main/DISFA/Video_RightCamera/RightVideoSN008_comp.avi",
+      "video_metadata_sha256": "3e7c34daf74f4f45f451e57178e126b8ec63a8f9c36d8bc22817ed819213c808",
+      "sha256": "8020710deb1567828a35b7a8c16fa40761ccf3f34c2ebd54ed24e380598a7d34"
+    },
+    {
+      "subject": "SN009",
+      "camera": "right",
+      "path": "/Users/mayfair/Desktop/Cursor/geme-main/DISFA/Video_RightCamera/RightVideoSN009_comp.avi",
+      "video_metadata_sha256": "50a438af4447042cec3c94bef268a9719b3cfeaa236dcaa4517deed03ed27948",
+      "sha256": "c41f364faa8ab715b894428e778f9d645a22bba97498d039977a03d559e83c4c"
+    },
+    {
+      "subject": "SN021",
+      "camera": "right",
+      "path": "/Users/mayfair/Desktop/Cursor/geme-main/DISFA/Video_RightCamera/RightVideoSN021_comp.avi",
+      "video_metadata_sha256": "6a11337c58ceb9f74a3938ab99a7dab9d458612fef5b786ccbeba23f2f6a1429",
+      "sha256": "1a0f2e0bacc6904acae69465f75f34f286a1c1eca2bb89a792072ef7917b2533"
+    },
+    {
+      "subject": "SN024",
+      "camera": "right",
+      "path": "/Users/mayfair/Desktop/Cursor/geme-main/DISFA/Video_RightCamera/RightVideoSN024_comp.avi",
+      "video_metadata_sha256": "963233c1e3226d5dcf6879d4ef48ef2cb12fd7dc8b83c698829f5d722737833f",
+      "sha256": "a7967b15325ad6af38eaa1d5b739bb88fd7bd487abf14ae1140c628e7431e29c"
+    },
+    {
+      "subject": "SN031",
+      "camera": "right",
+      "path": "/Users/mayfair/Desktop/Cursor/geme-main/DISFA/Video_RightCamera/RightVideoSN031_comp.avi",
+      "video_metadata_sha256": "9a4dc7781c729e19b450343b924f5e76b5804e139ace91af69d4b665e4822ea9",
+      "sha256": "2c0d5867beeef076c78281760a3c68cc96d09387069c45242793ff9b68765d05"
+    },
+    {
+      "subject": "SN032",
+      "camera": "right",
+      "path": "/Users/mayfair/Desktop/Cursor/geme-main/DISFA/Video_RightCamera/RightVideoSN032_comp.avi",
+      "video_metadata_sha256": "3e8040d1ef2096e296b71e26c2307910d6610367a215d2a587efa3e5af4b6c5d",
+      "sha256": "1304b225439b03e9de3960ee2aae166a0751ec646056e109c44e9fc48933dbc2"
+    }
+  ],
+  "execution_sources": {
+    "protocol_gate": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/final_test/protocol_gate.py",
+      "sha256": "e66d565c7dc5ef35192e43c0d436fe8ac97c12b2057ab00387a7f58173dd2c72"
+    },
+    "source_cache": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/final_test/prepare_source_cache.py",
+      "sha256": "3f12b67deefdf890696739e469fa29647485d3f7e9e45a83a45995970d6dadae"
+    },
+    "our_inference": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/final_test/generate_ours.py",
+      "sha256": "5e01be2b081061e412529b7f89dceb3f1a485d067aa61396f62737fd6c6ac340"
+    },
+    "external_entry": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/final_test/external/run_external_final.py",
+      "sha256": "e050d53821addcc317e2b62ff24d6b7dc210ba6ae0601a3f3473182aed4d2977"
+    },
+    "external_contracts": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/final_test/external/contracts.py",
+      "sha256": "1d9c08f053a0e6d8725712f347c8cb9072702287402916f0dbacf5c6091f2599"
+    },
+    "external_native": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/final_test/external/native_runtime.py",
+      "sha256": "43b5fa288bb8cad1c0a9f10d3a6a02ea3e9684da833edc6cbbbe0cf3cf063745"
+    },
+    "final_evaluation_contract": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/final_test/evaluation_contract.py",
+      "sha256": "7513ace1edbf3b7fd3c6da065882f1c4f4886c829e9f27c373962cc83f6285dc"
+    },
+    "final_evaluation_references": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/final_test/evaluation_references.py",
+      "sha256": "25bf4e41122d49476bf88416522b4645031e7a6cd142cdbb122dce22503fa5c5"
+    },
+    "final_evaluation_measurements": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/final_test/evaluation_measurements.py",
+      "sha256": "8c31892cdc7b5f003b82837ecb7d65e69f0f76c5ecb82cd128dec7d943e2e273"
+    },
+    "final_evaluation_export": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/final_test/evaluation_export.py",
+      "sha256": "7473028eed74c432953cbfc2323fa640c29e1671fa73f85029a444407da5baac"
+    }
+  },
+  "freeze_receipt": {
+    "frozen_at_utc": "2026-09-14T23:29:32.379028+00:00",
+    "selection_decision": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/final_test/selection_decision.json",
+      "sha256": "fc8dcf7ace203d977c142f2d98fb95695c421b6c10cd5d94399866d9306ba3af"
+    },
+    "source_drafts": {
+      "protocol.DRAFT.json": "38058b10b4bcf025c2f768be793084aaa79ed0df15c9c2cd55c6740f4be0adef",
+      "sampling.DRAFT.json": "4b3236f0670c8a7728f1b596cefee88068b59fef092710e1e16eb074bf368fef",
+      "evaluation.DRAFT.json": "375340dd0e2b66498f35b8144c5f825aadde3d6edb46f8fe85f20be95e3a5c85"
+    },
+    "selected_steps": 20,
+    "freezer_sha256": "74406638f59e589d4dc24af433c45b7123b64b3c5e4e6508a18f9843ff87f307",
+    "verified_file_shas": {
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/final_test/selection_decision.json": "fc8dcf7ace203d977c142f2d98fb95695c421b6c10cd5d94399866d9306ba3af",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/ip_scale_default_audit/matrix_200_2000_ip09_ip10_202609150239/results.json": "f06ff926eb010d7df81d62ed141c019d506fc99f88f5dcf496edb0735d4fb48c",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/steps50_sampling_check/comparison_202609150715/results.json": "d573cbb65883d784fdb619b129db450a928fd19c1e69ae6ce6055e5bc7c0d662",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/steps50_sampling_check/comparison_202609150715/csv_verification.json": "79c38c7186f3e7354445d1b4afdc88ce67cc38f7671545b8e11323b7f18ede0a",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/final_test/draft_configuration_20260915/protocol.DRAFT.json": "38058b10b4bcf025c2f768be793084aaa79ed0df15c9c2cd55c6740f4be0adef",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/final_test/draft_configuration_20260915/sampling.DRAFT.json": "4b3236f0670c8a7728f1b596cefee88068b59fef092710e1e16eb074bf368fef",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/final_test/draft_configuration_20260915/evaluation.DRAFT.json": "375340dd0e2b66498f35b8144c5f825aadde3d6edb46f8fe85f20be95e3a5c85",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/data_prepare/final_test_label_plan/proposal_v1/plan_3_targets_per_subject.json": "b2052f261a5caf81b444e5a9aaa2620c917b399904f7f404c7cf6fe2a04dc684",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/data_prepare/final_test_label_plan/proposal_v1/label_inventory.json": "2475a2e971922c3983321f74d7de18edffef8157cb4b0ea15b16685f53a3c8ab",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/data_prepare/final_test_label_plan/proposal_v1/acceptance.json": "56fabc74e193ad0d42a451162a6c3e9de7b9677705545ac1f9e883695ca1fbe4",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/data_prepare/au_supervision_v2/subjects_frozen.json": "b0837ba1ae1b30eec0dd33c48f2300809625a09437b2c161ac4576dad521fe6d",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/runs/v4_slot_2k_bidir_step200_202609141920/checkpoint_00000200.pt": "7fcc25b704fca8c0a4e46a171096df8fea940b40a246d4939193e64f533b4e30",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/runs/v4_slot_2k_bidir_step200_202609141920/checkpoint_00000200.json": "0faf24417ded0d1b119d91c7217733c5077196a3cc85cb4ce895afbe3b505601",
+      "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/blobs/7b922c8ef09d51a58eea8c865feb668ca1fd5451": "f0567294c259d420cb4505c4c0ee37ee304342e4581ac2c87362b2e87965bbeb",
+      "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/blobs/f75956623c8f95b40e62b3ee45f5dcba8e353b53c33c6765e517c5a8bb3dfbfe": "f75956623c8f95b40e62b3ee45f5dcba8e353b53c33c6765e517c5a8bb3dfbfe",
+      "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/blobs/dfd089d10af46742c906a19ba8950367d2acd6f1": "cd56fdbf7a5c01c4bf331a3640395c48d5456dcc58374e7b3d24a7e3fe42d42a",
+      "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/blobs/68a430f8a51413e80ecec6c13fff4b6b63e57600a2ec661a016a14fd1037fa4b": "68a430f8a51413e80ecec6c13fff4b6b63e57600a2ec661a016a14fd1037fa4b",
+      "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/blobs/56152a729b512eead674d3babd4f49ce4714b2e4": "f4b1867cbf991587483d691aed58c41b25c28df75ae5b7f391ceae51269dfe68",
+      "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/blobs/8ee67788c3c9a6f5d73de077b644f1d4317258b55fbcc372dc385e8e5587c1cc": "8ee67788c3c9a6f5d73de077b644f1d4317258b55fbcc372dc385e8e5587c1cc",
+      "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/blobs/f9c6494d1e602bf1a8d3ba6c9307291069469e10": "81c61cd6937a8b6c4ddf9eef06b64dafbaa66409d083786dc9426bec7f37a105",
+      "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/blobs/469be27c5c010538f845f518c4f5e8574c78f7c8": "e089ad92ba36837a0d31433e555c8f45fe601ab5c221d4f607ded32d9f7a4349",
+      "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/blobs/76e821f1b6f0a9709293c3b6b51ed90980b3166b": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a",
+      "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/blobs/2e8612a429492973fe60635b3f44a28b065cfac0": "19d7b034cb0cc3ce9766c2231373ab8aa8991fc72e2c8f76558bfaae3de0d563",
+      "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/blobs/2c2130b544c0c5a72d5d00da071ba130a9800fb2": "c4864a9376a8401918425bed71fc14fc0e81f9b59ec45c1cf96cccb2df508eac",
+      "/Users/mayfair/.cache/huggingface/hub/models--Tvaranka--fineface/blobs/e32d84e2e53fe102cf0011b05a178d79da14ef06247d66b7ad6041ef9f0eee1a": "e32d84e2e53fe102cf0011b05a178d79da14ef06247d66b7ad6041ef9f0eee1a",
+      "/Users/mayfair/.cache/huggingface/hub/models--Tvaranka--fineface/blobs/014f8cc0348e2c91324e6dc198b3d83cf5d6b0a21e353dd70ef5f18c365a4723": "014f8cc0348e2c91324e6dc198b3d83cf5d6b0a21e353dd70ef5f18c365a4723",
+      "/Users/mayfair/.cache/huggingface/hub/models--h94--IP-Adapter-FaceID/blobs/a48cb4f89ed18e02c6000f65aa9efec452e87eaed4a1bc9fcf4a460c8d0e3bc6": "a48cb4f89ed18e02c6000f65aa9efec452e87eaed4a1bc9fcf4a460c8d0e3bc6",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/face_adapter/third_party/insightface_glint360k.pth": "5f631718e783448b41631e15073bdc622eaeef56509bbad4e5085f23bd32db83",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/baselines/ganimation_emotionnet_20260718/evaluation_models/insightface/models/buffalo_l/det_10g.onnx": "5838f7fe053675b1c7a08b633df49e7af5495cee0493c7dcf6697200b85b5b91",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/baselines/ganimation_emotionnet_20260718/evaluation_models/insightface/models/buffalo_l/w600k_r50.onnx": "4c06341c33c2ca1f86781dab0e829f88ad5b64be9fba56e56bc9ebdefc619e43",
+      "/Users/mayfair/.cache/huggingface/hub/models--SG161222--Realistic_Vision_V4.0_noVAE/blobs/fa00c65d4f646d617af58c81a707ecbf736fa8d0": "eaaa586611ebaf7e860145373536bcd7ea7c6f23d40ac63e03884596f19f8df0",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/runs/v4_slot_2k_condition_reads_image_step200_202609142024/checkpoint_00000200.pt": "969def9470fb6a8ba4ff5b37e11b601144101e563e25ff3c26e09e4fdb71396b",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/runs/v4_slot_2k_condition_reads_image_step200_202609142024/checkpoint_00000200.json": "1fefab121c57d6df4e35161fe7a96fda4cdf3ebf1dbcee1d21f15ed233f3796d",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/runs/v4_slot_2k_image_reads_condition_step200_202609142032/checkpoint_00000200.pt": "99b565be708493e23a5a5d11829353cbc88cba3c2d78a388be49534703bd695f",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/runs/v4_slot_2k_image_reads_condition_step200_202609142032/checkpoint_00000200.json": "f7e6a785290aa2558b60c151b4a842c73d99bf8f310a421419736f4bc8e88543",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/runs/v4_slot_2k_mlp_step200_202609142000/checkpoint_00000200.pt": "f58336567246ecd2f6818ea4ae30f947914af4e9c2296177b86169b95d6aa6f5",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/runs/v4_slot_2k_mlp_step200_202609142000/checkpoint_00000200.json": "5d681c44d5fb60b17d757c605cb2f86483830bdffd41c860453b4a53599ca70c",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/external_baselines/magicface_runtime/models/generator/ID_enc/config.json": "c7d4495b9dbdc4a4b25befbf831640d28e8854b57f9b0db797cacf988e4a6337",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/external_baselines/magicface_runtime/models/generator/ID_enc/diffusion_pytorch_model.safetensors": "c5e676f3774849e861c13098e94972e830be47a5b1881dfd25291e0e71821f51",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/external_baselines/magicface_runtime/models/generator/denoising_unet/config.json": "a494bdec1d8b4284e0f9669d0ca88bc51e62fa967b4990c51c8028025010a8cb",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/external_baselines/magicface_runtime/models/generator/denoising_unet/diffusion_pytorch_model.safetensors": "12bc76d425e2ca5d921b3f720211616b1476ed24b53a88fd5b2b86a12ae4f911",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/external_baselines/magicface_runtime/models/generator/text_encoder/config.json": "845df614cb9327ae7bbea027316246fae917827407da6df13572e41b5f93b4cc",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/external_baselines/magicface_runtime/models/generator/text_encoder/model.safetensors": "d008943c017f0092921106440254dbbe00b6a285f7883ec8ba160c3faad88334",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/external_baselines/magicface_runtime/models/preprocess/79999_iter.pth": "468e13ca13a9b43cc0881a9f99083a430e9c0a38abd935431d1c28ee94b26567",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/external_baselines/magicface_runtime/models/preprocess/d3dfr_res50_nofc.pth": "52c54b90304a06c16b6813910c26faff1a907d4f8bd69a71ad4ecff43b41a090",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/external_baselines/magicface_runtime/models/preprocess/BFM_model_front.mat": "a9f127eb18c3d022acbdbfcf1b6b353d01a6e01785d675a67cc31a3826a5be0f",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/external_baselines/magicface_runtime/models/preprocess/scrfd_10g_bnkps.onnx": "5838f7fe053675b1c7a08b633df49e7af5495cee0493c7dcf6697200b85b5b91",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/external_baselines/magicface_runtime/models/base/vae/config.json": "786a7d21647ddea6a04b9675c03d3cb45e90a2f3c6da5fbda2c54ade040036de",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/external_baselines/magicface_runtime/models/base/vae/diffusion_pytorch_model.safetensors": "a2b5134f4dbc140d9c11f11cba3233099e00af40f262f136c691fb7d38d2194c",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/external_baselines/magicface_runtime/models/base/scheduler/scheduler_config.json": "699cce92eb7c122e2eb7dfdea78e6187fda76a5ed4a8e42319b85610e620e091",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/external_baselines/magicface_runtime/models/base/tokenizer/merges.txt": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/external_baselines/magicface_runtime/models/base/tokenizer/special_tokens_map.json": "c4864a9376a8401918425bed71fc14fc0e81f9b59ec45c1cf96cccb2df508eac",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/external_baselines/magicface_runtime/models/base/tokenizer/tokenizer_config.json": "00439066fcba73de57644cf41e4e3b9f2dbb09d7f3fc2005898ba52399045882",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/external_baselines/magicface_runtime/models/base/tokenizer/vocab.json": "e089ad92ba36837a0d31433e555c8f45fe601ab5c221d4f607ded32d9f7a4349",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/external_baselines/magicface_runtime/auxiliary/third_party/model_resnet_d3dfr.py": "0eaef799d0544591578c0e4e9d997961e03550e608e41dcd0582f9c54df676ca",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/external_baselines/magicface_runtime/auxiliary/third_party/d3dfr/bfm.py": "e74f1f89aec26b7ad0fb3b12fbdd858e909cb5183db5e7d7edab2a8754946edf",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/external_baselines/magicface_runtime/layout_seal.json": "98df4bb90ec2a52b4b7008ec851206e356b5144fe50c8f2a90329e5b42ef0ba1",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/face_adapter/controlnet/config.json": "6d3850b287bcff6bdb753c6e4f12320653fe59817d53b2166dd6e696a52fa1a6",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/face_adapter/controlnet/diffusion_pytorch_model.safetensors": "804a9ada677cac97f12eb2651fe226ab4c92ab6d025c893482e4a29a19d0f609",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/face_adapter/net_id2token.pth": "5167d894e592b94f518e4465da233397737047ee5cb8424a22bddec54029f9a7",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/face_adapter/net_image2token.pth": "07ffcd587de77a34924da6e3532d83ec5e96fc8af8735355fd25e3debb750e96",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/face_adapter/net_seg_res18.pth": "041ab78a4f8f756cd7e93df0d2840d03162e46b9c463c144f7fdf3ee3e6c4233",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/face_adapter/pretrained_unet/config.json": "a9c5d7ac54b802b126d42209e89b87caf1b3d0e2ef73f8bdf1857613de19d5fc",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/face_adapter/pretrained_unet/diffusion_pytorch_model.safetensors": "e9d196563bfa563d70eca3357e8df5ab6242178f8990510699e5b81f87700ed7",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/face_adapter/third_party/BFM_model_front.mat": "a9f127eb18c3d022acbdbfcf1b6b353d01a6e01785d675a67cc31a3826a5be0f",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/face_adapter/third_party/d3dfr_res50_nofc.pth": "52c54b90304a06c16b6813910c26faff1a907d4f8bd69a71ad4ecff43b41a090",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/face_adapter/third_party/models/antelopev2/1k3d68.onnx": "df5c06b8a0c12e422b2ed8947b8869faa4105387f199c477af038aa01f9a45cc",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/face_adapter/third_party/models/antelopev2/2d106det.onnx": "f001b856447c413801ef5c42091ed0cd516fcd21f2d6b79635b1e733a7109dbf",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/face_adapter/third_party/models/antelopev2/genderage.onnx": "4fde69b1c810857b88c64a335084f1c3fe8f01246c9a191b48c7bb756d6652fb",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/face_adapter/third_party/models/antelopev2/glintr100.onnx": "4ab1d6435d639628a6f3e5008dd4f929edf4c4124b1a7169e1048f9fef534cdf",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/face_adapter/third_party/models/antelopev2/scrfd_10g_bnkps.onnx": "5838f7fe053675b1c7a08b633df49e7af5495cee0493c7dcf6697200b85b5b91",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/face_adapter/vision_encoder/config.json": "073a0ea6e7192475a6ab15af0e7a0c2ec935dd72544fdcf68582a5014afe0b4d",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/face_adapter/vision_encoder/pytorch_model.bin": "6b7445201beeb55edb415ed542c3ddfebd020e5ad0cce31930239a92313b7771",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/sd-vae-ft-mse/config.json": "92d3dfb746fca211a2c9e019e285f8597412211728dce3c5bcf4eda0f2d62e7e",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/sd-vae-ft-mse/diffusion_pytorch_model.safetensors": "a1d993488569e928462932c8c38a0760b874d166399b14414135bd9c42df5815",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/stable-diffusion-v1-5/model_index.json": "e2f6f22e274374010aec30c79eb2d6e53fff4a36ac0225523a92cb2d41a83347",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/stable-diffusion-v1-5/scheduler/scheduler_config.json": "699cce92eb7c122e2eb7dfdea78e6187fda76a5ed4a8e42319b85610e620e091",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/stable-diffusion-v1-5/text_encoder/config.json": "845df614cb9327ae7bbea027316246fae917827407da6df13572e41b5f93b4cc",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/stable-diffusion-v1-5/text_encoder/model.safetensors": "d008943c017f0092921106440254dbbe00b6a285f7883ec8ba160c3faad88334",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/stable-diffusion-v1-5/tokenizer/merges.txt": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/stable-diffusion-v1-5/tokenizer/special_tokens_map.json": "c4864a9376a8401918425bed71fc14fc0e81f9b59ec45c1cf96cccb2df508eac",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/stable-diffusion-v1-5/tokenizer/tokenizer_config.json": "00439066fcba73de57644cf41e4e3b9f2dbb09d7f3fc2005898ba52399045882",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/stable-diffusion-v1-5/tokenizer/vocab.json": "e089ad92ba36837a0d31433e555c8f45fe601ab5c221d4f607ded32d9f7a4349",
+      "/Users/mayfair/Projects/github/FaceAdapter/Face-Adapter/empty_prompt_embedding.pth": "82471ac59f40cc793a46b916a4e23ee0c1c69209a95cf281deafac693d7edec0",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/liveportrait_author/insightface/models/buffalo_l/2d106det.onnx": "f001b856447c413801ef5c42091ed0cd516fcd21f2d6b79635b1e733a7109dbf",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/liveportrait_author/insightface/models/buffalo_l/det_10g.onnx": "5838f7fe053675b1c7a08b633df49e7af5495cee0493c7dcf6697200b85b5b91",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/liveportrait_author/liveportrait/base_models/appearance_feature_extractor.pth": "5279bb8654293dbdf327030b397f107237dd9212fb11dd75b83dfb635211ceb5",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/liveportrait_author/liveportrait/base_models/motion_extractor.pth": "251e6a94ad667a1d0c69526d292677165110ef7f0cf0f6d199f0e414e8aa0ca5",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/liveportrait_author/liveportrait/base_models/spade_generator.pth": "4780afc7909a9f84e24c01d73b31a555ef651521a1fe3b2429bd04534d992aee",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/liveportrait_author/liveportrait/base_models/warping_module.pth": "2f61a6f265fe344f14132364859a78bdbbc2068577170693da57fb96d636e282",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/liveportrait_author/liveportrait/landmark.onnx": "31d22a5041326c31f19b78886939a634a5aedcaa5ab8b9b951a1167595d147db",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/近期外部对比_20260914/models/liveportrait_author/liveportrait/retargeting_models/stitching_retargeting_module.pth": "3652d5a3f95099141a56986aaddec92fadf0a73c87a20fac9a2c07c32b28b611",
+      "/Users/mayfair/Projects/github/KlingAIResearch/LivePortrait/src/live_portrait_pipeline.py": "e8dc71e0803802f802bce947dac53217b54d49319679e0e2bb3302079e92ee07",
+      "/Users/mayfair/Projects/github/KlingAIResearch/LivePortrait/src/live_portrait_wrapper.py": "d6eb64875ad76a7067758a995d6ba9d664dc374f63bccf3aedfe47c134607542",
+      "/Users/mayfair/Projects/github/KlingAIResearch/LivePortrait/src/config/models.yaml": "da135e5d5104441675411caba2ededdf26606bfa8a511a2504018d2d149512c4",
+      "/Users/mayfair/Projects/github/KlingAIResearch/LivePortrait/src/config/argument_config.py": "d3b536c8c9d365a9351afa28f04945eff368ace197b0f1b22b2f37b9ec07b80a",
+      "/Users/mayfair/Projects/github/KlingAIResearch/LivePortrait/src/config/inference_config.py": "ac4e6eaa6cc00569cf23dbb7d831e4a991ed77225f96f9ae9041f78afc711315",
+      "/Users/mayfair/Projects/github/KlingAIResearch/LivePortrait/src/config/crop_config.py": "b3feb965eaa0dceb13981709b0baa3474b31f2ffbb4b573e841b668ca6c6fb50",
+      "/Users/mayfair/Projects/github/KlingAIResearch/LivePortrait/src/utils/resources/mask_template.png": "4c53e64a07ae3056af2b38548ae5b6cceb04d5c3e6514c7a8d2c3aff9da1ee76",
+      "/Users/mayfair/Projects/github/KlingAIResearch/LivePortrait/src/utils/resources/lip_array.pkl": "2d61aab1cc37a2741f4774fe9963b2db2566e063f798b1d28d791dd119352738",
+      "/Users/mayfair/Projects/github/KlingAIResearch/LivePortrait/src/utils/human_landmark_runner.py": "63003520c9b4529ffb1b0869b6acc161800f67a759dc8172449b3e9ae6d3bce8",
+      "/Users/mayfair/Projects/github/KlingAIResearch/LivePortrait/src/utils/face_analysis_diy.py": "6f581bd36078c04f08d40a24787143a238a13b6002a52cea6772ba85c254b126",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/final_test/protocol_gate.py": "e66d565c7dc5ef35192e43c0d436fe8ac97c12b2057ab00387a7f58173dd2c72",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/final_test/prepare_source_cache.py": "3f12b67deefdf890696739e469fa29647485d3f7e9e45a83a45995970d6dadae",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/final_test/generate_ours.py": "5e01be2b081061e412529b7f89dceb3f1a485d067aa61396f62737fd6c6ac340",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/final_test/external/run_external_final.py": "e050d53821addcc317e2b62ff24d6b7dc210ba6ae0601a3f3473182aed4d2977",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/final_test/external/contracts.py": "1d9c08f053a0e6d8725712f347c8cb9072702287402916f0dbacf5c6091f2599",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/final_test/external/native_runtime.py": "43b5fa288bb8cad1c0a9f10d3a6a02ea3e9684da833edc6cbbbe0cf3cf063745",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/final_test/evaluation_contract.py": "7513ace1edbf3b7fd3c6da065882f1c4f4886c829e9f27c373962cc83f6285dc",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/final_test/evaluation_references.py": "25bf4e41122d49476bf88416522b4645031e7a6cd142cdbb122dce22503fa5c5",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/final_test/evaluation_measurements.py": "8c31892cdc7b5f003b82837ecb7d65e69f0f76c5ecb82cd128dec7d943e2e273",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/final_test/evaluation_export.py": "7473028eed74c432953cbfc2323fa640c29e1671fa73f85029a444407da5baac",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/training_cache/train2k_batched_202609141853/manifest.json": "4a378e75a478cf241ef08b3de3727bfa3e6da25e505b85ca1bc9cee74c57b413",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/training_cache/train2k_batched_202609141853/features.pt": "7ede6afdfc6948ba4da845309033edc700466d80fc91bb5921410b780e8133e0",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/policy.json": "d29cd8e67df6f552fb343d9ee0db42d294c2027c0e2da822ee5514920f8f289c",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/final_test/ANALYSIS_PLAN_CANDIDATE.md": "99d610355309b5f117e2026bbcffe5db7e086c2aad0626bcd4dc525202eae06f",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/data_prepare/extract_final_test_frames.py": "d7523d4b9d5ac15e43ce55b6e3b0bf7dfb055025059ff1d8f10a6e1658e70f80",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/data_prepare/prepare_disfa_pilot.py": "94cf2219866b4046e17b60ccb830dcf399b18a35654a68c403118d9294072364",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/runs/v4_slot_2k_bidir_step200_202609141920/bindings.json": "b46d576d1da6561c2745c5231b258b99e835fc5e374af050f14f5fa5c1c0846a",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/train_centered_adapter.py": "2ed33f8d0cbe18993feb3f48bbb1606e587dfdb03da37d754ad3b746426ae7ce",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/modeling/frozen_backbone.py": "8cc66dd062583e9e2678c4688f3e8083cb29b00da0f3cd3c481e09573eb137a7",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/modeling/cross_modal_adapter.py": "dab32f9c0969682281f7d51559c3ccefea05dbc93edd54fa8561ed5c802d40f4",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/modeling/token_residual_adapter.py": "42b0dd3e4bb1287e4484d9700cfcf3798fe4064cb9f8691468944e79409bf146",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/modeling/safe_token_residual_adapter.py": "546c3b2e856f096959b838976afd00ad613cd11629d7b418d2e2419de5642f24",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/modeling/source_centered_adapter.py": "02a62b79509ef0a2bd688e49ea35119752963141220f0009bb62a63f1613edab",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/modeling/au_regressor.py": "f5b83370237946cf01aa870eddcad98beee8b883661ae1cd063eba761ccd7e6d",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/prepare_training_cache.py": "ecb5dd23c40f6f74284eaf93e6134c1545cef337fbc60024a45bd5bcbdd02c12",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/runs/v4_slot_2k_condition_reads_image_step200_202609142024/bindings.json": "b46d576d1da6561c2745c5231b258b99e835fc5e374af050f14f5fa5c1c0846a",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/runs/v4_slot_2k_image_reads_condition_step200_202609142032/bindings.json": "b46d576d1da6561c2745c5231b258b99e835fc5e374af050f14f5fa5c1c0846a",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/runs/v4_slot_2k_mlp_step200_202609142000/bindings.json": "b46d576d1da6561c2745c5231b258b99e835fc5e374af050f14f5fa5c1c0846a",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/tool_seal.json": "96763a079b8c64ab255ccd6207f280a2bfd55b1914ac4455ce100cffeeefdaae",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/patches/macos_compatibility.patch": "53ea4b667f60f8d5897910b8475d07f24e25e7f8bd5fe245b52d6b90a087af1f",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/FaceLandmarkImg": "665aa1e681a9efac2adf037559f7c38e2c2fffca0413c5c4dfca53342c655328",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/FaceLandmarkImg": "9f9f0243ef600bcc186c95dad80bb172e65980e0db148b3a7b3c8800dc0c89ff",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/runtime_explicit.txt": "5d4302bffd6c42868c357ded51837967712f10357c6ab215be6cf1945852b336",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/model/cen_general.txt": "3c30ddb49f531508c37f74be303f30997264f68f13f277a6f58e4e6f32979ade",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/model/clm_general.txt": "05041153c48e7fd482920731be64217cf94035094d218ce6ef965a6d26c64632",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/model/clm_wild.txt": "a843e08ad42dc44cba912ff034fb57da83e9285cfd6313123fda92d4cbb7a5cc",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/model/clnf_general.txt": "3e38c393427481b6c715f491de1fe76ebf9d283afddc2bf7ec7765bc7d8a2c23",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/model/clnf_multi_pie.txt": "b3b8bc3b06f131ce561f1779fb4f19487fa2cfbe1dc6b5a26b206f798623b8b2",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/model/clnf_wild.txt": "f7aa432e4d14b5d60c5908ee9a55910845b5f479fe06c90924cf59ce15faccd5",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/model/detection_validation/validator_cnn.txt": "29751dd4128978a1b351f09f15ae2d78e3e45169dd1e2dede60a55cc3f39a3c4",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/model/detection_validation/validator_cnn_68.txt": "3e422e6bf1659dfd83231e988328635e62eb0c4f9ae6b3979052ebc7ee4b287a",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/model/detection_validation/validator_general_68.txt": "8212b683a89648d9039e77aee0c435b72fb28984418fd485d2127da2f89b8b78",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/model/early_term_cen_of.txt": "cf6e97faf33b4ac3f485a1ecdd828fe508a806859422137f678b7a6156096a2b",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/model/haarAlign.txt": "354625bd2a6cbdb1fc7a62352ad74e94c79744c9296e682cb8f6100d54213ffa",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/model/main_ceclm_general.txt": "52f38548cffab1731f80e9e71f22a8b29373a2750eb6dc718069d56e82997543",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/model/main_clm_general.txt": "8441f0430f1f319c8c272cb0500b8cf9048a2c53eb7de5cb2f8bf88070e688a2",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/model/main_clm_wild.txt": "124638ae64e52f04396268ada500d94a90cbec10aa2c06c405916e9e77181a72",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/model/main_clnf_demos.txt": "79f5bd213785e35d1974717111d2a21daf2ff6cbd08e01326f79f200069226f7",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/model/main_clnf_general.txt": "532753cc2238d3e3dc398fff09b7b385a7edd7306a1edc2a22dac3ed2abdeb6e",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/model/main_clnf_multi_pie.txt": "a012416811fe2f7b9c63d0def016045d8a5cc12891170f18bd244045cca43282",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/model/main_clnf_wild.txt": "e8a6e028c9f850deb25f146d43ed8ad475ed63fa339f6edff1ecb5159c0d1634",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/model/model_eye/clnf_left_synth.txt": "5f652def0b109849c510c0b8f17fb779d5487f7a2a927b772a6a290aed929a0e",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/model/model_eye/clnf_right_synth.txt": "b1453f8272bdd601ef54f569c2b35490203f8d625c99e2667abd74e8769da030",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/model/model_eye/main_clnf_synth_left.txt": "974004db5c87046be362a9802d2c8241c168ba3c1b19d2915ac161ae197bb252",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/model/model_eye/main_clnf_synth_right.txt": "8f116d8df1f32a9022b4e4b9ce3b134774b0732441ea6585e90b75628e86ee10",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/model/model_eye/patch_experts/ccnf_patches_1.00_synth_lid_.txt": "bc5f628dbcd0f24eabe5e2b7f2a6995c513ebb93ab63b03449c5f5f05a777939",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/model/model_eye/patch_experts/ccnf_patches_1.50_synth_lid_.txt": "601a74b91930c2648676615278b959eb67f860e9757b169ee59bd41ac994cb9b",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/model/model_eye/patch_experts/left_ccnf_patches_1.00_synth_lid_.txt": "8fe3229cda73dc49fcc27635fb875941e4d28b342c0f9f49bbcfc8ab9711cc07",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/model/model_eye/patch_experts/left_ccnf_patches_1.50_synth_lid_.txt": "1c728e667b3e00ce5feb4eb8a5f68c174af5bb1f80b7ee8d3d01df6023917581",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/model/model_eye/pdms/pdm_28_eye_3D_closed.txt": "8034805a0de072dafd0f6daecd71ee3f44292bc860bff6425725feac63e045f2",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/model/model_eye/pdms/pdm_28_l_eye_3D_closed.txt": "eaf275c1286d5e03ea695b8250bffcef95084bf67598dfc9f03121d16b9b713f",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/model/model_inner/clnf_inner.txt": "9e6ba849ef773a314471bec98f486f461b43b2d72890afb12ad93482eb0698f1",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/model/model_inner/main_clnf_inner.txt": "d659390a75c3cf92a1165ed700a2228f9f588671d67d0862b3ff7b0fbfe96a60",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/model/model_inner/patch_experts/ccnf_patches_1.00_inner.txt": "79eb8ab716abe420a1604c8db8c107e0b9774bedfd91f595875e6bad0d37156c",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/model/model_inner/pdms/pdm_51_inner.txt": "28412e9dda64e95a5fab618ecda2b5dc1802187da4894d27965715ab361cb2f7",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/model/mtcnn_detector/MTCNN_detector.txt": "7dd20c7aa0335e59eeb6947c2bd94ef06c41f643aff428d36800fa1f09c65d5e",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/model/mtcnn_detector/ONet.dat": "4c853ae5b461abe4d41f1cd77625895cd71452956c63c622fd75a3b820fb1d31",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/model/mtcnn_detector/PNet.dat": "22dfd0a96ec983e99b21c0e214d89d55ea9a471eedd53e5a48203f22bcb4c489",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/model/mtcnn_detector/RNet.dat": "95e9c4203ca0a08c84520fa5fd658834213ed2453a7359f4d9514a06762f91e9",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/model/patch_experts/ccnf_patches_0.25_general.txt": "18f4a62387a9cadcb49177db5f8726d73f3d4675bed60cb965e8256590553a48",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/model/patch_experts/ccnf_patches_0.25_multi_pie.txt": "346bcdb0ebc3a387948f228a2a7292e74a94d8bb70893d8248b8c983e7c994a2",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/model/patch_experts/ccnf_patches_0.25_wild.txt": "12898c2c0e920eac863e19ef0c3f34486e02acb24daab95ed50e33a9615fe75a",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/model/patch_experts/ccnf_patches_0.35_general.txt": "ec26c1590f7992566943ad252af0ebb9e569095ce277d8addbc6202a36fe5a33",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/model/patch_experts/ccnf_patches_0.35_multi_pie.txt": "3632b04defb78ca91085c6cbd3c834ee48558da75174793d43eb8bd53d5a5dad",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/model/patch_experts/ccnf_patches_0.35_wild.txt": "863f6fb77ddcff6d2013758fc9f301e9cf3aaacad6c4eaa47b84d7eeb5c9e303",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/model/patch_experts/ccnf_patches_0.5_general.txt": "0ae39776c24b1e1de2a03ac4650baddec7ae84a45dec77ab30c97431fdccfebf",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/model/patch_experts/ccnf_patches_0.5_multi_pie.txt": "fd061150c036cf624d6d711e3ae794acb8f5de3082c6bb7a8a0d7aed657ed4ca",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/model/patch_experts/ccnf_patches_0.5_wild.txt": "8a8664c470ca90e3a7e057a0e08fd43a7204eaa0481656c551a6c90f9be1bf03",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/model/patch_experts/ccnf_patches_1_wild.txt": "282f578236eb7a7abdf9db953e07e4db9cd812e6630e5e9d1481f75906044f54",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/model/patch_experts/svr_patches_0.25_general.txt": "a00c6c281808471af093abd8f8cc9eb5f0caa7a3a2ce234c1119f35852c44687",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/model/patch_experts/svr_patches_0.25_wild.txt": "c228b74132c4c7d6fc725c4852f266eaa9aedf266026d13e3a12ec269773414d",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/model/patch_experts/svr_patches_0.35_general.txt": "55a749896b58dcb331b389a73fda8965656e1f5f272b906e5d5dfa7c7ab70b46",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/model/patch_experts/svr_patches_0.35_wild.txt": "35fef03f25df09a39976c50b86d1103eba468a0cbd303abbe514d595c2b4107f",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/model/patch_experts/svr_patches_0.5_general.txt": "2abaa7c6162824180c36af4519f5a30f8175538d6ac6717401201c02fa64c525",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/model/patch_experts/svr_patches_0.5_wild.txt": "b353e8873997e06b132b3b7c84d33615661192af10192713d264b987b4f3727d",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/model/pdms/In-the-wild_aligned_PDM_68.txt": "b9eafb292b18505b55cdbc5d8ba45413709cd300cf3e7e8d1946cd0f5c5b94b1",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/model/pdms/Multi-PIE_aligned_PDM_68.txt": "26c2e677ce2eaab703a0bb229cbc679d86567e8ce5431fbef3080cc41157eb8d",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/model/pdms/pdm_68_aligned_menpo.txt": "a3e8448e25c152621056d5c7d86eebc8c461385bd89d7cff16af25afa5755137",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/model/tris_68.txt": "dca0c54fbd7683444f39534f803e037ba1df80a5cfd72ce8101cb7ff58e54193",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/model/tris_68_full.txt": "d79b0c786bf497ddf18b97080e5949c67781ca1c017e558374883a1821b17181",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/AU_DISFA_best.txt": "df04e39dcbeba776c160824f7a74aadf5f750317df2ce96df84bf7a7050f025b",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/AU_DISFA_static.txt": "86c26559a213f576ff536122cee99b955de0c457f877cce39c5d8d8927067276",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/AU_all_best.txt": "61704fa352733807e54410b30bfb60a44e99d94482cc6b46f19ae0549a06fddf",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/AU_all_static.txt": "56073ec8a2d971f20d9f2d97a706a139093a02016544f2b8f1e58f5166a1215b",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/DISFA_dynamic_svms.txt": "679a399cc710ea5b13131ea1aa3a00832e81d9bff617b5e127f97e0365e36afe",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/DISFA_static_svms.txt": "45c2f9a2d3430772a7b20c5d5f7542d5d3205ee119386c4879e4a3ed9437b0d6",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/In-the-wild_aligned_PDM_68.txt": "b9eafb292b18505b55cdbc5d8ba45413709cd300cf3e7e8d1946cd0f5c5b94b1",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/main_dynamic_svms.txt": "553031ae7b92b3a45e2b660048091beb9666076d052b4846437df4b155da96e3",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/main_static_svms.txt": "1ce27e1410182235068232a86076024f25f232ffe77d8ac528a27bdbe6ea4885",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svm_combined/AU_10_dynamic.dat": "ebcd08a28659998e85f0e22d4faa116da7dc27aa5f88bdbbcd49c279400f3cd6",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svm_combined/AU_10_static.dat": "12fe3cce73070e193137bc6b87a22f5a4a2f0a4dcd03f20bfbc3a9e60e198e49",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svm_combined/AU_12_dynamic.dat": "9b1ba6c0ba4ff81be66b6b85dd31c65258326e5bb910895796957c765793bf22",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svm_combined/AU_12_static.dat": "a714ce6d56f7d6347cace0e82555a615300f5f6cee3bd68ad3e3c40834344017",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svm_combined/AU_14_dynamic.dat": "c1af13e89c2ee32ac39f7135ab72ee65ddbe56a45b5aaacc8b5e53d230b1c8e2",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svm_combined/AU_14_static.dat": "5fa7b19767808b9dd97ca49ff773ba7fdf6bbf2e754dded9d305b80e002497f5",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svm_combined/AU_15_dynamic.dat": "5bb2e37ccd2dacedfd9fbb3b2ed0a13aa0c16d35e95df5285b98c39eb7b42804",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svm_combined/AU_15_static.dat": "ad20720efc7fd21b7f13e2a24f27b4350cda8bc5ec1d3d032694b08bc51f054c",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svm_combined/AU_17_dynamic.dat": "734269d134ca4c6ef2f021aac0de62efe0c6c454b58a92201aaec0b823a07e14",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svm_combined/AU_17_static.dat": "56b99b0ab96524588f084c129e89a6fdb2ed83b1d1ebba9383d2908ff9c775d7",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svm_combined/AU_1_dynamic.dat": "5c1e0e5a0370d0e633890b111fdd598c785f52a8146f315f02a7cc08e0c25d72",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svm_combined/AU_1_static.dat": "1dd31442ee057facb5ee1c5f2ab7e265fefcaf43d864a371ca19cfdd8fe4af53",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svm_combined/AU_20_dynamic.dat": "a40479450306a82ce4fd097a68195dda46683e62415c6e76503a4b4bc8e470be",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svm_combined/AU_20_static.dat": "e4a0e078f77ac58d90fdbd7963a890a699a6a9b705f3849a1ac54eacf00c2c13",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svm_combined/AU_23_dynamic.dat": "f5b03bbb5e6cc6829d8ecb809fc00083523873806d8b7044b0ad969371bbdec7",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svm_combined/AU_23_static.dat": "2954a061adc4eccd5cfd21396be3a89a6cd8c1894e42247aa7eae19539f54504",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svm_combined/AU_25_dynamic.dat": "c7fc5b453787d4f68c49da83b32db55b32cf1ac59770473955d7bbbec866f6e4",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svm_combined/AU_25_static.dat": "782fc00d022fef813882e0957f730a23088978c85786c7c87d8422c27a433e8b",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svm_combined/AU_26_dynamic.dat": "61ebe15997c34d0a90ef8829492475d51bdb7ca02900a213bf481083a2f3df1b",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svm_combined/AU_26_static.dat": "78fafce9fdbeaf27671e86ebaf913165b6cc181b09bde7989a847035f7de51f0",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svm_combined/AU_28_dynamic.dat": "5cb9f6cc232d0cb3a4a0e8c733a4fe4f2fea5e3ca6df97225e10ab10cbc89d1c",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svm_combined/AU_28_static.dat": "f2a991837cb00e2c1a6983dace2458822beb64499da22548b3839b06b74e2bbc",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svm_combined/AU_2_dynamic.dat": "67b27c091673808dd75b0c3cfe64f8ce03d8b7b94db2a6ed31ec18c8c90b6983",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svm_combined/AU_2_static.dat": "f86dff9012730ea95b2dc0434f74fbf799da47c187b51e7e61b91c23612710dc",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svm_combined/AU_45_dynamic.dat": "5bc5ecbaf851434b1242a816755c591fe3a3ab89e25b70f496d5382192d0e944",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svm_combined/AU_45_static.dat": "ef59f6cf576dafd95067a422fc76e6bdbe0e3b4b0b01fb513588897fada29152",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svm_combined/AU_4_dynamic.dat": "77cb69d62770ac394035f49f41f7869b1ae737730e1a21a3bb41047e4d92653f",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svm_combined/AU_4_static.dat": "641668301d463723bc1f5d27532a6f334b1943382f115d6fdd584b3ab2fccf6d",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svm_combined/AU_5_dynamic.dat": "aabab362857f2d385a6781a46b9918d15522e151ffef9c9feeb71da7ab66111d",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svm_combined/AU_5_static.dat": "b17cf060623b42679e0cabd2d3831e5a0b964d899424d228a70e933d96a3bed9",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svm_combined/AU_6_dynamic.dat": "ed2760be2fedf94334d995021c1558d3bc31fb61b2cd5365e79d95d349b1250a",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svm_combined/AU_6_static.dat": "488232893383fbcd966e48b99578f7529b1cdef14475fc6c00b5a6494ff24333",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svm_combined/AU_7_dynamic.dat": "7896d7844759be5267d00e0a017cdf2874766a7d66b4f68f0aed6dbb227def63",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svm_combined/AU_7_static.dat": "1d9811e094f568a411fdb64d11655c227e1e4fe11f06736c80cd78bc0eae9b23",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svm_combined/AU_9_dynamic.dat": "d9ee8c0901d9cbc85f89615b9f77fd6e7527c02140beed5b03fd8cd86c38062a",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svm_combined/AU_9_static.dat": "db71cd0204da64ca2e1dfd74d1f2f84958a0501dfcd99e809ee44549a47bf458",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svm_disfa/AU_12_dyn.dat": "df6b9ec84068cd8ba1c4b658d41d332c898cca13e6acf6914df828cbc3d503ff",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svm_disfa/AU_12_stat.dat": "f71eff08e9cd0ea0a114d40246f2f0b12767f0e474588c3242f410c8f7eeecfb",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svm_disfa/AU_15_dyn.dat": "d2d89efc5ea3f3d1782b5335d832f40ec63c15a29bb942b8c2ea74ae405fcc03",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svm_disfa/AU_15_stat.dat": "c1b38c77334719d6e00255fed80d3f04d21b860345a62cfeaa8ef6f861b585cb",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svm_disfa/AU_17_dyn.dat": "e65798e549a6fbb1ee14c5538469532a2c612058aa08587340d2ddcbf6018239",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svm_disfa/AU_17_stat.dat": "15c68fae2efa46d8ee0b5bf6fba69ff8ec862f501f204163eecf0438b0386cfa",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svm_disfa/AU_1_dyn.dat": "f5546f262eab197bb10e4d7d74aa490acba84c5e225fdf8a207d615450ed3314",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svm_disfa/AU_1_stat.dat": "aaededf8c6218efc70ba56e8ecbae6559c5882c67497470d37923621fde2f75b",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svm_disfa/AU_20_dyn.dat": "57e4bab7e20c6c92946c227b476aa1be7638665b6b3859a17afce37c70b2009c",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svm_disfa/AU_20_stat.dat": "ed924b28195f13867ce752c4eb02f9df4a873842714fdd2f1c488c3efff9cb2f",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svm_disfa/AU_25_dyn.dat": "037a08934f90cba13948a1cb3ecd8e6517543df55d08784583045e7052db78f9",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svm_disfa/AU_25_stat.dat": "86284e57ae70aa4d04bdd98676d2bcbc4d63be7811dad037bedd4f00402afa5c",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svm_disfa/AU_26_dyn.dat": "1db618d2268a73ced9b78dc20c69be4da875fd1a3dea787ad477ed2ec57a002b",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svm_disfa/AU_26_stat.dat": "d551d15cdb932da4fbe239d451d94322e7a043929a4e0b093bc4c9cb13cf4e59",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svm_disfa/AU_2_dyn.dat": "9408e4022f438b2fdd63f5ff6ff0382d1b890cf7935ef285d667482e9f2dd57e",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svm_disfa/AU_2_stat.dat": "8b53c2425728d4fe20c21517680b86e05ce169780e1cf2b6255428b4ed3da961",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svm_disfa/AU_4_dyn.dat": "fb81e771844e65e6410c21b27cacf55345cfb5c7d28a95100898624295650a65",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svm_disfa/AU_4_stat.dat": "306f796fd1d52c9d9c3305a1ec20e428fe63ac6217b9e52ac3c5dc7124195c89",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svm_disfa/AU_5_dyn.dat": "d72e736e25c15343bbcfee79530738d2ad4d4bccc32bd939394f54ffefd7d5fd",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svm_disfa/AU_5_stat.dat": "ff32ff7870bcd6d7ad36a56867294c57d8f0f3157d4352a1ed1fd11f701b0f77",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svm_disfa/AU_6_dyn.dat": "202f7b571e9a0c89e643e3fd02957ff05a2e0c293f9b20e08cd2e110614aa986",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svm_disfa/AU_6_stat.dat": "d0f4c066d8e77cfd9c7bac584d8ba177c00f01bf23e7ce77420917f24e8c748e",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svm_disfa/AU_9_dyn.dat": "e844efed0ba2d4a7fe64c883773585c47483a914409086f348318b2fde012cba",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svm_disfa/AU_9_stat.dat": "cbe20a5c03dd14bd2699a5e90f6b1841592e3d3bf630b4ae0ee0d574ee4a1deb",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svr_combined/AU_10_static_intensity_comb.dat": "f97e1f9dd70810e59e356cdfa5dcceedec184b831f680a01f629467c6930f474",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svr_combined/AU_12_static_intensity_comb.dat": "fd895c3272abb0a3c612d0e9d002cf2fb86b93c79b477126a1ae10f310e6a928",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svr_combined/AU_14_static_intensity.dat": "dce666400f38454807ce2bfb0553b3175eb34ab555db0b2bd0658518d6d9e2d2",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svr_combined/AU_15_dynamic_intensity_comb.dat": "f1dcf770fbd52e102f8e904cb087414b880b7924bb717bb9b791d94a2186bbf1",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svr_combined/AU_15_static_intensity_comb.dat": "2d10fcda0b7cffe6f66348edae70ad6c055e0759ac6c3ce5ce3d567ae724709a",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svr_combined/AU_17_dynamic_intensity_comb.dat": "7dc6a65e21e4c3686517af8c68c741f300781cda7b1ea9c972f3cae968e55c50",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svr_combined/AU_17_static_intensity_comb.dat": "a96b9717bac55fa3055e8278f39bb624ecbd10bd42343d10f574588f1704f09f",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svr_combined/AU_1_dynamic_intensity_comb.dat": "ee09197389d14c15c04239158db550368122d7c57bca16cf47d5a31ab35d78d0",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svr_combined/AU_1_static_intensity.dat": "995201de41d349309d1bb3d0bbbfefa0bbecef72e30fa6dc3a679ccb04b851b4",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svr_combined/AU_1_static_intensity_comb.dat": "969a11366e8e481ce5162c8a543f50e9a3aeeee687c0182c561886712298ee4a",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svr_combined/AU_20_dynamic_intensity.dat": "3bcd6639ee770970f4507344b7ed78b73035d108c41bfe8fad82d64b9ea2af4f",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svr_combined/AU_20_static_intensity.dat": "3575b65364f39aff17a38e4b0d08fa167c166859be11c6f918f43d9b4fe652c9",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svr_combined/AU_23_dynamic_intensity_comb.dat": "415d2fb7b3d4b2a384f584b6081a72497fdabaf1d9bbb13f7b147b8a1fada2b7",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svr_combined/AU_23_static_intensity_comb.dat": "019e8c56b0951969fd8b4f39d740c35ffe53719cbc16589bb65beb1bf316b690",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svr_combined/AU_25_dynamic_intensity_comb.dat": "4e1f4b79e309bbb7104a6ff0ad269790f6c23ae50f8901ed4e5f5772e3cd74e7",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svr_combined/AU_25_static_intensity.dat": "b8110ef45db372507fc3449ff7e273003053794d313473865a1d6a905f132a46",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svr_combined/AU_26_dynamic_intensity_comb.dat": "d1bf66b8d31e26ca2fc4d2b9223535563eefdfe88ccbd0d9a2372cd7958d2882",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svr_combined/AU_26_static_intensity_comb.dat": "2d7c1a8fd1a964c4091af39c5c4b94b7840e8df9d0501aaefb8c2f32236806c1",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svr_combined/AU_2_dynamic_intensity_comb.dat": "d47d0444f225528f70a66d57634a1d6127dab902a3a54104ff7fa6f0c0f2f94b",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svr_combined/AU_2_static_intensity_comb.dat": "99c30b5abd61c0665e4687cf8b60b80d5406c2fe570c0e1c3a399889ab698790",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svr_combined/AU_45_dynamic_intensity_comb.dat": "2b69232af9fc7cd1014623b53fb36a20a4a3b0f6ee2388583ad4bc383f6e356d",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svr_combined/AU_45_static_intensity_comb.dat": "7a87cbe04e2cbca5176ab1c1ed7f3a253fde0686defb018ebe159b4f51cb957f",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svr_combined/AU_4_static_intensity_comb.dat": "40944f7bdb63506a01347edacb113d7f3073a82d926a782b264a5cbfde2127c6",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svr_combined/AU_5_dynamic_intensity.dat": "d9aa0162f10b9d066484095f1d45543fae18f384f4fc3e95ccc7b453a30c04d6",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svr_combined/AU_5_static_intensity.dat": "be0fe3db756c6178a54c62c2a149f1ba242e6c37a67e3205358390f57d9640a4",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svr_combined/AU_6_static_intensity_comb.dat": "3b63e59596ece180bd20757cc59916b27d258b77346a0d01fbae000a00b48408",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svr_combined/AU_7_static_intensity_comb.dat": "a577f1192b954bebec36a88360e15162bb06b76209e574af249ef6f824d9188d",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svr_combined/AU_9_dynamic_intensity.dat": "fc12e797479e02489f8a809d5d81d025bd2e75a9fd7ba8333211a9ac8355341b",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svr_combined/AU_9_static_intensity.dat": "c795e596f5babba317cd1060029747797a0da8451be1c69ff3d4da3dd377965c",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svr_disfa/AU_12_dynamic_intensity.dat": "bedeb188c0b9c970818fe4bd1e15c9ffa4c71097751d07752924867917e52ae9",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svr_disfa/AU_12_static_intensity.dat": "2cc890b28397dc835bb76c5efceea043b8e4c2da2a1df643110d2be003cdc3aa",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svr_disfa/AU_15_dynamic_intensity.dat": "00430556718d92be102655b896a3b67df74b665afeaa5575b1bd6c790ceeddef",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svr_disfa/AU_15_static_intensity.dat": "27ddb10bd03acffb798ba095071892f74fa737cb7561fb89ebf7a2850f085a5b",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svr_disfa/AU_17_dynamic_intensity.dat": "d1650d92c3dbafa56f5b023a00499cc345c93010524f20d3d725321c3d3f43f2",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svr_disfa/AU_17_static_intensity.dat": "61f77ed6c7415bd6ba1b5c25a7b8f8181472a29e63743d072ba2b0aad963e825",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svr_disfa/AU_1_dynamic_intensity.dat": "d6c7f451c635a4827eb7fc5342c0a80be996bddf27075ca5f58e9fdfb60190b5",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svr_disfa/AU_1_static_intensity.dat": "61c57f95456247ef82aae114431775c6c91044183f3076aa6e784b7d6f5e7dee",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svr_disfa/AU_20_dynamic_intensity.dat": "6e5e3bcdb7c8871d0b8951fa25be85c14bc93123273fbb2043abfdc1cb08ce0c",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svr_disfa/AU_20_static_intensity.dat": "626b8f2869a2f049f58ae47f41476ac461d84e438f8c638a048f81d28c3bef05",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svr_disfa/AU_25_dynamic_intensity.dat": "6b2c6ba8c9fa34ed484319cc9af015005b9dd7660688fc37fb94f5392fe568cd",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svr_disfa/AU_25_static_intensity.dat": "fd828dd4849ee8ae4734421da0acdfbab3f600988b7a1cd306dc9fe4189b3409",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svr_disfa/AU_26_dynamic_intensity.dat": "4316fe2df3929826f4d3e41ec3e81bf2162cc1f1d4582693b73366504b7c02bd",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svr_disfa/AU_26_static_intensity.dat": "0542d80ebb8dca467c4f7e3abba5f0ade7b09fb7d7aed77cb03aeebffbb291e9",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svr_disfa/AU_2_dynamic_intensity.dat": "ba4d067941c683634ab088c1821c92a7deeca71558813f5565440740f0ef507e",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svr_disfa/AU_2_static_intensity.dat": "a2684775138f3a1fe841f38c24f2dd204433fe4afd9b9c2d23ce199bfcfed10a",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svr_disfa/AU_4_dynamic_intensity.dat": "95666c03ac219c41204e9e38359f3de42b6a3a9c9b95077cfe77663b34167b20",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svr_disfa/AU_4_static_intensity.dat": "3c819f7793e25662987cfdc0649343483819819876301cd972e92ef0357aae6f",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svr_disfa/AU_5_dynamic_intensity.dat": "7ad5c1b7909d4dc34c2fd45acabe6e25360d75c1351b1c6ee5f61a403e05c83a",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svr_disfa/AU_5_static_intensity.dat": "374a22c60ed6b84e7fbbd7c9e610977455b9c66358ea3117f60656f078e98131",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svr_disfa/AU_6_dynamic_intensity.dat": "a4a49ec8ea3044fab8c1d81257369756bb99a202a61d05a234568e715d7a211f",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svr_disfa/AU_6_static_intensity.dat": "d9029ed2d2d5a49da7cbad6f3558c0e3833c4bdcd60414ce01ee01c8d5059f56",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svr_disfa/AU_9_dynamic_intensity.dat": "3b83adbbe13176f79b6aa9a100b058b82344b443cc8429a4031ceea248971c25",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/svr_disfa/AU_9_static_intensity.dat": "0c42be41d8a9dd0c717e639dc8cdd64da8070529d3867d0c3eba73c40d7091d9",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/AU_predictors/tris_68_full.txt": "d79b0c786bf497ddf18b97080e5949c67781ca1c017e558374883a1821b17181",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/classifiers/haarcascade_frontalface_alt.xml": "6281df13459cc218ff047d02b2ae3859b12ff14a93ffe8952f7b33fad7b9697b",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/classifiers/haarcascade_frontalface_alt2.xml": "7b0c967d9abbdfbde025eb9c786947d151b6426040d07a8f9562ed8fd90724b4",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/classifiers/haarcascade_frontalface_alt_tree.xml": "0e5ee47ecc13269d54dd7a55f8b53752167c52587720877732388fb078a0480a",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/classifiers/haarcascade_frontalface_default.xml": "0f7d4527844eb514d4a4948e822da90fbb16a34a0bbbbc6adc6498747a5aafb0",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/build/bin/classifiers/haarcascade_profileface.xml": "b39a4a3be45539db146a7fc1d3e761a292c196eb88421185e6a615b3055e612d",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/openface/dev_smoke_verified/result.json": "4cb4d9afe546547fe71c3cd9bf6f1836144189f4677ef608499a9855f4f7b257",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/facenet/tool_seal.json": "731d6ce65989165883b6b65ac54393f99f139807f0f3c03c674b246be18c2c36",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/facenet/runtime/facenet_pytorch/__init__.py": "96df9b16b9d34c12f81db4b0d34258d878c862dabac4a25b6598ea9d76fe4a56",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/facenet/runtime/facenet_pytorch/models/inception_resnet_v1.py": "ed9ad5168bb45da68850a4e84667eb665226068a95ec9fdd03fb554850d7b749",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/facenet/runtime/facenet_pytorch/models/mtcnn.py": "29a965963337313068ab335cbc48f4a4facc2e5857756ef7b9ab11e5c1d6b620",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/facenet/runtime/facenet_pytorch/models/utils/detect_face.py": "7f6244c8118b9a19d0b6620e6dcb90625cced5b1eceed58d0d69303b5ccbab06",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/facenet/runtime/facenet_pytorch/models/utils/download.py": "51cf8b242a941830b046d744fd9b075775642c9c7981e906b7ec305fa825a369",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/facenet/runtime/facenet_pytorch/models/utils/tensorflow2pytorch.py": "1652bd759d7745880caa37ad39939627c67fbe6b2b97aa7f936022ab240402af",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/facenet/runtime/facenet_pytorch/models/utils/training.py": "0f931d22ff2658cd96386b1df831bc1562d119617dac009c234335cf61714d18",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/facenet/LICENSE.facenet-pytorch.md": "9fac5781e1529f4dd1a045716e1859436038d2def9e108d101b6df20c5a11318",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/facenet/models/20180402-114759-vggface2.pt": "281cebca8662831adb987a874bdcb36e73f5b1c6dc5ee5878f305e985625d99b",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/facenet/models/onet.pt": "165bfbe42940416ccfb977545cf0e976d5bf321f67083ae2aaaa5c764280118d",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/facenet/models/pnet.pt": "a2a71925e0b9996a42f63e47efc1ca19043e69558b5c523b978d611dfae49c8f",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/tools/facenet/models/rnet.pt": "bbb937de72efc9ef83b186c49f5f558467a1d7e3453a8ece0d71a886633f6a86",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/openface_v2.py": "5446237ff2fba672bd06ec62820bf671d9deb4c776d83a28d18060a581b9f908",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/run_facenet_single_directions.py": "5d8e1916bb5bcc9afc307980438b5f2f3fb0610f5dde12141f90e85efa7ebc2d",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/append_buffalo.py": "96daabea1e618a993de22ef684a4cbdcc6822911191a424fc457ea19012af88a",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/external_baselines/runtime/run_faceadapter.py": "c43e1b73cd431688590e14df07810514ae21fbcd76fe77a5b39bc7a798461e11",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/external_baselines/runtime/faceadapter_detection_policy.py": "a7d4507f76d4d355ce942c50cc75a939ba354593bc0f403f448cb4763041dec3",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/external_baselines/runtime/run_liveportrait.py": "7d227e268f0e00c079d9b4e84609c72896a6867d8b57922a7660378fa0a6a558",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/external_baselines/runtime/liveportrait_detection_policy.py": "82e2f76504f1df42eb55c88de439b14f0759103de16d0dd94560d6e1515aea03",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/external_baselines/runtime/second_baseline_review/liveportrait_required_assets.json": "6d62a14a42220397f9c9fb0c3f5b0379a8213e0b32371ca4ca461b64e7aecf87",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/external_baselines/run_magicface_smoke.py": "e3a1a0e05d5213d7e7f402a4fb593793c1569894738eb0d0c73b598bf1f5ea67",
+      "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/external_baselines/magicface_contract.py": "14f8bcb3e3ae0b37991c0e09bb19118a6e1b5e323c97c4a6bbb407bef9c5c59f",
+      "/Users/mayfair/Desktop/Cursor/geme-main/DISFA/Video_RightCamera/RightVideoSN003_comp.avi": "e93c91ef89e8c89d4b226e781528837b5f0ebc2a84b825790ca2181cf954b82c",
+      "/Users/mayfair/Desktop/Cursor/geme-main/DISFA/Videos_LeftCamera/LeftVideoSN005_comp.avi": "12a44a2e33bb020b6c3f4691046206cff5e4bb76fe170e9c5c3d276d67e83070",
+      "/Users/mayfair/Desktop/Cursor/geme-main/DISFA/Video_RightCamera/RightVideoSN008_comp.avi": "8020710deb1567828a35b7a8c16fa40761ccf3f34c2ebd54ed24e380598a7d34",
+      "/Users/mayfair/Desktop/Cursor/geme-main/DISFA/Video_RightCamera/RightVideoSN009_comp.avi": "c41f364faa8ab715b894428e778f9d645a22bba97498d039977a03d559e83c4c",
+      "/Users/mayfair/Desktop/Cursor/geme-main/DISFA/Video_RightCamera/RightVideoSN021_comp.avi": "1a0f2e0bacc6904acae69465f75f34f286a1c1eca2bb89a792072ef7917b2533",
+      "/Users/mayfair/Desktop/Cursor/geme-main/DISFA/Video_RightCamera/RightVideoSN024_comp.avi": "a7967b15325ad6af38eaa1d5b739bb88fd7bd487abf14ae1140c628e7431e29c",
+      "/Users/mayfair/Desktop/Cursor/geme-main/DISFA/Video_RightCamera/RightVideoSN031_comp.avi": "2c0d5867beeef076c78281760a3c68cc96d09387069c45242793ff9b68765d05",
+      "/Users/mayfair/Desktop/Cursor/geme-main/DISFA/Video_RightCamera/RightVideoSN032_comp.avi": "1304b225439b03e9de3960ee2aae166a0751ec646056e109c44e9fc48933dbc2"
+    },
+    "video_full_hash_count": 8,
+    "test_pixels_decoded": false,
+    "models_loaded": false
+  }
+}

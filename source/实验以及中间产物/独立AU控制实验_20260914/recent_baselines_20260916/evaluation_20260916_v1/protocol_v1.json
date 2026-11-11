@@ -1,0 +1,815 @@
+{
+  "kind": "recent_external_evaluation_protocol_v1",
+  "data_role": "postfreeze_case_validation",
+  "previously_exposed_subjects": true,
+  "independent_final_test": false,
+  "old_generation_protocol_sha256": "498298977f3589248084e37d053ec7cd8f37f71b35e914849465081a3df9af33",
+  "measurement_policy_sha256": "d29cd8e67df6f552fb343d9ee0db42d294c2027c0e2da822ee5514920f8f289c",
+  "case_ids": [
+    "postfreeze_SN003_s00869_t00869",
+    "postfreeze_SN003_s00869_t01203",
+    "postfreeze_SN003_s00869_t03029",
+    "postfreeze_SN003_s00869_t04558",
+    "postfreeze_SN005_s03289_t03289",
+    "postfreeze_SN005_s03289_t00539",
+    "postfreeze_SN005_s03289_t00903",
+    "postfreeze_SN005_s03289_t02174",
+    "postfreeze_SN008_s00398_t00398",
+    "postfreeze_SN008_s00398_t00218",
+    "postfreeze_SN008_s00398_t00809",
+    "postfreeze_SN008_s00398_t04228",
+    "postfreeze_SN009_s04443_t04443",
+    "postfreeze_SN009_s04443_t00063",
+    "postfreeze_SN009_s04443_t00399",
+    "postfreeze_SN009_s04443_t00749",
+    "postfreeze_SN021_s02743_t02743",
+    "postfreeze_SN021_s02743_t00433",
+    "postfreeze_SN021_s02743_t01143",
+    "postfreeze_SN021_s02743_t01833",
+    "postfreeze_SN024_s02323_t02323",
+    "postfreeze_SN024_s02323_t00214",
+    "postfreeze_SN024_s02323_t01418",
+    "postfreeze_SN024_s02323_t01673",
+    "postfreeze_SN031_s03334_t03334",
+    "postfreeze_SN031_s03334_t01453",
+    "postfreeze_SN031_s03334_t01588",
+    "postfreeze_SN031_s03334_t02693",
+    "postfreeze_SN032_s02758_t02758",
+    "postfreeze_SN032_s02758_t02359",
+    "postfreeze_SN032_s02758_t04129",
+    "postfreeze_SN032_s02758_t04754"
+  ],
+  "subject_count": 8,
+  "edited_cases": 24,
+  "no_edit_cases": 8,
+  "old_methods": [
+    "base_local_lp_s050",
+    "bidirectional_local_lp_s050",
+    "condition_reads_image_local_lp_s050",
+    "image_reads_condition_local_lp_s050",
+    "mlp_local_lp_s050",
+    "magicface",
+    "faceadapter",
+    "liveportrait"
+  ],
+  "new_methods": [
+    "swiftedit",
+    "performrecast"
+  ],
+  "method_settings": {
+    "performrecast": {
+      "input_group": "source_real_target_driver",
+      "seed_policy": "deterministic_one_execution_per_case",
+      "primary_output_role": "native_crop_frame0000",
+      "full_output": "display_archive_only",
+      "physical_outputs": 32
+    },
+    "swiftedit": {
+      "input_group": "source_text",
+      "seed_policy": "three_real_stochastic_executions",
+      "primary_output_role": "target_edit",
+      "excluded_output_role": "source_reconstruction",
+      "physical_outputs": 96,
+      "base_source_status": "community_archive_original_origin_not_independently_verified",
+      "source_description": "official dedicated checkpoints plus fixed SD2.1 community auxiliary archive",
+      "automatic_thesis_promotion": false
+    }
+  },
+  "source_bindings": {
+    "old_contract": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/evaluation/contract.py",
+      "sha256": "babf8b3075eb905e8d2f748ca39cb4b5075971abcfc5a7b9d093983fee633cd7"
+    },
+    "old_evaluate": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/evaluation/evaluate.py",
+      "sha256": "c7691fa1cbd504d12cadb0b133ebc32578a694bae354c55ac89dcebae0fc28b7"
+    },
+    "old_metrics": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/evaluation/all_methods_v1/statistics/all_case_seed_metrics.json",
+      "sha256": "8bf2f1245613f2215ae08c3d91cbb4af94fe737e4817336660539643553ffcee"
+    },
+    "old_items": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/evaluation/all_methods_v1/items.json",
+      "sha256": "390cd5f571b60b60a12c005717f751720c19c5b35d32d72ba777629ab680571e"
+    },
+    "references": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/evaluation/references_v1/references.json",
+      "sha256": "e93c575050f2fa0a3b1e312830fe4b622bc33d0a3fa76efeaf77c7484a168761"
+    },
+    "cases": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/preservation/bundle_v2_20260916/inputs/postfreeze32.json",
+      "sha256": "fa88ca09eb8253ce61ba046cb8d9b4c4affaef6cc421893cedb487c09522413b"
+    }
+  },
+  "old_algorithm_spec": {
+    "version": "completion_postfreeze_evaluation_v2",
+    "data_role": "postfreeze_case_validation",
+    "independent_final_test": false,
+    "previously_exposed_subjects": true,
+    "measurement_policy": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/policy.json",
+      "sha256": "d29cd8e67df6f552fb343d9ee0db42d294c2027c0e2da822ee5514920f8f289c"
+    },
+    "methods": [
+      "base_local_lp_s050",
+      "bidirectional_local_lp_s050",
+      "condition_reads_image_local_lp_s050",
+      "image_reads_condition_local_lp_s050",
+      "mlp_local_lp_s050",
+      "magicface",
+      "faceadapter",
+      "liveportrait"
+    ],
+    "sampling_seeds": [
+      101,
+      202,
+      303
+    ],
+    "primary_metric": "target_mae_changed__edited",
+    "primary_family": "external_primary_C",
+    "families": {
+      "external_primary_C": 3,
+      "internal_primary_C": 4
+    },
+    "method_settings": {
+      "base_local_lp_s050": {
+        "input_group": "source_text_au",
+        "seed_execution": "stochastic_each_seed"
+      },
+      "bidirectional_local_lp_s050": {
+        "input_group": "source_text_au",
+        "seed_execution": "stochastic_each_seed"
+      },
+      "condition_reads_image_local_lp_s050": {
+        "input_group": "source_text_au",
+        "seed_execution": "stochastic_each_seed"
+      },
+      "image_reads_condition_local_lp_s050": {
+        "input_group": "source_text_au",
+        "seed_execution": "stochastic_each_seed"
+      },
+      "mlp_local_lp_s050": {
+        "input_group": "source_text_au",
+        "seed_execution": "stochastic_each_seed"
+      },
+      "magicface": {
+        "input_group": "source_manual_au",
+        "seed_execution": "stochastic_each_seed"
+      },
+      "faceadapter": {
+        "input_group": "source_real_driver",
+        "seed_execution": "stochastic_each_seed"
+      },
+      "liveportrait": {
+        "input_group": "source_real_driver",
+        "seed_execution": "deterministic_alias"
+      }
+    },
+    "analysis_spec": {
+      "metrics": {
+        "target_mae_changed__all": {
+          "source_metric": "target_mae_changed",
+          "scope": "all",
+          "direction": "lower"
+        },
+        "target_mae_changed__edited": {
+          "source_metric": "target_mae_changed",
+          "scope": "edited",
+          "direction": "lower"
+        },
+        "target_mae_changed__no_edit": {
+          "source_metric": "target_mae_changed",
+          "scope": "no_edit",
+          "direction": "lower"
+        },
+        "delta_mae_changed__all": {
+          "source_metric": "delta_mae_changed",
+          "scope": "all",
+          "direction": "lower"
+        },
+        "delta_mae_changed__edited": {
+          "source_metric": "delta_mae_changed",
+          "scope": "edited",
+          "direction": "lower"
+        },
+        "delta_mae_changed__no_edit": {
+          "source_metric": "delta_mae_changed",
+          "scope": "no_edit",
+          "direction": "lower"
+        },
+        "unchanged_source_relative_drift__all": {
+          "source_metric": "unchanged_source_relative_drift",
+          "scope": "all",
+          "direction": "lower"
+        },
+        "unchanged_source_relative_drift__edited": {
+          "source_metric": "unchanged_source_relative_drift",
+          "scope": "edited",
+          "direction": "lower"
+        },
+        "unchanged_source_relative_drift__no_edit": {
+          "source_metric": "unchanged_source_relative_drift",
+          "scope": "no_edit",
+          "direction": "lower"
+        },
+        "target_mae_all12__all": {
+          "source_metric": "target_mae_all12",
+          "scope": "all",
+          "direction": "lower"
+        },
+        "target_mae_all12__edited": {
+          "source_metric": "target_mae_all12",
+          "scope": "edited",
+          "direction": "lower"
+        },
+        "target_mae_all12__no_edit": {
+          "source_metric": "target_mae_all12",
+          "scope": "no_edit",
+          "direction": "lower"
+        },
+        "delta_mae_all12__all": {
+          "source_metric": "delta_mae_all12",
+          "scope": "all",
+          "direction": "lower"
+        },
+        "delta_mae_all12__edited": {
+          "source_metric": "delta_mae_all12",
+          "scope": "edited",
+          "direction": "lower"
+        },
+        "delta_mae_all12__no_edit": {
+          "source_metric": "delta_mae_all12",
+          "scope": "no_edit",
+          "direction": "lower"
+        },
+        "direction_correct_fraction__all": {
+          "source_metric": "direction_correct_fraction",
+          "scope": "all",
+          "direction": "higher"
+        },
+        "direction_correct_fraction__edited": {
+          "source_metric": "direction_correct_fraction",
+          "scope": "edited",
+          "direction": "higher"
+        },
+        "direction_correct_fraction__no_edit": {
+          "source_metric": "direction_correct_fraction",
+          "scope": "no_edit",
+          "direction": "higher"
+        },
+        "identity_cosine__all": {
+          "source_metric": "identity_cosine",
+          "scope": "all",
+          "direction": "higher"
+        },
+        "identity_cosine__edited": {
+          "source_metric": "identity_cosine",
+          "scope": "edited",
+          "direction": "higher"
+        },
+        "identity_cosine__no_edit": {
+          "source_metric": "identity_cosine",
+          "scope": "no_edit",
+          "direction": "higher"
+        },
+        "buffalo_identity_cosine__all": {
+          "source_metric": "buffalo_identity_cosine",
+          "scope": "all",
+          "direction": "higher"
+        },
+        "buffalo_identity_cosine__edited": {
+          "source_metric": "buffalo_identity_cosine",
+          "scope": "edited",
+          "direction": "higher"
+        },
+        "buffalo_identity_cosine__no_edit": {
+          "source_metric": "buffalo_identity_cosine",
+          "scope": "no_edit",
+          "direction": "higher"
+        },
+        "extra5_proxy_mae_to_real_target__all": {
+          "source_metric": "extra5_proxy_mae_to_real_target",
+          "scope": "all",
+          "direction": "lower"
+        },
+        "extra5_proxy_mae_to_real_target__edited": {
+          "source_metric": "extra5_proxy_mae_to_real_target",
+          "scope": "edited",
+          "direction": "lower"
+        },
+        "extra5_proxy_mae_to_real_target__no_edit": {
+          "source_metric": "extra5_proxy_mae_to_real_target",
+          "scope": "no_edit",
+          "direction": "lower"
+        },
+        "extra_AU7_error_to_real_target__all": {
+          "source_metric": "extra_AU7_error_to_real_target",
+          "scope": "all",
+          "direction": "lower"
+        },
+        "extra_AU7_error_to_real_target__edited": {
+          "source_metric": "extra_AU7_error_to_real_target",
+          "scope": "edited",
+          "direction": "lower"
+        },
+        "extra_AU7_error_to_real_target__no_edit": {
+          "source_metric": "extra_AU7_error_to_real_target",
+          "scope": "no_edit",
+          "direction": "lower"
+        },
+        "extra_AU10_error_to_real_target__all": {
+          "source_metric": "extra_AU10_error_to_real_target",
+          "scope": "all",
+          "direction": "lower"
+        },
+        "extra_AU10_error_to_real_target__edited": {
+          "source_metric": "extra_AU10_error_to_real_target",
+          "scope": "edited",
+          "direction": "lower"
+        },
+        "extra_AU10_error_to_real_target__no_edit": {
+          "source_metric": "extra_AU10_error_to_real_target",
+          "scope": "no_edit",
+          "direction": "lower"
+        },
+        "extra_AU14_error_to_real_target__all": {
+          "source_metric": "extra_AU14_error_to_real_target",
+          "scope": "all",
+          "direction": "lower"
+        },
+        "extra_AU14_error_to_real_target__edited": {
+          "source_metric": "extra_AU14_error_to_real_target",
+          "scope": "edited",
+          "direction": "lower"
+        },
+        "extra_AU14_error_to_real_target__no_edit": {
+          "source_metric": "extra_AU14_error_to_real_target",
+          "scope": "no_edit",
+          "direction": "lower"
+        },
+        "extra_AU23_error_to_real_target__all": {
+          "source_metric": "extra_AU23_error_to_real_target",
+          "scope": "all",
+          "direction": "lower"
+        },
+        "extra_AU23_error_to_real_target__edited": {
+          "source_metric": "extra_AU23_error_to_real_target",
+          "scope": "edited",
+          "direction": "lower"
+        },
+        "extra_AU23_error_to_real_target__no_edit": {
+          "source_metric": "extra_AU23_error_to_real_target",
+          "scope": "no_edit",
+          "direction": "lower"
+        },
+        "extra_AU45_error_to_real_target__all": {
+          "source_metric": "extra_AU45_error_to_real_target",
+          "scope": "all",
+          "direction": "lower"
+        },
+        "extra_AU45_error_to_real_target__edited": {
+          "source_metric": "extra_AU45_error_to_real_target",
+          "scope": "edited",
+          "direction": "lower"
+        },
+        "extra_AU45_error_to_real_target__no_edit": {
+          "source_metric": "extra_AU45_error_to_real_target",
+          "scope": "no_edit",
+          "direction": "lower"
+        }
+      },
+      "comparisons": [
+        {
+          "id": "chosen_vs_magicface",
+          "method": "bidirectional_local_lp_s050",
+          "reference": "magicface",
+          "metric": "target_mae_changed__edited",
+          "family": "external_primary_C"
+        },
+        {
+          "id": "chosen_vs_faceadapter",
+          "method": "bidirectional_local_lp_s050",
+          "reference": "faceadapter",
+          "metric": "target_mae_changed__edited",
+          "family": "external_primary_C"
+        },
+        {
+          "id": "chosen_vs_liveportrait",
+          "method": "bidirectional_local_lp_s050",
+          "reference": "liveportrait",
+          "metric": "target_mae_changed__edited",
+          "family": "external_primary_C"
+        },
+        {
+          "id": "chosen_vs_base_local_lp_s050",
+          "method": "bidirectional_local_lp_s050",
+          "reference": "base_local_lp_s050",
+          "metric": "target_mae_changed__edited",
+          "family": "internal_primary_C"
+        },
+        {
+          "id": "chosen_vs_condition_reads_image_local_lp_s050",
+          "method": "bidirectional_local_lp_s050",
+          "reference": "condition_reads_image_local_lp_s050",
+          "metric": "target_mae_changed__edited",
+          "family": "internal_primary_C"
+        },
+        {
+          "id": "chosen_vs_image_reads_condition_local_lp_s050",
+          "method": "bidirectional_local_lp_s050",
+          "reference": "image_reads_condition_local_lp_s050",
+          "metric": "target_mae_changed__edited",
+          "family": "internal_primary_C"
+        },
+        {
+          "id": "chosen_vs_mlp_local_lp_s050",
+          "method": "bidirectional_local_lp_s050",
+          "reference": "mlp_local_lp_s050",
+          "metric": "target_mae_changed__edited",
+          "family": "internal_primary_C"
+        }
+      ],
+      "bootstrap_samples": 50000,
+      "bootstrap_seed": 20260915,
+      "confidence_level": 0.95
+    },
+    "algorithm_sources": {
+      "evaluation_measurements": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/final_test/evaluation_measurements.py",
+        "sha256": "8c31892cdc7b5f003b82837ecb7d65e69f0f76c5ecb82cd128dec7d943e2e273"
+      },
+      "evaluation_export": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/final_test/evaluation_export.py",
+        "sha256": "7473028eed74c432953cbfc2323fa640c29e1671fa73f85029a444407da5baac"
+      },
+      "evaluation_contract": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/final_test/evaluation_contract.py",
+        "sha256": "7513ace1edbf3b7fd3c6da065882f1c4f4886c829e9f27c373962cc83f6285dc"
+      },
+      "evaluation_references": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/final_test/evaluation_references.py",
+        "sha256": "25bf4e41122d49476bf88416522b4645031e7a6cd142cdbb122dce22503fa5c5"
+      },
+      "statistics": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/statistics/paired_subject_statistics.py",
+        "sha256": "f0f1baaf08464ac2e46bfe607ae7ea34ae1c49f200288b57b45e32df2a44d4ed"
+      },
+      "openface": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/openface_v2.py",
+        "sha256": "5446237ff2fba672bd06ec62820bf671d9deb4c776d83a28d18060a581b9f908"
+      },
+      "facenet": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/run_facenet_single_directions.py",
+        "sha256": "5d8e1916bb5bcc9afc307980438b5f2f3fb0610f5dde12141f90e85efa7ebc2d"
+      },
+      "buffalo": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/append_buffalo.py",
+        "sha256": "96daabea1e618a993de22ef684a4cbdcc6822911191a424fc457ea19012af88a"
+      }
+    },
+    "algorithm_dependencies": {
+      "development_evaluation/evaluation_policy_v2/summarize_v2.py": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/summarize_v2.py",
+        "sha256": "e9aa7cc6263e1126a03a2aba103a5852fb999b9a4e227470852105018a0b0c12"
+      },
+      "development_evaluation/evaluation_policy_v2/run_facenet_v2.py": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/run_facenet_v2.py",
+        "sha256": "d8bd902fb2a360eae00de39d4fe4ea2e01ce41a819b16f74fe1881efc3fd2754"
+      },
+      "development_evaluation/evaluation_policy_v2/INPUT_COORDINATE_NOTE.md": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluation_policy_v2/INPUT_COORDINATE_NOTE.md",
+        "sha256": "6b39e0758337078d6b0aab7792d04396038538a2fa682c4bda3968b9b2072e6f"
+      },
+      "development_evaluation/evaluate_patch_variant.py": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/evaluate_patch_variant.py",
+        "sha256": "4901f5faa6bfe59733545789e92cc351c06a35738821695e8b421aa85e01e959"
+      },
+      "development_evaluation/v3_global_raw_dev64/evaluate.py": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/v3_global_raw_dev64/evaluate.py",
+        "sha256": "5a8b8944375f5b7ef1ebca3bbfe46cc2513beb2a110f27d5842d10f286d1e3dd"
+      },
+      "development_evaluation/v1/evaluate_development.py": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/v1/evaluate_development.py",
+        "sha256": "41df837bdfed4089623dbe607ae97bb85816c69c729472a87b668d0d8d0670e0"
+      },
+      "development_evaluation/v4_slot_2k_mlp200_dev19/evaluate.py": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/v4_slot_2k_mlp200_dev19/evaluate.py",
+        "sha256": "fb86ccd1820118d90ecb45450628d9a1059d13aaf24f3b6f6971c008ee589cf9"
+      },
+      "development_evaluation/real_dev_calibration/calibration_metrics.py": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/development_evaluation/real_dev_calibration/calibration_metrics.py",
+        "sha256": "5076c6ee1914344a87c2c1a75da2d558e545701076161df1001fd9549638d72e"
+      }
+    },
+    "liveportrait": {
+      "flag_relative_motion": false,
+      "mode": "absolute",
+      "physical_calls": 32,
+      "alias_rows": 64,
+      "logical_rows": 96
+    },
+    "execution_sources": {
+      "contract.py": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/evaluation/contract.py",
+        "sha256": "babf8b3075eb905e8d2f748ca39cb4b5075971abcfc5a7b9d093983fee633cd7"
+      },
+      "evaluate.py": {
+        "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/completion_20260915/evaluation/evaluate.py",
+        "sha256": "c7691fa1cbd504d12cadb0b133ebc32578a694bae354c55ac89dcebae0fc28b7"
+      }
+    },
+    "reference_space": "source_cache_canonical512_and_independent_target_canonical512",
+    "generated_image_space": "native RGB at original positive dimensions; no crop, resize, padding, enhancement or recompression before frozen evaluators",
+    "image_dimensions": "record actual width,height; only real source/target canonical references require512x512",
+    "failure_policy": "all planned rows retained; invalid selected face/reference gives NA, never zero or alternate face",
+    "aggregation": "seed then case then subject; subjects equal; paired common case+seed keys",
+    "inference": "50000 whole-subject bootstrap; exact 2^n sign flips (256 with all8); fixed-family Holm; pointwise unadjusted CI"
+  },
+  "execution_sources": {
+    "protocol.py": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/protocol.py",
+      "sha256": "8345ce3765fc9a436053f28626b6c0146e0f187b11d67b23243b8d2e1e7fe041"
+    },
+    "evaluate_new.py": {
+      "path": "/Users/mayfair/Desktop/论文/最新两个版本/第二次答辩正式用/LaTex版本论文/正式LaTeX论文/实验以及中间产物/独立AU控制实验_20260914/recent_baselines_20260916/evaluation_20260916_v1/evaluate_new.py",
+      "sha256": "cbb289b313f0c673ef01b82e2e5f0f083cf1d944340362df77c71a4b754a478a"
+    }
+  },
+  "environment_bridge": {
+    "case_selection": "first frozen manifest case, selected method seed101 plus same source/target references",
+    "OpenFace_AU_absolute_tolerance": 1e-08,
+    "geometry_absolute_tolerance": 0.0001,
+    "FaceNet_and_buffalo_cosine_absolute_tolerance": 1e-05,
+    "NA_and_selected_face_status_must_match": true,
+    "pass_required_before_new_environment_results_are_mixed": true
+  },
+  "analysis_spec": {
+    "metrics": {
+      "target_mae_changed__all": {
+        "source_metric": "target_mae_changed",
+        "scope": "all",
+        "direction": "lower"
+      },
+      "target_mae_changed__edited": {
+        "source_metric": "target_mae_changed",
+        "scope": "edited",
+        "direction": "lower"
+      },
+      "target_mae_changed__no_edit": {
+        "source_metric": "target_mae_changed",
+        "scope": "no_edit",
+        "direction": "lower"
+      },
+      "delta_mae_changed__all": {
+        "source_metric": "delta_mae_changed",
+        "scope": "all",
+        "direction": "lower"
+      },
+      "delta_mae_changed__edited": {
+        "source_metric": "delta_mae_changed",
+        "scope": "edited",
+        "direction": "lower"
+      },
+      "delta_mae_changed__no_edit": {
+        "source_metric": "delta_mae_changed",
+        "scope": "no_edit",
+        "direction": "lower"
+      },
+      "unchanged_source_relative_drift__all": {
+        "source_metric": "unchanged_source_relative_drift",
+        "scope": "all",
+        "direction": "lower"
+      },
+      "unchanged_source_relative_drift__edited": {
+        "source_metric": "unchanged_source_relative_drift",
+        "scope": "edited",
+        "direction": "lower"
+      },
+      "unchanged_source_relative_drift__no_edit": {
+        "source_metric": "unchanged_source_relative_drift",
+        "scope": "no_edit",
+        "direction": "lower"
+      },
+      "target_mae_all12__all": {
+        "source_metric": "target_mae_all12",
+        "scope": "all",
+        "direction": "lower"
+      },
+      "target_mae_all12__edited": {
+        "source_metric": "target_mae_all12",
+        "scope": "edited",
+        "direction": "lower"
+      },
+      "target_mae_all12__no_edit": {
+        "source_metric": "target_mae_all12",
+        "scope": "no_edit",
+        "direction": "lower"
+      },
+      "delta_mae_all12__all": {
+        "source_metric": "delta_mae_all12",
+        "scope": "all",
+        "direction": "lower"
+      },
+      "delta_mae_all12__edited": {
+        "source_metric": "delta_mae_all12",
+        "scope": "edited",
+        "direction": "lower"
+      },
+      "delta_mae_all12__no_edit": {
+        "source_metric": "delta_mae_all12",
+        "scope": "no_edit",
+        "direction": "lower"
+      },
+      "direction_correct_fraction__all": {
+        "source_metric": "direction_correct_fraction",
+        "scope": "all",
+        "direction": "higher"
+      },
+      "direction_correct_fraction__edited": {
+        "source_metric": "direction_correct_fraction",
+        "scope": "edited",
+        "direction": "higher"
+      },
+      "direction_correct_fraction__no_edit": {
+        "source_metric": "direction_correct_fraction",
+        "scope": "no_edit",
+        "direction": "higher"
+      },
+      "identity_cosine__all": {
+        "source_metric": "identity_cosine",
+        "scope": "all",
+        "direction": "higher"
+      },
+      "identity_cosine__edited": {
+        "source_metric": "identity_cosine",
+        "scope": "edited",
+        "direction": "higher"
+      },
+      "identity_cosine__no_edit": {
+        "source_metric": "identity_cosine",
+        "scope": "no_edit",
+        "direction": "higher"
+      },
+      "buffalo_identity_cosine__all": {
+        "source_metric": "buffalo_identity_cosine",
+        "scope": "all",
+        "direction": "higher"
+      },
+      "buffalo_identity_cosine__edited": {
+        "source_metric": "buffalo_identity_cosine",
+        "scope": "edited",
+        "direction": "higher"
+      },
+      "buffalo_identity_cosine__no_edit": {
+        "source_metric": "buffalo_identity_cosine",
+        "scope": "no_edit",
+        "direction": "higher"
+      },
+      "extra5_proxy_mae_to_real_target__all": {
+        "source_metric": "extra5_proxy_mae_to_real_target",
+        "scope": "all",
+        "direction": "lower"
+      },
+      "extra5_proxy_mae_to_real_target__edited": {
+        "source_metric": "extra5_proxy_mae_to_real_target",
+        "scope": "edited",
+        "direction": "lower"
+      },
+      "extra5_proxy_mae_to_real_target__no_edit": {
+        "source_metric": "extra5_proxy_mae_to_real_target",
+        "scope": "no_edit",
+        "direction": "lower"
+      },
+      "extra_AU7_error_to_real_target__all": {
+        "source_metric": "extra_AU7_error_to_real_target",
+        "scope": "all",
+        "direction": "lower"
+      },
+      "extra_AU7_error_to_real_target__edited": {
+        "source_metric": "extra_AU7_error_to_real_target",
+        "scope": "edited",
+        "direction": "lower"
+      },
+      "extra_AU7_error_to_real_target__no_edit": {
+        "source_metric": "extra_AU7_error_to_real_target",
+        "scope": "no_edit",
+        "direction": "lower"
+      },
+      "extra_AU10_error_to_real_target__all": {
+        "source_metric": "extra_AU10_error_to_real_target",
+        "scope": "all",
+        "direction": "lower"
+      },
+      "extra_AU10_error_to_real_target__edited": {
+        "source_metric": "extra_AU10_error_to_real_target",
+        "scope": "edited",
+        "direction": "lower"
+      },
+      "extra_AU10_error_to_real_target__no_edit": {
+        "source_metric": "extra_AU10_error_to_real_target",
+        "scope": "no_edit",
+        "direction": "lower"
+      },
+      "extra_AU14_error_to_real_target__all": {
+        "source_metric": "extra_AU14_error_to_real_target",
+        "scope": "all",
+        "direction": "lower"
+      },
+      "extra_AU14_error_to_real_target__edited": {
+        "source_metric": "extra_AU14_error_to_real_target",
+        "scope": "edited",
+        "direction": "lower"
+      },
+      "extra_AU14_error_to_real_target__no_edit": {
+        "source_metric": "extra_AU14_error_to_real_target",
+        "scope": "no_edit",
+        "direction": "lower"
+      },
+      "extra_AU23_error_to_real_target__all": {
+        "source_metric": "extra_AU23_error_to_real_target",
+        "scope": "all",
+        "direction": "lower"
+      },
+      "extra_AU23_error_to_real_target__edited": {
+        "source_metric": "extra_AU23_error_to_real_target",
+        "scope": "edited",
+        "direction": "lower"
+      },
+      "extra_AU23_error_to_real_target__no_edit": {
+        "source_metric": "extra_AU23_error_to_real_target",
+        "scope": "no_edit",
+        "direction": "lower"
+      },
+      "extra_AU45_error_to_real_target__all": {
+        "source_metric": "extra_AU45_error_to_real_target",
+        "scope": "all",
+        "direction": "lower"
+      },
+      "extra_AU45_error_to_real_target__edited": {
+        "source_metric": "extra_AU45_error_to_real_target",
+        "scope": "edited",
+        "direction": "lower"
+      },
+      "extra_AU45_error_to_real_target__no_edit": {
+        "source_metric": "extra_AU45_error_to_real_target",
+        "scope": "no_edit",
+        "direction": "lower"
+      }
+    },
+    "comparisons": [
+      {
+        "id": "chosen_vs_magicface",
+        "method": "bidirectional_local_lp_s050",
+        "reference": "magicface",
+        "metric": "target_mae_changed__edited",
+        "family": "all_five_external_primary_C"
+      },
+      {
+        "id": "chosen_vs_faceadapter",
+        "method": "bidirectional_local_lp_s050",
+        "reference": "faceadapter",
+        "metric": "target_mae_changed__edited",
+        "family": "all_five_external_primary_C"
+      },
+      {
+        "id": "chosen_vs_liveportrait",
+        "method": "bidirectional_local_lp_s050",
+        "reference": "liveportrait",
+        "metric": "target_mae_changed__edited",
+        "family": "all_five_external_primary_C"
+      },
+      {
+        "id": "chosen_vs_swiftedit",
+        "method": "bidirectional_local_lp_s050",
+        "reference": "swiftedit",
+        "metric": "target_mae_changed__edited",
+        "family": "all_five_external_primary_C"
+      },
+      {
+        "id": "chosen_vs_performrecast",
+        "method": "bidirectional_local_lp_s050",
+        "reference": "performrecast",
+        "metric": "target_mae_changed__edited",
+        "family": "all_five_external_primary_C"
+      }
+    ],
+    "bootstrap_samples": 50000,
+    "bootstrap_seed": 20260915,
+    "confidence_level": 0.95
+  },
+  "comparison_unit": "per-metric valid seeds averaged within each case; pair methods on common valid cases; subject-equal averaging",
+  "deterministic_seed": "producer seed=null; evaluator internal key -1 with seed_not_applicable=true; not an actual random draw",
+  "case_analysis_rows": "seed=0 solely an analysis-only case-mean key; never represented as generated images",
+  "old_results": "reuse immutable measurements/metrics; new case-level statistics and Holm5 saved independently; old7comparisons untouched",
+  "crop_policy": "predeclared native RGB output only; no new crop/resize/padding/enhancement/reencoding before unchanged evaluator",
+  "failure_policy": "all planned outputs retained; explicit failure/NA and out-of-scope counts; never impute0 or switch face",
+  "gallery": {
+    "full": "all32 in original order; fixed101 for stochastic methods; deterministic only output",
+    "diagnostic": "each new baseline Top3 edited case target_C_MAE valid-seed mean descending; ties original case order",
+    "representative_seed": 101,
+    "counterpart": "same case chosen method/source/target",
+    "failures": "separate case/seed-order failure gallery; no image means status placeholder",
+    "not_representative_of_overall": true
+  },
+  "automatic_thesis_promotion": false
+}
